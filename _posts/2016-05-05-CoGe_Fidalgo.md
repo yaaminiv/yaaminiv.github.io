@@ -10,8 +10,6 @@ tags: shellfish
 
 
 
-CoGe on Fidalgo Sibs
-
 As per [this pipeline](https://genomevolution.org/wiki/index.php/Methylation_Analysis_Pipeline) I will run the 8 individuals in the environmental epigenetics mini-experiment.
 
 <img src="http://eagle.fish.washington.edu/cnidarian/skitch/_94__Discovery_Environment_1CB98355.png" alt="_94__Discovery_Environment_1CB98355.png"/>
