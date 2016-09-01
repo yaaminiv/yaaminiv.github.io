@@ -1,3 +1,10 @@
+---
+layout: post
+title: CoGe on Fidalgo Sibs
+---
+
+
+
 CoGe on Fidalgo Sibs
 
 As per [this pipeline](https://genomevolution.org/wiki/index.php/Methylation_Analysis_Pipeline) I will run the 8 individuals in the environmental epigenetics mini-experiment.
