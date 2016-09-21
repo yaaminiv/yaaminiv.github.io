@@ -20,7 +20,7 @@ Results Folder: /iplant/home/sr320/analyses/NCBI_SRA_Import_1.2_analysis1-2016-0
 ```
 This brought in the SRA file.. then I ran fastq-dump.
 
-``
+```
 The status of NCBI_SRA_Toolkit_fastq-dump_2.3.4_analysis1 has changed to Completed.
 
 Description:
@@ -39,5 +39,5 @@ Cyverse does have AllPaths on HPC.
 
 Note all of this was done on a Chromebox!
 
-[edit](https://github.com/sr320/sr320.github.io/blob/master/_posts/2016-09-21-Cyverse-SRA.md)
+[edit](https://github.com/sr320/sr320.github.io/edit/master/_posts/2016-09-21-Cyverse-SRA.md)
 
