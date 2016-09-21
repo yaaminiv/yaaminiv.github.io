@@ -1,6 +1,12 @@
-SRA and Cyverse
 
+---
+layout: post
+title: SRA and Cyverse
+date: '2016-09-21'
+categories: 
+tags: cyverse, ncbi, sra, coral, wgs
 
+---
 
 
 
@@ -34,3 +40,6 @@ Reached out to Giles an direction on professional approach
 Cyverse does have AllPaths on HPC.
 
 Note all of this was done on a Chromebox!
+
+[edit](https://github.com/sr320/sr320.github.io/blob/master/_posts/2016-09-21-Cyverse-SRA.md)
+
