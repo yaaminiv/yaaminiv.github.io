@@ -1,3 +1,10 @@
+---
+layout: post
+title: Jupyter Notebook 3
+date: '2016-09-01'
+categories: 
+tags: jupyter
+---
 
 #Olympia Oyster transcriptome
 
