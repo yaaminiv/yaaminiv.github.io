@@ -6,7 +6,8 @@ categories:
 tags: jupyter
 ---
 
-#Olympia Oyster transcriptome
+
+# Olympia Oyster transcriptome
 
 See Geoduck page for details on how to download and check integretity of raw files..
 
