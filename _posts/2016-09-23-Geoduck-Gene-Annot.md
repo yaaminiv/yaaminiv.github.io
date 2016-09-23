@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Geoduck Gonadal Gene Annotations
+title: Geoduck Gonad Gene Annotations
 date: '2016-09-23'
 categories: Panopea
 tags: blast, geoduck, swissprot, excel, join, sqlshare
