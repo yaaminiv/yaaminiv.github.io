@@ -32,7 +32,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkTurquoise;
+  color: $darkGray;
   font-weight: bold;
 
   line-height: 1.7;
@@ -61,7 +61,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $darkTurquoise;
+  color: $darkGray;
 }
 
 p {
@@ -69,11 +69,11 @@ p {
 }
 
 a {
-  color: $darkTurquoise;
+  color: $darkGray;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $darkTurquoise;
+    color: $darkGray;
   }
 }
 
@@ -156,7 +156,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $darkTurqoise;
+  border-bottom: 1px solid $darkGray;
 
   @include mobile {
     text-align: center;
@@ -192,7 +192,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkTurquoise;
+  color: $darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -225,7 +225,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkTurquoise;
+    color: $darkGray;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -254,9 +254,9 @@ nav {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $darkTurquoise;
+    border-left: 2px solid $darkGray;
     padding: 0.1em 1em;
-    color: $darkTurquoise;
+    color: $darkGray;
     font-size: 22px;
     font-style: italic;
   }
