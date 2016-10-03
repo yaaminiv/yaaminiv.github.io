@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Geoduck data table
