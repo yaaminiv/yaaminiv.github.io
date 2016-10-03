@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+The Lab Notebook of Yaamini Venkataraman, a graduate student in the Roberts Lab at the University of Washington, Seattle.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Research interests include ocean acidification, shellfish and aquaculture. I'm also interested in projects at the intersection of science, environmental policy and science communication!
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[yaaminiv@uw.edu](mailto:yaaminiv@uw.edu)
