@@ -32,7 +32,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkGray;
+  color: $darkerGray;
   font-weight: bold;
 
   line-height: 1.7;
@@ -61,7 +61,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $darkGray;
+  color: $gray;
 }
 
 p {
@@ -69,11 +69,11 @@ p {
 }
 
 a {
-  color: $darkGray;
+  color: $blue;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $darkGray;
+    color: $blue;
   }
 }
 
@@ -202,7 +202,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $darkGray;
+  color: $gray;
   font-size: 16px;
 
   @include mobile {
@@ -254,9 +254,9 @@ nav {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $darkGray;
+    border-left: 2px solid $gray;
     padding: 0.1em 1em;
-    color: $darkGray;
+    color: $gray;
     font-size: 22px;
     font-style: italic;
   }
@@ -287,3 +287,4 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
