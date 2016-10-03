@@ -1,4 +1,3 @@
-# yaaminiv.github.io
-Yaamini's Notebook
+# Yaamini's Personal Notebook
 
 _Check back for updates regarding new projects._
