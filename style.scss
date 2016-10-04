@@ -36,7 +36,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkTurquoise;
+  color: #00ced1;
   font-weight: bold;
 
   line-height: 1.7;
@@ -65,7 +65,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $darkTurquoise;
+  color: #00ced1;
 }
 
 p {
@@ -73,11 +73,11 @@ p {
 }
 
 a {
-  color: $dodgerblue;
+  color: #00ced1;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $dodgerblue;
+    color: #00ced1;
   }
 }
 
@@ -160,7 +160,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $darkTurquoise;
+  border-bottom: 1px solid #00ced1;
 
   @include mobile {
     text-align: center;
@@ -196,7 +196,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkTurquoise;
+  color: #00ced1;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -247,7 +247,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $darkTurquoise;
+  border-bottom: 1px solid #00ced1;
 }
 
 .posts > .post:last-child {
@@ -279,7 +279,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $darkTurquoise;
+  background-color: #00ced1;
 }
 
 footer {
