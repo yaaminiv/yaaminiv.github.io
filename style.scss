@@ -13,10 +13,6 @@
 /* BASE RULES */
 /**************/
 
-// Additional Colors
-$darkTurquoise: #00ced1
-$dodgerblue: #1e90ff
-
 html {
   font-size: 100%;
 }
@@ -36,7 +32,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: #00ced1;
+  color: $darkerGray;
   font-weight: bold;
 
   line-height: 1.7;
@@ -65,7 +61,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: #00ced1;
+  color: $gray;
 }
 
 p {
@@ -73,11 +69,11 @@ p {
 }
 
 a {
-  color: #00ced1;
+  color: $blue;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: #00ced1;
+    color: $blue;
   }
 }
 
@@ -160,7 +156,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid #00ced1;
+  border-bottom: 1px solid $lightGray;
 
   @include mobile {
     text-align: center;
@@ -196,7 +192,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: #00ced1;
+  color: $darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -247,7 +243,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid #00ced1;
+  border-bottom: 1px solid $lightGray;
 }
 
 .posts > .post:last-child {
@@ -279,7 +275,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: #00ced1;
+  background-color: $lightGray;
 }
 
 footer {
