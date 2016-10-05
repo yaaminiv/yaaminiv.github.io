@@ -4,7 +4,7 @@ title: Collaboration with the Department of Natural Resources
 ---
 ### As promised, here is some background on my current project.
 
-![Pacific Oyster Sampling Sites and Eelgrass Monitoring Regions](file:///Users/yaaminivenkataraman/Downloads/DNRSamplingMap.jpg)
+![Pacific Oyster Sampling Sites and Eelgrass Monitoring Regions](https://github.com/yaaminiv/yaaminiv.github.io/blob/master/images/DNRSamplingMap.jpg)
 
 Micah, from the [Department of Natural Resources (DNR)](http://dnr.wa.gov), and Alex, a graduate student in UW's Biology department, conducted an experiment looking at Pacific oysters (_Crassostrea gigas_) in eelgrass beds in and around the Puget Sound. As eelgrass photosynthesizes, it takes up CO<sub>2</sub>. Therefore, eelgrass could potentially buffer deleterious effects of ocean acidficiation.
 
