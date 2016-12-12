@@ -37,16 +37,18 @@ The first step in [our protocol](https://github.com/sr320/LabDocs/blob/master/pr
 #### **BCA Standards**
 Using the table below, we added a designated amount of the Lysis Buffer to a specified solution in snaptop centrifuge tubes. Pulse three times on vortex to mix thoroughly
 
-| **Standard Vial** |        **Solution**        | **Lysis Buffer** |
-|:-----------------:|:--------------------------:|:----------------:|
-|       Vial B      | 375 µL BCA Working Reagent |      125 µL      |
-|       Vial C      | 325 µL BCA Working Reagent |      325 µL      |
-|       Vial D      |        175 µL Vial B       |      175 µL      |
-|       Vial E      |        325 µL Vial C       |      325 µL      |
-|       Vial F      |        325 µL Vial E       |      325 µL      |
-|       Vial G      |        325 µL Vial F       |      325 µL      |
-|       Vial H      |        100 µL Vial G       |      400 µL      |
-|       Vial I      |             N/A            |      500 µL      |
+**Table 1**. 
+
+| **Standard Vial** |        **Solution**        | **Lysis Buffer** | **BSA concentration** | 
+|:-----------------:|:--------------------------:|:----------------:|:---------------------:|
+|       Vial B      | 375 µL BCA Working Reagent |      125 µL      |       1.5 µg/µL       |
+|       Vial C      | 325 µL BCA Working Reagent |      325 µL      |       1.0 µg/µL       |
+|       Vial D      |        175 µL Vial B       |      175 µL      |       0.75 µg/µL      |
+|       Vial E      |        325 µL Vial C       |      325 µL      |       0.50 µg/µL      |
+|       Vial F      |        325 µL Vial E       |      325 µL      |       0.25 µg/µL      |
+|       Vial G      |        325 µL Vial F       |      325 µL      |      0.125 µg/µL      |
+|       Vial H      |        100 µL Vial G       |      400 µL      |      0.025 µg/µL      |
+|       Vial I      |             N/A            |      500 µL      |        0 µg/µL        |
 
 #### **Prepare samples for microplate**
 - I removed my snaptop centrifuge tubes labeled "11 µL" from the -80ºC freezer
