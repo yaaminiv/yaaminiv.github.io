@@ -37,7 +37,7 @@ The first step in [our protocol](https://github.com/sr320/LabDocs/blob/master/pr
 #### **BCA Standards**
 Using the table below, we added a designated amount of the Lysis Buffer to a specified solution in snaptop centrifuge tubes. Pulse three times on vortex to mix thoroughly
 
-**Table 1**. 
+**Table 1**. Volume of specified solution and Lysis Buffer added to each vial, along with resulting BSA concentration.
 
 | **Standard Vial** |        **Solution**        | **Lysis Buffer** | **BSA concentration** | 
 |:-----------------:|:--------------------------:|:----------------:|:---------------------:|
@@ -61,6 +61,8 @@ After mixing all solutions, we obtained a 90 well microplate.
 
 #### **Creating the BCA Assay Microplate**
 We mapped out where each sample would go on the microplate in the table below, and pipetted accordingly. Each well contained 10 µL of the solutions designated in the table, as well as 200 µL of the BCA working reagent. The total volume in each well was 300 µL.
+
+**Table 2. Microplate arrangement.**
 
 | **Well Number** | **Contents** | **Replicate** |
 |:---------------:|:------------:|:-------------:|
