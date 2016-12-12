@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BCA Assay: Trial 1
+title: BCA Assay Trial 1
 ---
 
 ## Practice makes perfect?
@@ -48,9 +48,18 @@ The first step in [our protocol](https://github.com/sr320/LabDocs/blob/master/pr
 |            Vial I            |                N/A              |       500 µL     |
 -Pulse three times on vortex to mix thoroughly
 
+#### **Prepare samples for microplate**
+- I removed my snaptop centrifuge tubes labeled "11 µL" from the -80ºC freezer
+- Placed samples in wet ice
+- Added 22 µL of 50mM NH4HCO3 solution to each sample
+ - Vortexed and centrifuged each sample
+ - Returned samples to wet ice
+ 
 After mixing all solutions, we obtained a 90 well microplate.
 
-#### **Microplate arrangement**
+#### **Creating the BCA Assay Microplate**
+We mapped out where each sample would go on the microplate in the table below, and pipetted accordingly. Each well contained 10 µL of the solutions designated in the table, as well as 200 µL of the BCA working reagent. The total volume in each well was 300 µL.
+
 | **Well Number** | **Contents** | **Replicate** |
 |:---------------:|:------------:|:-------------:|
 |        A1       |    Vial B    |       1       |
@@ -144,3 +153,4 @@ After mixing all solutions, we obtained a 90 well microplate.
 |        H5       |    OBLANK    |       2       |
 |        H6       |    OBLANK    |       3       |
 
+We then covered the microplate and brought it over to the Genome Sciences building (and discovered the plate reader wasn't working).
