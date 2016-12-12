@@ -153,4 +153,4 @@ We mapped out where each sample would go on the microplate in the table below, a
 |        H5       |    OBLANK    |       2       |
 |        H6       |    OBLANK    |       3       |
 
-We then covered the microplate and brought it over to the Genome Sciences building (and discovered the plate reader wasn't working).
+We then covered the microplate and brought it over to the Genome Sciences building (and discovered the plate reader wasn't working). We'll have to repeat this entire protocol on Monday!
