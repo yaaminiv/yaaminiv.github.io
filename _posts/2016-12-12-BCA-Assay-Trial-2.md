@@ -9,19 +9,20 @@ Happy #microplatemonday! With a working microplate reader available to us, we pr
 
 #### **Some photos from our lab work**:
 
-Here I am pipetting 10 µL of my sample for the microplate
 ![pipetting sample](https://raw.githubusercontent.com/yaaminiv/yaaminiv.github.io/master/images/pipettingsample.jpg)
+**Figure 1**. Here I am pipetting 10 µL of my sample for the microplate.
 
-Laura using a multipipetter to add 200 µL of our BCA working reagent to each well
 ![multipipetter](https://github.com/yaaminiv/yaaminiv.github.io/blob/master/images/multipipetting.jpg)
+**Figure 2**. Laura using a multipipetter to add 200 µL of our BCA working reagent to each well.
 
-Our completed microplate! Well A1 is in the top left corner.
 ![mircoplate](https://raw.githubusercontent.com/yaaminiv/yaaminiv.github.io/master/images/microplate.JPG)
+**Figure 3**. Our completed microplate! Well A1 is in the top left corner. Microplate contents specified [here](https://yaaminiv.github.io/BCA-Assay-Trial-1/).
 
 #### **Once in the Genome Sciences Building, we did the following**:
 - Using an Eppendorf ThermoMixer C, we incubated our plate for 30 minutes at 37ºC
 - Vortexed plate to mix solutions thoroughly
-- Read plate
+- Centrifuged plate
+- Read plate at 540 nm
 
 #### **Calculations**
 In order to start the Mini-Trypsin digestion, we need to know the volume of our sample that contains 100 µg of protein. To calculate this volume, we used the following steps.
@@ -30,8 +31,8 @@ In order to start the Mini-Trypsin digestion, we need to know the volume of our 
 - Substract average absorbance for the blank standards from the average absorbance of the remaining standards and unknown samles
  - This is the **blank-corrected absorbance**
 - Create a scatterplot for the standards
- - y-axis: BCA concentration (µg/µL)
- - x-axis: blank-corrected absorbances
+ - y-axis: BSA concentration (µg/µL)
+ - x-axis: blank-corrected absorbances (nm)
  - Add polynomial trendline
  - Display equation and R-squared value
 - Using the trendline equation in the scatterplot, calculate protein concentration from absorbance
@@ -43,5 +44,9 @@ In order to start the Mini-Trypsin digestion, we need to know the volume of our 
   - 100 µL total volume - volume for 100 µg protein
 
 The scatterplot I generated and a table of calculations are below:
+
+**Figure 4**. Scatterplot of BSA concentration (µg/µL) versus blank corrected absorbances (nm). The trendline equation, [insert equation here], was used to calculate protein concentration from absorbances.
+
+**Table 1**. Calculations for each sample
 
 Check back Tuesday for our Mini-Trypsin digestion #trypsintuesday
