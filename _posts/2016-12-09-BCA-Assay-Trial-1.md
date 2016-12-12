@@ -36,16 +36,16 @@ The first step in [our protocol](https://github.com/sr320/LabDocs/blob/master/pr
 
 #### **BCA Standards**
 -Using the table below, added a designated amount of the Lysis Buffer to a specified solution in snaptop centrifuge tubes
-|       **Standard Vial**      |          **Solution**           | **Lysis Buffer** |
-|:----------------------------:|:-------------------------------:|:----------------:|
-|            Vial B            |    375 µL BCA Working Reagent   |       125 µL     |
-|            Vial C            |    325 µL BCA Working Reagent   |       325 µL     |
-|            Vial D            |           175 µL Vial B         |       175 µL     |
-|            Vial E            |           325 µL Vial C         |       325 µL     |
-|            Vial F            |           325 µL Vial E         |       325 µL     |
-|            Vial G            |           325 µL Vial F         |       325 µL     |
-|            Vial H            |           100 µL Vial G         |       400 µL     |
-|            Vial I            |                N/A              |       500 µL     |
+| **Standard Vial** |        **Solution**        | **Lysis Buffer** |
+|:-----------------:|:--------------------------:|:----------------:|
+|       Vial B      | 375 µL BCA Working Reagent |      125 µL      |
+|       Vial C      | 325 µL BCA Working Reagent |      325 µL      |
+|       Vial D      |        175 µL Vial B       |      175 µL      |
+|       Vial E      |        325 µL Vial C       |      325 µL      |
+|       Vial F      |        325 µL Vial E       |      325 µL      |
+|       Vial G      |        325 µL Vial F       |      325 µL      |
+|       Vial H      |        100 µL Vial G       |      400 µL      |
+|       Vial I      |             N/A            |      500 µL      |
 -Pulse three times on vortex to mix thoroughly
 
 #### **Prepare samples for microplate**
