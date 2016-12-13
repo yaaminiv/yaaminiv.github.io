@@ -117,6 +117,7 @@ There are several reagents involved in digestion. A handful of them were [made b
 #### **Added 25mM NH4HCO3 and methanol**
 - Pipetted 800 µL 25mM NH4HCO3 into each sample
 - Pipetted 20 µL HPLC grade methanol into each sample
+ - Did this step in the fume hood
 - Vortexed each sample gently to thoroughly mix solution
 
 #### **Added Trypsin**
