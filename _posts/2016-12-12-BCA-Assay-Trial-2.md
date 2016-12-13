@@ -51,12 +51,12 @@ In order to start the Mini-Trypsin digestion, we need to know the volume of our 
 
 The scatterplot I generated and a table of calculations are below:
 
-**Figure 4**. Scatterplot of BSA concentration (µg/µL) versus blank corrected absorbances (nm). The trendline equation, y = 0.6633x<sup>2</sup> + 1.3975x + 0.0049, was used to calculate protein concentration from absorbances.
-
 ![BSA concentration](https://raw.githubusercontent.com/yaaminiv/yaaminiv.github.io/master/images/BSAstandards.png)
+
+**Figure 4**. Scatterplot of BSA concentration (µg/µL) versus blank corrected absorbances (nm). The trendline equation, y = 0.6633x<sup>2</sup> + 1.3975x + 0.0049, was used to calculate protein concentration from absorbances.
 
 **Table 1**. Calculations for each sample. Volume of samples and 50 mM NH4HCO3 in 6M Urea needed for 100 µL total volume based on having 30 µg of protein.
 
 ![calculations](https://raw.githubusercontent.com/yaaminiv/yaaminiv.github.io/master/images/calculationstables.png)
 
-Check back Tuesday for our Mini-Trypsin digestion #TrypsinTuesday #MakeEverythingAHashtag
+Check back Tuesday for our Mini-Trypsin digestion! #TrypsinTuesday #MakeEverythingAHashtag
