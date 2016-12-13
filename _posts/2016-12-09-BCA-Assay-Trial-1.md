@@ -10,7 +10,6 @@ Today we attempted a BCA Assay to quantify the amount of protein in our sample. 
 The first step in [our protocol](https://github.com/sr320/LabDocs/blob/master/protocols/ProteinprepforMSMS.md) involved making the necessary reagents.
 
 #### **BCA Working Reagent**
-
 - Got BCA kit
 - Pipetted 20 mL of BCA Reagent A into a falcon tube
 - Added 400 µL BCA Reagent B
