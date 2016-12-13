@@ -124,3 +124,5 @@ There are several reagents involved in digestion. A handful of them were [made b
 - Added 0.55 µg Trypsin to each sample
 - Vortexed each sample gently to thoroughly mix solution
 - Incubated samples at room temperature overnight
+
+The next step involves using the speed vac in the Genome Sciences buidling for 10 hours :0 But that's for another day!
