@@ -125,4 +125,4 @@ There are several reagents involved in digestion. A handful of them were [made b
 - Vortexed each sample gently to thoroughly mix solution
 - Incubated samples at room temperature overnight
 
-The next step involves using the speed vac in the Genome Sciences buidling for 10 hours :0 But that's for another day!
+The next step involves using the speed vac in the Genome Sciences buidling for 10 hours :frowning: But that's for another day! :joy:
