@@ -120,9 +120,11 @@ There are several reagents involved in digestion. A handful of them were [made b
 - Vortexed each sample gently to thoroughly mix solution
 
 #### **Added Trypsin**
-- Obtained 1 bottle with 20 µg of Trypsin from -20ºC freezer
-- Added 0.55 µg Trypsin to each sample
+- Obtained 2 bottles of 20 µg Trypsin from -20ºC freezer
+- Added 20 µL nanopure to each 20 µg bottle
+- Vortexed Trypsin bottles lightly to thoroughly mix solution
+- Added 1.1 µL Trypsin to each sample
 - Vortexed each sample gently to thoroughly mix solution
 - Incubated samples at room temperature overnight
 
-The next step involves using the speed vac in the Genome Sciences buidling for 10 hours :frowning: But that's for another day! :joy:
+The next step involves using the speed vacuum in the Genome Sciences buidling.........for 10 hours :frowning: But that's for another day! :joy:
