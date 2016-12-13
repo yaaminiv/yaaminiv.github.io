@@ -27,7 +27,7 @@ After talking with Emma yesterday, we realized the [protocol](https://github.com
 |    O142    |                      9                     |                    91                    |
 |   OBLANK   |                     100                    |                     0                    |
 
-There are several reagents involved in digestion. A handful of them were [made by Rhonda](https://github.com/sr320/LabDocs/blob/master/protocols/ProteinprepforMSMS.md) and were viable for our use: TCEP, 1.5M Tris pH 8.8, IAA and DTT. Lys-C and Trypsin were purchased.
+There are several reagents involved in digestion. A handful of them were [made by Rhonda](https://github.com/sr320/LabDocs/blob/master/protocols/ProteinprepforMSMS.md) and were viable for our use: TCEP, 1.5M Tris pH 8.8, IAA,  DTT and Lys-C. Trypsin was purchased since Rhonda used all of it during her lab work.
 
 #### **Made 50 mM NH4HCO3 + 6M urea solution**
 
