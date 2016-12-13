@@ -10,12 +10,15 @@ Happy #MicroplateMonday! With a working microplate reader available to us, we pr
 #### **Some photos from our lab work**:
 
 ![pipetting sample](https://raw.githubusercontent.com/yaaminiv/yaaminiv.github.io/master/images/pipettingsample.jpg)
+
 **Figure 1**. Here I am pipetting 10 µL of my sample for the microplate.
 
 ![multipipetter](https://github.com/yaaminiv/yaaminiv.github.io/blob/master/images/multipipetting.jpg)
+
 **Figure 2**. Laura using a multipipetter to add 200 µL of our BCA working reagent to each well.
 
 ![mircoplate](https://raw.githubusercontent.com/yaaminiv/yaaminiv.github.io/master/images/microplate.JPG)
+
 **Figure 3**. Our completed microplate! Well A1 is in the top left corner. Microplate contents specified [here](https://yaaminiv.github.io/BCA-Assay-Trial-1/).
 
 #### **Once in the Genome Sciences Building, we did the following**:
