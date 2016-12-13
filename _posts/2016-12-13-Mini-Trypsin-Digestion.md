@@ -30,7 +30,6 @@ After talking with Emma yesterday, we realized the [protocol](https://github.com
 There are several reagents involved in digestion. A handful of them were [made by Rhonda](https://github.com/sr320/LabDocs/blob/master/protocols/ProteinprepforMSMS.md) and were viable for our use: TCEP, 1.5M Tris pH 8.8, IAA,  DTT and Lys-C. Trypsin was purchased since Rhonda used all of it during her lab work.
 
 #### **Made 50 mM NH4HCO3 + 6M urea solution**
-
 - Measured 5mL of nanopure water in a graduated cylinder, and poured into falcon tube
 - Weighed out 39.53 mg of ammonium bicarbonate (NH4HCO3)
 - Added NH4HCO3 to falcon tube, vortexed until mixed
@@ -41,7 +40,6 @@ There are several reagents involved in digestion. A handful of them were [made b
 - Poured contents of graduated cylinder into falcon tube
 
 #### **Prepared for digestion**
-
 - Obtained heating block
 - Set heating block to 37ºC
  - Used two thermometers to verify temperature
@@ -78,10 +76,11 @@ There are several reagents involved in digestion. A handful of them were [made b
 **Figure 3**. Arrangement of sample snaptop centrifuge tubes on heating block. Samples were incubated for 1 hour at 37ºC.
 
 #### **Add IAA**
-
 - Removed samples from heating block and placed in centrifuge tube rack
 - Obtained 3-200 µL IAA aliquots from -80ºC
  - Wrapped aliquots in aluminum foil to keep them in the dark
+ - Laura and I combined needed 3-200 µL aliquots for 22 total samples
+- Defrosted 3-200 µL IAA aliquots
 - Pipetted 20 µL of IAA into each sample
 - Vortexed each sample gently to thoroughly mix solution
 - Placed samples in centrifuge tube rack
@@ -89,11 +88,39 @@ There are several reagents involved in digestion. A handful of them were [made b
  - Check that no light can pass through foil
 - Incubated samples at room temperature in the dark for 1 hour
 
-#### **Add DTT**
-
+#### **Added DTT**
 - Obtained 3-200 µL DTT aliquots from -80ºC
+ - Laura and I combined needed 3-200 µL aliquots for 22 total samples
+- Defrosted 3-200 µL DTT aliquots
 - Removed aluminum foil from samples
 - Pipetted 20 µL of DTT into each sample
 - Vortexed each sample gently to thoroughly mix solution
 - Placed samples in centrifuge tube rack
 - Incubated samples at room temperature for 1 hour
+
+#### **Added Lys-C**
+- Obtained 1-20 µL Lys-C aliquot from -80ºC
+- Defrosted 1-20 µL Lys-C aliquot
+- Pipetted 0.55 µL Lys-C into each sample
+- Vortexed each sample gently to thoroughly mix solution
+- Placed samples in centrifuge tube rack
+- Incubated samples at room temperature for 1 hour
+
+#### **Made 25mM NH4HCO3**
+- Measured 20 mL of nanopure water in a graduated cylinder, and poured into falcon tube
+- Weighed out 49.40 mg of ammonium bicarbonate (NH4HCO3)
+- Added NH4HCO3 to falcon tube, vortexed until mixed
+- Poured falcon tube contents into graduated cylinder
+- Topped of contents in graduated cylinder with nanopure water up to 25mL
+- Poured contents of graduated cylinder into falcon tube
+
+#### **Added 25mM NH4HCO3 and methanol**
+- Pipetted 800 µL 25mM NH4HCO3 into each sample
+- Pipetted 20 µL HPLC grade methanol into each sample
+- Vortexed each sample gently to thoroughly mix solution
+
+#### **Added Trypsin**
+- Obtained 1 bottle with 20 µg of Trypsin from -20ºC freezer
+- Added 0.55 µg Trypsin to each sample
+- Vortexed each sample gently to thoroughly mix solution
+- Incubated samples at room temperature overnight
