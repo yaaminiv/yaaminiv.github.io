@@ -5,7 +5,7 @@ title: BCA Assay Trial 2
 
 ## If at first you don't succeed, trial trial again.
 
-Happy #MicroplateMonday! With a working microplate reader available to us, we proceeded (again) with the BCA Assay. We followed the [protocol](https://yaaminiv.github.io/BCA-Assay-Trial-1/) generated during our last attempt. The only difference between what is listed in that entry and what happened during our attempt is that I broke the bottom of microplate well E9. Sample O07 only had two replicates (E7 and E8).
+Happy #MicroplateMonday! With a working microplate reader available to us, we proceeded (again) with the BCA Assay. We followed the [protocol](https://yaaminiv.github.io/BCA-Assay-Trial-1/) generated during our last attempt. The only difference is that I broke the bottom of microplate well E9. Therefore, sample O07 only had two replicates (E7 and E8).
 
 #### **Some photos from our lab work**:
 
