@@ -33,7 +33,7 @@ There are several reagents involved in digestion. A handful of them were [made b
 - Measured 5mL of nanopure water in a graduated cylinder, and poured into falcon tube
 - Weighed out 39.53 mg of ammonium bicarbonate (NH4HCO3)
 - Added NH4HCO3 to falcon tube, vortexed until mixed
-- Weighed out 3.60 g Urea
+- Weighed out 3.60g Urea
 - Added Urea to falcon tube, vortexed until mixed
 - Poured falcon tube contents into graduated cylinder
 - Topped of contents in graduated cylinder with nanopure water up to 10 mL
