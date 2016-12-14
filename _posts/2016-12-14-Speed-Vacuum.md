@@ -7,7 +7,7 @@ title: Speed Vacuum
 
 Today we grabbed our samples that were incubating overnight and headed straight over to the Genome Sciences building to use their speed vacuum. Unfortunately, we had to wait 5 hours before we could use it :sob:
 
-#### **Speed Vacuum**:
+#### **Protocol**:
 - Obtain samples in snaptop centrifuge tubes incubating overnight
  - If you need to wait for the speed vacuum, place samples in wet ice
 - Load samples into speed vacuum
