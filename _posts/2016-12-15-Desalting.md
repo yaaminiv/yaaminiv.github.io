@@ -35,18 +35,19 @@ Reagents were made by Rhonda using the [following protocol](https://github.com/s
 - Take 1 set of 11 Marcospin columns
 - Add 200 µL of Solvent A to each column
 - Spin columns for 3 minutes at 2000 rpm
- - Repeat 3 more times
+ - Repeat 3 more times for a total for 4 spins
  - Discard remaining liquid in column every other spin to accomodate additional liquid
 
 #### **Equilibrate columns**:
 - Add 200 µL of Solvent B to each column
 - Spin columns for 3 minutes at 2000 rpm
- - Repeat 3 more times
+ - Repeat 2 more times for a total of 3 spins
  - Discard remaining liquid in column every other spin to accomodate additional liquid
 
 #### **Load protein on columns**:
-- Add 30 µg of protein to each column
+- Add 30 µg of protein digest to each column
 - Spin columns for 3 minutes at 3000 rpm
+- Collect flow-through, put back on column and spin again
  - **Peptides are now in the columns**
 - Transfer remaining liquid to the first set of previously labelled snaptop centrifuge tubes
 - Store snaptop centrifuge tubes in -80ºC freezer
@@ -54,7 +55,7 @@ Reagents were made by Rhonda using the [following protocol](https://github.com/s
 #### **Wash salts through columns**:
 - Add 200 µL of Solvent B to each column
 - Spin columns for 3 minutes at 3000 rpm
- - Repeat 2 more times
+ - Repeat 2 more times for a total of 3 spins
 - Transfer remaining liquid to the second set of previously labelled snaptop centrifuge tubes
 - Store snaptop centrifuge tubes in -80ºC freezer
 
@@ -62,12 +63,28 @@ Reagents were made by Rhonda using the [following protocol](https://github.com/s
 - Transfer column contents to the second set of previously labelled Macrospin columns
 - Add 100 µL of Solvent A to each column
 - Spin columns for 3 minutes at 3000 rpm
- - Repeat 1 more time
+ - Repeat 1 more time for a total of 2 spins
  - **Peptides are now in the liquid**
-- Transfer remaining liquid to the second set of previously labelled snaptop centrifuge tubes
 
 #### **Evaporate peptides**:
 - Using speed vacuum, evaporate samples to near dryness at 4ºC
+- Speed vacuum start time:
+
+**Table 1**. Times samples were removed from speed vacuum.
+
+| **Sample** | **Time Removed from Speed Vacuum** |
+|:----------:|:----------------------------------:|
+|     O07    |              2:10 a.m.             |
+|     O15    |              2:39 a.m.             |
+|     O37    |              1:41 a.m.             |
+|     O47    |              2:10 a.m.             |
+|     O55    |              2:39 a.m.             |
+|     O77    |              2:39 a.m.             |
+|    O107    |              1:41 a.m.             |
+|    O119    |              1:41 a.m.             |
+|    O124    |             10:00 p.m.             |
+|    O142    |              2:39 a.m.             |
+|   OBLANK   |              2:53 a.m.             |
 
 #### **Reconsitute peptides**:
 - Add 100 µL of final solvent to each column
