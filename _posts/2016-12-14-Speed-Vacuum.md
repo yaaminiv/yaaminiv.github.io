@@ -17,4 +17,20 @@ In the morning we grabbed our samples that were incubating overnight and headed 
  - Refrigeration: Yes
  - Goal: Want approximately 20 µL of liquid left in snaptop centrifuge tubes
   
-We loaded our samples at 2 p.m. It takes approximately 10 hours for samples to reach desired volume with our settings. We removed the samples at [[insert time here]] and stored them in the -80ºC. 
+We loaded our samples at 2 p.m. It takes approximately 10 hours for samples to reach desired volume with our settings. 
+
+**Table 1**: Times we removed samples from the speed vacuum. We stored samples in the -80ºC freezer immediately after removal.
+
+| **Sample** | **Time Removed from Speed Vacuum** |
+|:----------:|:----------------------------------:|
+|     O07    |              2:10 a.m.             |
+|     O15    |              2:39 a.m.             |
+|     O37    |              1:41 a.m.             |
+|     O47    |              2:10 a.m.             |
+|     O55    |              2:39 a.m.             |
+|     O77    |              2:39 a.m.             |
+|    O107    |              1:41 a.m.             |
+|    O119    |              1:41 a.m.             |
+|    O124    |             10:00 p.m.             |
+|    O142    |              2:39 a.m.             |
+|   OBLANK   |              2:53 a.m.             |
