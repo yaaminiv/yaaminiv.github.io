@@ -56,6 +56,7 @@ Reagents were made by Rhonda using the [following protocol](https://github.com/s
  - Discarded remaining liquid in column after the second and third spin to accomodate additional liquid
 
 #### **Load protein on columns**:
+- Vortexed samples with protein digest once more to thoroughly mix solution
 - Added 30 µg of protein digest to each column
  - Pipetted total volume of liquid in sample snaptop centrifuge tube into the associated column
  - ex. "O07 MT" (snaptop centrifuge tube with protein digest) --> "O07 A" (collection tube with column)
@@ -78,11 +79,12 @@ Reagents were made by Rhonda using the [following protocol](https://github.com/s
 
 #### **Elute peptides**:
 - Transfered column contents to the second set of previously labelled Macrospin columns
+ - ex. "O07 A" (collection tube with column) --> "O07 B" (new collection tube with column)
 - Added 100 µL of Solvent A to each column
-- Spin columns for 3 minutes at 3000 rpm
- - Repeat 1 more time for a total of 2 spins
+- Spun columns for 3 minutes at 3000 rpm
+ - Repeated 1 more time for a total of 2 spins
  - **Peptides are now in the liquid**
-- Dispose of columns and keep collection tubes with liquid
+- Disposed of columns and keep collection tubes with liquid
 
 #### **Evaporate peptides**:
 - Using speed vacuum, evaporate samples to near dryness at 4ºC
@@ -106,10 +108,10 @@ Reagents were made by Rhonda using the [following protocol](https://github.com/s
 |   OBLANK   |              2:53 a.m.             |
 
 #### **Reconsitute peptides**:
-- Add 100 µL of final solvent to each column
-- Lighty vortex all samples
-- Centrifuge all samples down
-- Store samples in -80ºC freezer
+- Added 100 µL of final solvent to each column
+- Lighty vortexed all samples
+- Centrifuged all samples down
+- Stored samples in -80ºC freezer
 
 We're done with extractions! We'll load these samples on the Mass Spectrometer in late January.
 
