@@ -72,7 +72,7 @@ Reagents were made by Rhonda using the [following protocol](https://github.com/s
 
 #### **Evaporate peptides**:
 - Using speed vacuum, evaporate samples to near dryness at 4ºC
- - Because someone else was using the speed vacuum when 
+ - Because someone else was using the speed vacuum when we arrived at the Genome Sciences building, we compromised and ran our samples with theirs at 8ºC.
 - Speed vacuum start time:
 
 **Table 1**. Times samples were removed from speed vacuum.
