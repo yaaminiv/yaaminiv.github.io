@@ -41,36 +41,44 @@ Reagents were made by Rhonda using the [following protocol](https://github.com/s
 **Figure 1.** pH test strips for all samples. With the exception of O124, I added 150 µL of 10% formic acid to each sample. I added 180 µL of 10% formic acid to O124.
 
 #### **Wash columns**:
-- Take 1 set of 11 Marcospin columns
-- Add 200 µL of Solvent A to each column
-- Spin columns for 3 minutes at 2000 rpm
- - Repeat 3 more times for a total for 4 spins
- - Discard remaining liquid in column every other spin to accomodate additional liquid
+- Took 1 set of 11 Marcospin columns
+ - Removed caps from top and bottom of columns
+ - Placed columns in set of collection tubes labelled "A"
+- Added 200 µL of Solvent A to each column
+- Spun columns for 3 minutes at 2000 rpm
+ - Repeated 3 more times for a total for 4 spins
+ - Discarded remaining liquid in column every other spin to accomodate additional liquid
 
 #### **Equilibrate columns**:
-- Add 200 µL of Solvent B to each column
-- Spin columns for 3 minutes at 2000 rpm
- - Repeat 2 more times for a total of 3 spins
- - Discard remaining liquid in column every other spin to accomodate additional liquid
+- Added 200 µL of Solvent B to each column
+- Spun columns for 3 minutes at 2000 rpm
+ - Repeated 2 more times for a total of 3 spins
+ - Discarded remaining liquid in column after the second and third spin to accomodate additional liquid
 
 #### **Load protein on columns**:
-- Add 30 µg of protein digest to each column
-- Spin columns for 3 minutes at 3000 rpm
-- Collect flow-through, put back on column and spin again
+- Added 30 µg of protein digest to each column
+ - Pipetted total volume of liquid in sample snaptop centrifuge tube into the associated column
+ - ex. "O07 MT" (snaptop centrifuge tube with protein digest) --> "O07 A" (collection tube with column)
+- Spun columns for 3 minutes at 3000 rpm
+- Pipetted liquid that flowed through column
+- Put flow-through back on column
+- Spun columns again for 3 minutes at 3000 rpm
  - **Peptides are now in the columns**
-- Transfer remaining liquid to the first set of previously labelled snaptop centrifuge tubes
+- Transfered remaining liquid to the first set of previously labelled snaptop centrifuge tubes
+ - ex. "O07 A" (collection tube with column) --> "O07 L1" (snaptop centrifuge tube for liquid flow-through)
 - Store snaptop centrifuge tubes in -80ºC freezer
 
 #### **Wash salts through columns**:
-- Add 200 µL of Solvent B to each column
-- Spin columns for 3 minutes at 3000 rpm
- - Repeat 2 more times for a total of 3 spins
-- Transfer remaining liquid to the second set of previously labelled snaptop centrifuge tubes
-- Store snaptop centrifuge tubes in -80ºC freezer
+- Added 200 µL of Solvent B to each column
+- Spun columns for 3 minutes at 3000 rpm
+ - Repeated 2 more times for a total of 3 spins
+- Transfered remaining liquid to the second set of previously labelled snaptop centrifuge tubes
+ - ex. "O07 A" (collection tube with column) --> "O07 L2" (snaptop centrifuge tube for liquid flow-through)
+- Stored snaptop centrifuge tubes in -80ºC freezer
 
 #### **Elute peptides**:
-- Transfer column contents to the second set of previously labelled Macrospin columns
-- Add 100 µL of Solvent A to each column
+- Transfered column contents to the second set of previously labelled Macrospin columns
+- Added 100 µL of Solvent A to each column
 - Spin columns for 3 minutes at 3000 rpm
  - Repeat 1 more time for a total of 2 spins
  - **Peptides are now in the liquid**
