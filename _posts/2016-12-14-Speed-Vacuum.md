@@ -19,7 +19,11 @@ In the morning we grabbed our samples that were incubating overnight and headed 
   
 We loaded our samples at 2 p.m. It takes approximately 10 hours for samples to reach desired volume with our settings. 
 
-**Table 1**: Times we removed samples from the speed vacuum. We stored samples in the -80ºC freezer immediately after removal.
+![speed vacuum](https://raw.githubusercontent.com/yaaminiv/yaaminiv.github.io/master/images/usingspeedvac.JPG)
+
+**Figure 1**. Checking the samples in the speed vacuum.
+
+**Table 1**. Times we removed samples from the speed vacuum. We stored samples in the -80ºC freezer immediately after removal.
 
 | **Sample** | **Time Removed from Speed Vacuum** |
 |:----------:|:----------------------------------:|
