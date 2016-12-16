@@ -31,6 +31,9 @@ Reagents were made by Rhonda using the [following protocol](https://github.com/s
 - Based on the amount of formic acid to the 1-2 test samples, add formic acid to the rest of the samples
 - Check pH of all samples
 
+![pH strips](https://raw.githubusercontent.com/yaaminiv/yaaminiv.github.io/master/images/pHstripsformicacid.jpg)
+**Figure 1.** pH test strips for all samples. With the exception of O124, I added 150 µL of 10% formic acid to each sample. I added 180 µL of 10% formic acid to O124.
+
 #### **Wash columns**:
 - Take 1 set of 11 Marcospin columns
 - Add 200 µL of Solvent A to each column
@@ -65,9 +68,11 @@ Reagents were made by Rhonda using the [following protocol](https://github.com/s
 - Spin columns for 3 minutes at 3000 rpm
  - Repeat 1 more time for a total of 2 spins
  - **Peptides are now in the liquid**
+- Dispose of columns and keep collection tubes with liquid
 
 #### **Evaporate peptides**:
 - Using speed vacuum, evaporate samples to near dryness at 4ºC
+ - Because someone else was using the speed vacuum when 
 - Speed vacuum start time:
 
 **Table 1**. Times samples were removed from speed vacuum.
