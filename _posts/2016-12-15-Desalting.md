@@ -95,17 +95,17 @@ Reagents were made by Rhonda using the [following protocol](https://github.com/s
 
 | **Sample** | **Time Removed from Speed Vacuum** |
 |:----------:|:----------------------------------:|
-|     O07    |              2:10 a.m.             |
-|     O15    |              2:39 a.m.             |
-|     O37    |              1:41 a.m.             |
-|     O47    |              2:10 a.m.             |
-|     O55    |              2:39 a.m.             |
-|     O77    |              2:39 a.m.             |
-|    O107    |              1:41 a.m.             |
-|    O119    |              1:41 a.m.             |
-|    O124    |             10:00 p.m.             |
-|    O142    |              2:39 a.m.             |
-|   OBLANK   |              2:53 a.m.             |
+|     O07    |                           |
+|     O15    |              6:20 p.m.             |
+|     O37    |              6:20 p.m.             |
+|     O47    |              6:20 p.m.             |
+|     O55    |              6:20 p.m.             |
+|     O77    |              5:55 p.m.             |
+|    O107    |              5:55 p.m.             |
+|    O119    |              6:20 p.m.             |
+|    O124    |              6:20 p.m.             |
+|    O142    |              6:20 p.m.             |
+|   OBLANK   |              5:55 p.m.             |
 
 #### **Reconsitute peptides**:
 - Added 100 µL of final solvent to each column
