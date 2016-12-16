@@ -22,14 +22,20 @@ Reagents were made by Rhonda using the [following protocol](https://github.com/s
  - 2 sets of 11 each, labelled
  
 #### **Sample reconstitution**:
-- Add 100 µL Solvent B to each sample
-- For 1-2 samples, do the following
- - Test to see if sample is at pH 2
- - If not, add 10 µL 10% formic acid
- - Test pH again
- - Keep adding 10% formic acid in 10 µL increments until sample is at pH 2
-- Based on the amount of formic acid to the 1-2 test samples, add formic acid to the rest of the samples
-- Check pH of all samples
+- Added 100 µL Solvent B to each sample
+- For 1-2 samples, did the following
+ - Tested to see if sample is at pH 2
+ - If not, added 10-20 µL 10% formic acid
+ - Vortexed sample lightly to thoroughly mix solution
+ - Tested pH again
+ - Kept adding 10% formic acid in 10 µL increments until sample is at pH 2
+ - Added 180 µL of 10% formic acid to sample O124
+- Based on the amount of formic acid to the 1-2 test samples, added formic acid to the rest of the samples
+ - Added 100 µL of 10% formic acid to sample O55 and tested pH
+ - Added an extra 50 µL of 10% formic acid to O55 and tested pH
+  - pH was at 2 units
+  - Decided to add only 150 µL 10% formic acid to remaining samples
+- Checked pH of all samples
 
 ![pH strips](https://raw.githubusercontent.com/yaaminiv/yaaminiv.github.io/master/images/pHstripsformicacid.jpg)
 **Figure 1.** pH test strips for all samples. With the exception of O124, I added 150 µL of 10% formic acid to each sample. I added 180 µL of 10% formic acid to O124.
