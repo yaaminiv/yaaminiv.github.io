@@ -21,7 +21,11 @@ We loaded our samples at 2 p.m. It takes approximately 10 hours for samples to r
 
 ![speed vacuum](https://raw.githubusercontent.com/yaaminiv/yaaminiv.github.io/master/images/usingspeedvac.JPG)
 
-**Figure 1**. Checking the samples in the speed vacuum.
+**Figure 1**. Me using laser to check the samples in the speed vacuum.
+
+[speed vacuum](https://github.com/yaaminiv/yaaminiv.github.io/blob/master/images/speedvac.gif)
+
+**Figure 2**. What it looks like when you check samples in the speed vacuum! The laser emits light at the same frequency that the centrifuge rotates at. Pretty neat stuff.
 
 **Table 1**. Times we removed samples from the speed vacuum. We stored samples in the -80ºC freezer immediately after removal.
 
