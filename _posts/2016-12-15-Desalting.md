@@ -95,7 +95,7 @@ Reagents were made by Rhonda using the [following protocol](https://github.com/s
 
 | **Sample** | **Time Removed from Speed Vacuum** |
 |:----------:|:----------------------------------:|
-|     O07    |                           |
+|     O07    |              6:31 p.m.             |
 |     O15    |              6:20 p.m.             |
 |     O37    |              6:20 p.m.             |
 |     O47    |              6:20 p.m.             |
