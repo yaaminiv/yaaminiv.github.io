@@ -108,7 +108,7 @@ Reagents were made by Rhonda using the [following protocol](https://github.com/s
 |   OBLANK   |              5:55 p.m.             |
 
 #### **Reconsitute peptides**:
-- Added 100 µL of final solvent to each column
+- Added 60 µL of final solvent to each column
 - Lighty vortexed all samples
 - Centrifuged all samples down
 - Stored samples in -80ºC freezer
