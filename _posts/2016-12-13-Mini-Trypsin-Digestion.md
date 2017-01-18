@@ -63,15 +63,15 @@ There are several reagents involved in digestion. A handful of them were [made b
  - Green square will turn blue if the pH is above 7-8 pH units
 - Placed samples on heating block to incubate at 37ºC for 1 hour
 
-![pH test](https://raw.githubusercontent.com/yaaminiv/yaaminiv.github.io/master/images/pHstrips.JPG)
+![pH test](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/pHstrips.JPG)
 
 **Figure 1**. Results of pH test. Blue color indicate that the pH of the sample was greater than 7-8 pH units.
 
-![heating block temperature](https://raw.githubusercontent.com/yaaminiv/yaaminiv.github.io/master/images/heatingblocktemperature.JPG)
+![heating block temperature](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/heatingblocktemperature.JPG)
 
 **Figure 2**. Temperature of thermometers when I placed my samples on the heating block. We aimed for 37ºC.
 
-![heating block arrangement](https://raw.githubusercontent.com/yaaminiv/yaaminiv.github.io/master/images/heatingblockarrangement.JPG)
+![heating block arrangement](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/heatingblockarrangement.JPG)
 
 **Figure 3**. Arrangement of sample snaptop centrifuge tubes on heating block. Samples were incubated for 1 hour at 37ºC.
 
