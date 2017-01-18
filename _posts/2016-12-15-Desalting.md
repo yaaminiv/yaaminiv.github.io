@@ -37,7 +37,7 @@ Reagents were made by Rhonda using the [following protocol](https://github.com/s
   - Decided to add only 150 µL 10% formic acid to remaining samples
 - Checked pH of all samples
 
-![pH strips](https://raw.githubusercontent.com/yaaminiv/yaaminiv.github.io/master/images/pHstripsformicacid.jpg)
+![pH strips](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/pHstripsformicacid.jpg)
 **Figure 1.** pH test strips for all samples. With the exception of O124, I added 150 µL of 10% formic acid to each sample. I added 180 µL of 10% formic acid to O124.
 
 #### **Wash columns**:
