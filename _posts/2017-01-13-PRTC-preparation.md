@@ -3,7 +3,7 @@ layout: post
 title: PRTC preparation
 ---
 
-## PRTC: We know what those peptide can be
+## PRTC: We know what those peptides can be
 
 This is the last step in the lab before we go on the mass spectrometer! PRTC, or Peptide Retention Time Calibration, is a mix of known peptides and known quantities that we can use to ensure the mass spectrometer is functioning. It also provides a reference for our sample analysis.
 
