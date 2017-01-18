@@ -9,15 +9,15 @@ Happy #MicroplateMonday! With a working microplate reader available to us, we pr
 
 #### **Some photos from our lab work**:
 
-![pipetting sample](https://raw.githubusercontent.com/yaaminiv/yaaminiv.github.io/master/images/pipettingsample.jpg)
+![pipetting sample](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/pipettingsample.jpg)
 
 **Figure 1**. Here I am pipetting 10 µL of my sample for the microplate.
 
-![multipipetter](https://github.com/yaaminiv/yaaminiv.github.io/blob/master/images/multipipetting.jpg)
+![multipipetter](https://github.com/RobertsLab/project-oyster-oa/master/images/multipipetting.jpg)
 
 **Figure 2**. Laura using a multipipetter to add 200 µL of our BCA working reagent to each well.
 
-![mircoplate](https://raw.githubusercontent.com/yaaminiv/yaaminiv.github.io/master/images/microplate.JPG)
+![mircoplate](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/microplate.JPG)
 
 **Figure 3**. Our completed microplate! Well A1 is in the top left corner. Microplate contents specified [here](https://yaaminiv.github.io/BCA-Assay-Trial-1/).
 
@@ -51,12 +51,12 @@ In order to start the Mini-Trypsin digestion, we need to know the volume of our 
 
 The scatterplot I generated and a table of calculations are below:
 
-![BSA concentration](https://raw.githubusercontent.com/yaaminiv/yaaminiv.github.io/master/images/BSAstandards.png)
+![BSA concentration](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/BSAstandards.png)
 
 **Figure 4**. Scatterplot of BSA concentration (µg/µL) versus blank corrected absorbances (nm). The trendline equation, y = 0.6633x<sup>2</sup> + 1.3975x + 0.0049, was used to calculate protein concentration from absorbances.
 
 **Table 1**. Calculations for each sample. Volume of samples and 50 mM NH4HCO3 in 6M Urea needed for 100 µL total volume based on having 30 µg of protein.
 
-![calculations](https://raw.githubusercontent.com/yaaminiv/yaaminiv.github.io/master/images/calculationstables.png)
+![calculations](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/calculationstables.png)
 
 Check back Tuesday for our Mini-Trypsin digestion! #TrypsinTuesday #MakeEverythingAHashtag
