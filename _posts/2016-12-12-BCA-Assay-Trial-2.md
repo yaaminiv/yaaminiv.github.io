@@ -13,7 +13,7 @@ Happy #MicroplateMonday! With a working microplate reader available to us, we pr
 
 **Figure 1**. Here I am pipetting 10 µL of my sample for the microplate.
 
-![multipipetter](https://github.com/RobertsLab/project-oyster-oa/master/images/multipipetting.jpg)
+![multipipetter](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/multipipetting.jpg)
 
 **Figure 2**. Laura using a multipipetter to add 200 µL of our BCA working reagent to each well.
 
