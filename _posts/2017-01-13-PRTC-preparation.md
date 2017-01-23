@@ -17,6 +17,9 @@ The entire preparation step requires pipetting small volumes of liquids. To redu
 Our resulting mixture was a 50 µL 0.2 pmol/µL PRTC solution.
 
 #### **Preparing samples**:
+
+Our goal is to extract 3 µL of our prepared sample for each mass spectrometer replicate, which means we need 6 µL of sample total. To prepare for this, our total volume of sample and solvents will be 15 µL.
+
 - Removed samples from -80ºC
 - Placed in wet ice bath and allow to thaw
 - Labelled glass autosampler vials, one for each sample. These vials are the ones we will put in the mass spectrometer
