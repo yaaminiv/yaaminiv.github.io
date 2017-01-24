@@ -53,7 +53,7 @@ After these steps, we took dry ice, wet ice and our samples over to the Genome S
  - Cannot sonicate one sample immediately after it has already been sonicated
   - **MUST SONICATE REMAINING SAMPLES BEFORE RETURNING TO ONE SAMPLE**
 
-We sonicated Laura's samples first. My samples froze when in dry ice, so we had to thaw them before I could sonicate. While I sonicated my samples, some of them looked "frothy" (think whipped egg whites). Emma assured me that it was normal. The samples that were frothy while sonicated were O15, O37, O55, O77, O119, O124, O142.
+We sonicated Laura's samples first. My samples froze when in dry ice, so we had to thaw them before I could sonicate. While I sonicated my samples, some of them looked "frothy" (think whipped egg whites). Emma assured me that it was normal. The samples that were frothy while sonicated were O15, O37, O55, O77, O119, O127, O142.
 
 Once we finished sonication, we returned back to our lab for the final step. We carried our samples in wet ice.
 
