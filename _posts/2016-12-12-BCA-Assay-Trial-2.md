@@ -47,7 +47,7 @@ In order to start the Mini-Trypsin digestion, we need to know the volume of our 
 - For each sample, calculate volume (µL) needed for 30 µg protein
  - Need 100 µL to start Mini-Trypsin digestion
  - Calculate how much 50 mM NH4HCO3 in 6M Urea needed for each sample to reach 100 µL volume
-  - 100 µL total volume - volume for 100 µg protein
+  - 100 µL total volume - volume for 30 µg protein
 
 The scatterplot I generated and a table of calculations are below:
 
