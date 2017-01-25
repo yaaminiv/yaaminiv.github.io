@@ -31,7 +31,7 @@ Happy #MicroplateMonday! With a working microplate reader available to us, we pr
  - Read microplate
 
 #### **Calculations**
-In order to start the Mini-Trypsin digestion, we need to know the volume of our sample that contains 100 µg of protein. To calculate this volume, we used the following steps.
+In order to start the Mini-Trypsin digestion, we need to know the volume of our sample that contains 30 µg of protein. To calculate this volume, we used the following steps.
 
 - Calculate average wavelength for each standard and unknown samples using wavelength for each replicate
 - Substract average absorbance for the blank standards from the average absorbance of the remaining standards and unknown samles
