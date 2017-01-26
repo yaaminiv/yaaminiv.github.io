@@ -39,6 +39,6 @@ We loaded our samples at 2 p.m. It takes approximately 10 hours for samples to r
 |     O77    |              2:39 a.m.             |
 |    O107    |              1:41 a.m.             |
 |    O119    |              1:41 a.m.             |
-|    O124    |             10:00 p.m.             |
+|    O127    |             10:00 p.m.             |
 |    O142    |              2:39 a.m.             |
 |   OBLANK   |              2:53 a.m.             |
