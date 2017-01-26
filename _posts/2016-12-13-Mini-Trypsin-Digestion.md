@@ -65,7 +65,7 @@ There are several reagents involved in digestion. A handful of them were [made b
 
 ![pH test](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/pHstrips.JPG)
 
-**Figure 1**. Results of pH test. Blue color indicate that the pH of the sample was greater than 7-8 pH units.
+**Figure 1**. Results of pH test. Blue color indicate that the pH of the sample was greater than 7-8 pH units. *Note: "O124" should read "0127"*
 
 ![heating block temperature](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/heatingblocktemperature.JPG)
 
