@@ -23,7 +23,7 @@ After talking with Emma yesterday, we realized the [protocol](https://github.com
 |     O77    |                      9                     |                    91                    |
 |    O107    |                     32                     |                    68                    |
 |    O119    |                     16                     |                    84                    |
-|    O124    |                     13                     |                    87                    |
+|    O127    |                     13                     |                    87                    |
 |    O142    |                      9                     |                    91                    |
 |   OBLANK   |                     100                    |                     0                    |
 
