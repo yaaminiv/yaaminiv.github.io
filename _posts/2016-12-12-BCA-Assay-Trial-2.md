@@ -55,7 +55,7 @@ The scatterplot I generated and a table of calculations are below:
 
 **Figure 4**. Scatterplot of BSA concentration (µg/µL) versus blank corrected absorbances (nm). The trendline equation, y = 0.6633x<sup>2</sup> + 1.3975x + 0.0049, was used to calculate protein concentration from absorbances.
 
-**Table 1**. Calculations for each sample. Volume of samples and 50 mM NH4HCO3 in 6M Urea needed for 100 µL total volume based on having 30 µg of protein. *Note: "O124" should read "0127" under
+**Table 1**. Calculations for each sample. Volume of samples and 50 mM NH4HCO3 in 6M Urea needed for 100 µL total volume based on having 30 µg of protein. *Note: "O124" should read "0127" under the column "Sample*
 
 ![calculations](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/calculationstables.png)
 
