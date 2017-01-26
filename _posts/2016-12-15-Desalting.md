@@ -38,7 +38,7 @@ Reagents were made by Rhonda using the [following protocol](https://github.com/s
 - Checked pH of all samples
 
 ![pH strips](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/pHstripsformicacid.jpg)
-**Figure 1.** pH test strips for all samples. With the exception of O124, I added 150 µL of 10% formic acid to each sample. I added 180 µL of 10% formic acid to O124.
+**Figure 1.** pH test strips for all samples. With the exception of O124, I added 150 µL of 10% formic acid to each sample. I added 180 µL of 10% formic acid to O124. *Note: "O124" should read "O127"
 
 #### **Wash columns**:
 - Took 1 set of 11 Marcospin columns
@@ -52,7 +52,7 @@ Reagents were made by Rhonda using the [following protocol](https://github.com/s
 #### **Equilibrate columns**:
 - Added 200 µL of Solvent B to each column
 - Spun columns for 3 minutes at 2000 rpm
- - Repeated 2 more times for a total of 3 spins
+* - Repeated 2 more times for a total of 3 spins
  - Discarded remaining liquid in column after the second and third spin to accomodate additional liquid
 
 #### **Load protein on columns**:
@@ -103,7 +103,7 @@ Reagents were made by Rhonda using the [following protocol](https://github.com/s
 |     O77    |              5:55 p.m.             |
 |    O107    |              5:55 p.m.             |
 |    O119    |              6:20 p.m.             |
-|    O124    |              6:20 p.m.             |
+|    O127    |              6:20 p.m.             |
 |    O142    |              6:20 p.m.             |
 |   OBLANK   |              5:55 p.m.             |
 
