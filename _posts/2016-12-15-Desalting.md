@@ -41,7 +41,7 @@ Reagents were made by Rhonda using the [following protocol](https://github.com/s
 **Figure 1.** pH test strips for all samples. With the exception of O124, I added 150 µL of 10% formic acid to each sample. I added 180 µL of 10% formic acid to O124. *Note: "O124" should read "O127"*
 
 #### **Wash columns**:
-- Took 1 set of 11 Marcospin columns
+- Took 1 set of 11 Macropsin columns
  - Removed caps from top and bottom of columns
  - Placed columns in set of collection tubes labelled "A"
 - Added 200 µL of Solvent A to each column
