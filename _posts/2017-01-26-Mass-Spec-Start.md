@@ -3,7 +3,7 @@ layout: post
 title: Mass Spec Start
 ---
 
-## My samples are on the Mass Spec
+## My samples are on the Mass Spec!
 
 ![lumosinitialrun](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/lumosinitialrun.png)
 
