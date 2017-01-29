@@ -7,6 +7,8 @@ title: Mass Spec Updates
 
 I checked the progress of the mass spectrometry analysis on TeamViewer and saw that the blank that had just finished running had the weirdest looking raw data.
 
+*Cue the horrible iPhone photos used in text conversations induced with slight panic*
+
 ![weirdblank](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/massspecupdatejan28/weirdblank.JPG)
 
 For reference, the previous blanks looked like this:
