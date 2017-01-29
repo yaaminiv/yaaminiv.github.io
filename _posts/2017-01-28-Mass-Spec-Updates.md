@@ -35,9 +35,13 @@ The data collection seemed to be going smoothly, so I agreed to check the sample
 
 *1 hour later...*
 
-When I checked the sample again, data was collected, but it didn't seem to fully collect in the left tail of the distribution. Emma believes that there was probably a bubble, so I will run this sample again.
+When I checked the sample again, data was collected, but it didn't seem to fully collect in the left tail of the distribution. Emma believes that there was a bubble in the column, so I will run this sample again.
 
 ![finalcurrentsample](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/massspecupdatejan28/finalcurrentsample.JPG)
 
-The current blank also seemed like it would follow the pattern of previous blanks, so all is good! Tomorrow morning, Laura and I are going to add more ACN to the blank tube just in case.
+The current blank also seemed like it would follow the pattern of previous blanks, so all is good! 
+
+*The next morning...*
+
+Laura and I added 60 µL of ACN to the blank tube just in case. Everything ran smoothly overnight, so fingers crossed there are no more bubbles in the column!
 
