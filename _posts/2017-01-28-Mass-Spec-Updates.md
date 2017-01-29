@@ -39,5 +39,5 @@ When I checked the sample again, data was collected, but it didn't seem to fully
 
 ![finalcurrentsample](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/massspecupdatejan28/finalcurrentsample.JPG)
 
-The current blank also seemed like it would follow the pattern of previous blanks, so all is good! Tomorrow morning, Laura and I are goin to add more ACN tobe blank tube just in case.
+The current blank also seemed like it would follow the pattern of previous blanks, so all is good! Tomorrow morning, Laura and I are going to add more ACN to the blank tube just in case.
 
