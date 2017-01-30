@@ -7,7 +7,7 @@ title: Mass Spec Update #2
 
 After the success with the mass spec [this morning](https://yaaminiv.github.io/Mass-Spec-Updates/), I thought everything would be fine with the sample I had to rerun! When I checked it, the raw data looked...odd.
 
-![rerunsample](https://github.com/RobertsLab/project-oyster-oa/blob/master/images/massspecupdatejan28/rerunsample.JPG)
+![rerunsample](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/massspecupdatejan28/rerunsample.JPG)
 
 I decided to run it again (third times a charm, right?), but got this instead.
 
