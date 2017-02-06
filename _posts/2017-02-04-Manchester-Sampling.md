@@ -21,7 +21,7 @@ Some of the oysters were so large we had to hammer them open.
 ![hammer](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/2-4-sampling/hammer.jpg)
 
 Once open, we extracted four tissue types. Then we removed the body and reweighed the empty shell.
-![shucked oyster[(https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/2-4-sampling/shuckingpacific.jpg)
+![shucked oyster](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/2-4-sampling/shuckingpacific.jpg)
 
 ![perfect oyster](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/2-4-sampling/perfectoyster.jpg)
 
