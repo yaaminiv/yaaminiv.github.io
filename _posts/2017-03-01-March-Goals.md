@@ -3,7 +3,7 @@ layout: post
 title: March Goals
 ---
 
-## March Maddness is upon us
+## March Maddness is upon us.
 
 It's the month of NSA! For this reason, my priorities will shift towards conference preparation. I'm also going to add in dates for myself so I space out my progress (does this mean I'm getting better at realistic goal-setting??).
 
