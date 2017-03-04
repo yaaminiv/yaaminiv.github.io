@@ -33,6 +33,7 @@ It's the month of NSA! For this reason, my priorities will shift towards confere
 - Create timeline for target assays: March 31
 
 #### Miscellaneous
+- In general, be better about updating my Lab Notebook in a timely fashion
 - Plan second Scientist in the Classroom visit: March 31
 - Ask people to join my committee: March 31
 - Write shellfish aquaculture permitting White Paper draft: March 31
