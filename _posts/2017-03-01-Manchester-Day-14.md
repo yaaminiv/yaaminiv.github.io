@@ -3,7 +3,7 @@ layout: post
 title: Manchester Day 14
 ---
 
-Today, I spent 3 hours cleaning oyster :poop:
+## Today, I spent 3 hours cleaning oyster :poop:
 
 After attending the March Hatchery Meeting, Laura and I set out to complete our lofty to-do list:
 
