@@ -11,8 +11,8 @@ title: PECAN Update 3
 
 Either way, I tried opening the file in Skyline and ran into the same [error I got yesterday](https://yaaminiv.github.io/PECAN-Update-2/). 
 
-![unnamed](https://cloud.githubusercontent.com/assets/22335838/23712498/05e1653a-03d8-11e7-9df5-77f475cb2c63.png)
+![error-message-1](https://cloud.githubusercontent.com/assets/22335838/23712498/05e1653a-03d8-11e7-9df5-77f475cb2c63.png)
 
-![unnamed-2](https://cloud.githubusercontent.com/assets/22335838/23712502/08367384-03d8-11e7-8c70-2d1db20a234c.png)
+![error-message-2](https://cloud.githubusercontent.com/assets/22335838/23712502/08367384-03d8-11e7-8c70-2d1db20a234c.png)
 
 I'll update this entry as I get more information!
