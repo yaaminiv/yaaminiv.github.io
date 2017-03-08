@@ -29,4 +29,31 @@ cd C:\Users\srlab\Documents\2017-03-07-MSConvert
 
 ![unnamed](https://cloud.githubusercontent.com/assets/22335838/23691802/af99baf4-037f-11e7-99dd-e5ab8c9c3228.png)
 
-Once this finishes converting, I'll rerun PECAN.
+- Used the following code for my second PECAN run
+
+```
+pecanpie -o /home/srlab/Documents/DNR_PECAN_Run_2_20170307_Output \
+-b /home/srlab/Documents/DNR_PECAN_Run_2_20170307/Combined-gigas-QC.txt \
+-n DNR_PECAN_Run_1_20170307_SpLibrary \ 
+-s gigas \
+--isolationSchemeType BOARDER \
+--pecanMemRequest 35 \
+/home/srlab/Documents/DNR_PECAN_Run_2_20170307/2017-03-07-mzML-file-path-list.txt \
+/home/srlab/Documents/DNR_PECAN_Run_2_20170307/2017-03-07-background-peptides-path-list.txt \
+/home/srlab/Documents/DNR_PECAN_Run_2_20170307/2017-03-07-isolation-windows.csv \
+--fido \
+--jointPercolator
+```
+
+Then I used this code to run the search with `pecanpie`:
+
+```
+cd [directory specified by the -o argument for pecanpie] \
+./run_search.sh
+```
+
+And used `qstat -f` to check that the job was running.
+
+![pecanrun2](https://cloud.githubusercontent.com/assets/22335838/23693008/e91dc804-0386-11e7-8479-8664408e882c.png)
+
+Tomorrow, I'll see if the log file has the same error as my first run (and maybe even get a viable .blib file to explore Skyline with while I set up the rest of my analyses........).
