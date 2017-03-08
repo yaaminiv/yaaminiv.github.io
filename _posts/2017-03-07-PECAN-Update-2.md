@@ -19,10 +19,14 @@ The lab notebook I'm working in can be found [here](https://github.com/RobertsLa
 
 - I had to install ProteoWizard Tools and Git Bash on the Windows computer
 - Created a config file for MSConvert
-- Used the following code to run MSConvert (which then ensued in the computer crashing)
+- Used the following code to run MSConvert (which then ensued in the computer crashing the first time, but worked pretty well the second time)
 
 ```
 cd C:\Users\srlab\Documents\2017-03-07-MSConvert
 
-"c:\Program Files\ProteoWizard\ProteoWizard 3.0.10577\msconvert.exe" -c C:\Users/srlab/Documents/2017-03-07-MSConvert/msconvert-SIMMS1.config C:\Users/srlab/Documents/2017-03-07-MSConvert/2017_January_23_envtstress_oyster1.raw
+"c:\Program Files\ProteoWizard\ProteoWizard 3.0.10577\msconvert.exe" -c C:\Users\srlab\Documents\2017-03-07-MSConvert/msconvert-SIMMS1.config C:\Users\srlab\Documents\2017-03-07-MSConvert/2017_January_23_envtstress_oyster1.raw
 ```
+
+![unnamed](https://cloud.githubusercontent.com/assets/22335838/23691802/af99baf4-037f-11e7-99dd-e5ab8c9c3228.png)
+
+Once this finishes converting, I'll rerun PECAN.
