@@ -3,16 +3,13 @@ layout: post
 title: Manchester Data Log
 ---
 
-## Yesterday I set up a system for cataloguing our water chemistry data
+## Yesterday I set up a system for cataloguing our water chemistry data.
 
 There is now a folder inside the Roberts Lab shelf in the dry lab for data sheets. After recording water chemistry and probe information, the individual should take photos of the data sheet and send them to me and Laura. Then, they should place the data sheet in the folder at Manchester.
 
 I created a [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1NimY1gQFM8eR_wdkM5__nEw3JwEhihmIBHiOqXnBYJ4/edit#gid=0) for all of our data. Laura and I will update it after each sampling day.
 
-For your viewing pleasure, here is a preliminary graph showing how pH in our low and ambient header tanks have changed over the course of the experiment:
-
-
-And here are the raw data sheets:
+For your viewing pleasure, here are the raw data sheets:
 
 ![img_6987](https://cloud.githubusercontent.com/assets/22335838/23781549/fcee61fe-0502-11e7-8e10-fc64249c8d81.JPG)
 ![img_6988](https://cloud.githubusercontent.com/assets/22335838/23781551/fcffbf12-0502-11e7-8f3b-c090d3615f07.JPG)
