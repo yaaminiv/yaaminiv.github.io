@@ -11,7 +11,7 @@ Laura and I did the following today:
 - I siphoned fecal matter out of tanks while Laura rinsed the Olys with freshwater
 - Cleaned filters
 - Bleached algal lines
-  - Modification to procedure: 20 mL of bleach into 6 L of water, then run a **full** bucket of freshwater through to ensure bleach is completely washed through lines
+ - Modification to procedure: 20 mL of bleach into 6 L of water, then run a **full** bucket of freshwater through to ensure bleach is completely washed through lines
 - Laura installed a water alarm in the large header tank, but the water is so turblent in there that it doesn't work the way we want it to
 - Moved probes between tanks
 
@@ -26,7 +26,7 @@ We also found a couple of fat and happy polychaete worms on a few oysters. My ha
 ![img_6995](https://cloud.githubusercontent.com/assets/22335838/23780542/6e6dd6ae-04fc-11e7-8a44-7dc3b1ab3ccf.JPG)
 **Figure 2**. Baby anemone found on an oyster. This is the second anemone I have found.
 
-PSRF upped the feeding to 500 mL of Reed's Shellfish Diet per day (roughly 2 billion cells per milliliter spread out between six culture tanks and the two larger *C. gigas* tanks on the bottom). The tanks were a little too dark and we think the extra algae might be modifying water chemistry, so we asked them to drop it down to 450 mL daily.
+PSRF upped the feeding to 500 mL of Reed's Shellfish Diet per day (roughly 2 billion cells per milliliter spread out between six culture tanks and the two larger *C. gigas* tanks on the bottom). The tanks were a little too dark and we think the extra algae might be modifying water chemistry. We saw today that the pH in the low pH tanks was hovering closer to -33 mV when they've been around -28 mV previously. We asked them to drop it down to 450 mL Shellfish Diet daily, and we'll be monitoring pH to ensure the treatment tank pH doesn't increase too much.
 
 **Things I need to do by Monday**:
 - Update chemistry data spreadsheet
