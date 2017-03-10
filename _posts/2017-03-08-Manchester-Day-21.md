@@ -24,6 +24,7 @@ When cleaning oysters, I found a completely dead (not [mostly dead](https://www.
 We also found a couple of fat and happy polychaete worms on a few oysters. My hands were really wet at the time so I couldn't snap a picture, but I did manage to get a photo of another baby anemone I found on an oyster. I'm not sure where these polychaetes came from, since we thoroughly cleaned the oysters [last week](https://yaaminiv.github.io/Manchester-Day-14/).
 
 ![img_6995](https://cloud.githubusercontent.com/assets/22335838/23780542/6e6dd6ae-04fc-11e7-8a44-7dc3b1ab3ccf.JPG)
+
 **Figure 2**. Baby anemone found on an oyster. This is the second anemone I have found.
 
 PSRF upped the feeding to 500 mL of Reed's Shellfish Diet per day (roughly 2 billion cells per milliliter spread out between six culture tanks and the two larger *C. gigas* tanks on the bottom). The tanks were a little too dark and we think the extra algae might be modifying water chemistry. We saw today that the pH in the low pH tanks was hovering closer to -33 mV when they've been around -28 mV previously. We asked them to drop it down to 450 mL Shellfish Diet daily, and we'll be monitoring pH to ensure the treatment tank pH doesn't increase too much.
