@@ -3,7 +3,7 @@ layout: post
 title: Manchester Data Log
 ---
 
-## Yesterday I set up a system for cataloguing our water chemistry data.
+## Yesterday I set up a system for cataloging our water chemistry data.
 
 There is now a folder inside the Roberts Lab shelf in the dry lab for data sheets. After recording water chemistry and probe information, the individual should take photos of the data sheet and send them to me and Laura. Then, they should place the data sheet in the folder at Manchester.
 
