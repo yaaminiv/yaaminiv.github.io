@@ -52,3 +52,8 @@ Once Grace finished water chemistry and we ran freshwater through the lines, the
 
 Grace and Olivia will be on their own March 29! I wrote a [system maintenance protocol](https://github.com/RobertsLab/project-oyster-oa/wiki/Ocean-Acidification-System-Maintenance) that they'll follow, so there should be no confusion.
 
+In other news, when I came back from Manchester, Laura and I got to look at our histology samples! Check it:
+
+![img_7040](https://cloud.githubusercontent.com/assets/22335838/23885677/0936ee40-0832-11e7-8062-dab582b5a803.JPG)
+
+**Figure 9.** Histology sample for one *C. gigas* gonad specimen.
