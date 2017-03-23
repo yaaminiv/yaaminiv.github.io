@@ -54,7 +54,7 @@ I also used my coefficient of variation data and GO IDs to create a similar REVI
 
 Finally, I remade NMDS and heatmap plots for the data subset. The NMDS was more useful with the data subset, showing evidence of clustering between sites.
 
-![subsetNMDS](https://camo.githubusercontent.com/f423ef6030613b61805c8d5ed53791ac637f11bd/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f526f62657274734c61622f70726f6a6563742d6f79737465722d6f612f6d61737465722f616e616c797365732f444e525f5072656c696d696e6172795f416e616c797365735f32303137303332312f73686f72742d6c6973742d616e616c797369732f522d616e616c797365732f7375627365744e4d44532e706e67)
+![subsetNMDS](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/DNR_Preliminary_Analyses_20170321/short-list-analysis/R-analyses/subsetNMDS-revised.png)
 
 The heatmap didn't really change.
 
