@@ -13,6 +13,7 @@ Laura and I did the following today:
 - Drain and clean tanks with Vortexx
  - We started seeing some unknown stringy stuff in our tanks, so we thought it would be best to drain and clean oysters weekly. Laura took a picture of it, and Ryan agreed to show it to someone who may be able to identify what it is. Ryan's never seen this in Olys before, so it's likely *C. gigas* influencing this.
 - Rinsed oysters with freshwater
+ - Found one dead Pacific oyster in Tank 3
 - Moved around tanks to a new conformation
 - Cleaned filters
 - Bleached algal lines
