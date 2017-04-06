@@ -1,0 +1,48 @@
+---
+layout: post
+title: April Goals
+---
+
+## I was so busy catching up on classes I forgot it was April!
+
+![april](https://i.ytimg.com/vi/eopL9kmMhvw/maxresdefault.jpg)
+
+#### [March Goals](https://yaaminiv.github.io/March-Goals/) Recap
+
+NSA went well! I'm happy with [my poster](https://yaaminiv.github.io/NSA-Poster/), and I learned a lot about the field and hashed out some future directions for my projects. It was also really flattering that people thought I was a late-career Ph.D student (I'm not sure if they thought I just looked old or if my work was at that level, but I'd like to think it was the latter). I still haven't touched either Pubathon paper in a while, nor have I thought about future experiments. But hey, that's what monthly goals are for, right?
+
+#### April Goals
+
+This month, I want to focus on my metaanalysis since I was so absorbed in the DNR project last quarter. I also need to think critically about the questions I want to address with the Manchester experiment.
+
+Manchester Project:
+- Shut down OA experimenta and sample oysters: April 8
+- Develop heat shock plan: April 17
+- Develop in-depth spawning plan: April 30
+- Schedule labwork: April 30
+
+Metaanalysis Paper:
+- Formulate question: April 11
+- Analysis plan/methods: April 13
+- Introduction: April 30
+
+DNR Project:
+- Meet with all involved parties to discuss next step in analysis: April 20
+
+DNR Paper:
+- Update methods: April 10
+- Introduction: April 20
+
+Other:
+- Committee Ideas: When I met with Steven this week, we decided to think about the committee more in the summer. However, I now think it may be best for me to establish my committee this quarter so I can use my time over the summer to develop my proposal and have my committee provide feedback.
+ - Brainstorm members + reasons why: April 10
+ - Run ideas by Steven: April 13
+ - Contact individuals: April 20
+- PCSGA Abstract: April 13
+- Shellfish Permitting White Paper
+ - Readings: April 10
+ - Contact experts for interviews: April 10
+ - Draft 1: April 14
+ - Draft 2: April 21
+ - Final Draft: April 28
+- ASLO Science Communication Internship Application: April 28
