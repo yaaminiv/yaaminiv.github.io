@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Skyline Test 2
+title: Full Skyline Analysis
 ---
 
 ## I can now analyze my full .blib!
