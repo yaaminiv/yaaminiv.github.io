@@ -5,7 +5,7 @@ title: Protein Extractions Round 2
 
 ## It's time to extract more protein.
 
-Based on the [samples Alex used for lipid analysis](https://github.com/RobertsLab/project-oyster-oa/blob/master/data/Biomarker_proteomeCrossRef.xlsx), I've picked the following samples for my next round of extractions. I will extract 10 more samples from round 1, and 20 samples from round 2. This way, I can understand how site location, eelgrass condition, and outplant duration affected protein expression.
+Based on the [samples Alex used for lipid analysis](https://github.com/RobertsLab/project-oyster-oa/blob/master/data/Biomarker_proteomeCrossRef.xlsx), I've picked the following samples for my next round of extractions. I will extract 10 more samples from round 1, and 20 samples from round 2. This way, I can understand how site location, eelgrass condition, and outplant duration affected protein expression. These are just initial thoughts, and will likely change due to sample size considerations.
 
 Here are the samples I've already analyzed:
 
