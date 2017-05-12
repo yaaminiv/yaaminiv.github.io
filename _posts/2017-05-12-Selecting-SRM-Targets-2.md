@@ -13,5 +13,5 @@ A huge shoutout to all of the stats classes I've ever taken for making me realiz
 
 *(buyer beware: entry in progress, information below not final)*
 
-In [this notebook](), I detail the MSStats process, from adding it as a tool in Skyline to running analyses in R.
+In [this notebook](), I detail the MSStats process, from adding it as a tool in Skyline to running analyses in R. I'm basing my analyses off of information in the [MSstats manual](https://bioconductor.org/packages/release/bioc/vignettes/MSstats/inst/doc/MSstats-manual.pdf).
 
