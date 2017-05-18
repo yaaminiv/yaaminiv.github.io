@@ -7,7 +7,7 @@ title: Skyline Error Checking
 
 Took 8.5 hours on a Sunday night, but I calculated an error rate for Skyline! I randomly selected 100 proteins in Skyline, and for each protein I checked one peptide. Ideally, these peptides had data availabe for every replicate. I evaluated whether or not Skyline chose the right peak, and if the peak boundaries were correctly deliniated.
 
-For each peak, I assigned a "0" if Skyline picked the wrong peak and a "1" if it picked the peak correctly. For some peptides, there was no data available for a replicate. This would be a blank screen, so I gave it the value "N/A." I then calculated error rates per replicate and peptide. You can find my spreadsheet [here](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/DNR_Skyline_20170512/error-checking/2017-05-13-error-checking.csv).
+For each peak, I assigned a "0" if Skyline picked the wrong peak and a "1" if it picked the peak correctly. For some peptides, there was no data available for a replicate. This would be a blank screen, so I gave it the value "N/A." I then calculated error rates per replicate and peptide. You can find my spreadsheet [here](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/DNR_Skyline_20170512/error-checking/2017-05-13-error-checking.txt).
 
 Here are some examples of Skyline spectra.
 
