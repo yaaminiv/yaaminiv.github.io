@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Protein Extractions Round 2: Part 2
+title: Protein Extractions Round 2 Part 2
 ---
 
 ## More cowbell? More samples.
