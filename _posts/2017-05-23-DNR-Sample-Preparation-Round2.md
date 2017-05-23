@@ -9,7 +9,7 @@ Laura and I are going to start our proteomics pipeline with a second set of samp
 
 #### **Identified samples for protein extraction**
 
-**Table 1**. Samples for protein extraction, from [this lab notebook entry](https://yaaminiv.github.io/Protein-Extractions-Round2-Part2/).
+**Table 1**. Samples for protein extraction, from [this lab notebook entry](https://yaaminiv.github.io/Protein-Extractions-Round2-Part2/). Originally I wanted to use O111 for extractions but I could not find it in the sample box. I used O117 instead.
 
 | Site | Condition |     1    |     2    |     3    |  
 |:----:|:---------:|:--------:|:--------:|:--------:|
@@ -19,7 +19,7 @@ Laura and I are going to start our proteomics pipeline with a second set of samp
 |  FB  |     E     |  **O64** |  **O46** |  **O32** |
 |  WB  |     B     | **O129** | **O126** | **O135** |
 |  WB  |     E     | **O140** | **O145** | **O147** |
-|  SK  |     B     | **O111** | **O120** |    N/A   |
+|  SK  |     B     | **O117** | **O120** |    N/A   |
 |  SK  |     E     | **O103** | **O101** |    N/A   |
 |  CI  |     B     |  **O11** |  **O13** |  **O16** |
 |  CI  |     E     |  **O01** |  **O08** |    N/A   |
@@ -47,7 +47,7 @@ The reason for cutting each sample in half is to use one half for protein extrac
 
 When cutting the samples, I realized we forgot the step where we rinsed tweezers with nanopure AFTER we cleaned them with bleach! :open_mouth: I called Emma, and she said to dispose of those samples since they were possibly contaminated by bleach. Additionally, she said we should replace the bleach with ethanol, since trace elements of bleach in our samples would be problematic. Since I was dealing with all of my bare condition samples first, I replaced them with different samples.
 
-**Table 2**. Revised samples for protein extraction.
+**Table 2**. Revised samples for protein extraction. I wanted to use O127 for extractions but again, I couldn't find it in the sample box. I replaced with O124.
 
 | Site | Condition |     1    |     2    |     3    |  
 |:----:|:---------:|:--------:|:--------:|:--------:|
