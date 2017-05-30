@@ -7,17 +7,12 @@ title: DNR Sample Preparation and Sonication Round 3
 
 The plan for the week: 
 
-**Tuesday** (that's today!): Prepare tissue and sonicate with Grace
-
-**Wednesday**: BCA analysis [all by myself](https://www.youtube.com/watch?v=3wuSETidoHM)
-
-**Thursday**: Mini-trypsin digestion with Jose and Kaitlyn
-
-**Friday, Saturday and Sunday**: Speed vacuum all samples. The speed vacuum can hold a maximum of 60 samples, so Laura, Jose and I all have to speed vacuum our samples separately.
-
-**Monday**: Desalt all samples
-
-**July**: Mass spec this shit :sunglasses:
+- **Tuesday** (that's today!): Prepare tissue and sonicate with Grace
+- **Wednesday**: BCA analysis [all by myself](https://www.youtube.com/watch?v=3wuSETidoHM)
+- **Thursday**: Mini-trypsin digestion with Jose and Kaitlyn
+- **Friday, Saturday and Sunday**: Speed vacuum all samples. The speed vacuum can hold a maximum of 60 samples, so Laura, Jose and I all have to speed vacuum our samples separately.
+- **Monday**: Desalt all samples
+- **July**: Mass spec this shit :sunglasses:
 
 This is what Grace and I did today:
 
