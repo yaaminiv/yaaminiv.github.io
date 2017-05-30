@@ -3,7 +3,7 @@ layout: post
 title: DNR Sample Preparation and Sonication Round 3
 ---
 
-## Here's to hoping this is the last round of DNR sample preparation!
+## Here's hoping this is the last round of DNR sample preparation!
 
 The plan for the week: 
 
@@ -18,8 +18,9 @@ This is what Grace and I did today:
 
 #### Step 1: Label centrifuge tubes
 
-- Tubes for the sample I would extract proteins from ("1/2")
+- Tubes for the sample I would extract proteins from ("prot")
 - Tubes after sonication ("11 µL")
+- **PRO TIP: Have "prot" and "11 µL" tubes be the same color so it's easy to match them together**
 
 #### Step 2: Obtain samples for extraction from the -80ºC freezer.
 
@@ -104,3 +105,9 @@ Protocol used can be found [here](https://github.com/sr320/LabDocs/blob/master/p
  - Sonication must proceed sequentially (one sample sonicated, then another sonicated)
  - Cannot sonicate one sample immediately after it has already been sonicated
   - **MUST SONICATE REMAINING SAMPLES BEFORE RETURNING TO ONE SAMPLE**
+
+#### Step 10: Aliquot 11 µL of sample into a new tube
+- Contents from "prot" tube would go into corresponding "11 µL" tube
+
+Because the ethanol dry ice bath obscured some of the "prot" tube labels, Grace and I got mixed up when pipetting "prot" contents into the corresponding "11 µL" tube. Luckily, we were able to match them correctly! Having the "prot" and "11 µL" tubes be the same color really helped. O121, O99 and 049 now have 11 µL less protein than all of the other tubes.
+
