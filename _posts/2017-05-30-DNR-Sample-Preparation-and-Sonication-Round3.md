@@ -16,12 +16,12 @@ The plan for the week:
 
 This is what Grace and I did today:
 
-### Step 1: Label centrifuge tubes
+#### Step 1: Label centrifuge tubes
 
 - Tubes for the sample I would extract proteins from ("1/2")
 - Tubes after sonication ("11 µL")
 
-### Step 2: Obtain samples for extraction from the -80ºC freezer.
+#### Step 2: Obtain samples for extraction from the -80ºC freezer.
 
 **Table 1**. Proteins to extract, based on table from a [previous lab notebook entry](https://yaaminiv.github.io/Protein-Extractions-Round2-Part2/).
 
@@ -38,7 +38,7 @@ This is what Grace and I did today:
 |  CI  |     B     |  N/A |  O21 |  O22 |
 |  CI  |     E     |  O10 |  O06 |  O04 |
 
-### Step 3: Cut samples in half.
+#### Step 3: Cut samples in half.
 
 - Obtained dry ice from Biochemistry J Wing
 - Placed sample centrifuge tubes (original vials and vials labelled "prot") in dry ice to keep them from thawing
@@ -53,7 +53,7 @@ This is what Grace and I did today:
 - Tweezers cleaned by dipping in 10% bleach solution, and then rinsing in nanopure water
 - Repeated for all samples
 
-### Step 4: Made 50 mM NH4HCO3 + 6M urea solution
+#### Step 4: Made 50 mM NH4HCO3 + 6M urea solution
 Protocol used can be found [here](https://github.com/sr320/LabDocs/blob/master/protocols/ProteinprepforMSMS.md), or viewed below. This solution must be used no later than 24 hours after it is made, or it is no longer viable.
 
 - Measured 10 mL of nanopure water in a graduated cylinder, and poured into falcon tube
@@ -65,22 +65,22 @@ Protocol used can be found [here](https://github.com/sr320/LabDocs/blob/master/p
 - Topped of contents in graduated cylinder with nanopure water up to 20 mL
 - Poured contents of graduated cylinder into falcon tube
 
-### Step 5: Added 50 mM NH4HCO3 + 6M urea solution to samples
+#### Step 5: Added 50 mM NH4HCO3 + 6M urea solution to samples
 - Moved samples to wet ice. Samples remained in wet ice for the duration of the sonication process.
 - Pipetted 100 µL 50 mM NH4HCO3 + 6M urea solution into one sample tube
 - Repeated for all samples + 1 blank
 
-### Step 6: Homogenized samples
+#### Step 6: Homogenized samples
 - An up-and-down motion worked better than a side-to-side motion (pounding > smushing)
 - Homogenized as much as possible
  - Resulting mixture was cloudy, difficult to see tissue fragments
 - Repeated for all samples + 1 blank
   
-### Step 7: Vortexed samples
+#### Step 7: Vortexed samples
 - 3 pulses on vortex set to speed 10 (maximum speed)
 - Repeated for all samples + 1 blank
 
-### Step 8: Sonication preparation
+#### Step 8: Sonication preparation
 - Filled containers with 1000 mL nanopure water each and labelled containers "1" and "2"
 - Made an ethanol dry ice bath
  - Filled a beaker with ethanol
@@ -93,7 +93,7 @@ Protocol used can be found [here](https://github.com/sr320/LabDocs/blob/master/p
  - Dipped in second container of nanopure water (2) for 5 seconds while on
  - Wiped down with additional ethanol and a kim wipe
  
-## Step 9: Sonication
+#### Step 9: Sonication
 - Sonicated one sample
  - Placed sonicator tip in one sample centrifuge tube for 10 seconds
  - Immediately placed sample in ethanol dry ice bath for 5 seconds
