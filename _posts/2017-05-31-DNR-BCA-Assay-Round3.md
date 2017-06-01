@@ -3,7 +3,7 @@ layout: post
 title: DNR BCA Assay Round 3
 ---
 
-## All this protein but I'm still not swole
+## All this protein but I'm still not swole.
 
 Once again, Jose and I used the protocol [generated in December](https://yaaminiv.github.io/BCA-Assay-Trial-1/) to quantify the protein concentrations in my samples, Laura's samples, and Rhonda's larval geoduck samples. It's a lot to keep track of! The end goal was to obtain the µL of protein required for 100 µg of protein in our samples, and the corresponding amount of 50 mM NH4HCO3 in 6M urea.
 
