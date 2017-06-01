@@ -3,21 +3,17 @@ layout: post
 title: DNR Mini Trypsin Digestion Round 3
 ---
 
-##
+## I am now a faster pipetter
 
 Six boxes of trypsin arrived yesterday. Guess what that means?!
 
 ![4385451](https://cloud.githubusercontent.com/assets/22335838/26665558/6d42c76e-464f-11e7-8d3f-0b7dd0fbded5.jpg)
 
-Quick tangent: my schedule shifted around a bit, so here's an updated extraction schedule. I want to finish all of my extraction work before I work from California for a week.
+I became a faster pipetter over the past few days, so it's time to put my skills to the test with another round of trypsin digestions. Spoiler alert: I'm still not fast enough.
 
-**Thursday** (today!): Mini Trypsin Digestion - Jose and Yaamini (ft. Kaitlyn)
-**Sunday**: I speed vacuum my samples. This way, I can use Friday and Saturday to study for my QSCI final and wrangle with Skyline and MSstats.
-**Monday**: Desalt all my samples. Forget about all labwork until mid-July. Spend countless hours at Manchester and at the Windows machine instead.
+Jose and I found that processing 88 samples between two poeple was definitely pushing it. Since Laura is no longer going to Friday Harbor, I'll ask her to finish processing her own samples. Shoutout to Kaitlyn and Sean for helping us pipet a bit today!
 
-Additionally, we found that processing 88 samples between two people was pushing it. Since Laura is no longer going to Friday Harbor, I'll ask her to finish processing her own samples.
-
-Here's how Jose and I digested 100 µg of protein from each sample:
+Here's how we digested 100 µg of protein from each sample: 
 
 ### Step 1: Set up incubator in Graham's lab
 
@@ -65,9 +61,9 @@ At this point, shit started to hit the fan. The volume in Jose's samples wasn't 
 - Cover samples with aluminum foil
 - Incubate for one hour at room temperature in the dark
 
-Snafu #2: There was a miscommunication and my samples and Laura's samples were incubated at 37 ºC after IAA. I called Emma, and it's a very fixable problem! I needed to cool the samples down to room temperature and add an additional 20 µL of IAA to each sample, then incubate again for an hour in the dark.
+Snafu #2: This is where we realized we'd taken on too much and probably shouldn't continue this way after today. There was a miscommunication and my samples and Laura's samples were incubated at 37 ºC after IAA. I called Emma, and it's a very fixable problem! I needed to cool the samples down to room temperature and add an additional 20 µL of IAA to each sample, then incubate again for an hour in the dark. Jose focused on Rhonda's samples at this point, and I took over responsibility for Laura's samples. 
 
-Snafu #3: We were out of IAA! Jose and I followed the recipe in [this protocol](https://github.com/sr320/LabDocs/blob/master/protocols/ProteinprepforMSMS.md) to make more. Jose suggested we wrap the tubes in foil before placing them in the freezer to remind the next users to keep all IAA products in the dark. This is where we realized we'd taken on too much and probably shouldn't continue this way after today.
+Snafu #3: We were out of IAA! Jose and I followed the recipe in [this protocol](https://github.com/sr320/LabDocs/blob/master/protocols/ProteinprepforMSMS.md) to make more. Jose suggested we wrap the tubes in foil before placing them in the freezer to remind the next users to keep all IAA products in the dark. 
 
 ### Step 8: DTT Incubation
 
@@ -81,28 +77,32 @@ Snafu #3: We were out of IAA! Jose and I followed the recipe in [this protocol](
 - Vortex genly
 - Incubate for one hour at room temperature
 
+I carried my samples and Laura's samples through Step 9 and started the incubation at 4:35 p.m. I needed to leave for main campus around 5 p.m. and wouldn't be back until 6:15 p.m., so Jose agreed to finish out Steps 10 and 11.
+
 ### Step 10: 25 mM NH4HCO3 and Methanol Addition
 
 - Prepare 25 mM NH4HCO3
   - Need 800 µL for each sample
-  - 100*800 = 80000 µL = 80 mL 25 mM NH4HCO3 needed
+  - 100 x 800 = 80000 µL = 80 mL 25 mM NH4HCO3 needed
+  - Made 100 µL of 25 mM NH4HCO3
 - Add 800 µL NH4HCO3 to each sample
 - Obtain HPLC grade methanol from flammable storage
 - Pour out necessary methanol into a clean beaker
   - Need 200 µL for each sample
-  - 100*200 = 20000 µL = 20 mL methanol needed
+  - 100 x 200 = 20000 µL = 20 mL methanol needed
 - Place methanol in fume hood
 - In the fume food, add 200 µL methanol to each sample
 - Vortex samples gently
 
 ### Step 11: Trypsin Digestion
 
-- Obtain 20 µg Trypsin bottles from fridge
-- When ready to use Trypsin, add 20 µL nanopure water to the bottle
+- Obtain 20 µg trypsin bottles from fridge
+- When ready to use trypsin, add 20 µL nanopure water to the bottle
   - Creates a 1 µg/µL solution
-- Add 3.3 µL trypsin to each sample
+- Add 3.3 µL trypsin to each sample with 100 µg of protein
   - One bottle provides for 6 samples
   - Need about 15 bottles for all samples
+  - Some of Jose and Laura's samples had less than 100 µg of protein, so we adjusted the trypsin accordingly
 - Vortex samples gently
 - Let samples sit overnight
   - Digestion start:
@@ -110,4 +110,4 @@ Snafu #3: We were out of IAA! Jose and I followed the recipe in [this protocol](
 ### Step 12: Stop Digestion
 
 - Place all samples in the -80ºC freezer
-  - Digestion end:
+  - Digestion end: Friday, June 2 at 8 a.m.
