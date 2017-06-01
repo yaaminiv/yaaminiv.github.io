@@ -5,7 +5,7 @@ title: June Goals
 
 ## (Almost) done with Spring Quarter already?!
 
-Can't believe it's already June! In keeping with the [April](https://yaaminiv.github.io/April-Goals/) and [May](https://yaaminiv.github.io/May-Goals/) meme themes, here's a picture of Mama June from Here Comes Honey Boo Boo that properly expresses my reaction to the passage of time.
+Can't believe it's already June! In keeping with the [April](https://yaaminiv.github.io/April-Goals/) and [May](https://yaaminiv.github.io/May-Goals/) #MemeThemes, here's a picture of Mama June from Here Comes Honey Boo Boo that properly expresses my reaction to the passage of time.
 
 ![1q3ddg](https://cloud.githubusercontent.com/assets/22335838/26670105/3a4e5f74-4665-11e7-8bf7-f8e06ee7c077.jpg)
 
