@@ -9,7 +9,7 @@ Can't believe it's already June! In keeping with the [April](https://yaaminiv.gi
 
 ![1q3ddg](https://cloud.githubusercontent.com/assets/22335838/26670105/3a4e5f74-4665-11e7-8bf7-f8e06ee7c077.jpg)
 
-**May Goals Recap**
+**[May Goals](https://yaaminiv.github.io/May-Goals/) Recap**
 - Developed a [preliminary heat shock plan](https://yaaminiv.github.io/Heat-Shock-Practice/), but it needs to be revised
 - In-depth spawning plan preparation put on halt because I can't get in contact with Molly
 - [Skyline is tempermental](https://yaaminiv.github.io/Another-Skyline-Fail/) so I don't have a list of targets yet
