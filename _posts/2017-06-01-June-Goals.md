@@ -13,9 +13,9 @@ Can't believe it's already June! In keeping with the [April](https://yaaminiv.gi
 - Developed a [preliminary heat shock plan](https://yaaminiv.github.io/Heat-Shock-Practice/), but it needs to be revised
 - In-depth spawning plan preparation put on halt because I can't get in contact with Molly
 - [Skyline is tempermental](https://yaaminiv.github.io/Another-Skyline-Fail/) so I don't have a list of targets yet
-- I wrote an introduction for the DNR paper! It's rough, but it's made of real words :smile:
-- Not only do I have an extraction plan, but the extractions are well underway
-- I have the pipeline for my metaanalysis ready to go, but I need either emu or roadrunner to be free so I can start. The days those machines are free are when I'm not, so by the time I'm free, the machines are occupied again. Whoops.
+- I wrote an [introduction for the DNR paper](https://docs.google.com/a/uw.edu/document/d/1giP16iXWPE7oDSNI7fyLV3p_1jqsXuuxlH7cJQAwhLM/edit?usp=drive_web)! It's rough, but it's made of real words :smile:
+- Not only do I have an extraction plan, but the extractions are well underway.
+- I have the pipeline for my metaanalysis ready to go, but I need either emu or roadrunner to be free so I can start. The days those machines are free are when I'm not, so by the time I'm free, the machines are occupied again. Whoops :stuck_out_tongue_closed_eyes:
 
 **June Goals**
 
