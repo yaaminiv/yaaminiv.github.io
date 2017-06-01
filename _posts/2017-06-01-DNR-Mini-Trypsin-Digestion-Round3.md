@@ -12,12 +12,14 @@ Six boxes of trypsin arrived yesterday. Guess what that means?!
 Quick tangent: my schedule shifted around a bit, so here's an updated extraction schedule. I want to finish all of my extraction work before I work from California for a week.
 
 **Thursday** (today!): Mini Trypsin Digestion - Jose and Yaamini (ft. Kaitlyn)
-**Friday**: I speed vacuum my samples. This way, I can use the weekend to study for my QSCI final and wrangle with Skyline and MSstats.
+**Sunday**: I speed vacuum my samples. This way, I can use Friday and Saturday to study for my QSCI final and wrangle with Skyline and MSstats.
 **Monday**: Desalt all my samples. Forget about all labwork until mid-July. Spend countless hours at Manchester and at the Windows machine instead.
+
+Additionally, we found that processing 88 samples between two people was pushing it. Since Laura is no longer going to Friday Harbor, I'll ask her to finish processing her own samples.
 
 Here's how Jose and I digested 100 µg of protein from each sample:
 
-### Step 1: Set up heating blocks
+### Step 1: Set up incubator in Graham's lab
 
 - Desired temperature is 37 ºC
 - Use additional thermometers to confirm temperature
@@ -25,6 +27,15 @@ Here's how Jose and I digested 100 µg of protein from each sample:
 ### Step 2: Label new tubes for digestion
 
 ### Step 3: Make 50 mM NH4HCO3 + 6M urea solution
+
+- Measured 5mL of nanopure water in a graduated cylinder, and poured into falcon tube
+- Weighed out 39.53 mg of ammonium bicarbonate (NH4HCO3)
+- Added NH4HCO3 to falcon tube, vortexed until mixed
+- Weighed out 3.60g Urea
+- Added Urea to falcon tube, vortexed until mixed
+- Poured falcon tube contents into graduated cylinder
+- Topped of contents in graduated cylinder with nanopure water up to 10 mL
+- Poured contents of graduated cylinder into falcon tube
 
 ### Step 4: Pipet volume of sonicated sample into new tubes
 
@@ -44,17 +55,23 @@ Here's how Jose and I digested 100 µg of protein from each sample:
 - Place samples on heating block
 - Incubate for one hour at 37 ºC
 
+At this point, shit started to hit the fan. The volume in Jose's samples wasn't consistent, so he needed to start at Step 4 with his samples. I was carry Laura's samples and my samples through Step 6 before I needed to get to class.
+
 ### Step 7: IAA Incubation
 
 - Obtain IAA from the freezer. Cover with aluminum foil.
-- Add 200 µL IAA to each sample
+- Add 20 µL IAA to each sample
 - Vortex gently
 - Cover samples with aluminum foil
 - Incubate for one hour at room temperature in the dark
 
+Snafu #2: There was a miscommunication and my samples and Laura's samples were incubated at 37 ºC after IAA. I called Emma, and it's a very fixable problem! I needed to cool the samples down to room temperature and add an additional 20 µL of IAA to each sample, then incubate again for an hour in the dark.
+
+Snafu #3: We were out of IAA! Jose and I followed the recipe in [this protocol](https://github.com/sr320/LabDocs/blob/master/protocols/ProteinprepforMSMS.md) to make more. Jose suggested we wrap the tubes in foil before placing them in the freezer to remind the next users to keep all IAA products in the dark. This is where we realized we'd taken on too much and probably shouldn't continue this way after today.
+
 ### Step 8: DTT Incubation
 
-- Add 200 µL DTT to each sample
+- Add 20 µL DTT to each sample
 - Vortex gently
 - Incubate for one hour at room temperature
 
