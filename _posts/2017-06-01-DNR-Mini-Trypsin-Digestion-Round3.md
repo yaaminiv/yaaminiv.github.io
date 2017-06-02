@@ -48,10 +48,19 @@ Here's how we digested 100 µg of protein from each sample:
 - Vortex gently
 - Check pH of solution to ensure it's still basic
   - Pipet 2 µL of solution onto the green square of a pH strip. If the color is blue, it's basic.
-- Place samples on heating block
+  
+![geoduckph](https://cloud.githubusercontent.com/assets/22335838/26732995/5d6ffc42-476e-11e7-87c2-8fe5bd4be03d.JPG)
+
+**Figure 1**. Geoduck pH strips for Laura's samples. All samples were basic.
+
+![oysterph](https://cloud.githubusercontent.com/assets/22335838/26732996/5d79e194-476e-11e7-864a-2441aa7d235c.JPG)
+
+**Figure 2**. Oyster pH strips. All samples were basic.
+
+- Place samples in incubator.
 - Incubate for one hour at 37 ºC
 
-At this point, shit started to hit the fan. The volume in Jose's samples wasn't consistent, so he needed to start at Step 4 with his samples. I was carry Laura's samples and my samples through Step 6 before I needed to get to class.
+At this point, shit started to hit the fan. The volume in Jose's samples wasn't consistent, so he needed to start at Step 4 with his samples. I carried Laura's samples and my samples through Step 6 before I needed to get to class.
 
 ### Step 7: IAA Incubation
 
@@ -105,9 +114,9 @@ I carried my samples and Laura's samples through Step 9 and started the incubati
   - Some of Jose and Laura's samples had less than 100 µg of protein, so we adjusted the trypsin accordingly
 - Vortex samples gently
 - Let samples sit overnight
-  - Digestion start:
+  - Digestion start: 6 p.m.
 
 ### Step 12: Stop Digestion
 
 - Place all samples in the -80ºC freezer
-  - Digestion end: Friday, June 2 at 8 a.m.
+  - Digestion end: Friday, June 2 at 7:50 a.m.
