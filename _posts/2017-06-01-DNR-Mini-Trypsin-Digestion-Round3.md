@@ -103,6 +103,8 @@ I carried my samples and Laura's samples through Step 9 and started the incubati
 - In the fume food, add 200 µL methanol to each sample
 - Vortex samples gently
 
+When working on this step, Jose noticed that one of my samples, O35 was still on ice. Neither of us knew which steps were completed with this sample. If it was on ice for that long, there's a chance that there may not be any sample left in that tube. Just in case, Jose added 25 mM NH4HCO3 and methanol to the sample and continued with the remaining steps.
+
 ### Step 11: Trypsin Digestion
 
 - Obtain 20 µg trypsin bottles from fridge
