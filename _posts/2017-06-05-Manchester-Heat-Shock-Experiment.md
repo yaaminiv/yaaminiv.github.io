@@ -33,7 +33,7 @@ I picked animals that were kept in ambient water holding tanks during the durati
 
 ![img_7564](https://user-images.githubusercontent.com/22335838/26999930-c9556474-4d59-11e7-83c9-cb2fcecc315f.JPG)
 
-![img_7566](https://user-images.githubusercontent.com/22335838/26999979-dd589eb8-4d5a-11e7-97d4-df5dd023d004.JPG)
+![img_7569](https://user-images.githubusercontent.com/22335838/26999982-0116a35e-4d5b-11e7-9a13-085fee580f6e.JPG)
 
 **Figures 3-5**. Heat shock setup. Temperature was held at 40ºC for the first 40 minutes of heat shock. The temperature read at 39ºC for the last 20 minutes of exposure, so I plugged the heater back into the wall to raise the temperature back up to 40ºC. The temperature read 39ºC at the end of the hour.
 
