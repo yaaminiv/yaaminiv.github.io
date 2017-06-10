@@ -76,14 +76,16 @@ Because the dosing pump was farther away from the header, I needed to reattach a
 
 Laura helped me by plugging the heater into an outlet and placing it in the insulated header tank. We outfitted PVC onto the header tank's outflow that directed water into Tanks A and B below.
 
+![fullsizerender](https://user-images.githubusercontent.com/22335838/27000427-9af55d7a-4d66-11e7-8d40-164d76d859be.jpg)
+
 ![img_7598](https://user-images.githubusercontent.com/22335838/27000197-cab8b0ee-4d60-11e7-892c-c02fb9593454.JPG)
 
-**Figure 4**. Heated header tank system. Water heated in the header leaves through the tank's outflow and is fed into Tanks A and B below through PVC tubing.
+**Figures 45**. Heated header tank system. Water heated in the header leaves through the tank's outflow (top) and is fed into Tanks A and B below through PVC tubing (bottom).
 
 Because I didn't need to use the calculated 1.2 L/min flow rate just yet, I set flow in both tanks to 0.8 L/min. To do this, I adjusted the outflow of the header to 1.6 L/min, and checked that the inflow to the two tanks was at 0.8 L/min.
 
 ### Ordered extra equipment
 
-I got another [heater]() and two [aquarium pumps](https://smile.amazon.com/gp/product/B01J19M7WO/ref=od_aui_detailpages00?ie=UTF8&psc=1) for my system and had it shipped to Laura so she can set them up when I'm gone.
+I got another [heater](https://www.amazon.com/gp/product/B003GVT0V0/ref=od_aui_detailpages00?ie=UTF8&psc=1) and two [aquarium pumps](https://smile.amazon.com/gp/product/B01J19M7WO/ref=od_aui_detailpages00?ie=UTF8&psc=1) for my system and had it shipped to Laura so she can set them up when I'm gone.
 
 A full and productive day! I just need to spell out my conditioning plan more clearly so Laura and Ryan can proceed.
