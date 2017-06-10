@@ -7,7 +7,7 @@ title: DNR Desalting Round 2
 
 Grace and Kaitlyn helped me desalt the [samples I speed vacuumed on Saturday, June 3](https://yaaminiv.github.io/DNR-Speed-Vacuum-Round2/). For the most part, I followed my [protocol from December](https://yaaminiv.github.io/Desalting/), adjusting the volume of final solvent needed at the end to accomodate for the 100 µg/100 µL protein samples I had.
 
-### **Reagents required**:
+### **Reagents required**
 Reagents were made by Jose using the [following protocol](https://github.com/sr320/LabDocs/blob/master/protocols/ProteinprepforMSMS.md) on June 6.
 
 - Solvent A = 60% acetonitrile + 0.1% trifluoroacetic acid (300ul/sample)
@@ -41,7 +41,7 @@ Jose told us that he needed 150 µL of 10% formic acid to get his samples to the
 
 **Figure 1**. pH test strips for 10% formic acid addition.
 
-### Step 3: **Wash columns**:
+### Step 3: **Wash columns**
 - Took 1 set of 11 Macropsin columns
  - Removed caps from top and bottom of columns
  - Placed columns in set of collection tubes labelled "A"
@@ -50,7 +50,7 @@ Jose told us that he needed 150 µL of 10% formic acid to get his samples to the
  - Repeated 3 more times for a total for 4 spins
  - Discarded remaining liquid in column every other spin to accomodate additional liquid
 
-### Step 4: **Equilibrate columns**:
+### Step 4: **Equilibrate columns**
 - Added 200 µL of Solvent B to each column
 - Spun columns for 3 minutes at 2000 rpm
  - Repeated 2 more times for a total of 3 spins
@@ -58,7 +58,7 @@ Jose told us that he needed 150 µL of 10% formic acid to get his samples to the
  
 During this step, I spilled a small amount (a few specks) of salt from columns O04 A and O131 A. There also seemed to be a bubble in the column of O106 A.
 
-### Step 5: **Load protein on columns**:
+### Step 5: **Load protein on columns**
 - Vortexed samples with protein digest once more to thoroughly mix solution
 - Added 30 µg of protein digest to each column
  - Pipetted total volume of liquid in sample snaptop centrifuge tube into the associated column
@@ -72,7 +72,7 @@ During this step, I spilled a small amount (a few specks) of salt from columns O
  - ex. "O07 A" (collection tube with column) --> "O07 L1" (snaptop centrifuge tube for liquid flow-through)
 - Store snaptop centrifuge tubes in -80ºC freezer
 
-### Step 6: **Wash salts through columns**:
+### Step 6: **Wash salts through columns**
 - Added 200 µL of Solvent B to each column
 - Spun columns for 3 minutes at 3000 rpm
  - Repeated 2 more times for a total of 3 spins
@@ -82,7 +82,7 @@ During this step, I spilled a small amount (a few specks) of salt from columns O
 
 Small specks of salt spilled from columns O14 A and O100 A. Additionally, Grace and I had a miscommunication and all columns associated with [Round 2 samples](https://yaaminiv.github.io/DNR-Sample-Preparation-Round2/) were spun a total of four times instead of three. I don't believe this will affect my peptide results, as they are washed out of the columns with Solvent A, not Solvent B.
 
-### Step 7: **Elute peptides**:
+### Step 7: **Elute peptides**
 - Transfered column contents to the second set of previously labelled Macrospin columns
  - ex. "O07 A" (collection tube with column) --> "O07 B" (new collection tube with column)
 - Added 100 µL of Solvent A to each column
@@ -91,7 +91,7 @@ Small specks of salt spilled from columns O14 A and O100 A. Additionally, Grace 
  - **Peptides are now in the liquid**
 - Disposed of columns and keep collection tubes with liquid
 
-### Step 8: **Evaporate peptides**:
+### Step 8: **Evaporate peptides**
 - Using speed vacuum, evaporate samples to near dryness at 25ºC
 - Speed vacuum start time: 4 p.m.
 
@@ -107,7 +107,7 @@ The original protocol states that this step should be done at 4ºC, but Emma sai
 | **5:17 p.m.** |                                                          O22                                                         |
 | **5:33 p.m.** |                                              O91, O99, O121, O122, O131                                              |
 
-### Step 9: **Reconsitute peptides**:
+### Step 9: **Reconsitute peptides**
 - Added 100 µL of final solvent to each column
 - Lighty vortexed all samples
 - Centrifuged all samples down
