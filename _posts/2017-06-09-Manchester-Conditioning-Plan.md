@@ -36,8 +36,3 @@ Overall notes:
   - Resume temperature conditioning after 1-2 days (handler's discretion)
 - After 7/5/17, oysters should no longer be drained and cleaned
 - Shoutout to Molly for helping me understand all of this!
-
-My written out thoughts on paper if something isn't clear above:
-
-![img_7606](https://user-images.githubusercontent.com/22335838/27000355-98d4fc1e-4d64-11e7-8ea7-ffe15354f2ad.JPG)
-
