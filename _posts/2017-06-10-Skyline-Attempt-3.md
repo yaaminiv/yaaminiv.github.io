@@ -61,3 +61,4 @@ I didn't upload files 17, 21, 22 and 23 because oyster 21 was my blank (so there
 
 ![image-19](https://user-images.githubusercontent.com/22335838/27004496-e741535c-4dbe-11e7-9f8e-8bc2559d9c8e.png)
 
+Once my data files finish loading, I'm going to start error checking again to see how much of a difference the new .blib made.
