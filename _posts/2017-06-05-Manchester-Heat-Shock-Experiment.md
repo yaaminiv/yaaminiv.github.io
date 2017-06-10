@@ -41,7 +41,7 @@ I kept the oysters in 40ºC water for 1 hour.
 
 ### Step 4: Stop exposure.
 
-After one hour of exposure to 40ºC water, I removed the oysters from the tank. I put half of the oysters in a bag labelled "Heat Shock A" and another into a bag labelled "Heat Shock B." I put the bags in Tank A and B respectively. No oysters died during the one hour expsoure, and none died when I left Manchester at 3:20 p.m.
+After one hour of exposure to 40ºC water, I removed the oysters from the tank. I put half of the oysters in a bag labelled "Heat Shock A" and another into a bag labelled "Heat Shock B." I put the bags in Tank A and B respectively. This process took me about five minutes. No oysters died during the one hour expsoure, and none died when I left Manchester at 3:20 p.m.
 
 ### Other random things
 
