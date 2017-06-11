@@ -62,3 +62,47 @@ I didn't upload files 17, 21, 22 and 23 because oyster 21 was my blank (so there
 ![image-19](https://user-images.githubusercontent.com/22335838/27004496-e741535c-4dbe-11e7-9f8e-8bc2559d9c8e.png)
 
 Once my data files finish loading, I'm going to start error checking again to see how much of a difference the new .blib made.
+
+### Step 5: Add Condition and BioReplicate information
+
+Based on information from [this lab notebook](https://github.com/RobertsLab/project-oyster-oa/blob/master/notebooks/2017-05-12-Selecting-SRM-Targets-with-MSstats.ipynb).
+
+![image-1](https://user-images.githubusercontent.com/22335838/27007800-8b58b1d8-4e14-11e7-88cb-b3d9405ca0e7.png)
+
+![image-2](https://user-images.githubusercontent.com/22335838/27007798-8b54dd10-4e14-11e7-8362-2496d1a2f3f4.png)
+
+![image-3](https://user-images.githubusercontent.com/22335838/27007799-8b56f2b2-4e14-11e7-9596-2d4bdda2edfa.png)
+
+![image-4](https://user-images.githubusercontent.com/22335838/27007797-8b538d34-4e14-11e7-88ad-921b7b4f009d.png)
+
+### Step 6: Export Skyline report three separate ways
+
+![image-5](https://user-images.githubusercontent.com/22335838/27007796-8b5379b6-4e14-11e7-98de-37bacee7af15.png)
+
+#### Just proteins and peak areas, with replicate pivoted
+
+![image-1](https://user-images.githubusercontent.com/22335838/27007812-bd170a6c-4e14-11e7-896a-8f1c0728601b.png)
+
+File found on OWL [here](http://owl.fish.washington.edu/spartina/DNR_Skyline_20170524/2017-06-10-protein-areas-only.csv)
+
+#### For MSstats
+
+Edit "Transition Results" >> "Transition Results"
+
+![image-1](https://user-images.githubusercontent.com/22335838/27007815-06d7b778-4e15-11e7-8004-b36e4e680845.png)
+
+![image-2](https://user-images.githubusercontent.com/22335838/27007816-06d86ce0-4e15-11e7-8b6e-5cff70e4a3c3.png)
+
+Replicate pivoted:
+
+![image-3](https://user-images.githubusercontent.com/22335838/27007818-0f142a84-4e15-11e7-9aa3-a7dcc4e125cf.png)
+
+File found [here](http://owl.fish.washington.edu/spartina/DNR_Skyline_20170524/2017-06-10-peptide-transition-results-MSstats.csv). This was actually a mistake, but I saved it anyways.
+
+Replicate not pivoted:
+
+![image-4](https://user-images.githubusercontent.com/22335838/27007819-0f174ce6-4e15-11e7-8a97-dd3fa7d6362b.png)
+
+File found [here](http://owl.fish.washington.edu/spartina/DNR_Skyline_20170524/2017-06-10-peptide-transition-results-MSstats-no-pivot.csv). This is what I can use for MSstats.
+
+Now I'm ready to error check.
