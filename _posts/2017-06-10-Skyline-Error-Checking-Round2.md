@@ -17,6 +17,10 @@ The previous error checking document is [here](https://github.com/RobertsLab/pro
 
 After error checking, I re-exported my Skyline reports.
 
+![image-1](https://user-images.githubusercontent.com/22335838/27007885-1f7d493a-4e17-11e7-9933-7789ae1e47e0.png)
+
 [Proteins and peak areas only](http://owl.fish.washington.edu/spartina/DNR_Skyline_20170524/2017-06-10-protein-areas-only-error-checked.csv)
+
+![image-2](https://user-images.githubusercontent.com/22335838/27007886-1f7e2ff8-4e17-11e7-8f90-831fd16a41b1.png)
 
 [MSstats document, replicate not pivoted](http://owl.fish.washington.edu/spartina/DNR_Skyline_20170524/2017-06-10-peptide-transition-results-MSstats-no-pivot-error-checked.csv)
