@@ -22,7 +22,7 @@ Based on [calculations](https://yaaminiv.github.io/Manchester-Conditioning-Setup
 |   **9**   |     6/19/17    |        487.5 mL       |     55%-60%     |    1.2 L/min    |      21 ºC      |             Vacuum, check mortality             |
 |   **10**  |     6/20/17    |        487.5 mL       |     55%-60%     |    1.2 L/min    |      22 ºC      |             Vacuum, check mortality             |
 |   **11**  |     6/21/17    |        487.5 mL       |     55%-60%     |    1.2 L/min    |      23 ºC      | Drain and clean, check mortality, open 1 oyster |
-| **12-26** | 6/21/17-7/5/17 |        487.5 mL       |     55%-60%     |    1.2 L/min    |      23 ºC      |             Vacuum, check mortality             |
+| **12-26** | 6/22/17-7/6/17 |        487.5 mL       |     55%-60%     |    1.2 L/min    |      23 ºC      |             Vacuum, check mortality             |
 
 Overall notes:
 
