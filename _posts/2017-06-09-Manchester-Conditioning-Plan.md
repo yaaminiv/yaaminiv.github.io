@@ -11,17 +11,17 @@ Based on [calculations](https://yaaminiv.github.io/Manchester-Conditioning-Setup
 
 |  **Day**  |    **Date**    |      **Feeding**      | **Dosing Rate** | **Inflow Rate** | **Temperature** |               **Additional Tasks**              |
 |:---------:|:--------------:|:---------------------:|:---------------:|:---------------:|:---------------:|:-----------------------------------------------:|
-|   **1**   |     6/10/17    |       No Change       |    No Change    |    0.8 L/min    |    No Change    |                       None                      |
-|   **2**   |     6/11/17    | 487.5 mL Reed's Paste |     55%-60%     |    1.2 L/min    |      14 ºC      |             Vacuum, check mortality             |
-|   **3**   |     6/12/17    |        487.5 mL       |     55%-60%     |    1.2 L/min    |      15 ºC      |             Vacuum, check mortality             |
-|   **4**   |     6/13/17    |        487.5 mL       |     55%-60%     |    1.2 L/min    |      16 ºC      |         Drain and clean, check mortality        |
-|   **5**   |     6/14/17    |        487.5 mL       |     55%-60%     |    1.2 L/min    |      17 ºC      |             Vacuum, check mortality             |
-|   **6**   |     6/15/17    |        487.5 mL       |     55%-60%     |    1.2 L/min    |      18 ºC      |             Vacuum, check mortality             |
-|   **7**   |     6/16/17    |        487.5 mL       |     55%-60%     |    1.2 L/min    |      19 ºC      |             Vacuum, check mortality             |
-|   **8**   |     6/17/17    |        487.5 mL       |     55%-60%     |    1.2 L/min    |      20 ºC      |             Vacuum, check mortality             |
-|   **9**   |     6/18/17    |        487.5 mL       |     55%-60%     |    1.2 L/min    |      21 ºC      |             Vacuum, check mortality             |
-|   **10**  |     6/19/17    |        487.5 mL       |     55%-60%     |    1.2 L/min    |      22 ºC      |             Vacuum, check mortality             |
-|   **11**  |     6/20/17    |        487.5 mL       |     55%-60%     |    1.2 L/min    |      23 ºC      | Drain and clean, check mortality, open 1 oyster |
+|   **1**   | 6/10/17-6/11/17|       No Change       |    No Change    |    0.8 L/min    |    No Change    |                       None                      |
+|   **2**   |     6/12/17    | 487.5 mL Reed's Paste |     55%-60%     |    1.2 L/min    |      14 ºC      |             Vacuum, check mortality             |
+|   **3**   |     6/13/17    |        487.5 mL       |     55%-60%     |    1.2 L/min    |      15 ºC      |             Vacuum, check mortality             |
+|   **4**   |     6/14/17    |        487.5 mL       |     55%-60%     |    1.2 L/min    |      16 ºC      |         Drain and clean, check mortality        |
+|   **5**   |     6/15/17    |        487.5 mL       |     55%-60%     |    1.2 L/min    |      17 ºC      |             Vacuum, check mortality             |
+|   **6**   |     6/16/17    |        487.5 mL       |     55%-60%     |    1.2 L/min    |      18 ºC      |             Vacuum, check mortality             |
+|   **7**   |     6/17/17    |        487.5 mL       |     55%-60%     |    1.2 L/min    |      19 ºC      |             Vacuum, check mortality             |
+|   **8**   |     6/18/17    |        487.5 mL       |     55%-60%     |    1.2 L/min    |      20 ºC      |             Vacuum, check mortality             |
+|   **9**   |     6/19/17    |        487.5 mL       |     55%-60%     |    1.2 L/min    |      21 ºC      |             Vacuum, check mortality             |
+|   **10**  |     6/20/17    |        487.5 mL       |     55%-60%     |    1.2 L/min    |      22 ºC      |             Vacuum, check mortality             |
+|   **11**  |     6/21/17    |        487.5 mL       |     55%-60%     |    1.2 L/min    |      23 ºC      | Drain and clean, check mortality, open 1 oyster |
 | **12-26** | 6/21/17-7/5/17 |        487.5 mL       |     55%-60%     |    1.2 L/min    |      23 ºC      |             Vacuum, check mortality             |
 
 Overall notes:
