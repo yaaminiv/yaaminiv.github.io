@@ -8,6 +8,7 @@ title: Manchester Conditioning Update
 As I expected, there were problems getting the heater to warm the water in the header tank fast enough to meet the [desired temperature schedule I set](https://yaaminiv.github.io/Manchester-Conditioning-Plan/). Laura mentioned that the temperature fluxuated during the day, so she was wary of increasing the temperature.
 
 **Table 1**. Actual water temperatures read from AVTECH. Temperature listed was the peak temperature that day.
+
 |  **Day**  |    **Date**    |   **Temperature**  |
 |:---------:|:--------------:|:------------------:|
 |   **6**   |     6/16/17    |      17.06 ºC      |
@@ -18,6 +19,7 @@ As I expected, there were problems getting the heater to warm the water in the h
 The temperature is holding around 18.5 ºC, so I increased the temperature setting on the AVTECH two degrees. My goal is to get the temperature up to 20ºC. This will only set back my conditioning timeline two days!
 
 **Table 2**. Desired temperatures for the remainder of conditioning.
+
 |  **Day**  |    **Date**    |   **Temperature**  |
 |:---------:|:--------------:|:------------------:|
 |   **10**  |     6/20/17    |        20 ºC       |
