@@ -28,4 +28,6 @@ The temperature is holding around 18.5 ºC, so I increased the temperature setti
 |   **13**  |     6/23/17    |        23 ºC       |
 | **14-26** | 6/24/17-7/6/17 |        23 ºC       |
 
+Another thing Laura saw was the return of the stringy stuff in my tanks. It's definitely related to the Reed's past we're feeding.
+
 I'll be back on Day 13 to check on things and Laura will continue to raise the set point and check the AVTECH.
