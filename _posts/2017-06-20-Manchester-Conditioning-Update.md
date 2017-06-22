@@ -30,4 +30,8 @@ The temperature is holding around 18.5 ºC, so I increased the temperature setti
 
 Another thing Laura saw was the return of the stringy stuff in my tanks. It's definitely related to the Reed's past we're feeding.
 
+![unnamed](https://user-images.githubusercontent.com/22335838/27443432-d4fff852-5727-11e7-8923-b743a658b477.jpg)
+
+**Figure 1**. Stringy stuff in the heated water header thank on June 19, 2017. Olivia cleaned the tank out and there was no stringy stuff on June 20, 2017.
+
 I'll be back on Day 13 to check on things and Laura will continue to raise the set point and check the AVTECH.
