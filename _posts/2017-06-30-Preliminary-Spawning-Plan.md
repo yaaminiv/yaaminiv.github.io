@@ -7,7 +7,7 @@ title: Preliminary Spawning Plan
 
 After my oysters are done conditioning, I will strip spawn them and rear larvae. Understanding which males and females to cross, and how many to use, are important to ensure genetic diversity in the F1 generation.
 
-From each tank, I will pool eggs, but keep sperm separate. I will cross the pooled eggs from one tank with sperm from all males. The next day, I will measure hatch success, then pool D-hinge larvae by treatment.
+From each tank, I will pool eggs, but keep sperm separate. I will cross the pooled eggs from one tank with sperm from all males from all tanks. The next day, I will measure hatch success, then pool D-hinge larvae by treatment.
 
 **Table 1**. Number of males available for crosses, assuming there is a 50/50 male-to-female ratio in each tank. Tanks 1-3 were exposed to low pH conditions, and tanks 4-6 had ambient water conditions. Number of oysters from each tank can be found [here](https://yaaminiv.github.io/Manchester-Conditioning-Update2/). 
 
