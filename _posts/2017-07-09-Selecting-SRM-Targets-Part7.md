@@ -11,7 +11,21 @@ After looking at [my work from yesterday](https://yaaminiv.github.io/Selecting-S
 
 <img width="907" alt="screen shot 2017-07-12 at 11 00 25 pm" src="https://user-images.githubusercontent.com/22335838/28152540-ede14bbc-6755-11e7-9300-11ecd10b0ba6.png">
 
-Most of the peaks had interference or missing data, but there were a handful I added to my protein list.
+Most of the peaks had interference or missing data, but there were a handful I added to my protein list. Just to recap, here's what I was looking for.
+
+![unnamed-1](https://user-images.githubusercontent.com/22335838/28181196-91d0eeba-67bc-11e7-976a-2716159a9e58.png)
+
+![unnamed-2](https://user-images.githubusercontent.com/22335838/28181197-91d22df2-67bc-11e7-8cdc-f04aab4b61c4.png)
+
+**Figures 1-2**. A noisy transition in Figure 1 (highlighted in red) that when deleted, produces a much better looking peak in Figure 2.
+
+![unnamed-3](https://user-images.githubusercontent.com/22335838/28181216-9fcb05fa-67bc-11e7-8454-b4b354210726.png)
+
+**Figure 3**. A peak showing slight interference. I avoided this when possible. When interference was more extreme, I deleted the peptide.
+
+![unnamed-4](https://user-images.githubusercontent.com/22335838/28181239-bfa598b8-67bc-11e7-9d2e-2c9ac7f3ba57.png)
+
+**Figure 4**. An example of an ideal peak.
 
 I then evaluated all of my proteins one last time:
 
