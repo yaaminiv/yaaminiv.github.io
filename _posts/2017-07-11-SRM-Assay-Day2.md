@@ -40,7 +40,7 @@ I went through this process for all of my peaks. While Skyline may not be fully 
 
 ### New sample preparation
 
-Using the PRTC I had leftover from [yesterday](https://yaaminiv.github.io/SRM-Assay-Day1/), I prepared more samples to run on the mass spectrometer. I added PRTC to the first 11 samples on Plate 2. After the PRTC addition, Emma realized that the PRTC I had been using was the stock solution, and not a dilution! So the concentration of PRTC I've been adding to my sample is much higher than I wanted.
+Using the PRTC I had leftover from [yesterday](https://yaaminiv.github.io/SRM-Assay-Day1/), I prepared more samples to run on the mass spectrometer. I added PRTC to the first 11 samples on Plate 2. After the PRTC addition, Emma realized that the PRTC I had been using was the stock solution, and not a dilution! So the concentration of PRTC I've been adding to my sample is much higher than I wanted. Additionally, we wanted our final volume of sample, PRTC and final solvent to be 15 µL, but I added more final solvent to all of my samples due to a calculation error (15 - 7.5 + 1.875 instead of 15 - 7.5 - 1.875). My final solution has a volume of 18.8 µL instead. This isn't bad, but it's good for us to know.
 
 ### Mass spectrometer update
 
