@@ -48,23 +48,35 @@ The SRM has been going quite well! I've been checking the machine every few hour
 
 1. Check injection pattern
 
+![capture-8](https://user-images.githubusercontent.com/22335838/28243725-2ef7822a-698a-11e7-98a1-691499b3f35f.PNG)
+
 **Figure 1**. Normal injection pattern on the mass spectrometer. The drop in pressure is related to an injection.
 
 2. Look at RAW files for newly finished samples
 
 Almost all of my RAW files look good! The one file that didn't have any data in it was O01. If its technical replicate also doesn't have any data, then I will need to remake the sample.
 
+![capture-3-2](https://user-images.githubusercontent.com/22335838/28243716-edab274a-6989-11e7-9faa-138e8748a6dc.PNG)
+
 **Figure 2**. RAW file for a good sample.
+
+![capture-4-2](https://user-images.githubusercontent.com/22335838/28243714-ed9d62a4-6989-11e7-8679-0e5dc22884b8.PNG)
 
 **Figure 3**. RAW file for sample O01.
 
+![capture-5](https://user-images.githubusercontent.com/22335838/28243715-edaaf428-6989-11e7-951b-7a7d19ea5117.PNG)
+
 **Figure 4**. Raw file for a blank.
+
+![capture-6](https://user-images.githubusercontent.com/22335838/28243718-edae6b30-6989-11e7-808d-ce4b632c75d6.PNG)
 
 **Figure 5**. Raw file for a PRTC QC sample.
 
 3. Add any QC RAW files to the PRTC QC Skyline file
   - Emma set up a Skyline document so we can look at the retention time and peak quality of all quality control files. By looking at them right away, we're watching the retention times shift and ensuring that the assay does not decrease detection quality.
   
+![capture-7](https://user-images.githubusercontent.com/22335838/28243717-edab1bd8-6989-11e7-8d93-d9b9c77810a4.PNG)
+
 **Figure 6**. PRTC peaks in Skyline. Notice how the retention time shifts each QC file.
 
 4. Add files to the queue
