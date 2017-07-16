@@ -55,6 +55,20 @@ The last thing I wanted to do before I left was check that the next QC I run, QC
 
 ![capture-7](https://user-images.githubusercontent.com/22335838/28251581-4dae7bfa-6a35-11e7-89ed-2221046a71bf.PNG)
 
-**Figure 7**. QC24 in Skyline.
+**Figure 7**. QC24 in the Skyline PRTC+BSA document.
 
-I saw that I had the same problem I did with QC23, so I called Emma.
+I saw that I had the same problem I did with QC23, so I called Emma. While talking to her, she had me check the PRTC peaks in the oyster samples. Since the PRTC and oyster peaks looked good, she figures that the QC sample may have degraded. 
+
+![capture-8](https://user-images.githubusercontent.com/22335838/28251733-7d0c3326-6a38-11e7-812e-015f2189cb5b.PNG)
+
+**Figure 8**. QC24 vs. bivalve 97's PRTC peptide peaks.
+
+![capture-9](https://user-images.githubusercontent.com/22335838/28251731-7d085e54-6a38-11e7-83c5-cc2af8ff90de.PNG)
+
+**Figure 9**. QC24 vs. bivalve 97's oyster peptide peaks.
+
+She had 5 µL of QC left in the freezer from a previous experiment, so I added 15 µL the final acetonitrile solution to that and put 20 µL of the final solution in a new mass spectrometry vial. I placed it in Plate 1-A3, so I adjusted the sequence file accordingly. This will give me five additional QC injections, from QC25 to QC30. This should be enough to finish my samples. I proceeded with my injections and decided to check on the mass spectrometer after it ran the next QC.
+
+![capture-10](https://user-images.githubusercontent.com/22335838/28251732-7d087ca4-6a38-11e7-959b-a536497a6663.PNG)
+
+**Figure 10**. Adjusted sequence file.
