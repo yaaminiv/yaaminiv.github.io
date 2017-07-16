@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SRM Assay Day 16
+title: SRM Assay Day 6
 ---
 
 ## Murphy's Law is always relevant
