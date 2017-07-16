@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SRM Day 2
+title: SRM Assay Day 2
 ---
 
 ## Our assay works!
