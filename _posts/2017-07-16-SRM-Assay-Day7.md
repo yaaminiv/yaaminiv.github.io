@@ -50,3 +50,11 @@ I added the samples to the sequence file, adding one injections for all samples 
 ![capture-6](https://user-images.githubusercontent.com/22335838/28251523-f9f61744-6a33-11e7-9202-0f37e75e893d.PNG)
 
 **Figure 6**. Sequence file with make-up samples at the bottom.
+
+The last thing I wanted to do before I left was check that the next QC I run, QC24, showed peak patterns similar to the previously run QCs. When the machine finished collecting data, I imported the file into Skyline.
+
+![capture-7](https://user-images.githubusercontent.com/22335838/28251581-4dae7bfa-6a35-11e7-89ed-2221046a71bf.PNG)
+
+**Figure 7**. QC24 in Skyline.
+
+I saw that I had the same problem I did with QC23, so I called Emma.
