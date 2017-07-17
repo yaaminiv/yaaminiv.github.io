@@ -72,3 +72,5 @@ She had 5 µL of QC left in the freezer from a previous experiment, so I added 1
 ![capture-10](https://user-images.githubusercontent.com/22335838/28251732-7d087ca4-6a38-11e7-959b-a536497a6663.PNG)
 
 **Figure 10**. Adjusted sequence file.
+
+I think my samples will finish Monday afternoon.
