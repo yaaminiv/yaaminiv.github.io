@@ -35,7 +35,7 @@ When I looked at the sample queue, I saw that I had queued QC23 incorrectly by a
 
 **Figure 5**. Incorrectly queued QC23 (bottom) versus correctly queued QC22 (top). While I specified the sample placement and injection volume correctly, I ran it using the oyster method instead of the QC method.
 
-After seeing this, I checked to make sure none of my other files were added to the sequence file with the wrong method. The only file that was queued incorrectly was QC23. However, I realized that I skipped straight from bivalve 88 to bivalve 93. This means that there are no files for bivalve 89, 90, 91, and 92 because I skipped them, not because I am missing data.
+After seeing this, I checked to make sure none of my other files were added to the sequence file with the wrong method. The only files that were queued incorrectly were QC23 and QC24. I changed the method for QC24 as well. However, I realized that I skipped straight from bivalve 88 to bivalve 93. This means that there are no files for bivalve 89, 90, 91, and 92 because I skipped them, not because I am missing data.
 
 Based on my notes, I prepared new samples for those that did not collect any data during an injection. I remade samples O01, O12, O22, O113 and O118. I place the mass spectrometer vials in Plate 2.
 
@@ -74,3 +74,5 @@ She had 5 µL of QC left in the freezer from a previous experiment, so I added 1
 **Figure 10**. Adjusted sequence file.
 
 I think my samples will finish Monday afternoon.
+
+**Update 9:30 a.m.**: Emma looked at my samples on TeamViewer and she asked if I changed the QC24 method after I added it to the queue and forgot to requeue it. This is exactly what I did, so that's why QC24 looked like QC23! Now that everything else is assigned to the right method and then queued, there should be no more problems!
