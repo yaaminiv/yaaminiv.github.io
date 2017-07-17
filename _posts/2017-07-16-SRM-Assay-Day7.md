@@ -73,4 +73,4 @@ She had 5 µL of QC left in the freezer from a previous experiment, so I added 1
 
 **Figure 10**. Adjusted sequence file. I think my samples will finish Monday afternoon.
 
-**Update 9:30 a.m.**: Emma looked at my samples on TeamViewer and she asked if I changed the QC24 method after I added it to the queue and forgot to requeue it. This is exactly what I did, so that's why QC24 looked like QC23! Now that everything else is assigned to the right method and then queued, there should be no more problems!
+**Update 9:30 p.m.**: Emma looked at my samples on TeamViewer and she asked if I changed the QC24 method after I added it to the queue and forgot to requeue it. This is exactly what I did, so that's why QC24 looked like QC23! Now that everything else is assigned to the right method and then queued, there should be no more problems!
