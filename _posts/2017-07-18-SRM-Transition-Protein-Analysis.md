@@ -31,4 +31,4 @@ The rest were for molecular functions:
 
 ![molecular functions](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/DNR_TransitionSelection_20170707/2017-07-08-Final-Transitions/molecularFunctionREVIGO.png)
 
-While interesting, I'd rather have all of my GOterms be relevant to a biological process. I need to find an efficient way to sort through my list of GOterms and see if they are for biological processes. I posted [this Github issue](https://github.com/sr320/LabDocs/issues/660#issuecomment-316159820) to figure it out.
+While interesting, I'd rather have all of my GOterms be relevant to a biological process. I need to find an efficient way to sort through my list of GOterms and see if they are for biological processes. I posted [this Github issue](https://github.com/sr320/LabDocs/issues/660#issuecomment-316159820) to figure it out. Based on Steven's comments, I'm going to forgo any REVIGO visualization since it may not be the most appropriate. I'll stick with my heatmap for now!
