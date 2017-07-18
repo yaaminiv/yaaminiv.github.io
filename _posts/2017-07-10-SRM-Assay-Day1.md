@@ -46,7 +46,7 @@ Emma also provided me with 10 µL of a quality control standard. I added 30 µL 
 
 ### Transition reduction
 
-Emma realized that the 150 transition maximum she provided needs to also include PRTC transitions! We edited down the transitions together. My final transition list can be found [here](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/DNR_TransitionSelection_20170707/2017-07-08-Final-Transitions/2017-07-10-SRM-Transitions-With-PRTC.csv). I also edited my [Skyline document]() and [transition selection Jupyter notebook](https://github.com/RobertsLab/project-oyster-oa/blob/master/notebooks/2017-07-07-SRM-Target-Identification-in-Skyline.ipynb) to reflect these changes.
+Emma realized that the 150 transition maximum she provided needs to also include PRTC transitions! We edited down the transitions together. My final transition list can be found [here](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/DNR_TransitionSelection_20170707/2017-07-08-Final-Transitions/2017-07-10-SRM-Transitions-With-PRTC.csv). I also edited my [Skyline document](http://owl.fish.washington.edu/spartina/DNR_Skyline_SRM_20170707/2017-07-10-FINAL-SRM-Transitions-with-PRTC/Gigas-7-10-Final-Transition-List.sky.zip) and [transition selection Jupyter notebook](https://github.com/RobertsLab/project-oyster-oa/blob/master/notebooks/2017-07-07-SRM-Target-Identification-in-Skyline.ipynb) to reflect these changes.
 
 ### Loading Samples
 
