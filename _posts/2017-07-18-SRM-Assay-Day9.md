@@ -79,4 +79,8 @@ Randomly choosing five samples:
 - O14
 - O137
 
-I will prepare my samples accordingly tomorrow!
+I will prepare my samples accordingly tomorrow! Before then, I also did some "maintenance" for my Skyline stuff:
+
+- Exported my [complete 6/10 Skyline document](http://owl.fish.washington.edu/spartina/DNR_Skyline_20170524/Gigas-6-10-DIA.sky.zip)
+- Edited my 7/9 Skyline document to [reflect final transitions post-PRTC addition](http://owl.fish.washington.edu/spartina/DNR_Skyline_SRM_20170707/2017-07-10-FINAL-SRM-Transitions-with-PRTC/Gigas-7-10-Final-Transition-List.sky.zip)
+- Updated any Jupyter notebooks or lab notebooks that needed these links
