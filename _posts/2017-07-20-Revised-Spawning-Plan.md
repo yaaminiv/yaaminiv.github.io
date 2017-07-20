@@ -59,6 +59,33 @@ Once pooled, I will count the number of live and dead larvae in each pool. Based
 
 For the static system, I want to keep larvae in five gallon buckets. Each pool listed in Table 3 will have five replicates, meaning I need 25 buckets total. Buckets will be placed in larger totes with water and immersion heaters to keep water temperature at 25 ºC for the larval period. I think five buckets will fit nicely into a tote, but I need to check. I'm planning on keeping the totes on the middle table where Laura had her buckets.
 
+### Spawning steps
+
+**Day 1**: 
+
+- Shuck and sex all oysters
+- Dry strip viable oysters
+- IF NO COULTER COUNTER: Pool eggs together
+  - Use equal weights of gonads from multiple females
+- Screen eggs using 80 and 20 micron screens
+- Hydrate eggs
+- IF COULTER COUNTER: Count number of eggs needed for fertilization
+- Collect amount of sperm necessary for fertilization
+  - Hydrate sperm
+  - Examine under a microscope
+- Fertilize eggs
+  - One tripour per cross
+
+**Day 2**:
+
+- Calculate hatch rate
+- Pool alike treatments based on Table 3
+- Calculate pool densities
+- Redistribute larvae to static system
+  - Five gallon buckets in totes
+  - Five replicates/pool
+  - 1/2 larvae per mL
+
 ### Materials needed
 
 - Shucking knives: 4
