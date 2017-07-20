@@ -9,7 +9,7 @@ As I mentioned [previously](https://yaaminiv.github.io/SRM-Assay-Day9/), Laura a
 
 **Table 1**. Dilution calculations
 
-| **Vial** | **Dilution Ratio** | **µg to Inject** | **µL to Inject** | **µg oyster Needed** | **µg geoduck Needed** | **µL oyster needed (µg/µL)x15 µL/1 µg/µL** | **µL geoduck needed (µg/µL)x15 µL/2 µg/µL** | **PRTC added** | **µL  ACN** | **Total Volume (µL)** |
+| **Vial** | **Dilution Ratio** | **µg to Inject** | **µL to Inject** | **µg oyster Needed** | **µg geoduck Needed** | **µL oyster needed ((µg/µL)x15 µL/1 µg/µL)** | **µL geoduck needed ((µg/µL)x15 µL/2 µg/µL)** | **PRTC added** | **µL  ACN** | **Total Volume (µL)** |
 |:--------:|:------------------:|:----------------:|:----------------:|:--------------------:|:---------------------:|:------------------------------------------:|:-------------------------------------------:|:--------------:|:-----------:|:---------------------:|
 |     1    |        10:1        |         1        |         1        |          0.9         |          0.1          |                    13.5                    |                     0.75                    |       1.5      |     N/A     |         15.75         |
 |     2    |        7.5:1       |         1        |         2        |         0.87         |          0.13         |                     6.5                    |                     0.5                     |      0.75      |     7.25    |           15          |
