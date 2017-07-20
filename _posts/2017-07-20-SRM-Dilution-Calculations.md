@@ -20,4 +20,4 @@ As I mentioned [previously](https://yaaminiv.github.io/SRM-Assay-Day9/), Laura a
 |     7    |        1:7.5       |         1        |         2        |         0.13         |          0.87         |                      1                     |                     3.25                    |      0.75      |      10     |           15          |
 |     8    |        1:10        |         1        |         1        |          0.1         |          0.9          |                     1.5                    |                     6.75                    |       1.5      |     5.25    |           15          |
 
-For PRTC, our stock concentration volume is 0.5 pmol/µL. I changed the injection volume for the 10:1 dilution from 2 µL to 1 µL to ensure we were pipetting volumes over 0.5 µL.
+For PRTC, our stock concentration volume is 0.5 pmol/µL. I changed the injection volume for the 10:1 and 1:10 dilutions from 2 µL to 1 µL to ensure we were pipetting volumes over 0.5 µL. This made it so that the final volume for the 10:1 injection was 15.75 µL, but Emma said that was okay.
