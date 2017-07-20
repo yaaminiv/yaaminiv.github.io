@@ -89,6 +89,7 @@ For the static system, I want to keep larvae in five gallon buckets. Each pool l
 ### Materials needed
 
 - Shucking knives: 4
+- Shucking gloves: 4
 - Oyster separators: Enough to hold 200 oysters
 - Glass capilary tubes: 150
 - Tripours: ~300
