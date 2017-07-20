@@ -22,7 +22,7 @@ The first thing we did was change out banjos in her larval buckets. Kaitlyn saw 
 | Heat Shock |  5 |  6 |   11  |
 |  Full Amb  |  7 |  8 |   15  |
 |    Spare   |  2 |  3 |    5  |
-|    Total   | 57 | 63 |  126  |
+|    Total   | 57 | 63 |  120  |
 
 I had Kailtyn rinse the downwelled silos outside while Steven and I reconfigured the *C. gigas* set-up. We moved the heating tank to the bottom shelf and attached a longer PVC pipe to one end of the T-junction. Water was then able to flow into two different kiddie pools. Because the pipes are two different lengths and the water is flowing by gravity, adjusting the flow will be a bit more difficult than normal. I increased the setpoints on both heaters to get water up to temperature as well. 
 
