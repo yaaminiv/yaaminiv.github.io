@@ -28,4 +28,4 @@ I then created 25 µL of my pooled oyster solution by adding 5 µL of the sample
 - O124
 - O137
 
-Using the volumes in Table 1, I prepared the vials by adding my oyster sample, PRTC and ACN. I left the labelled vials in the freezer for Laura to add her samples to.
+Using the volumes in Table 1, I prepared the vials by adding my oyster sample, PRTC and ACN. When I got to Vial 6, it was difficult for me to pipet the 1.5 µL I needed, so I made 10 µL of the oyster pool. I finished up the vials and left in the freezer for Laura to add her samples to.
