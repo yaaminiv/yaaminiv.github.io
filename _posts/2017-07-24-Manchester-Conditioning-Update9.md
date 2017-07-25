@@ -91,9 +91,33 @@ The algae heating tank was not dirty, which was good. Because the pools were sli
 
 ### Monday, July 24
 
-No mortalities today! I took care of a couple of others things while I was out after cleaning the kiddie pools and heating tank. I counted about 60-70 tripours and obtained 8 totes that fit 3 buckets each. I need one more tote to fit 25 buckets total.
+No mortalities today! I reduced the temperature anyways to ensure no more would die. 
 
-**Table 1**. Revised oyster counts in each tank.
+![img_8026](https://user-images.githubusercontent.com/22335838/28550314-d34ca34e-7094-11e7-86ad-6fb1ea3708fb.JPG)
+
+![img_8027](https://user-images.githubusercontent.com/22335838/28550315-d353138c-7094-11e7-873e-f881c7cb3d16.JPG)
+
+**Figures 21-22**. Heater readings upon arrival.
+
+![img_8029](https://user-images.githubusercontent.com/22335838/28550332-ebe31d98-7094-11e7-90c4-9da3e5146c36.JPG)
+
+![img_8031](https://user-images.githubusercontent.com/22335838/28550331-ebe119f8-7094-11e7-9815-bbbe823e5af4.JPG)
+
+**Figures 23-24**. Heater setpoints after reducing temperature.
+
+I put both AVTECHs in the same kiddie pool to see if I could get them to read the same temperature, but they were still reading different temperatures. I think any difference in temperature now may be due in part to the different readings from the probes. Unrelated, but the kiddie pool with Tank A oysters is always murkier than the other kiddie pool, even before disturbing it to clean.
+
+![img_8028](https://user-images.githubusercontent.com/22335838/28550406-6af83d8e-7095-11e7-988b-87770f47dae5.JPG)
+
+**Figure 25**. Pool clarity is different between Kiddie Pool A (right) and Pool B (left).
+
+I took care of a couple of others things while I was out after cleaning the kiddie pools and heating tank. I counted about 60-70 tripours and obtained 8 totes that fit 3 buckets each. I need one more tote to fit 25 buckets total.
+
+![img_8033](https://user-images.githubusercontent.com/22335838/28550417-856eb03a-7095-11e7-9dde-5d295c973447.JPG)
+
+**Figure 26**. Totes found in boneyard that can hold three-five gallon buckets.
+
+**Table 1**. Revised oyster counts in each tank, as of July 24.
 
 |  Tag Label |  A |  B | Total |
 |:----------:|:--:|:--:|:-----:|
