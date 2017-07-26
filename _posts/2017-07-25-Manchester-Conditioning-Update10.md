@@ -50,6 +50,7 @@ Other things I did today:
 
 - Turned off immersion heaters
 - Cleaned algae header and filled with 1.6 L Reed's paste
+- Removed lines from oyster tanks and bleached algal line
 - Counted about 30 2 gallon buckets that can be used for fertilization
 - Set up buckets for each bag of oysters with 26 L/hr drippers and airstones
 
