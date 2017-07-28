@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Manchester Conditioning Update 11
---
+---
 
 ## NO OYSTERS DIED!
 
