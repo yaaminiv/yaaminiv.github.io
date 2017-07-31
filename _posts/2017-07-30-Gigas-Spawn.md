@@ -7,6 +7,8 @@ title: Gigas Spawn
 
 I successfully spawned my Pacific oysters this weekend! A huge shoutout to everyone who helped me over the past two days: Rhonda (#TheRealMVP), Steven, Kelsey, Ashley, Megan and Laura.
 
+The relevant data and calculations from my spawn can be found [here](https://github.com/RobertsLab/project-oyster-oa/blob/master/data/2017-07-29-Spawning-Calculations.xlsx).
+
 ### Saturday, July 29
 
 #### Step 1: Shuck and sex all oysters
