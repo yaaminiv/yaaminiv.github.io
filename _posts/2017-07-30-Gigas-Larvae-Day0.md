@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Gigas Spawn
+title: Gigas Larvae Day 0
 ---
 
 ## Spoiler: We have baby oysters!
 
 I successfully spawned my Pacific oysters this weekend! A huge shoutout to everyone who helped me over the past two days: Rhonda (#TheRealMVP), Steven, Kelsey, Ashley, Megan and Laura.
 
-The relevant data and calculations from my spawn can be found [here](https://github.com/RobertsLab/project-oyster-oa/blob/master/data/2017-07-29-Spawning-Calculations.xlsx).
+The relevant data and calculations from my spawn can be found [here](https://github.com/RobertsLab/project-oyster-oa/tree/master/data/2017-07-30-pacific-oyster-larvae/2017-07-29-Spawning-Calculations.xlsx).
 
 ### Saturday, July 29
 
