@@ -3,7 +3,7 @@ layout: post
 title: August Goals
 ---
 
-## I only have three goals
+## I only have five goals
 
 ...and I think I can accomplish them! But first, a [July Goals](https://yaaminiv.github.io/July-Goals/) recap.
 
