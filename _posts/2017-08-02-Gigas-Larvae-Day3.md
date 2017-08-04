@@ -12,7 +12,7 @@ Before I get into that, a quick rundown of other things I did today.
   - 2: SN6 Low pH B
   - 3: SN6 Amb B
   - 5: NF6 Amb B
-  - 6: NF10 Low pH A
+  - 6: NF10 Low pH A (Found out later in the day that this probe stopped working in May)
   - 9: SN10 Low pH A
   - 10: SN10 Amb A
   - 11: SN6 Low pH A
