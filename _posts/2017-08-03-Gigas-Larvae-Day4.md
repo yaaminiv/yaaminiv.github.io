@@ -25,6 +25,7 @@ Another thing we noticecd when filling buckets is that the water in the heating 
 
 For tomorrow:
 
+- Note down tote numbers
 - Figure out which AVTECH is which
   - Add to larval tanks and totes strategically
   - Relabel on Dashboard/OA Monitor
@@ -37,5 +38,7 @@ For tomorrow:
   - Start heating process
 - Feed Joth's scallops
 - Feed oyster larvae
-- Prepare tripours for Saturday screening
+- Prepare for Saturday screening
+  - Tripours
+  - Replace blue PSRF screens with green screens
 - Clean up Sealab
