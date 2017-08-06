@@ -46,4 +46,7 @@ Aside from daily feeding, I don't have much urgent work on days I don't screen a
 
 **For tomorrow**:
 
-- 
+- Feed Joth's csallops
+- Screen and count on 60 micron screen
+- Feed larvae
+- Drain header tank
