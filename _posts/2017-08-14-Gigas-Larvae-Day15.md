@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gigas Larvae Day 14
+title: Gigas Larvae Day 15
 ---
 
 ## They're still not growing!
