@@ -2,7 +2,8 @@
 layout: post
 title: Collaboration with the Department of Natural Resources
 ---
-### As promised, here is some background on my current project.
+
+## As promised, here is some background on my current project
 
 ![Pacific Oyster Sampling Sites and Eelgrass Monitoring Regions](../images/DNRSamplingMap.jpg)
 
