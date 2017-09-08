@@ -26,7 +26,7 @@ All of my work can be found in this [R script](https://github.com/RobertsLab/pro
 
 **Figures 1-2**. Unsuccessful NMDS plot and corresponding Shepard plot using Bray-Curtis distance.
 
-<img width="1192" alt="screen shot 2017-09-08 at 9 27 00 am" src="https://user-images.githubusercontent.com/22335838/30221401-f0b330fe-9477-11e7-8f7c-65411ae48d09.png">
+<img width="1183" alt="screen shot 2017-09-08 at 9 38 18 am" src="https://user-images.githubusercontent.com/22335838/30221791-89aa947c-9479-11e7-9030-330f95b9e126.png">
 
 <img width="1175" alt="screen shot 2017-09-08 at 9 27 12 am" src="https://user-images.githubusercontent.com/22335838/30221402-f0f9f160-9477-11e7-8060-0a2b663179d4.png">
 
