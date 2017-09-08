@@ -9,14 +9,14 @@ The first step in my analysis is to see if my technical replicates cluster toget
 
 All of my work can be found in this [R script](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/DNR_SRM_20170902/2017-09-06-NMDS-for-Technical-Replication.R). Here's what I did:
 
-- Imported [my non-pivoted dataset]()
-- Merged Skyline SRM data with the [sequence file]() and [biological replicate information]()
+- Imported [my non-pivoted dataset](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/DNR_SRM_20170902/2017-09-06-Gigas-SRM-ReplicatesOnly-PostDilutionCurve-NoPivot-Report.csv)
+- Merged Skyline SRM data with the [sequence file](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/DNR_SRM_20170902/2017-07-28-SRM-Samples-Sequence-File.csv) and [biological replicate information](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/DNR_SRM_20170902/2017-09-06-Biological-Replicate-Information.csv)
   - When I merged my data with the biological replicate information, somehow my OBLNK data was not conserved in the merge. This is okay since I wasn't planning on analyzing my procedural blanks in this step anyways, but it's still weird.
-  - Wrote out the [master dataframe as a .csv]()
+  - Wrote out the [master dataframe as a .csv](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/DNR_SRM_20170902/2017-09-07-Master-SRM-Data-BiologicalReplicates-NoBlanks-NoPivot.csv)
 - Subsetted Area, Protein, Peptide, Transition and sample identifiers for NMDS analysis
   - Merged Protein, Peptide and Transition information into one column to use as row names
   - Cast my dataframe using `reshape2` so it could be used with metaMDS
-  - Saved the [cast dataframe]()
+  - Saved the [cast dataframe as a .csv](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/DNR_SRM_20170902/2017-09-07-SRM-Data-NMDS-Pivoted.csv)
 - Used metaMDS to make an NMDS plot
   - Was unsuccessful using the Bray-Curtis distance, even when log(x+1) transforming the data
 
