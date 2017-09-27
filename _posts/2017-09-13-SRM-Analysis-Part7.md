@@ -3,7 +3,7 @@ layout: post
 title: SRM Analysis Part 7
 ---
 
-## Another Skyline Saga
+## Another Skyline saga
 
 To figure out what was going on with my technical replicates, Emma said she'd take a look at my Skyline document. Here's what she found:
 
