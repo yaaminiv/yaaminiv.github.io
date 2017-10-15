@@ -5,7 +5,7 @@ title: Correlating Technical Replicates Part 2
 
 ## Step 1: R-squared Cutoffs
 
-In [this R script](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-10-10-Transition-Replicate-Correlations/2017-10-13-NMDS-for-Technical-Replication-with-Cutoffs.R), I used three different R-squared cutoffs to weed out transitions and reexamine my technical replication. I tried the  combinations of normalized and nonnormalized data with different cutoffs. I made NMDS plots for each option and calculated the distances between my technical replicates.
+In [this R script](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-10-10-Transition-Replicate-Correlations/2017-10-13-NMDS-for-Technical-Replication-with-Cutoffs.R), I used three different R-squared cutoffs to weed out transitions and reexamine my technical replication. I tried the combinations of normalized and nonnormalized data with different cutoffs. I made NMDS plots for each option and calculated the distances between my technical replicates. I eliminated any and all transitions that had adjusted R-squared values below the cutoff.
 
 **Cutoff = 0.6, nonnormalized data**:
 
