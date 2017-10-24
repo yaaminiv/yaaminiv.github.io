@@ -20,4 +20,4 @@ Moving forward with my technical replicates, I'm working through [Steven's sugge
 The red line is the regression line (first batch of technical replicates used to predict second batch), the blue line is the fitted line (same intercept as regression but a slope of 1), There's valuable information there, but I'm still figuring out a good way to interpret it.
 *Possible solution: Try to just eliminate transitions outside of a certain cutoff (1 ± some undetermined error) and make NMDS plots.*
 
-I'm not sure what the best approach is here, so I will consult with Emma and Steven. To Github Issues!
+I'm not sure what the best approach is here, so I will consult with Emma and Steven. To the issues!
