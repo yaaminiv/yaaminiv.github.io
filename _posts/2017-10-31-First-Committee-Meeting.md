@@ -5,7 +5,7 @@ title: First Committee Meeting
 
 ## a.k.a. An excuse to make mini apple pie cheesecakes
 
-I had my first committee meeting today! I got some good feedback from Joth and Julian about my proteomics analyses, so I figured I'd jot that down here before I forgot it.
+I had my first committee meeting today [(slides here)](https://github.com/yaaminiv/yaaminiv.github.io/blob/master/presentations/2017-10-31-First-Committee-Meeting.pptx)! I got some good feedback from Joth and Julian about my proteomics analyses, so I figured I'd jot that down here before I forgot it.
 
 - Pare down "site, habitat, and local environmental conditions" to something that makes more sense
 - Use GIS layers to show quantitatively that I have five different sites with broad spectrum of environmental conditions
