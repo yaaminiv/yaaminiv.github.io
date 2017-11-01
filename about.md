@@ -10,7 +10,7 @@ The Lab Notebook of Yaamini Venkataraman, a graduate student in the Roberts Lab 
 
 I'm primarily interested in how climate change is going to affect the organisms in our current and future oceans. I currently study how ocean acidification affects oysters using "-omic" techniques. I'm also interested in projects at the intersection of science, policy and communication!
 
-## Abridged CV
+## CV
 
 ### Education
 
@@ -54,11 +54,50 @@ I'm primarily interested in how climate change is going to affect the organisms 
 - Physical Sciences Dean's Undergraduate Award of Excellence (May 2015)
 - Muir College Caledonian Honor Society Member (November 2014)
 
-### Science communication and outreach
+### Outreach
+
+**Students Exploring Aquatic Sciences**: Curriculum Developer (August 2017-Present)
+- Co-planning a Spring 2018 FISH 508 class to empower graduate students to cater their outreach activities to diverse classrooms
+
+**National Center for Science Education**: Scientist in the Classroom (January 2017-June 2017)
+- Worked with middle school science teacher to develop lessons about climate change in the Pacific Northwest, specifically ocean acidification. Taught two lessons in person
+
+**One-day events**
+- Seattle Youth Climate Action Summit: Graduate Student Panelist (October 28, 2017)
+- Seattle Climate Action Now: Lab Tour Host (July 26, 2017)
+
+### Science communication
+
+**NOAA Office of National Marine Sanctuaries**: Social Media Volunteer Intern (April 2017-Present)
+- Create social media content for the Earth Is Blue campaign in addition to spearheadeding a series highlighting the graduate students in the Dr. Nancy Foster Scholarship Program
+
+**ComSciCon-PNW**: Various roles
+- Organizer (September 2017-Present): Responsible for recruiting panelists, organizing workshops, and coordinating day-of logistics
+- Attendee (March 2017): Conference focused on bolstering science communication skills for graduate students
+
+**Saltman Quarterly**: Various roles
+- Executive Editor (May 2015-May 2016): Created narratives between stories in two different publications (*Saltman Quarterly* (undergraduate biology research journal) and *Under the Scope* (biology magazine intended for a broader audience)) to frame overall mission: making biology research more accessible for all
+- Head Production Editor (May 2014-May 2015): Learned how to convey stories visually, and taught my team to do the same for both publications
+- Blogger (September 2013-June 2014): One of the first bloggers for our website, SQ Online. Detailed journey of self-discovery as one of several biology majors who did not intend to pursue a health-related career in my blog, “No, I’m not Pre-Med"
 
 ### Science policy
 
+**Graduate Student and Professional Senate**: Science and Policy Steering Committee Member (Septmeber 2016-Present)
+- Address professional development needs for graduate students relating to science policy, including science communication trainings, ethics discussions, and white paper workshops
+
+**ParisAgreement.org**: Affiliate (September 2015-June 2016)
+- Examined effect of social media on perceptions of Paris Agreement and COP23
+
 ### Other involvements
+
+**Fisheries Interdisciplinary Network of Students**: Various roles
+- President (June 2017-Present): Organizational head, liaison between graduate students, faculty, and administration
+- Diversity and Equity Forum Leader (September 2016-June 2017): Hosted events to start dialogue about diversity, equity, and inclusion within the department
+- Spring Picnic Planning Committee (February 2017-May 2017)
+- Graduate Student Retreat Planning Committee (October 2016-January 2017)
+
+**Graduate Recruitment, Retention, and Diversity Committee**: Member (April 2017-Present)
+- Provide feedback on College of the Environment's recruitment and retention efforts
 
 ### Contact me
 
