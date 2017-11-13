@@ -20,3 +20,7 @@ Based off of Emma's advice from our [environmental data meeting](https://yaamini
 |    **O145**   |      Willapa Bay      |   Eelgrass  |        11       |        68       |
 
 The two samples with the [worst technical replication](https://yaaminiv.github.io/Correlating-Technical-Replicates-Part9/) based on CV filtering are O14 and O128. Both of these samples had 100 transitions where the technical replicates had a coefficient of variance greater than 20. I'm going to give the remaining ctenidia samples to Emma, since her labmate offered to rerun them for me and see if we can replicate the poor technical replication.
+
+**Edit 11/13/17 at 12:10 p.m.**
+
+Based on the conversation in [this issue](https://github.com/RobertsLab/project-oyster-oa/issues/40), I'm going to pick 2 samples I did not remove from my analysis to rerun. This will give us a good idea if the techncial replication issue was a result of the column, or if there was something else involved and we need to rerun the entire set. I'll pick O60 and O140.
