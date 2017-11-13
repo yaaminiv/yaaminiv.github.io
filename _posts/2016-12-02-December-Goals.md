@@ -3,7 +3,7 @@ layout: post
 title: December Goals
 ---
 
-#### My [DNR project](https://yaaminiv.github.io/DNRprojectintroduction/) is still on the brain!.
+#### My [DNR project](https://yaaminiv.github.io/DNR-Project-Introduction/) is still on the brain!.
 
 **November Goals Update**:
 - Gave a talk at the Graduate Student Symposium. I think it went well!
