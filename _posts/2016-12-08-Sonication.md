@@ -7,7 +7,7 @@ title: Sonication
 
 Sonication uses sound waves to agitate the particles of a solution. For our purposes, sonication allows us to lyse cell walls and extract the protein inside. Here's how we did it!
 
-Once again, our protocol was adapted from [Rhonda's work](https://github.com/sr320/LabDocs/blob/master/protocols/ProteinprepforMSMS.md).
+Once again, our protocol was adapted from [Rhonda's work](https://github.com/RobertsLab/resources/blob/master/protocols/ProteinprepforMSMS.md).
 
 #### **Added 50 mM NH4HCO3 + 6M urea solution to samples**
 - Removed samples from -80ºC freezer and placed in rack
