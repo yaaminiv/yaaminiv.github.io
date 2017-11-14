@@ -5,7 +5,7 @@ title: Demultiplexing Data
 
 ## Demultiplexing is perplexing
 
-It's time to modify our [DIA Analysis](https://github.com/sr320/LabDocs/wiki/DIA-data-Analyses) pipeline and get more usable data from it. The first step would be to reconvert all of my .raw files to .mzmL files, this time demultiplexing the data.
+It's time to modify our [DIA Analysis](https://github.com/RobertsLab/resources/blob/master/protocols/DIA-data-Analyses.md) pipeline and get more usable data from it. The first step would be to reconvert all of my .raw files to .mzmL files, this time demultiplexing the data.
 
 When we set up m/z ratios for the mass spectrometer to use, the machine misses certain windows. To fix this, we add overlapping windows to our method. Demulitplexing allows us to separate overlapping windows.
 
@@ -15,9 +15,9 @@ Sean tried demultiplexing using the code on the DIA wiki, but ran into an error 
 msconvert.exe --zlib --64 --mzML --filter "peakPicking true 1-2" --filter "demultiplex optimization=overlap_only" *.raw
 ```
 
-I tried my hand at demultiplexing in this [Jupyter notebook](https://github.com/RobertsLab/project-oyster-oa/blob/master/notebooks/2017-04-12-Demultiplex-Raw-Files.ipynb).
+I tried my hand at demultiplexing in this [Jupyter notebook](https://github.com/RobertsLab/project-oyster-oa/blob/master/notebooks/DNR/2017-04-12-Demultiplex-Raw-Files.ipynb).
 
-I used a [.config file]() instead of directly inputting code because that's what the [Evernote](https://www.evernote.com/shard/s347/sh/edcb06ab-d008-418f-b28f-52f6614f1c39/2984ab55f427fcfe) suggested I do the [last time I used MSConvert's CLI](https://github.com/RobertsLab/project-oyster-oa/blob/master/notebooks/2017-03-07-Reconvert-mzML-Files.ipynb).
+I used a [.config file]() instead of directly inputting code because that's what the [Evernote](https://www.evernote.com/shard/s347/sh/edcb06ab-d008-418f-b28f-52f6614f1c39/2984ab55f427fcfe) suggested I do the [last time I used MSConvert's CLI](https://github.com/RobertsLab/project-oyster-oa/blob/master/notebooks/DNR/2017-03-07-Reconvert-mzML-Files.ipynb).
 
 The code I used, referencing my .config file:
 
