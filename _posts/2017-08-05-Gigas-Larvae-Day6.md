@@ -5,7 +5,7 @@ title: Gigas Larvae Day 6
 
 ## Smooth Saturday screening
 
-Today I [screened and counted larvae]() using a 60 micron screen. I'm getting much faster at it! Shoutout to Kaitlyn for coming and helping me screen.
+Today I [screened and counted larvae](https://github.com/RobertsLab/project-oyster-oa/blob/master/data/Manchester/2017-07-30-Pacific-Oyster-Larvae/2017-08-02-Larvae-Counts.xlsx) using a 60 micron screen. I'm getting much faster at it! Shoutout to Kaitlyn for coming and helping me screen.
 
 ![img_8195-1](https://user-images.githubusercontent.com/22335838/29007441-3201e16a-7ab8-11e7-8262-28f2847ebbec.JPG)
 
