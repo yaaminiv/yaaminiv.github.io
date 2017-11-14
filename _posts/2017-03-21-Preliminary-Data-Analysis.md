@@ -7,7 +7,7 @@ title: Preliminary Data Analysis
 
 Using the [Skyline output](http://owl.fish.washington.edu/spartina/DNR_Skyline_Test_20170314/2017-03-16_Skyline_report_yaamini.csv) I generated from an [oyster seed .blib](https://github.com/sr320/course-fish546-2016/blob/master/data/oysterseed2.blib) and [my raw data](http://owl.fish.washington.edu/spartina/January_2017_DNR_Raw_Data/Oyster_raw_files/), it's time for me to understand what everything means. My goal is to get figures I can use for my NSA poster.
 
-My methods can be found in [this notebook](https://github.com/RobertsLab/project-oyster-oa/blob/master/notebooks/2017-03-21-Preliminary-Proteomic-Data-Analyses.ipynb), but here are the highlights.
+My methods can be found in [this notebook](https://github.com/RobertsLab/project-oyster-oa/blob/master/notebooks/DNR/2017-03-21-Preliminary-Proteomic-Data-Analyses.ipynb), but here are the highlights.
 
 #### Data exploration and Ratio Analysis
 
@@ -22,6 +22,7 @@ I calculated ratios of eelgrass:bare areas across the five sites with the intent
 Using the entire dataset, I created an NMDS plot and heatmap. Unsurprisingly, it wasn't very informative.
 
 ![prelimNMDS](https://camo.githubusercontent.com/1f0fd313b693971d14762093961e06594e9181b3/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f526f62657274734c61622f70726f6a6563742d6f79737465722d6f612f6d61737465722f616e616c797365732f444e525f5072656c696d696e6172795f416e616c797365735f32303137303332312f66696e616c4e4d44532e706e67)
+
 ![prelimheatmap](https://camo.githubusercontent.com/6c3b6692058655bb163542456307fec13e664a03/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f526f62657274734c61622f70726f6a6563742d6f79737465722d6f612f6d61737465722f616e616c797365732f444e525f5072656c696d696e6172795f416e616c797365735f32303137303332312f7072656c696d696e617279486561746d61702e706e67)
 
 #### Preliminary Enrichment and REVIGO analysis
