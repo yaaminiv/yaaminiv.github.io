@@ -5,7 +5,7 @@ title: Selecting SRM Targets Part 5
 
 ## I have draft transitions!
 
-Emma wasn't kidding when she said sorting through proteins on Skyline takes a while. Even so, I have [preliminary target transitions](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/DNR_TransitionSelection_20170707/2017-07-07-Preliminary-Transitions/2017-07-07-Preliminary-Target-Transitions-Evalues.csv)! My steps are laid out in [a Jupyter notebook](https://github.com/RobertsLab/project-oyster-oa/blob/master/notebooks/2017-07-07-SRM-Target-Identification-in-Skyline.ipynb).
+Emma wasn't kidding when she said sorting through proteins on Skyline takes a while. Even so, I have [preliminary target transitions](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/DNR_TransitionSelection_20170707/2017-07-07-Preliminary-Transitions/2017-07-07-Preliminary-Target-Transitions-Evalues.csv)! My steps are laid out in [a Jupyter notebook](https://github.com/RobertsLab/project-oyster-oa/blob/master/notebooks/DNR/2017-07-07-SRM-Target-Identification-in-Skyline.ipynb).
 
 To come up with the transition list I sent Emma and Steven, I made a [duplicate Skyline document](http://owl.fish.washington.edu/spartina/DNR_Skyline_SRM_20170707/Gigas-7-7-Transition-List.sky.zip) to edit. I followed the rough instructions in [Emma's Skyline tutorial slides](https://github.com/RobertsLab/project-pacific.oyster-larvae/blob/master/Skyline-example-files-ETS.sky/slides01.pdf) to delete bad quality proteins, peptides and transitions.
 
