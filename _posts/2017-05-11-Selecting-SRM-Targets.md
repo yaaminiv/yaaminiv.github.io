@@ -54,4 +54,4 @@ Then I exported my results!
 
 I uploaded [my results](http://owl.fish.washington.edu/spartina/DNR_Skyline_20170505/2017-05-11-transition-results.csv) to OWL, as well as my [revised Skyline document](http://owl.fish.washington.edu/spartina/DNR_Skyline_20170505/Gigas-4-27-oyster1-test.sky).
 
-The rest of my process is documented in [this Jupyter notebook](https://github.com/RobertsLab/project-oyster-oa/blob/master/notebooks/2017-05-11-Selecting-SRM-Targets.ipynb).
+The rest of my process is documented in [this Jupyter notebook](https://github.com/RobertsLab/project-oyster-oa/blob/master/notebooks/DNR/2017-05-11-Selecting-SRM-Targets.ipynb).
