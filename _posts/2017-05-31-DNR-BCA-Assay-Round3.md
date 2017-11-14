@@ -21,7 +21,7 @@ Here's the protocol we followed:
 
 Combined, Jose and I needed to work through 88 samples. I calculated the amount of reagent we would need for 100 samples to give us some wiggle room.
 
-- 1 set of 8 standard vials (recipe in [lab protocol](https://github.com/sr320/LabDocs/blob/master/protocols/ProteinprepforMSMS.md))
+- 1 set of 8 standard vials (recipe in [lab protocol](https://github.com/RobertsLab/resources/blob/master/protocols/ProteinprepforMSMS.md))
 - 10 mL 50 mM NH4HCO3 made (recipe in [Laura's notebook](https://laurahspencer.github.io/LabNotebook/Proteo-Lab-Day-3/))
   - Need 22 µL 50 mM NH4HCO3 per sample, so 2200 µL or 2.2 mL total
 - 6 mL Lysis Buffer made (recipe in [Laura's notebook](https://laurahspencer.github.io/LabNotebook/Proteo-Lab-Day-3/))
@@ -81,23 +81,23 @@ At this point, I needed to run to a homework review session, so Jose finished ou
 
 Plates with my samples:
 
-[Plate 2 data](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/BCA_analysis/Plate2-20170531.txt)
+[Plate 2 data](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/DNR_BCA_Analysis/Plate2-20170531.txt)
 
-[Plate 3 data](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/BCA_analysis/Plate3-20170531.txt)
+[Plate 3 data](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/DNR_BCA_Analysis/Plate3-20170531.txt)
 
 Plates with Jose and Laura's samples:
 
-[Plate 1 data](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/BCA_analysis/Jose310517_plate1.txt)
+[Plate 1 data](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/DNR_BCA_Analysis/Jose310517_plate1.txt)
 
-[Plate 4 data](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/BCA_analysis/Jose310517_plate4.txt)
+[Plate 4 data](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/DNR_BCA_Analysis/Jose310517_plate4.txt)
 
 ### Step 7: Calculated volume of protein needed for 100 µg per sample
 
-[Plate 2 calculations](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/BCA_analysis/2017-5-31_Plate_2_BCA_analyses.xlsx)
+[Plate 2 calculations](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/DNR_BCA_Analysis/2017-5-31_Plate_2_BCA_analyses.xlsx)
 
 ![plate2-graph](https://cloud.githubusercontent.com/assets/22335838/26664934/8fca9258-464a-11e7-85b9-52c2c4700329.png)
 
-[Plate 3 calculations](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/BCA_analysis/2017-5-31_Plate_3_BCA_analyses.xlsx)
+[Plate 3 calculations](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/DNR_BCA_Analysis/2017-5-31_Plate_3_BCA_analyses.xlsx)
 
 ![plate3-graph](https://cloud.githubusercontent.com/assets/22335838/26665327/afff0f10-464d-11e7-8f9d-b913a1520504.png)
 
