@@ -15,7 +15,7 @@ I didn't look at the data Grace collected until today, but looks like we don't h
 
 **Figure 1**. [Water Chemistry Data from the last day of OA exposure](https://yaaminiv.github.io/Manchester-Day-52/)
 
-I also uploaded data from the oysters I sampled [here](https://github.com/RobertsLab/project-oyster-oa/blob/master/data/20170408-GigasTissueSamplingInformation.xlsx). I plan on visualizing the data soon!
+I also uploaded data from the oysters I sampled [here](https://github.com/RobertsLab/project-oyster-oa/blob/master/data/Manchester/2017-Adult-Gigas-Tissue-Sampling/20170408-GigasTissueSamplingInformation.xlsx). I plan on visualizing the data soon!
 
 Alright, let's get into what I did this week.
 
