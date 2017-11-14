@@ -7,7 +7,7 @@ title: Mini-Trypsin Digestion
 
 It's #TrypsinTuesday! The purpose of this step is to breakdown, or digest, our proteins into peptides.
 
-After talking with Emma yesterday, we realized the [protocol](https://github.com/sr320/LabDocs/blob/master/protocols/ProteinprepforMSMS.md) we've been following is specific for larvae and not oyster tissue. Because of this, the protein concentrations we obtained yesterday were too dilute. To compensate for this, we're only using sample with 30 µg for 100 µL total volume. Additionally, we needed to modify the protocol for the amount of enzymes used (Lys-C and Trypsin). We divided the amount in the original protocol (made for 100µg protein for 100 µL sample) by three to account for the change in our methods.
+After talking with Emma yesterday, we realized the [protocol](https://github.com/RobertsLab/resources/blob/master/protocols/ProteinprepforMSMS.md) we've been following is specific for larvae and not oyster tissue. Because of this, the protein concentrations we obtained yesterday were too dilute. To compensate for this, we're only using sample with 30 µg for 100 µL total volume. Additionally, we needed to modify the protocol for the amount of enzymes used (Lys-C and Trypsin). We divided the amount in the original protocol (made for 100µg protein for 100 µL sample) by three to account for the change in our methods.
 
 #### **Here are the protein concentrations we calculated in after the BCA assay**:
 
@@ -27,7 +27,7 @@ After talking with Emma yesterday, we realized the [protocol](https://github.com
 |    O142    |                      9                     |                    91                    |
 |   OBLANK   |                     100                    |                     0                    |
 
-There are several reagents involved in digestion. A handful of them were [made by Rhonda](https://github.com/sr320/LabDocs/blob/master/protocols/ProteinprepforMSMS.md) and were viable for our use: TCEP, 1.5M Tris pH 8.8, IAA,  DTT and Lys-C. Trypsin was purchased since Rhonda used all of it during her lab work.
+There are several reagents involved in digestion. A handful of them were [made by Rhonda](https://github.com/RobertsLab/resources/blob/master/protocols/ProteinprepforMSMS.md) and were viable for our use: TCEP, 1.5M Tris pH 8.8, IAA,  DTT and Lys-C. Trypsin was purchased since Rhonda used all of it during her lab work.
 
 #### **Made 50 mM NH4HCO3 + 6M urea solution**
 - Measured 5mL of nanopure water in a graduated cylinder, and poured into falcon tube
@@ -63,15 +63,15 @@ There are several reagents involved in digestion. A handful of them were [made b
  - Green square will turn blue if the pH is above 7-8 pH units
 - Placed samples on heating block to incubate at 37ºC for 1 hour
 
-![pH test](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/pHstrips.JPG)
+![pH test](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/DNR/Lab-Notebook/pHstrips.JPG)
 
 **Figure 1**. Results of pH test. Blue color indicate that the pH of the sample was greater than 7-8 pH units. *Note: "O124" should read "0127"*
 
-![heating block temperature](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/heatingblocktemperature.JPG)
+![heating block temperature](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/DNR/Lab-Notebook/heatingblocktemperature.JPG)
 
 **Figure 2**. Temperature of thermometers when I placed my samples on the heating block. We aimed for 37ºC.
 
-![heating block arrangement](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/heatingblockarrangement.JPG)
+![heating block arrangement](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/DNR/Lab-Notebook/heatingblockarrangement.JPG)
 
 **Figure 3**. Arrangement of sample snaptop centrifuge tubes on heating block. Samples were incubated for 1 hour at 37ºC.
 
