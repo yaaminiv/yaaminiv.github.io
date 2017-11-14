@@ -55,7 +55,7 @@ This is what Grace and I did today:
 - Repeated for all samples
 
 #### Step 4: Made 50 mM NH4HCO3 + 6M urea solution
-Protocol used can be found [here](https://github.com/sr320/LabDocs/blob/master/protocols/ProteinprepforMSMS.md), or viewed below. This solution must be used no later than 24 hours after it is made, or it is no longer viable.
+Protocol used can be found [here](https://github.com/RobertsLab/resources/blob/master/protocols/ProteinprepforMSMS.md), or viewed below. This solution must be used no later than 24 hours after it is made, or it is no longer viable.
 
 - Measured 10 mL of nanopure water in a graduated cylinder, and poured into falcon tube
 - Weighed out 79.06 mg of ammonium bicarbonate (NH4HCO3) (0.0793g measured)
