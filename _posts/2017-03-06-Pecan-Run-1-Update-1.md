@@ -7,7 +7,7 @@ title: PECAN Update 1
 
 On Saturday, I used `ssh` to examine `pecanpie` progress on Roadrunner. I saw this...
 
-![PECAN-1-complete](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/2018-02-28-PECAN/PECAN-inputs/PECAN-Run-1-complete.png)
+![PECAN-1-complete](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/DNR_PECAN_20170228/PECAN-inputs/PECAN-Run-1-complete.png)
 
 ...and thought I was done!
 
