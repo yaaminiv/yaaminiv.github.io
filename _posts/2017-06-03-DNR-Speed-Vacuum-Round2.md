@@ -9,7 +9,7 @@ Armed with leftover donuts and mini muffins, I spent my Saturday dueling my old 
 
 ### Step 1: Obtain digested samples from -80ºC
 
-I got samples from both [round 2](https://yaaminiv.github.io/DNR-Mini-Trypsin-Digestion-Round2/https://yaaminiv.github.io/DNR-Mini-Trypsin-Digestion-Round3/) and [round 3](https://yaaminiv.github.io/DNR-Mini-Trypsin-Digestion-Round3/) of trypsin digestion.
+I got samples from both [round 2](https://yaaminiv.github.io/DNR-Mini-Trypsin-Digestion-Round2/) and [round 3](https://yaaminiv.github.io/DNR-Mini-Trypsin-Digestion-Round3/) of trypsin digestion.
 
 ### Step 2: Load samples into speed vacuum
 
