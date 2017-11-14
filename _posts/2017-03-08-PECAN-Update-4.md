@@ -5,7 +5,7 @@ title: PECAN Update 4
 
 ## Reformatting PECAN inputs
 
-[Jupyter notebook found here](https://github.com/RobertsLab/project-oyster-oa/blob/master/notebooks/2017-03-08-Formatting-PECAN-Inputs.ipynb)
+[Jupyter notebook found here](https://github.com/RobertsLab/project-oyster-oa/blob/master/notebooks/DNR/2017-03-08-Formatting-PECAN-Inputs.ipynb)
 
 After comapring my PECAN inputs with Laura's we realized that I had been using the undigested proteome as a database this whole time! I had the digested file, but just didn't use it. To remedy this, I did the folliwng (see Jupyter notebook for explicit details):
 
