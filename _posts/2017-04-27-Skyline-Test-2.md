@@ -10,7 +10,7 @@ Emma sent over a [test .blib](http://owl.fish.washington.edu/spartina/DNR_Skylin
 ### Peptide digestion settings
 
 #### Adding my background proteome.
-My background proteome FASTA file can be found [here](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/2018-02-28-PECAN/PECAN-inputs/Combined-gigas-QC.fasta).
+My background proteome FASTA file can be found [here](https://github.com/RobertsLab/project-oyster-oa/tree/master/analyses/DNR_PECAN_20170228/PECAN-inputs/Combined-gigas-QC.fasta).
 
 ![unnamed-1](https://cloud.githubusercontent.com/assets/22335838/25507772/f1c855ec-2b62-11e7-92f1-b9c993ea39fc.png)
 
