@@ -39,6 +39,6 @@ Dead oysters are gross.
 
 Meanwhile, Steven worked on setting up some plumbing.
 
-![steven plumbing](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/2-4-sampling/Manchester/2017-02-04-Oyster-Sampling/stevenplumbing.jpg)
+![steven plumbing](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/Manchester/2017-02-04-Oyster-Sampling/stevenplumbing.jpg)
 
 Overall it was an extremely productive day! We'll be back out on Feb. 8 to set up the ocean acidification system.
