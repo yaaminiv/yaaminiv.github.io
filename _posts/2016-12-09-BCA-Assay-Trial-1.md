@@ -7,7 +7,7 @@ title: BCA Assay Trial 1
 
 Today we attempted a BCA Assay to quantify the amount of protein in our sample. However, the microplate reader in the Genome Sciences building wasn't working! We'll need to repeat this assay on Monday, Dec. 12, but here's what we did:
 
-The first step in [our protocol](https://github.com/sr320/LabDocs/blob/master/protocols/ProteinprepforMSMS.md) involved making the necessary reagents.
+The first step in [our protocol](https://github.com/RobertsLab/resources/blob/master/protocols/ProteinprepforMSMS.md) involved making the necessary reagents.
 
 #### **BCA Working Reagent**
 - Got BCA kit
