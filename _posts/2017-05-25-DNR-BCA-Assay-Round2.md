@@ -7,7 +7,7 @@ title: DNR BCA Assay Round 2
 
 Using the [protocol we generated in December](https://yaaminiv.github.io/BCA-Assay-Trial-1/), Jose and I quantified the amount of protein in my oyster samples and Laura's geoduck samples. Because we used [100 µL 50 mM NH4HCO3 + 6M urea](https://yaaminiv.github.io/DNR-Sonication-Round2/) this time, our protein concentrations were generally much higher.
 
-The first thing we did was prepare reagents. Based on the recipes in [Rhonda's original protocol](https://github.com/sr320/LabDocs/blob/master/protocols/ProteinprepforMSMS.md), we made enough 30 mL of 50 mM NH4HCO3 and 6.6 mL of Lysis Buffer. We also made one set of standard solution vials.
+The first thing we did was prepare reagents. Based on the recipes in [Rhonda's original protocol](https://github.com/RobertsLab/resources/blob/master/protocols/ProteinprepforMSMS.md), we made enough 30 mL of 50 mM NH4HCO3 and 6.6 mL of Lysis Buffer. We also made one set of standard solution vials.
 
 Because there were 51 samples total including blanks, we needed three separate microplates.
 
@@ -32,16 +32,16 @@ To make each plate, Jose first pipetted each standard in triplicate in the first
 We took our completed microplates to the Genome Sciences Building. Microplate 3 was placed in the Varioskan Flash plate reader. It was incubated at 37 ºC for 30 minutes, shaken, then read at 562 nm. While microplate 3 ran, I incubated Microplate 2 in a separate plate incubator, similar to the one used in December. I kept it in there for 30 minutes at 37 ºC. When it was finished, I took it out and placed Microplate 1 in the incubator. Microplate 2 was out for five minutes before I could place it in the plate reader. In the Varioskan Flash plate reader, Microplate 2 was shaken, then read at 562 nm. Microplate 1 was also incubated at 37ºC for 30 minutes. The incubation period finished after Microplate 2 was read, so Microplate 1 went directly from the incubator to the plate reader. After being shaken, it was read at 562 nm. I sent Laura the data she needed for calculations and kept the data I needed.
 
 Here's what I used to calculate the concentration of protein in each well:
-[Plate 1 data](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/BCA_analysis/2017-5-25_Plate1.txt)
+[Plate 1 data](https://github.com/RobertsLab/project-oyster-oa/tree/master/analyses/DNR_BCA_Analysis/2017-5-25_Plate1.txt)
 
-[Plate 2 data](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/BCA_analysis/2017-5-25_Plate2.txt)
+[Plate 2 data](https://github.com/RobertsLab/project-oyster-oa/tree/master/analyses/DNR_BCA_Analysis/2017-5-25_Plate2.txt)
 
 I used [formulas from my previous calculations](https://yaaminiv.github.io/BCA-Assay-Trial-2/) to make spreadsheets to analyze my BCA data. The final results can be found below, including the amount of protein and 50 mM NH4HCO3 + 6M urea needed for trypsin digestion.
 
-[Plate 1 calculations](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/BCA_analysis/2017-5-25_Plate_1_BCA_analyses.xlsx)
+[Plate 1 calculations](https://github.com/RobertsLab/project-oyster-oa/tree/master/analyses/DNR_BCA_Analysis/2017-5-25_Plate_1_BCA_analyses.xlsx)
 
 ![plate1](https://cloud.githubusercontent.com/assets/22335838/26569725/401b6d98-44c1-11e7-9a54-bda4897bbdf2.png)
 
-[Plate 2 calculations](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/BCA_analysis/2017-5-25_Plate_2_BCA_analyses.xlsx)
+[Plate 2 calculations](https://github.com/RobertsLab/project-oyster-oa/tree/master/analyses/DNR_BCA_Analysis/2017-5-25_Plate_2_BCA_analyses.xlsx)
 
 ![plate2](https://cloud.githubusercontent.com/assets/22335838/26569724/4015f26e-44c1-11e7-8e81-3a964a43b7fd.png)
