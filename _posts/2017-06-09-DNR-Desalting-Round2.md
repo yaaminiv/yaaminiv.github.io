@@ -8,7 +8,7 @@ title: DNR Desalting Round 2
 Grace and Kaitlyn helped me desalt the [samples I speed vacuumed on Saturday, June 3](https://yaaminiv.github.io/DNR-Speed-Vacuum-Round2/). For the most part, I followed my [protocol from December](https://yaaminiv.github.io/Desalting/), adjusting the volume of final solvent needed at the end to accomodate for the 100 µg/100 µL protein samples I had.
 
 ### **Reagents required**
-Reagents were made by Jose using the [following protocol](https://github.com/sr320/LabDocs/blob/master/protocols/ProteinprepforMSMS.md) on June 6.
+Reagents were made by Jose using the [following protocol](https://github.com/RobertsLab/resources/blob/master/protocols/ProteinprepforMSMS.md) on June 6.
 
 - Solvent A = 60% acetonitrile + 0.1% trifluoroacetic acid (300ul/sample)
 - Solvent B = 5% acetonitrile + 0.1% trifluoroacetic acid (500ul/sample)
