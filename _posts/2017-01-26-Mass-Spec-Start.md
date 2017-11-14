@@ -5,7 +5,7 @@ title: Mass Spec Start
 
 ## My samples are on the Mass Spec!
 
-![lumosinitialrun](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/lumosinitialrun.png)
+![lumosinitialrun](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/DNR/Lab-Notebook/lumosinitialrun.png)
 
 So exciting! To monitor the mass spec progress remotely, we're using TeamViewer. While my samples are running, it is my responsibility to:
 
