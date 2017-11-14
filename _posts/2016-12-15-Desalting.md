@@ -10,7 +10,7 @@ Our final day of protein extractions! :tada: After a late night (or early mornin
 Desalting allows us to isolate the peptides in our samples and prepare them for Mass Spectrometry. 
 
 #### **Materials required**:
-Reagents were made by Rhonda using the [following protocol](https://github.com/sr320/LabDocs/blob/master/protocols/ProteinprepforMSMS.md).
+Reagents were made by Rhonda using the [following protocol](https://github.com/RobertsLab/resources/blob/master/protocols/ProteinprepforMSMS.md).
 
 - Solvent A = 60% acetonitrile + 0.1% trifluoroacetic acid (300ul/sample)
 - Solvent B = 5% acetonitrile + 0.1% trifluoroacetic acid (500ul/sample)
@@ -37,7 +37,7 @@ Reagents were made by Rhonda using the [following protocol](https://github.com/s
   - Decided to add only 150 µL 10% formic acid to remaining samples
 - Checked pH of all samples
 
-![pH strips](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/pHstripsformicacid.jpg)
+![pH strips](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/DNR/Lab-Notebook/pHstripsformicacid.jpg)
 **Figure 1.** pH test strips for all samples. With the exception of O124, I added 150 µL of 10% formic acid to each sample. I added 180 µL of 10% formic acid to O124. *Note: "O124" should read "O127"*
 
 #### **Wash columns**:
