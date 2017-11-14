@@ -51,17 +51,17 @@ Now to the main event: imaging and counting! I counted all of the larvae in Plat
 
 There were lots of larvae that exhibited a normal D-hinge shape, but there were also some that looked like peanuts! I recorded how many of these deformed ones I saw as well.
 
-![fig3](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/Gigas-larvae/2017-08-02/2017-08-02-Bucket8-1.JPG)
+![fig3](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/Manchester/Gigas-larvae/2017-08-02/2017-08-02-Bucket8-1.JPG)
 
-![fig4](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/Gigas-larvae/2017-08-02/2017-08-Bucket7-1.JPG)
+![fig4](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/Manchester/Gigas-larvae/2017-08-02/2017-08-Bucket7-1.JPG)
 
 **Figures 3-4**. Normal D-hinge larvae shape at 40x (top) and 20x (bottom) magnification.
 
-![fig5](https://github.com/RobertsLab/project-oyster-oa/blob/master/images/Gigas-larvae/2017-08-02/2017-08-02-Bucket15-1.JPG)
+![fig5](https://github.com/RobertsLab/project-oyster-oa/blob/master/images/Manchester/Gigas-larvae/2017-08-02/2017-08-02-Bucket15-1.JPG)
 
 **Figure 5**. Weird larvae shape.
 
-I'm storing all of my larvae photos and videos from today [here](https://github.com/RobertsLab/project-oyster-oa/tree/master/images/Gigas-larvae/2017-08-02). I'm cataloging each day in a different folder, and labelling which bucket the larvae are from in the image name.
+I'm storing all of my larvae photos and videos from today [here](https://github.com/RobertsLab/project-oyster-oa/tree/master/images/Manchester/Gigas-larvae/2017-08-02). I'm cataloging each day in a different folder, and labelling which bucket the larvae are from in the image name.
 
 For tomorrow:
 
@@ -72,6 +72,6 @@ For tomorrow:
 
 Since you made it through this lab post, here are some easy links to larvae videos. Both are from bucket 8:
 
-[Video 1](https://github.com/RobertsLab/project-oyster-oa/blob/master/images/Gigas-larvae/2017-08-02/2017-08-02-Bucket8-1.mov)
+[Video 1](https://github.com/RobertsLab/project-oyster-oa/blob/master/images/Manchester/Gigas-larvae/2017-08-02/2017-08-02-Bucket8-1.mov)
 
-[Video 2](https://github.com/RobertsLab/project-oyster-oa/blob/master/images/Gigas-larvae/2017-08-02/2017-08-02-Bucket8-2.mov)
+[Video 2](https://github.com/RobertsLab/project-oyster-oa/blob/master/images/Manchester/Gigas-larvae/2017-08-02/2017-08-02-Bucket8-2.mov)
