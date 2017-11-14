@@ -5,7 +5,7 @@ title: Selecting SRM Targets Part 3
 
 ## MSstats works!
 
-After a few weeks, I finally figured out how to use MSstats to identify differentially expressed proteins and peptides. This [Jupyter notebook](https://github.com/RobertsLab/project-oyster-oa/blob/master/notebooks/2017-06-22-Selecting-SRM-Targets-with-MSstats-Part-2.ipynb) has my workflow, but here are the highlights:
+After a few weeks, I finally figured out how to use MSstats to identify differentially expressed proteins and peptides. This [Jupyter notebook](https://github.com/RobertsLab/project-oyster-oa/blob/master/notebooks/DNR/2017-06-22-Selecting-SRM-Targets-with-MSstats-Part-2.ipynb) has my workflow, but here are the highlights:
 
 ### Step 1: Export data from Skyline
 
