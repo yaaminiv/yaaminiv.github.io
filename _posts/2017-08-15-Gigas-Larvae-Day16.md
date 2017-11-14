@@ -32,4 +32,4 @@ I need to figure out a game plan to conclude my experiment. I have a few options
 1. Let the larvae die until all I count are empty shells
 2. Terminate the experiment and sample everything on Thursday
 
-My guess is that I'll end up going with the second optio, but I'll talk to Steven and go from there.
+My guess is that I'll end up going with the second option, but I'll talk to Steven and go from there.
