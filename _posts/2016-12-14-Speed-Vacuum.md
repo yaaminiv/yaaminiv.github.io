@@ -19,11 +19,11 @@ In the morning we grabbed our samples that were incubating overnight and headed 
   
 We loaded our samples at 2 p.m. It takes approximately 10 hours for samples to reach desired volume with our settings. 
 
-![speed vacuum](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/usingspeedvac.JPG)
+![speed vacuum](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/DNR/Lab-Notebook/usingspeedvac.JPG)
 
 **Figure 1**. Me using laser to check the samples in the speed vacuum.
 
-![speed vacuum](https://github.com/RobertsLab/project-oyster-oa/blob/master/images/speedvac.gif)
+![speed vacuum](https://github.com/RobertsLab/project-oyster-oa/blob/master/images/DNR/Lab-Notebook/speedvac.gif)
 
 **Figure 2**. What it looks like when you check samples in the speed vacuum! The laser emits light at the same frequency that the centrifuge rotates at. Pretty neat stuff.
 
