@@ -7,6 +7,6 @@ title: Mass Spec Update #3
 
 This morning I prepared another O107 sample using the [PRTC protocol](https://yaaminiv.github.io/PRTC-preparation/) to deal with [last night's mini-fiasco](https://yaaminiv.github.io/Mass-Spec-Update-2/). 
 
-![sample107-2run1](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/massspecupdatejan28/sample107-2run1.png)
+![sample107-2run1](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/DNR/Lab-Notebook/massspecupdatejan28/sample107-2run1.png)
 
 Everything looks good now! I will talk with Emma to figure out why my original sample preparation didn't work. 
