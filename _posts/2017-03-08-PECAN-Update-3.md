@@ -5,7 +5,7 @@ title: PECAN Update 3
 
 ## New day, same errors
 
-[Jupyter notebook found here](https://github.com/RobertsLab/project-oyster-oa/blob/master/notebooks/2017-03-07-Reconvert-mzML-Files.ipynb)
+[Jupyter notebook found here](https://github.com/RobertsLab/project-oyster-oa/blob/master/notebooks/DNR/2017-03-07-Reconvert-mzML-Files.ipynb)
 
 `pecanpie` ran for my one reconverted sample last night. When I checked the log files, I saw some sort of Percolator error this time. Not too sure what it is, so I'm having Sean look into it.
 
