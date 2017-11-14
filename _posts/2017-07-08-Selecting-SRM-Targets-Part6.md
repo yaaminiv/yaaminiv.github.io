@@ -5,7 +5,7 @@ title: Selecting SRM Targets Part 6
 
 ## Those peaks are running interference
 
-[Emma's feedback](https://github.com/RobertsLab/project-oyster-oa/blob/master/notebooks/2017-07-07-SRM-Target-Identification-in-Skyline.ipynb) on my [preliminary protein targets](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/DNR_TransitionSelection_20170707/2017-07-07-Preliminary-Transitions/2017-07-07-Preliminary-Target-Transitions-Evalues.csv) showed me that I did not peak the best peaks possible for some proteins.
+[Emma's feedback](https://github.com/RobertsLab/project-oyster-oa/blob/master/notebooks/DNR/2017-07-07-SRM-Target-Identification-in-Skyline.ipynb) on my [preliminary protein targets](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/DNR_TransitionSelection_20170707/2017-07-07-Preliminary-Transitions/2017-07-07-Preliminary-Target-Transitions-Evalues.csv) showed me that I did not peak the best peaks possible for some proteins.
 
 Just as I thought, having one peptide for a protein will not be enough to confidently say that peptide is truly from that protein. Therefore, I will need to delete Extracellular superoxide dismutase from my protein list. After looking at my transitions, Emma noticed that some of my lower abundance transitions were not the greatest.
 
