@@ -72,7 +72,7 @@ At this point, shit started to hit the fan. The volume in Jose's samples wasn't 
 
 Snafu #2: This is where we realized we'd taken on too much and probably shouldn't continue this way after today. There was a miscommunication and my samples and Laura's samples were incubated at 37 ºC after IAA. I called Emma, and it's a very fixable problem! I needed to cool the samples down to room temperature and add an additional 20 µL of IAA to each sample, then incubate again for an hour in the dark. Jose focused on Rhonda's samples at this point, and I took over responsibility for Laura's samples. 
 
-Snafu #3: We were out of IAA! Jose and I followed the recipe in [this protocol](https://github.com/sr320/LabDocs/blob/master/protocols/ProteinprepforMSMS.md) to make more. Jose suggested we wrap the tubes in foil before placing them in the freezer to remind the next users to keep all IAA products in the dark. 
+Snafu #3: We were out of IAA! Jose and I followed the recipe in [this protocol](https://github.com/RobertsLab/resources/blob/master/protocols/ProteinprepforMSMS.md) to make more. Jose suggested we wrap the tubes in foil before placing them in the freezer to remind the next users to keep all IAA products in the dark. 
 
 ### Step 8: DTT Incubation
 
