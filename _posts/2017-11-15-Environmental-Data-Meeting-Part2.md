@@ -14,7 +14,7 @@ Micah send us [environmental data](https://github.com/RobertsLab/project-oyster-
 > E/B = Eelgrass, Bare
 > pH, pHT, do, doT = pH (total scale, calculated for in-situ temperature), temperature recorded by pH sensor, do (in mg/L), temperature recorded by do sensor
 > (XX) = sensor label, just ignore this
-> Some quick notes: We have no pH data for PGE, because both sensors failed. Both dissolved oxygen sensors at FB gave some very high readings, and the DO sensor at FBE appears to have failed some time in July (yielding negative and sky-high values). I left these in to provide the data in its rawest form. Many of these sensors were exposed on extreme low tides, and we may want to clip out those data.
+> Some quick notes: We have no pH data for PGE, because both sensors failed. Also no data for SKB and SKE before end of June. Sensors were first deployed at that site on 6/22/16. There are no data of any kind before that date. Both dissolved oxygen sensors at FB gave some very high readings, and the DO sensor at FBE appears to have failed some time in July (yielding negative and sky-high values). I left these in to provide the data in its rawest form. Many of these sensors were exposed on extreme low tides, and we may want to clip out those data.
 
 And Alex sent some [*C. gigas* physiological information](https://github.com/RobertsLab/project-oyster-oa/blob/master/data/DNR/2017-11-14-Alex-Prelim-Data.csv) as well:
 
