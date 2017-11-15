@@ -13,7 +13,7 @@ I added a section to my [boxplot R script](https://github.com/RobertsLab/project
 
 <img width="778" alt="screen shot 2017-11-13 at 12 20 53 pm" src="https://user-images.githubusercontent.com/22335838/32747287-24db6030-c86d-11e7-8cc9-bd0a2aabf132.png">
 
-*Conclusion: I may not have enough power*
+*Conclusion: I can detect a variety of effect sizes at very low power*
 
 **Calculating effect size**:
 
