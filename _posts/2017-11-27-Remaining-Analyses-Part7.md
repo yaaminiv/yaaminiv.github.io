@@ -25,4 +25,8 @@ Using PRTC retention times from oyster sample 94, I got an equation of 0.2718 + 
 
 **Figure 3**. Predicted retention times for oyster peptides based on column 2 equation.
 
-I don't see any difference in predicted retention times based on column. So now I'm really stumped and have no idea why my technical replication wasn't good.
+There's a slight difference in retention time from column 1 to 2, but not enough to where I would have picked the wrong peak. So now I'm really stumped and have no idea why my technical replication wasn't good.
+
+Emma also suggested I find PRTC peptides where I'm confident in the concentrations and try and compare peak areas between column 1 and 2. Based on [screenshots from this lab notebook entry](https://yaaminiv.github.io/SRM-Analysis/), my PRTC peptides had relatively similar peak area magnitudes at the end of the first column and beginning of the second column (around samples 85-95).
+
+So yeah, I'm stumped.
