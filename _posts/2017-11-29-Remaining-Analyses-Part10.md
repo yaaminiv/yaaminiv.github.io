@@ -10,8 +10,11 @@ title: Remaining Analyses Part 10
 I started to look up tidal data so I can clip out any low tide and exposure values, as [Micah suggested](https://yaaminiv.github.io/Remaining-Analyses-Part9/). However, I could not find any tidal information for the Skokomish River Delta site on that database. The website had me pick cities that were closest to the outplant sites. Here's what I decided on.
 
 [Vaughn, Case Inlet](http://tbone.biol.sc.edu/tide/tideshow.cgi?site=Vaughn%2C+Case+Inlet%2C+Puget+Sound%2C+Washington&units=f)
+
 [Port Gamble, Port Gamble Bay](http://tbone.biol.sc.edu/tide/tideshow.cgi?site=Port+Gamble%2C+Washington&units=f)
+
 [Anacortes, Fidalgo Bay](http://tbone.biol.sc.edu/tide/tideshow.cgi?site=Anacortes%2C+Guemes+Channel%2C+Washington&units=f)
+
 [Nahcotta, Willapa Bay](http://tbone.biol.sc.edu/tide/tideshow.cgi?site=Nahcotta%2C+Willapa+Bay%2C+Washington&units=f)
 
 I'm also unclear as to what exposure we need to clip out. Are we taking out any data from all low tides, or just from complete instrument exposure? How do we know what the difference is? It seems like I need the depth data from Micah to proceed.
