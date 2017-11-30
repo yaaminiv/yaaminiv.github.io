@@ -39,7 +39,7 @@ I was [unable to clip out low exposure data](https://yaaminiv.github.io/Remainin
 
 #### pH
 
-Willapa Bay had higher pH than Port Gamble Bay and Skokomish River Delta, but not the other two sites.
+Willapa Bay had higher pH than Port Gamble Bay and Skokomish River Delta, but not the other two sites. Unlike the other environmental variables, all of my sites were not significantly different from eachother. The significant differences are between Fidalgo Bay and Port Gamble Bay (0.0004023), Skokomish River Delta (0.0028254), and Willapa Bay (p = 0.0002764)
 
 [R Script](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/DNR_SRM_20170902/2017-11-15-Environmental-Data-and-Biomarker-Analyses/2017-11-29-Environmental-Data-Analyses-pH.R)
 
