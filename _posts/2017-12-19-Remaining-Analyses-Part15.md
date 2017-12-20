@@ -3,7 +3,7 @@ layout: post
 title: Remaining Analyses Part 15
 ---
 
-## The growth data wasn't very interesting
+## The [growth data](https://github.com/RobertsLab/project-oyster-oa/blob/master/data/DNR/2017-12-05-OysterGrowth.csv) wasn't very interesting
 
 Well, I guess it's interesting. But just not for my proteomics story. In this [R script](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/DNR_SRM_20170902/2017-11-15-Environmental-Data-and-Biomarker-Analyses/2017-12-19-Growth-Data-Analyses/2017-12-19-Growth-Data-Analyses.R), I looked at differences in percent growth by site.
 
