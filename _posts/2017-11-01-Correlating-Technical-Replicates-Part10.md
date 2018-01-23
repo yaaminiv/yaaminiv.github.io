@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Correlating Technical Replicates Part 10
+tags: DNR SRM
 ---
 
 ## The end of a saga
