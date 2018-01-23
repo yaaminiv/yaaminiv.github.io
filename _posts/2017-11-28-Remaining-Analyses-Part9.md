@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Remaining Analyses Part 9
+tags: DNR SRM
 ---
 
 ## My final NMDS
