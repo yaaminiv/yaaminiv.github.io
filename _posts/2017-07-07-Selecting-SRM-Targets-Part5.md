@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Selecting SRM Targets Part 5
 ---
 
@@ -32,3 +33,31 @@ For example, the least abundant transition in this peak (highlighted in red) is 
 While the above photos show the same peptide and transitions, the sample number is different, leading to this peak! For this reason, I needed to use the deletion critera for all samples. If there were more than two peaks between samples, I deleted the peptide.
 
 I first sorted through the proteins Steven marked as "interesting" in [my shortlist](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/DNR_TransitionSelection_20170707/2017-07-07-Preliminary-Transitions/2017-07-07-Protein-Shortlist-Evalues.csv). Some of those interesting proteins had poor quality peaks, so I looked for proteins with similar annotations to examine instead. Overall, I narrowed 9000+ proteins down to 23 proteins, with 64 peptides and 228 transitions. I was stuck as to how to narrow it down even further, so I figured I would have Steven and Emma help out. Tomorrow, I'll use their feedback to narrow down my list down to 100-150 transitions.
+
+{% if page.comments %}
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://the-responsible-grad-student.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{% endif %}
+
+<script id="dsq-count-scr" src="//the-responsible-grad-student.disqus.com/count.js" async></script>
+
