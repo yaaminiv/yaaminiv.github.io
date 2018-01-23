@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Remaining Analyses Part 10
+tags: DNR SRM
 ---
 
 ## Following through on my plan
