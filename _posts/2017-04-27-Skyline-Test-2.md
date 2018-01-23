@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Skyline Test 2
+tags: DNR DIA skyline
 ---
 
 ## Skyline works with our demultiplexed files!
