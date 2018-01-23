@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Manchester Conditioning Setup
 ---
 
@@ -89,3 +90,30 @@ Because I didn't need to use the calculated 1.2 L/min flow rate just yet, I set 
 I got another [heater](https://www.amazon.com/gp/product/B003GVT0V0/ref=od_aui_detailpages00?ie=UTF8&psc=1) and two [aquarium pumps](https://smile.amazon.com/gp/product/B01J19M7WO/ref=od_aui_detailpages00?ie=UTF8&psc=1) for my system and had it shipped to Laura so she can set them up when I'm gone.
 
 A full and productive day! I just need to spell out my conditioning plan more clearly so Laura and Ryan can proceed.
+
+{% if page.comments %}
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://the-responsible-grad-student.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{% endif %}
+
+<script id="dsq-count-scr" src="//the-responsible-grad-student.disqus.com/count.js" async></script>
