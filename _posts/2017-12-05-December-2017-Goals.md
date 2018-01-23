@@ -10,7 +10,7 @@ title: December 2017 Goals
 
 So...I guess it's the end of the year now. Welp. Cue the cramming of work into what's left of the quarter!
 
-**[November Goals](https://yaaminiv.github.io/November-Goals/) Recap**:
+**[November Goals](https://yaaminiv.github.io/November-2017-Goals/) Recap**:
 
 - Turned in my milestone paperwork!
 - Successfully presented at GSS and WSN
