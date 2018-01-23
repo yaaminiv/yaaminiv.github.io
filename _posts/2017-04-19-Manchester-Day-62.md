@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Manchester Day 62
+tags: manchester
 ---
 
 ## Laura went out to Manchester today and graciously cleaned my oysters
