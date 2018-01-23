@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Gigas Larvae Day 6
+tags: manchester larvae
 ---
 
 ## Smooth Saturday screening
