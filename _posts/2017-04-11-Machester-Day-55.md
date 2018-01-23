@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Manchester Day 55
+tags: manchester
 ---
 
 ## OA System Breakdown
