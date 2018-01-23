@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Manchester Conditioning Update 6
+tags: manchester conditioning
 ---
 
 ## Power outage edition
