@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Desalting
+tags: DNR labwork
 ---
 
 ## Not Salty about Desalting
