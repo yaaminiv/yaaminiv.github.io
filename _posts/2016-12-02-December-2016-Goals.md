@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: December 2016 Goals
+tags: goals
 ---
 
 #### My [DNR project](https://yaaminiv.github.io/DNR-Project-Introduction/) is still on the brain!.
