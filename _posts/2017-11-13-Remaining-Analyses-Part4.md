@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Remaining Analyses Part 4
+tags: DNR SRM
 ---
 
 ## Investigating those bad samples
