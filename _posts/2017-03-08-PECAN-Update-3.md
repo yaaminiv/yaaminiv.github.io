@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: PECAN Update 3
+tags: DNR pecan DIA
 ---
 
 ## New day, same errors
