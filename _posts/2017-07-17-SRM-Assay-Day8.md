@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: SRM Assay Day 8
+tags: DNR SRM mass-spec
 ---
 
 ## Last day of my samples!
