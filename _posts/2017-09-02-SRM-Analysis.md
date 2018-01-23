@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: SRM Analysis
+tags: DNR SRM skyline
 ---
 
 ## Clean up, clean up
