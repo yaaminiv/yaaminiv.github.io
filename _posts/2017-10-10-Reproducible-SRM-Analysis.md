@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Reproducible SRM Analysis
 ---
 
@@ -24,3 +25,30 @@ Because I guess it makes sense to let the user know what they're doing and why t
 Whoops. Skyline requires a FASTA file, but I linked a .txt file with the same information. On the Windows machine I found the corresponding FASTA file and uploaded it to owl. I also fixed the link in the protocol. When I tried following my instructions to populate the analyte tree (Step 2d), copying and pasting the sequence information did not work! Skyline daily has been kind of annoying with this in the past. To make things easier, I updated the instructions so the user would only have to import the file, not open and copy and paste sequences with varying levels of success.
 
 Clearly no matter how explicit I think my instructions are, it's always different when other people look at it! Laura and Grace are going to continue going through my protocol. Hopefully they catch something I didn't and we figure out why my technical replication is funky.
+
+{% if page.comments %}
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://the-responsible-grad-student.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{% endif %}
+
+<script id="dsq-count-scr" src="//the-responsible-grad-student.disqus.com/count.js" async></script>
