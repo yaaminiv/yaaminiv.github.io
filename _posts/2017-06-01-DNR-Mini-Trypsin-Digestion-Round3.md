@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: DNR Mini Trypsin Digestion Round 3
+tags: DNR labwork
 ---
 
 ## I am now a faster pipetter
