@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Correlating Technical Replicates Part 4
+tags: DNR SRM
 ---
 
 ## Continuing the PRTC confusion
