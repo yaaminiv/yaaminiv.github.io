@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Speed Vacuum
 ---
 
@@ -42,3 +43,30 @@ We loaded our samples at 2 p.m. It takes approximately 10 hours for samples to r
 |    O127    |             10:00 p.m.             |
 |    O142    |              2:39 a.m.             |
 |   OBLANK   |              2:53 a.m.             |
+
+{% if page.comments %}
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://the-responsible-grad-student.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{% endif %}
+
+<script id="dsq-count-scr" src="//the-responsible-grad-student.disqus.com/count.js" async></script>
