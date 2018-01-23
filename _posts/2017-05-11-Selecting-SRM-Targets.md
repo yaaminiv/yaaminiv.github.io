@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Selecting SRM targets
+tags: DNR DIA SRM
 ---
 
 ## Who are the lucky winners?
