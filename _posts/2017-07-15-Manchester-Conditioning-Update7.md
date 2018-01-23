@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Manchester Conditioning Update 7
+tags: manchester conditioning
 ---
 
 ## The power is back!
