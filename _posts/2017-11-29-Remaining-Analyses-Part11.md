@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Remaining Analyses Part 11
+tags: DNR SRM
 ---
 
 ## Connecting the dots
