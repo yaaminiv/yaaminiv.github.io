@@ -1,6 +1,6 @@
 ---
 layout: post
-comment: true
+comments: true
 title: Collaboration with the Department of Natural Resources
 ---
 
