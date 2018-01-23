@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Demultiplexing Data
+tags: DNR DIA demultiplexing
 ---
 
 ## Demultiplexing is perplexing
