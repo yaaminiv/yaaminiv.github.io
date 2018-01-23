@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Demultiplexing Update 2
+tags: DNR DIA demultiplexing
 ---
 
 ## Another new MSConvert CLI
