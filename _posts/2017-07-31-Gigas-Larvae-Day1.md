@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Gigas Larvae Day 1
+tags: manchester larvae
 ---
 
 ## I'm the Mother of Oysters
