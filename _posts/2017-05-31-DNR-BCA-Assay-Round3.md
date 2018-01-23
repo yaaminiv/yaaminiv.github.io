@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: DNR BCA Assay Round 3
+tags: DNR labwork
 ---
 
 ## All this protein but I'm still not swole.
