@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Selecting SRM Targets Part 3
+tags: DNR MSstats
 ---
 
 ## MSstats works!
