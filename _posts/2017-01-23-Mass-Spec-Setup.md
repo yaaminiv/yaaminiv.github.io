@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Mass Spec Set-up
+tags: DNR mass-spec DIA
 ---
 
 ## Mass Spectrometer Set-up
