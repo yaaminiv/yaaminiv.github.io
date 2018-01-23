@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: DNR Sonication Round 2
+tags: DNR labwork
 ---
 
 ## How many times can you restart sample preparation?
