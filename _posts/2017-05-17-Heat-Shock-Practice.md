@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Heat Shock Practice
 ---
 
@@ -32,3 +33,31 @@ I checked mortality everyday since then, and they're still alive! Looks like one
 - Find a time to start heating the water before the day of the shock
 
 The bigger question, however, is whether or not I'm going to do a heat shock at all! Because I have 45 oysters for each OA condition, and not all of those oysters will be fertile when I'm ready to spawn and the sex ratio of oysters can't be predicted, I don't want to use oysters I could have spawned with. I may apply a heat shock to some of the oysters that were kept on the ambient line continously, and then cross those with oysters from the OA treatment. Either way, I'm going to expose spat to both OA and heat shock conditions, so I'm still going to assess the effect of multiple stressors on the next generation.
+
+{% if page.comments %}
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://the-responsible-grad-student.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{% endif %}
+
+<script id="dsq-count-scr" src="//the-responsible-grad-student.disqus.com/count.js" async></script>
+
