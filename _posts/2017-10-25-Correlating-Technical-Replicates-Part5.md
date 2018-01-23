@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Correlating Technical Replicates Part 5
+tags: DNR SRM
 ---
 
 ## Things DO get better! (Kind of)
