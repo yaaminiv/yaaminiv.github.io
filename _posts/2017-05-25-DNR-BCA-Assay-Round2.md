@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: DNR BCA Assay Round 2
+tags: DNR labwork
 ---
 
 ## We have lots of protein!
