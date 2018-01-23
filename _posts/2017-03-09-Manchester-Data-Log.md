@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Manchester Data Log
+tag: manchester
 ---
 
 ## Yesterday I set up a system for cataloging our water chemistry data.
