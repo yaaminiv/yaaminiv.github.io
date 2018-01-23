@@ -1,6 +1,7 @@
 ---
 layout: post
-title: February Goals
+comments: true
+title: February 2017 Goals Update
 ---
 
 ## February Goals Update
@@ -41,3 +42,30 @@ With one week left in February, I've decided it might be a good idea to do a goa
 So yes, making progress but not with my data analysis! My goal for the last week of February is to really make progress on that front. In the meantime, check out this conceptual framework diagram I made for one of my proposals:
 
 ![conceptual framework](https://raw.githubusercontent.com/yaaminiv/yaaminiv.github.io/master/images/Venkataraman_ConceptualFramework.jpg)
+
+{% if page.comments %}
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://the-responsible-grad-student.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{% endif %}
+
+<script id="dsq-count-scr" src="//the-responsible-grad-student.disqus.com/count.js" async></script>
