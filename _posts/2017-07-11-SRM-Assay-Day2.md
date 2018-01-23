@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: SRM Assay Day 2
+tags: DNR SRM mass-spec
 ---
 
 ## Our assay works!
