@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: PECAN Update 5
+tags: DNR pecan DIA
 ---
 
 ## It works!
