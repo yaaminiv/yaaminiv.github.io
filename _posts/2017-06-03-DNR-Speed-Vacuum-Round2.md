@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: DNR Speed Vacuum Round 2
+tags: DNR labwork
 ---
 
 ## Yaamini vs. CentriVap: The Sequel
