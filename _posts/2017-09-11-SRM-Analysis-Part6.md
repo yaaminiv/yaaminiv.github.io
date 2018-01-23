@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: SRM Analysis Part 6
 ---
 
@@ -46,3 +47,30 @@ I then (accidentally) saved my revised Skyline file under the same name and over
 I made sure the sequence file contained information for all of my samples, with the exception of O12 (one technical replicate is file 16, which has no data. I had to manually add the protein name CHOYP_ACAA2.1.1|m.30666 to the file since that protein name was the only one that wasn't exporting. Finally, I made sure I was missing no data when going through my R scripts. I resaved dataframes and images that were affected by the readdition of my samples. My NMDS clustering and ANOSIMs are still not producing anything desirable. I'm going to focus on making protein bar graphs for PCSGA instead.
 
 ![29ebc15e-0596-11e7-9f2d-8d40d9849dd5](https://user-images.githubusercontent.com/22335838/30359530-5207a944-9800-11e7-8b84-f22e82cb2f83.png)
+
+{% if page.comments %}
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://the-responsible-grad-student.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{% endif %}
+
+<script id="dsq-count-scr" src="//the-responsible-grad-student.disqus.com/count.js" async></script>
