@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Lab Notebook Maintenance Part 2
+tags: maintenance
 ---
 
 ## All lab notebook links are now fixed
