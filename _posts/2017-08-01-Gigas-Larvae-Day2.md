@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Gigas Larvae Day 2
+tags: manchester larvae
 ---
 
 ## A bit of a rough start today
