@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Manchester Conditioning Update 8
+tags: manchester conditioning
 ---
 
 ## Temperature is at 23 ºC!
