@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Aggregating Metaanalysis Data
+tags: metaanalysis
 ---
 
 ## I became well-aquainted [NCBI SRA database](https://www.ncbi.nlm.nih.gov/sra/) today
