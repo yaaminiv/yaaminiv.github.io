@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Manchester Conditioning Update 10
+tags: manchester conditioning
 ---
 
 ## It's getting ugly
