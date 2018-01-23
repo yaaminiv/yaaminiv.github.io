@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Correlating Technical Replicates Part 7
 ---
 
@@ -38,3 +39,31 @@ I also reran my cluster analysis and ANOSIM and found no differences in signific
 I used the same process but with a coefficient of variation maximum of 15 in [this script](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-10-24-Coefficient-of-Variation/2017-10-26-CV-15/2017-10-26-NMDS-ANOSIM-for-Cluster-Analysis-after-CV-15-Filtering.R) and [this one](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-10-24-Coefficient-of-Variation/2017-10-26-CV-15/2017-10-26-NMDS-for-Technical-Replication-after-CV-15-Filtering.R), but having a threshold of 10 was much better.
 
 My next step is to make boxplots for all of my transitions and to look at the transition list I used for the above plots to make sure that I'm not including any proteins without the appropriate number of peptides (and peptides without the appropriate number of transitions).
+
+{% if page.comments %}
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://the-responsible-grad-student.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{% endif %}
+
+<script id="dsq-count-scr" src="//the-responsible-grad-student.disqus.com/count.js" async></script>
+
