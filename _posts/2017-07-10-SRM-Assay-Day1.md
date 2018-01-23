@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: SRM Assay Day 1
+tags: DNR SRM mass-spec
 ---
 
 ## It's SRM assay time!
