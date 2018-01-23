@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: November 2017 Goals
+tags: goals
 ---
 
 ![meme](http://s2.quickmeme.com/img/f4/f411e304244165d953f9ab977a0742b72208b16e15c48645cae2fc188746eb64.jpg)
