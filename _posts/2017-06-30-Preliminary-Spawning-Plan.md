@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Preliminary Spawning Plan
+tags: manchester spawning
 ---
 
 ## It's time to think about crosses!
