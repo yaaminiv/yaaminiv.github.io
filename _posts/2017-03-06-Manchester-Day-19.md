@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Manchester Day 19
+tags: manchester
 ---
 
 ## Another smooth day at Manchester!
