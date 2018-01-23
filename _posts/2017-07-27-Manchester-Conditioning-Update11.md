@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Manchester Conditioning Update 11
+tags: manchester conditioning
 ---
 
 ## NO OYSTERS DIED!
