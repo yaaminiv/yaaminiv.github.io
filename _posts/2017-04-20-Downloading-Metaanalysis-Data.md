@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Downloading Metaanalysis Data
+tags: metaanalysis
 ---
 
 ## It's not as easy as clicking a button
