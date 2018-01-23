@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: SRM Assay Day 9
+tags: DNR SRM mass-spec
 ---
 
 ## My samples are DONE.
