@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Mass Spec Set-up
 ---
 
@@ -16,3 +17,30 @@ Once again, the pressure crashed, so we replaced the analytical column with a ne
 While Emma was setting up the machine, Laura and I pipetted 15 µL of each sample into new glass autosampler vials. It is important to add the samples in with no bubbles. We also created a quality control (10 µL quality control solution and 30 µL Final Solvent) and blank (60 µL Final Solvent). We will need to continually fill the blank with Final Solvent as analysis continues, since it takes 3 µL for every blank. 
 
 We decided to run Laura's geoduck samples first, including technical dupliates. I won't run my samples on the machine until the end of the week. Just gotta hang tight!
+
+{% if page.comments %}
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://the-responsible-grad-student.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{% endif %}
+
+<script id="dsq-count-scr" src="//the-responsible-grad-student.disqus.com/count.js" async></script>
