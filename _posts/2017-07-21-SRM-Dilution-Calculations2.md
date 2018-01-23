@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: SRM Dilution Calculations 2
 ---
 
@@ -29,3 +30,30 @@ I then created 25 µL of my pooled oyster solution by adding 5 µL of the sample
 - O137
 
 Using the volumes in Table 1, I prepared the vials by adding my oyster sample, PRTC and ACN. When I got to Vial 6, it was difficult for me to pipet the 1.5 µL I needed, so I made 10 µL of the oyster pool. I finished up the vials and left in the freezer for Laura to add her samples to.
+
+{% if page.comments %}
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://the-responsible-grad-student.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{% endif %}
+
+<script id="dsq-count-scr" src="//the-responsible-grad-student.disqus.com/count.js" async></script>
