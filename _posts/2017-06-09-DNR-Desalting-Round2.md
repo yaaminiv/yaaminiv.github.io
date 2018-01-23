@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: DNR Desalting Round 2
+tags: DNR labwork
 ---
 
 ## Last day of DNR extractions (hopefully)!
