@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: BCA Assay Trial 1
+tags: DNR labwork
 ---
 
 ## Practice makes perfect?
