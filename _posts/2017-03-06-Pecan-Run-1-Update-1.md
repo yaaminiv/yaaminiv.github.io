@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: PECAN Update 1
+tags: DNR pecan DIA
 ---
 
 ## Hit an obstacle with PECAN this weekend.
