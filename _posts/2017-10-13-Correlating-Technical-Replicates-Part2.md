@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Correlating Technical Replicates Part 2
+tags: DNR SRM
 ---
 
 ## Step 1: R-squared Cutoffs
