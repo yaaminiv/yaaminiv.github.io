@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Manchester Conditioning Setup
+tags: manchester conditioning
 ---
 
 ## Time to fatten the oysters up!
