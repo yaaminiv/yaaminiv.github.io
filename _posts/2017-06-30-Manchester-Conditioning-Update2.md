@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Manchester Conditioning Update 2
+tags: manchester conditioning
 ---
 
 ## Sophie's New Choice: Temperature, Flow or pH?
