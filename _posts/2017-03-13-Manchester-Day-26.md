@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Manchester Day 26
+tags: manchester
 ---
 
 ## A couple hiccups at Manchester today
