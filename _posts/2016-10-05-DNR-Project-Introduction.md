@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Collaboration with the Department of Natural Resources
+tags: DNR
 ---
 
 ## As promised, here is some background on my current project
