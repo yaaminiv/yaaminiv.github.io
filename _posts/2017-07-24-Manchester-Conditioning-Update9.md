@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Manchester Conditioning Update 9
+tags: manchester conditioning
 ---
 
 ## The mortalities continue
