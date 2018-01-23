@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Manchester Day 42
+tags: manchester
 ---
 
 ## I'm at NSA, to Grace and Olivia went to Manchester.
