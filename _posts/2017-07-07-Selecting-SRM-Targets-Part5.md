@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Selecting SRM Targets Part 5
+tags: DNR SRM MSstats
 ---
 
 ## I have draft transitions!
