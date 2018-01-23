@@ -1,11 +1,12 @@
 ---
 layout: post
-title: August Goals
+comments: true
+title: August 2017 Goals
 ---
 
 ## I only have five goals
 
-...and I think I can accomplish them! But first, a [July Goals](https://yaaminiv.github.io/July-Goals/) recap.
+...and I think I can accomplish them! But first, a [July Goals](https://yaaminiv.github.io/July-2017-Goals/) recap.
 
 - Finished [target analysis](https://yaaminiv.github.io/Selecting-SRM-Targets-Part7/)
 - [Ran samples on the mass spectrometer](https://yaaminiv.github.io/SRM-Assay-Day9/)
