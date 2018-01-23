@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: SRM Assay Day 5
+tags: DNR SRM mass-spec
 ---
 
 ## Still plugging along
