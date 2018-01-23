@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Reproducible SRM Analysis
+tags: DNR SRM
 ---
 
 ## R&R: Review and Reproduce
