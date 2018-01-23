@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: SRM Assay Day 6
+tags: DNR SRM mass-spec
 ---
 
 ## Murphy's Law is always relevant
