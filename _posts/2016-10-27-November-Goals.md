@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: November Goals
+title: November 2016 Goals
 ---
 
 #### Now that it's almost November, it's time to get cracking on the [DNR project](https://yaaminiv.github.io/DNR-Project-Introduction/).
