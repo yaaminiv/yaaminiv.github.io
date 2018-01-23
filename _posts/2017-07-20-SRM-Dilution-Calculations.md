@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: SRM Dilution Calculations
+tags: DNR SRM mass-spec
 ---
 
 ## My prior calculations were incorrect!
