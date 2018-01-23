@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Manchester Day 21
+tags: manchester
 ---
 
 ## We're officially halfway through our pH treatment window!
