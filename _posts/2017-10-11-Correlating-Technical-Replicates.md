@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Correlating Technical Replicates
+tags: DNR SRM
 ---
 
 ## Are some transitions worse than others?
