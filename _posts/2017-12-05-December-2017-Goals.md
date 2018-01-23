@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: December 2017 Goals
+tags: goals
 ---
 
 ![december-1st-meme-funny](https://user-images.githubusercontent.com/22335838/33626330-210940be-d9af-11e7-915c-eafb262af1e9.jpg)
