@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Gigas Larvae Day 0
+tags: manchester larvae
 ---
 
 ## Spoiler: We have baby oysters!
