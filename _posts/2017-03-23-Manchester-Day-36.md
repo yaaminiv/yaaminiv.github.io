@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Manchester Day 36
+tags: manchester
 ---
 
 ## Checking in before we leave for NSA
