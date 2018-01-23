@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Mini-Trypsin Digestion
+tags: DNR labwork
 ---
 
 ## Trippin for Trypsin
