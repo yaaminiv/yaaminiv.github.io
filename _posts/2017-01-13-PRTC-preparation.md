@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: PRTC preparation
+tags: DNR labwork
 ---
 
 ## PRTC: We know what those peptides can be
