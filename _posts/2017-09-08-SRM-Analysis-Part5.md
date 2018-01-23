@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: SRM Analysis Part 5
+tags: DNR SRM
 ---
 
 ## Everything sucks.
