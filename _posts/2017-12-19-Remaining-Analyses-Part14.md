@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Remaining Analyses Part 14
+tags: DNR SRM
 ---
 
 ## I see the light
