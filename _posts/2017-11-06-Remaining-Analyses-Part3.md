@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Remaining Analyses Part 3
+tags: DNR SRM
 ---
 
 ## I have significant results?!
