@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Skyline Error Checking Round 2
 ---
 
@@ -24,3 +25,30 @@ After error checking, I re-exported my Skyline reports.
 ![image-2](https://user-images.githubusercontent.com/22335838/27007886-1f7e2ff8-4e17-11e7-8f90-831fd16a41b1.png)
 
 [MSstats document, replicate not pivoted](http://owl.fish.washington.edu/spartina/DNR_Skyline_20170524/2017-06-10-peptide-transition-results-MSstats-no-pivot-error-checked.csv)
+
+{% if page.comments %}
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://the-responsible-grad-student.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{% endif %}
+
+<script id="dsq-count-scr" src="//the-responsible-grad-student.disqus.com/count.js" async></script>
