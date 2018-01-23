@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Manchester Heat Shock Experiment
+tags: manchester heat-shock
 ---
 
 ## It's getting hot in here
