@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Remaining Analyses Part 7
 ---
 
@@ -30,3 +31,30 @@ There's a slight difference in retention time from column 1 to 2, but not enough
 Emma also suggested I find PRTC peptides where I'm confident in the concentrations and try and compare peak areas between column 1 and 2. Based on [screenshots from this lab notebook entry](https://yaaminiv.github.io/SRM-Analysis/), my PRTC peptides had relatively similar peak area magnitudes at the end of the first column and beginning of the second column (around samples 85-95).
 
 So yeah, I'm stumped.
+
+{% if page.comments %}
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://the-responsible-grad-student.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{% endif %}
+
+<script id="dsq-count-scr" src="//the-responsible-grad-student.disqus.com/count.js" async></script>
