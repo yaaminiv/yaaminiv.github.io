@@ -68,6 +68,8 @@ To verify shearing (and see if our first eight samples were sheared to the prope
 
 Looking at our results ([word document](http://owl.fish.washington.edu/spartina/Virginica-MBD/MBDSeq-Labwork/2018-01-18-Virgnica-Shearing-Results.docx) and [.gdna file](http://owl.fish.washington.edu/spartina/Virginica-MBD/MBDSeq-Labwork/2018-01-18-01-Virginica-Shearing-Results.gDNA)), we saw that most of our samples had average lengths around 350 bp. Sam deemed this good enough for us! Next week, we'll do the actual methylation enrichment.
 
+{% if page.comments %}
+
 <div id="disqus_thread"></div>
 <script>
 
@@ -88,5 +90,7 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{% endif %}
 
 <script id="dsq-count-scr" src="//the-responsible-grad-student.disqus.com/count.js" async></script>
