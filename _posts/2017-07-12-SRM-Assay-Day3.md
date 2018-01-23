@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: SRM Assay Day 3
+tags: DNR SRM mass-spec
 ---
 
 ## More borrowed PRTC = All samples prepared
