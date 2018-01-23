@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Manchester Day 14
+tags: manchester
 ---
 
 ## Today, I spent 3 hours cleaning oyster :poop:
