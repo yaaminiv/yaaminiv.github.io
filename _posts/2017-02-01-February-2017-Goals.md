@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: February 2017 Goals
+tags: DNR mass-spec DIA
 ---
 
 ## February Goals
