@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: SRM Analysis Part 2
+tags: DNR SRM skyline
 ---
 
 ## ...Everybody Everywhere 
