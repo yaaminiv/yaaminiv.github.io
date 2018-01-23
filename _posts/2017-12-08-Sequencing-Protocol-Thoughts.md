@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Sequencing Protocol Thoughts
 ---
 
@@ -25,3 +26,30 @@ After learning about the different sequencing methods, I reviewd the methods sec
 This protocol matches with Olova et al. 2017's suggestion of post-bisulfite treatment and no PCR amplification. However, I don't know much about the kits she used, and whether or not there are better alternatives. Kurdyukov and Bullock 2016 lay out information for MethylCap (Diagenode) and MethylMiner, but don't really compare the efficacy of the two. I'm going to ping Sam and Mac to see if they have any opinions on the kits.
 
 My overall takeway is that Mac's protocol should be sufficient for our work!
+
+{% if page.comments %}
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://the-responsible-grad-student.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{% endif %}
+
+<script id="dsq-count-scr" src="//the-responsible-grad-student.disqus.com/count.js" async></script>
