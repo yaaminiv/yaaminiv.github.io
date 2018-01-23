@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Environmental Data Meeting Part 3
+tags: DNR meeting-notes
 ---
 
 ## Yesterday's meeting notes
