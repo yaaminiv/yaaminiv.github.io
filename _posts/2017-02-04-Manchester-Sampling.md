@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Feb. 4 Manchester Sampling
+tags: manchester
 ---
 
 ## First Manchester Sampling
