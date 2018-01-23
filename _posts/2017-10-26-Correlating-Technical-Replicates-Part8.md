@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Correlating Technical Replicates Part 8
+tags: DNR SRM
 ---
 
 ## Maybe I should have called this series "Troubleshooting"...
