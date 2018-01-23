@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Manchester Day 12
+tags: manchester
 ---
 
 ## The OA System is up and running!
