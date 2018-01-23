@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: SRM Analysis Part 8
+tags: DNR SRM
 ---
 
 ## One script, infinite boxplots
