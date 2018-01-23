@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Protein Extractions Round 2
+tags: DNR labwork
 ---
 
 ## It's time to extract more protein.
