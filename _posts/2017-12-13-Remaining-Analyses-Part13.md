@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Remaining Analyses Part 13
+tags: DNR SRM
 ---
 
 ## Triple-nested for loops are not fun
