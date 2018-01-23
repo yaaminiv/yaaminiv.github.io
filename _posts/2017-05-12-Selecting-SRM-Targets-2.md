@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Selecting SRM Targets Part 2
+tags: DNR DIA SRM
 ---
 
 ## Record scratch. Freeze frame.
