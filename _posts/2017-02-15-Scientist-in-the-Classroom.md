@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Scientist in the Classroom
+tags: outreach
 ---
 
 ## Conducted my first outreach activity today!
