@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Remaining Analyses Part 12
+tags: DNR SRM
 ---
 
 ## Some more regressions
