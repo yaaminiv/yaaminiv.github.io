@@ -8,7 +8,7 @@ title: July 2017 Goals
 
 But July will be much busier! Unfortunately, I don't have a fun celebrity meme that's July-themed.
 
-### [June Goals](https://yaaminiv.github.io/June-Goals/) Recap
+### [June Goals](https://yaaminiv.github.io/June-2017-Goals/) Recap
 
 - I [heat shocked 12 oysters](https://yaaminiv.github.io/Manchester-Heat-Shock-Experiment/). I will use them to examine the effect of heat stress on epigenetic variation, and to see if crossing these oysters with those exposed to low pH conditions will lead to different epigenetic patterns.
 - Drafted a [preliminary spawning plan](https://yaaminiv.github.io/Preliminary-Spawning-Plan/).
