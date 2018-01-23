@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: SRM Analysis Part 3
+tags: DNR SRM skyline
 ---
 
 ## All aboard the NMDS Struggle Bus
