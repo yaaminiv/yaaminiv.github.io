@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Gigas Larvae Day 15
 ---
 
@@ -50,3 +51,31 @@ Rhonda then asked to see a zoomed in photo of a larval cell so she could examine
 Based on her assessment, my larvae were undergoing the same #MysteryMortality as *C. gigas* larvae at Taylor. Once the larvae hit 60 microns, they just stop growing and start dying. Under normal conditions, they would have reached 150 microns by now. Rhonda suggested feeding with T.iso and 609, since that's what she's had success with. However, neither of those algal strains were available so I used C.iso and Chagra. Rhonda doesn't think I'm going to get any setter out of this batch, which doesn't come as a surprise to me.
 
 I spoke to Steven and he suggested collecting at least 10,000 larvae per treatment group for epigenetic analyses when I screen tomorrow. This would give me enough DNA to compare the larvae's response to the mystery stress between treatments and timepoints. I will also reach out to Joth and see what he thinks about the situation.
+
+{% if page.comments %}
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://the-responsible-grad-student.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{% endif %}
+
+<script id="dsq-count-scr" src="//the-responsible-grad-student.disqus.com/count.js" async></script>
+
