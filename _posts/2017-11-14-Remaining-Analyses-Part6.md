@@ -2,6 +2,7 @@
 layout: plot
 comments: true
 title: Remaining Analyses Part 6
+tags: DNR SRM
 ---
 
 ## Looked into ROC curves
