@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: SRM Analysis Part 4
+tags: DNR SRM
 ---
 
 ## R Help is Helpful
