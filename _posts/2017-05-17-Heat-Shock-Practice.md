@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Heat Shock Practice
+tags: manchester heat-shock
 ---
 
 ## It's always good to practice your methods of torture.
