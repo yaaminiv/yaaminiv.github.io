@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Remaining Analyses Part 2
+tags: DNR SRM
 ---
 
 ## Everything at the peptide level
