@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Correlating Technical Replicates Part 7
+tags: DNR SRM
 ---
 
 ## I finally have technical replication I kinda trust?!
