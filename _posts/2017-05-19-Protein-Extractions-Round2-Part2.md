@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Protein Extractions Round 2, Part 2
+tags: DNR labwork
 ---
 
 ## More cowbell? More samples.
