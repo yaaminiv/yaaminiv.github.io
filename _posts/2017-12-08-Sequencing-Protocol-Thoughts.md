@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Sequencing Protocol Thoughts
+tags: virginica sequencing
 ---
 
 ## a.k.a. How to take a break from proteomics
