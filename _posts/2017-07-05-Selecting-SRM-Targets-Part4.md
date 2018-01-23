@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Selecting SRM Targets Part 4
+tags: DNR MSstats SRM
 ---
 
 ## Differential Expression + Protein Function = Targets?
