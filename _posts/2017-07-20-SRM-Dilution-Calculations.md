@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: SRM Dilution Calculations
 ---
 
@@ -21,3 +22,30 @@ As I mentioned [previously](https://yaaminiv.github.io/SRM-Assay-Day9/), Laura a
 |     8    |        1:10        |         1        |         1        |          0.1         |          0.9          |                     1.5                    |                     6.75                    |       1.5      |     5.25    |           15          |
 
 For PRTC, our stock concentration volume is 0.5 pmol/µL. I changed the injection volume for the 10:1 and 1:10 dilutions from 2 µL to 1 µL to ensure we were pipetting volumes over 0.5 µL. This made it so that the final volume for the 10:1 injection was 15.75 µL, but Emma said that was okay.
+
+{% if page.comments %}
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://the-responsible-grad-student.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{% endif %}
+
+<script id="dsq-count-scr" src="//the-responsible-grad-student.disqus.com/count.js" async></script>
