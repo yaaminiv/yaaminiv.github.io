@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Manchester Conditioning Plan
+tags: manchester conditioning
 ---
 
 ## From Saturday 6/10 to Wednesday 7/5
