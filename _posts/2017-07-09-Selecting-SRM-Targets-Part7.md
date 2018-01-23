@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Selecting SRM Targets Part 7
+tags: DNR SRM
 ---
 
 ## WE HAVE OUR TARGETS.
