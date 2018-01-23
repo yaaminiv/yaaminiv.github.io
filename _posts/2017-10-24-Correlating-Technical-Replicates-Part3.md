@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Correlating Technical Replicates Part 3
+tags: DNR SRM
 ---
 
 ## I tried doing something statistically impossible today
