@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Selecting SRM Targets Part 6
 ---
 
@@ -26,3 +27,30 @@ Peaks like the one above were deleted immediately. I documented my target refine
 <img width="581" alt="screen shot 2017-07-12 at 10 43 40 pm" src="https://user-images.githubusercontent.com/22335838/28152140-b88e73d8-6753-11e7-95a0-cf97eee756da.png">
 
 [Revised Skyline document](http://owl.fish.washington.edu/spartina/DNR_Skyline_SRM_20170707/Gigas-7-8-Revised-Transition-List.sky.zip)
+
+{% if page.comments %}
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://the-responsible-grad-student.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{% endif %}
+
+<script id="dsq-count-scr" src="//the-responsible-grad-student.disqus.com/count.js" async></script>
