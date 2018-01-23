@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Remaining Analyses
+tags: DNR SRM
 ---
 
 ## Squeezing every last bit of information out of my data
