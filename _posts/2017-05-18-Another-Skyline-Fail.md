@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Another Skyline Fail
 ---
 
@@ -17,4 +18,29 @@ It's unfortunate that the strugglebus website no longer works :/ Let's go throug
 
 Overall, this means that my current Skyline output isn't valid anymore. I can't work on MSstats or target identification using Skyline data, but I can still look through the literature for proteins of interest. Emma and her team are working on fixing Skyline for our files, so I just have to wait! After everything's fixed, I will need to check error rates again for the same peptides.
 
+{% if page.comments %}
 
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://the-responsible-grad-student.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{% endif %}
+
+<script id="dsq-count-scr" src="//the-responsible-grad-student.disqus.com/count.js" async></script>
