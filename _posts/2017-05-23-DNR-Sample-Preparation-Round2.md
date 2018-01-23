@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: DNR Sample Preparation Round 2
+tags: DNR labwork
 ---
 
 ## Slice and dice
