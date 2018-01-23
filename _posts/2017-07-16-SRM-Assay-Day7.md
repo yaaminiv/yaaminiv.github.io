@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: SRM Assay Day 7
+tags: DNR SRM mass-spec
 ---
 
 ## Status quo?
