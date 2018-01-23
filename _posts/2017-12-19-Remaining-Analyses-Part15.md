@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Remaining Analyses Part 15
+tags: DNR SRM
 ---
 
 ## The [growth data](https://github.com/RobertsLab/project-oyster-oa/blob/master/data/DNR/2017-12-05-OysterGrowth.csv) wasn't very interesting
