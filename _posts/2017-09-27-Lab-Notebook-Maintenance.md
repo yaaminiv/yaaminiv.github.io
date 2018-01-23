@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Lab Notebook Maintenance
+tags: maintenance
 ---
 
 ## We interrupt your regularly scheduled lab notebook perusing for some maintenance.
