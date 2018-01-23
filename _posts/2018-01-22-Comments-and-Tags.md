@@ -44,8 +44,8 @@ s.setAttribute('data-timestamp', +new Date());
 `````
 
 **[Tags](https://yaaminiv.github.io/tagview/)**:
-- Add "tags:" at the top of each lab notebook entry
-- Define tags! Helps if they are lowercase. Use a space between words to differentiate between tags (ex. "DNR labwork" sets two tags: "DNR" and "labwork"). Use a hyphen for multiword tags (ex. "mass-spec," not "mass spec").
+- Add "tags: " at the top of each lab notebook entry
+- List some tags after the colon! Helps if they are lowercase. Use a space between words to differentiate between tags (ex. "DNR labwork" sets two tags: "DNR" and "labwork"). Use a hyphen for multiword tags (ex. "mass-spec," not "mass spec").
 
 Yet another thing I can cross off of my to-do list.
 
