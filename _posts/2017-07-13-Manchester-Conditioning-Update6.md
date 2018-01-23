@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Manchester Conditioning Update 6
 ---
 
@@ -69,3 +70,30 @@ Because the ambient line is colder than the 14 ºC heated line, I ramped up my h
 Before leaving, I checked the Durafet monitor to see how the pH and temperature were holding. The temperature was reading at 22 ºC, so I think we're going to be okay!
 
 ![img_7956](https://user-images.githubusercontent.com/22335838/28340464-c67d1dbc-6bc4-11e7-927c-32cf40190f89.JPG)
+
+{% if page.comments %}
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://the-responsible-grad-student.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{% endif %}
+
+<script id="dsq-count-scr" src="//the-responsible-grad-student.disqus.com/count.js" async></script>
