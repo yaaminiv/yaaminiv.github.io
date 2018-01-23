@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: BCA Assay Trial 2
+tags: DNR labwork
 ---
 
 ## If at first you don't succeed, trial trial again.
