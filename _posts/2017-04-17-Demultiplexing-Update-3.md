@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Demultiplexing Update 3
+tags: DNR DIA demultiplexing
 ---
 
 ## My files are done converting!
