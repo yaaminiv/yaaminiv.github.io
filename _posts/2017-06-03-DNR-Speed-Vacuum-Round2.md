@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: DNR Speed Vacuum Round 2
 ---
 
@@ -61,3 +62,30 @@ One thing I noticed was that some of my samples had a black precipitate on the b
 Another thing I noticed was that I only speed vacuumed 24 of my Round 3 samples instead of 26 (25 samples + 1 blank)! My hunch is that I misplaced them and put them in with Laura's samples. The ones I am missing are O144 and OBLNK3. I will check for these samples in the freezer when I get the chance.
 
 At some point next week, I'll desalt my samples. Then I'll be all set for the mass spec!
+
+{% if page.comments %}
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://the-responsible-grad-student.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{% endif %}
+
+<script id="dsq-count-scr" src="//the-responsible-grad-student.disqus.com/count.js" async></script>
