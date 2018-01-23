@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Remaining Analyses Part 5
+tags: DNR SRM
 ---
 
 ## I've got the power
