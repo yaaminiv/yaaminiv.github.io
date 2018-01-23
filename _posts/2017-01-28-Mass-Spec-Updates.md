@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Mass Spec Updates
+tags: DNR mass-spec DIA
 ---
 
 ## Trouble struck at 8:16 p.m. on January 28.
