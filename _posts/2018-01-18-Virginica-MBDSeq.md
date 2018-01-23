@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Virginica MBDSeq
+tags: virginica labwork
 ---
 
 ## All systems go on *C. Virginica* sequencing!
