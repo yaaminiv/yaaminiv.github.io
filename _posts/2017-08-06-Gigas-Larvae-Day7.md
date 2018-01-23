@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Gigas Larvae Day 7
+tags: manchester larvae
 ---
 
 ## Anoxia is no bueno
