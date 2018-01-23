@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: SRM Analysis Part 7
+tags: DNR SRM
 ---
 
 ## Another Skyline saga
