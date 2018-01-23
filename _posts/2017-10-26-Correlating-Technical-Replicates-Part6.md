@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Correlating Technical Replicates Part 6
+tags: DNR SRM
 ---
 
 ## Dead ends and new plans
