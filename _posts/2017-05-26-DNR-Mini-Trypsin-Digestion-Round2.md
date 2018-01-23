@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: DNR Mini-Trypsin Digestion Round 2
 ---
 
@@ -38,3 +39,30 @@ After the digestion, I got 6-200 µL of IAA from the -80ºC freezer and covered 
 Because Jose needed to leave early, he prepared 25 mM NH4HCO3 solution for all of our samples. After the digestion was over, I added 800 µL of 25 mM NH4HCO3 and 200 µL of HPLC grade methanol to each sample and vortexed them. I then needed to add 3.3 µL of Trypsin to each sample, meaning I needed 9 bottles of 20 µg Trypsin. We only had five bottles, so I needed to borrow 4 bottles from Genome Sciences. 
 
 Before using each bottle, I added 20 µL of nanopure water and vortexed. This made a 20 µg/20 µL solution, allowing me to add 3.3 µL of Trypsin to six samples/bottle. After adding Tryspin to all oyster and geoduck samples, I vortexed the tubes and let them sit overnight. I started the digestion at 4 p.m. on Friday evening, and stopped it at 10 a.m. Saturday morning.
+
+{% if page.comments %}
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://the-responsible-grad-student.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{% endif %}
+
+<script id="dsq-count-scr" src="//the-responsible-grad-student.disqus.com/count.js" async></script>
