@@ -1,6 +1,7 @@
 ---
 layout: post
-title: June Goals
+comments: true
+title: June 2017 Goals
 ---
 
 ## (Almost) done with Spring Quarter already?!
