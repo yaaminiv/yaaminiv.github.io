@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: DNR Sample Preparation and Sonication Round 3
+tags: DNR labwork
 ---
 
 ## Here's hoping this is the last round of DNR sample preparation!
