@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Pubathon 14 Day Plan
+tags: goals pubathon
 ---
 
 ## I'm going to get stuff done for Pubathon (I promise)!
