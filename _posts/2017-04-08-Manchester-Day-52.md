@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Manchester Day 52
+tags: manchester
 ---
 
 ## We're done with our OA experiment!
