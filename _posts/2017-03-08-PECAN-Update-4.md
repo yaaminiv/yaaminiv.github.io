@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: PECAN Update 4
+tags: DNR pecan DIA
 ---
 
 ## Reformatting PECAN inputs
