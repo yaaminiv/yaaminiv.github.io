@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: SRM Assay Day 7
 ---
 
@@ -74,3 +75,30 @@ She had 5 µL of QC left in the freezer from a previous experiment, so I added 1
 **Figure 10**. Adjusted sequence file. I think my samples will finish Monday afternoon.
 
 **Update 9:30 p.m.**: Emma looked at my samples on TeamViewer and she asked if I changed the QC24 method after I added it to the queue and forgot to requeue it. This is exactly what I did, so that's why QC24 looked like QC23! Now that everything else is assigned to the right method and then queued, there should be no more problems!
+
+{% if page.comments %}
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://the-responsible-grad-student.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{% endif %}
+
+<script id="dsq-count-scr" src="//the-responsible-grad-student.disqus.com/count.js" async></script>
