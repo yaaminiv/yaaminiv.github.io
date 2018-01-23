@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Remaining Analyses Part 8
 ---
 
@@ -42,3 +43,30 @@ I generated [boxplots](https://github.com/RobertsLab/project-oyster-oa/tree/mast
 None of the results really jump out as being explanations for higher protein abundance in Willapa Bay. Tissue mass is significantly different between Willapa Bay-Fidalgo Bay (p = 5.37e-05) and between Willapa Bay-Port Gamble Bay (p = 0.05394943). Percent N was also significantly different between Willapa Bay-Fidalgo Bay (p = 0.08942135) and Willapa Bay-Port Gamble Bay (p = 0.09671321). According to Alex's notes, relatively higher percent N is a good thing, and Willapa Bay had higher percent N than Fidalgo Bay and Port Gamble Bay. I'll run this by him on Friday when we meet.
 
 My next step now is to tie together protein expression and these variables in one figure. To the (literal) drawing board!
+
+{% if page.comments %}
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://the-responsible-grad-student.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{% endif %}
+
+<script id="dsq-count-scr" src="//the-responsible-grad-student.disqus.com/count.js" async></script>
