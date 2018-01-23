@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Environmental Data Meeting
+tags: DNR meeting-notes
 ---
 
 ## Science doesn't take a day off
