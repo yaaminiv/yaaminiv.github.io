@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: First Committee Meeting
-tags: presentations committee
+tags: presentations committee meeting-notes
 ---
 
 ## a.k.a. An excuse to make mini apple pie cheesecakes
