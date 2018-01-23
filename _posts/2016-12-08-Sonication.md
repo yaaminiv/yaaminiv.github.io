@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Sonication
+tags: DNR labwork
 ---
 
 ## Gill Tissue + Sound Waves = Protein Soup
