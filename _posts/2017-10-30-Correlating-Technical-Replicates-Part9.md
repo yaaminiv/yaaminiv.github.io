@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Correlating Technical Replicates Part 9
+tags: DNR SRM
 ---
 
 ## Better results?
