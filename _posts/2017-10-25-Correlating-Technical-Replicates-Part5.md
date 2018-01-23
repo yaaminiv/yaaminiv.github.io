@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Correlating Technical Replicates Part 5
 ---
 
@@ -32,3 +33,30 @@ I decided to use a cutoff of 0.2 to remove the 10% of my samples with the highes
 **Figure 4**. NMDS for averaged technical replicates after CV and ordination distance filtering.
 
 This process demonstrated that using coefficients of variance can help improve my technical replication. I didn't look too closely at Steven's list, so I don't know if there were some proteins with only one transition after filtering that should be removed too. I wonder if using a stricter cutoff will improve things even more? I'm going to look at my regression cutoffs and reaverage my technical replicates to see if other methods change my outcomes. After giving everything a cursory look, I can figure out how to proceed.
+
+{% if page.comments %}
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://the-responsible-grad-student.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{% endif %}
+
+<script id="dsq-count-scr" src="//the-responsible-grad-student.disqus.com/count.js" async></script>
