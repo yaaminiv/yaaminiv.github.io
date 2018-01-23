@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Revised Spawning Plan
+tags: manchester spawning
 ---
 
 ## Featuring reduced crosses and pools
