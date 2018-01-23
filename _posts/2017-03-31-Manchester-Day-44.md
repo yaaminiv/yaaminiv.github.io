@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Manchester Day 44
+tags: manchester
 ---
 
 ## What happened when Laura got stranded in the Midwest
