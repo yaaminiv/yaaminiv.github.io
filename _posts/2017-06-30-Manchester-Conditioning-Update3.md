@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Manchester Conditioning Update 3
+tags: manchester conditioning
 ---
 
 ## Revised (final?) Conditioning Plan
