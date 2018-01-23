@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Manchester Conditioning Update
+tags: manchester conditioning
 ---
 
 ## It's been a slow burn
