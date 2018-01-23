@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Remaining Analyses Part 8
+tags: DNR SRM
 ---
 
 ## Visualizing environmental and biomarker data
