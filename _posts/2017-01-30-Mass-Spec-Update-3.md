@@ -1,7 +1,9 @@
 ---
 layout: post
 comments: true
-title: Mass Spec Update #3
+title: Mass Spec Update 3
+tags: DNR mass-spec DIA
+
 ---
 
 ## ...But now trouble is gone!
