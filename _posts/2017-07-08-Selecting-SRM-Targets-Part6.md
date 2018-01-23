@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Selecting SRM Targets Part 6
+tags: DNR SRM
 ---
 
 ## Those peaks are running interference
