@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: SRM Analysis Part 6
+tags: DNR SRM
 ---
 
 ## Retracing my steps
