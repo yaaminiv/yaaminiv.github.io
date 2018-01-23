@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: SRM Transition Protein Analysis
 ---
 
@@ -32,3 +33,31 @@ The rest were for molecular functions:
 ![molecular functions](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/DNR_TransitionSelection_20170707/2017-07-08-Final-Transitions/molecularFunctionREVIGO.png)
 
 While interesting, I'd rather have all of my GOterms be relevant to a biological process. I need to find an efficient way to sort through my list of GOterms and see if they are for biological processes. I posted [this Github issue](https://github.com/sr320/LabDocs/issues/660#issuecomment-316159820) to figure it out. Based on Steven's comments, I'm going to forgo any REVIGO visualization since it may not be the most appropriate. I'll stick with my heatmap for now!
+
+{% if page.comments %}
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://the-responsible-grad-student.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{% endif %}
+
+<script id="dsq-count-scr" src="//the-responsible-grad-student.disqus.com/count.js" async></script>
+
