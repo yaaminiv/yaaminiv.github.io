@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Virginica MBDSeq Day 3
+title: Virginica MBDSeq Day 4
 tags: virginica labwork
 ---
 
@@ -78,6 +78,8 @@ Kaitlyn helped me with this step, which was nice since I had 60 tubes!
   - Added 800 µL to all sets except W0, which needed 1400 µL. The W0 tubes were extremely full, so I had to transfer each W0 tube to a corresponding 2.0 mL centrifuge tube. While I was doing this, Kaitlyn took care of sets WB and E2
 - Kaitlyn vortexed all sample centrifuge tubes while I put reagents away
 - Placed all tubes in a box, then placed box in the -20ºC freezer
+
+Next Thursday, I'll finish the precipitation process and quantify the reads. Almost done with labwork!
 
 {% if page.comments %}
 
