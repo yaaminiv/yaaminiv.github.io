@@ -13,6 +13,8 @@ The first thing we did was introduce the class to the Pacific cod fishery. We th
 
 We then discussed how scientists can differentiate between spawning groups in real life — with genetics. We reinforced what their teachers taught them about alleles and genotypes by giving them a real life example. We all got to taste PTC paper and determine whether or not we had a genotype with a dominant allele. Turns out PTC paper tastes like nothing for me. Recessive alleles all the way.
 
+![20180206_092839](https://user-images.githubusercontent.com/22335838/36080504-0d23e4e2-0f46-11e8-8744-93be83fb127c.jpg)
+
 In the second activity, the students got to match DNA sequences from fish they "caught" with reference sequences from different spawning groups. Some groups had sequences from multiple spawning groups, some from just one. We then used this to talk about how scientists can determine if the DNA sequences they have in the lab are representative of what's actually out there. It was interesting hearing their thoughts on how to improve fishing and sampling.
 
 Three periods of science class later, I had to rush out. The teachers and school were great, so hopefully I can go back there and teach a lesson of my own!
