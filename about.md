@@ -71,6 +71,8 @@ I'm also interested in projects at the intersection of science, policy and commu
 - Worked with middle school science teacher to develop lessons about climate change in the Pacific Northwest, specifically ocean acidification. Taught two lessons in person
 
 **One-day events**
+- North Cascades Institute: Graduate Student Panelist (February 10, 2017)
+- Robert Eagle Staff Middle School: Guest teacher (February 6, 2017)
 - Scientist of the Month: The Evergreen School (December 14, 2017)
 - Seattle Youth Climate Action Summit: Graduate Student Panelist (October 28, 2017)
 - Seattle Climate Action Now: Lab Tour Host (July 26, 2017)
@@ -111,3 +113,4 @@ I'm also interested in projects at the intersection of science, policy and commu
 ### Contact me
 
 [yaaminiv@uw.edu](mailto:yaaminiv@uw.edu)
+Twitter: @YaaminiV
