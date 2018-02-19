@@ -9,7 +9,7 @@ tags: DNR SRM
 
 In [this script](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-11-05-Integrated-Dataset/2018-02-15-DNR-Paper-Figure/2018-02-15-DNR-Paper-Figure.R), I first separated my peptide abundance data by site. Then, I averaged peptide abundance at each site. I saved the datafram as a .csv [here](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-11-05-Integrated-Dataset/2018-02-15-DNR-Paper-Figure/2018-02-16-Average-Peptide-Data-by-Site.csv).
 
-Using the `[dotchart](https://www.statmethods.net/graphs/dot.html)` function in R, I created two plots that I can use as the cornerstone of my DNR paper. The first figure I made included all of my data, which Brent suggested.
+Using the [`dotchart`](https://www.statmethods.net/graphs/dot.html) function in R, I created two plots that I can use as the cornerstone of my DNR paper. The first figure I made included all of my data, which Brent suggested.
 
 ![allpeptides](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-11-05-Integrated-Dataset/2018-02-15-DNR-Paper-Figure/2018-02-16-All-Peptide-Abundances-Across-Sites.jpeg)
 
