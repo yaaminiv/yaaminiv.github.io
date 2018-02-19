@@ -17,12 +17,13 @@ Using the [`dotchart`](https://www.statmethods.net/graphs/dot.html) function in 
 
 Each protein is coded with the same color, and with different shapes indicating the constituent peptides. I also used this color scheme to indicate protein function:
 
+- Oxidative stress: blue
 - Heat shock: orange/red
 - Acid-base balance: purple
 - Drug resistance: pink
 - Fatty acid metabolism: yellow
 - Carbohydrate metabolism: brown
-- Cell and growth maintenance: green
+- Cell growth and maintenance: green
 
 I didn't add a legend, since I thought I'd first get feedback on the figure, then make it better. The downside with this graph is that there are 37 peptides at 5 different locations in this one figure, so it's a little busy.
 
