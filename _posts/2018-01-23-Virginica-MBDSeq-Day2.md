@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Virgnica MBDSeq Day 2
+title: Virginica MBDSeq Day 2
 tags: virginica labwork
 ---
 
