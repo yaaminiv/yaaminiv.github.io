@@ -15,21 +15,21 @@ Steven commented on [my previous post](https://yaaminiv.github.io/Remaining-Anal
 
 ### Decision 1: All data vs. differentially expressed subset
 
-[all-1](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-11-05-Integrated-Dataset/2018-02-15-DNR-Paper-Figure/2018-02-26-All-Average-Peptide-Abundance-Heatmap.jpeg)
+![all-1](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-11-05-Integrated-Dataset/2018-02-15-DNR-Paper-Figure/2018-02-26-All-Average-Peptide-Abundance-Heatmap.jpeg)
 
 **Figure 1**. All data, now row clustering, standard color scheme
 
-[subset-1](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-11-05-Integrated-Dataset/2018-02-15-DNR-Paper-Figure/2018-02-26-Average-Differentially-Expressed-Peptides-Heatmap.jpeg)
+![subset-1](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-11-05-Integrated-Dataset/2018-02-15-DNR-Paper-Figure/2018-02-26-Average-Differentially-Expressed-Peptides-Heatmap.jpeg)
 
 **Figure 2**. Subset, no row clustering, standard color scheme
 
 ### Decision 2: Row clustering vs. no row clustering
 
-[all-2](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-11-05-Integrated-Dataset/2018-02-15-DNR-Paper-Figure/2018-02-27-All-Average-Peptide-Abundance-Heatmap-Options2.jpeg)
+![all-2](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-11-05-Integrated-Dataset/2018-02-15-DNR-Paper-Figure/2018-02-27-All-Average-Peptide-Abundance-Heatmap-Options2.jpeg)
 
 **Figure 3**. All data, row clustering, standard color scheme
 
-[subset-2](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-11-05-Integrated-Dataset/2018-02-15-DNR-Paper-Figure/2018-02-27-Average-Differentially-Expressed-Peptides-Heatmap-Option2.jpeg)
+![subset-2](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-11-05-Integrated-Dataset/2018-02-15-DNR-Paper-Figure/2018-02-27-Average-Differentially-Expressed-Peptides-Heatmap-Option2.jpeg)
 
 **Figure 4**. Subset, row clustering, standard color scheme
 {% if page.comments %}
@@ -38,33 +38,33 @@ Steven commented on [my previous post](https://yaaminiv.github.io/Remaining-Anal
 
 #### Blues
 
-[all-3](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-11-05-Integrated-Dataset/2018-02-15-DNR-Paper-Figure/2018-02-27-All-Average-Peptide-Abundance-Heatmap-Option3.jpeg)
+![all-3](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-11-05-Integrated-Dataset/2018-02-15-DNR-Paper-Figure/2018-02-27-All-Average-Peptide-Abundance-Heatmap-Option3.jpeg)
 
-[subset-3](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-11-05-Integrated-Dataset/2018-02-15-DNR-Paper-Figure/2018-02-27-Average-Differentially-Expressed-Peptides-Heatmap-Option3.jpeg)
+![subset-3](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-11-05-Integrated-Dataset/2018-02-15-DNR-Paper-Figure/2018-02-27-Average-Differentially-Expressed-Peptides-Heatmap-Option3.jpeg)
 
 #### Purples
 
-[all-4](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-11-05-Integrated-Dataset/2018-02-15-DNR-Paper-Figure/2018-02-27-All-Average-Peptide-Abundance-Heatmap-Option4.jpeg)
+![all-4](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-11-05-Integrated-Dataset/2018-02-15-DNR-Paper-Figure/2018-02-27-All-Average-Peptide-Abundance-Heatmap-Option4.jpeg)
 
-[subset-4](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-11-05-Integrated-Dataset/2018-02-15-DNR-Paper-Figure/2018-02-27-Average-Differentially-Expressed-Peptides-Heatmap-Option4.jpeg)
+![subset-4](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-11-05-Integrated-Dataset/2018-02-15-DNR-Paper-Figure/2018-02-27-Average-Differentially-Expressed-Peptides-Heatmap-Option4.jpeg)
 
 #### Purple-Blue
 
-[all-5](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-11-05-Integrated-Dataset/2018-02-15-DNR-Paper-Figure/2018-02-27-All-Average-Peptide-Abundance-Heatmap-Option5.jpeg)
+![all-5](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-11-05-Integrated-Dataset/2018-02-15-DNR-Paper-Figure/2018-02-27-All-Average-Peptide-Abundance-Heatmap-Option5.jpeg)
 
-[subset-5](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-11-05-Integrated-Dataset/2018-02-15-DNR-Paper-Figure/2018-02-27-Average-Differentially-Expressed-Peptides-Heatmap-Option5.jpeg)
+![subset-5](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-11-05-Integrated-Dataset/2018-02-15-DNR-Paper-Figure/2018-02-27-Average-Differentially-Expressed-Peptides-Heatmap-Option5.jpeg)
 
 #### Grey
 
-[all-6](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-11-05-Integrated-Dataset/2018-02-15-DNR-Paper-Figure/2018-02-27-All-Average-Peptide-Abundance-Heatmap-Option6.jpeg)
+![all-6](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-11-05-Integrated-Dataset/2018-02-15-DNR-Paper-Figure/2018-02-27-All-Average-Peptide-Abundance-Heatmap-Option6.jpeg)
 
-[subset-6](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-11-05-Integrated-Dataset/2018-02-15-DNR-Paper-Figure/2018-02-27-Average-Differentially-Expressed-Peptides-Heatmap-Option6.jpeg?raw=true)
+![subset-6](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-11-05-Integrated-Dataset/2018-02-15-DNR-Paper-Figure/2018-02-27-Average-Differentially-Expressed-Peptides-Heatmap-Option6.jpeg?raw=true)
 
 #### Purple-Green
 
-[all-7](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-11-05-Integrated-Dataset/2018-02-15-DNR-Paper-Figure/2018-02-27-All-Average-Peptide-Abundance-Heatmap-Option7.jpeg)
+![all-7](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-11-05-Integrated-Dataset/2018-02-15-DNR-Paper-Figure/2018-02-27-All-Average-Peptide-Abundance-Heatmap-Option7.jpeg)
 
-[subset-7](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-11-05-Integrated-Dataset/2018-02-15-DNR-Paper-Figure/2018-02-27-Average-Differentially-Expressed-Peptides-Heatmap-Option7.jpeg)
+![subset-7](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/DNR_SRM_20170902/2017-10-10-Troubleshooting/2017-11-05-Integrated-Dataset/2018-02-15-DNR-Paper-Figure/2018-02-27-Average-Differentially-Expressed-Peptides-Heatmap-Option7.jpeg)
 
 <div id="disqus_thread"></div>
 <script>
