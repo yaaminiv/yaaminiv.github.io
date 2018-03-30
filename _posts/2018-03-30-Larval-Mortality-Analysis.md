@@ -17,17 +17,17 @@ When analyzing my Day 0 count data, I saw a significant maternal effect from the
 
 *I know what you're thinking. The axis labels and points are too small, the y-axis label is cutoff, and the colors aren't high contrast enough. I was too lazy to adjust these aspects of my plots if I wasn't sure if they would be used later on. Lazy, but efficient...?*
 
-!(all-data)[https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/Manchester_Larval_Mortality_20180329/2018-03-30-Larval-Counts-Over-Time.jpeg]
+![all-data](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/Manchester_Larval_Mortality_20180329/2018-03-30-Larval-Counts-Over-Time.jpeg)
 **Figure 1**. All larval count data over the course of the experiment. The big takeaway here is that all of the colors are overlapping.
 
-!(FLML)[https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/Manchester_Larval_Mortality_20180329/2018-03-30-FL-ML-Larval-Counts-Over-Time.jpeg]
+![FLML](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/Manchester_Larval_Mortality_20180329/2018-03-30-FL-ML-Larval-Counts-Over-Time.jpeg)
 
-!(FLMA)[https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/Manchester_Larval_Mortality_20180329/2018-03-30-FL-MA-Larval-Counts-Over-Time.jpeg]
+![FLMA](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/Manchester_Larval_Mortality_20180329/2018-03-30-FL-MA-Larval-Counts-Over-Time.jpeg)
 **Figures 2-3**. Larval count data from families with females exposed to low pH conditions. Males were exposed to either low pH (top) or ambient pH (bottom).
 
-!(FAML)[https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/Manchester_Larval_Mortality_20180329/2018-03-30-FA-ML-Larval-Counts-Over-Time.jpeg]
+![FAML](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/Manchester_Larval_Mortality_20180329/2018-03-30-FA-ML-Larval-Counts-Over-Time.jpeg)
 
-!(FAMA)[https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/Manchester_Larval_Mortality_20180329/2018-03-30-FA-MA-Larval-Counts-Over-Time.jpeg]
+![FAMA](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/Manchester_Larval_Mortality_20180329/2018-03-30-FA-MA-Larval-Counts-Over-Time.jpeg)
 **Figures 4-5**. Larval count data from families with females exposed to ambient pH conditions. Males were exposed to either low pH (top) or ambient pH (bottom).
 
 It may be useful to create a multipanel plot to look at the families side by side. I'll see if this is necessary. There is evidence of human error when counting larvae (how did I count more larvae than I started with?!), but it seems to be day-dependent as opposed to treatment-dependent. It doesn't look like there's any significant difference in survival between treatments, which could also be an interesting point. While we saw a carryover effect when counting larval output, that same effect may not persist into larval survival. Sometimes a null result is still a cool result.
