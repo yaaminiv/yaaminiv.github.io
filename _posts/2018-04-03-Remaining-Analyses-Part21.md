@@ -17,7 +17,11 @@ You thought this series was over? April Fools, it's not. I finally addressed one
 
 **Figure 2**. Protein sequence for CHOYP_CATA.3.3|m.21642
 
-The letters code for different amino acids. The blue highlighted letters are peptides that in the Skyline document, and the black bolded letters are other peptides in the same protein. Lo and behold, you can align the sequences. Guess they are the same catalase after all!
+The letters code for different amino acids. The blue highlighted letters are peptides that in the Skyline document, and the black bolded letters are other peptides in the same protein. Lo and behold, you can align the sequences!
+
+<img width="882" alt="screen shot 2018-04-09 at 12 21 53 pm" src="https://user-images.githubusercontent.com/22335838/38646488-0b9798aa-3d9d-11e8-805b-186db419f8e4.png">
+
+**Figure 3**. Sequence alignment.
 
 {% if page.comments %}
 
