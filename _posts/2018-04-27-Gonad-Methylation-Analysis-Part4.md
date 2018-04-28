@@ -5,7 +5,7 @@ title: Gonad Methylation Analysis Part 4
 tags: virginica bismark MBDSeq
 ---
 
-## 
+## Preparing a genome (and my brain)
 
 I forgot just how time-consuming (and brain pain-inducing) bioinformatics pipelines are! Good thing I set up my monitor. Screensharing on my laptop screen would not be ideal.
 
