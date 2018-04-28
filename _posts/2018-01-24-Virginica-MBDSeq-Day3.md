@@ -13,7 +13,7 @@ But first, a couple of things I forgot to mention [I did yesterday](https://yaam
   - 2 mL 5x Bind/Wash Buffer mixed with 8 mL DNAse free water
 - Sample 106 had a very low concentration of DNA, so Sam set it in the speed vacuum to evaporate the liquid and further concentrate it before I used it
 
-Today, I went through the protocol and stopped when incubating the DNA, dynabeads, and MBD-Biotin protein together. The reagent volumes I used in several steps, if not specified below, can be found [here](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/Virginica_MBDSeq_20180123/2018-01-23-MBDSeq-Labwork/2018-01-23-Virginica-MBDSeq-Labwork-Calculations.xlsx).
+Today, I went through the protocol and stopped when incubating the DNA, dynabeads, and MBD-Biotin protein together. The reagent volumes I used in several steps, if not specified below, can be found [here](https://github.com/RobertsLab/project-virginica-oa/blob/master/analyses/2018-01-23-MBDSeq-Labwork/2018-01-23-Virginica-MBDSeq-Labwork-Calculations.xlsx).
 
 ### Step 1: Calculate new concentration for sample 106
 
