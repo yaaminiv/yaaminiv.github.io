@@ -41,29 +41,29 @@ To verify shearing (and see if our first eight samples were sheared to the prope
 
 **Table 1**. TapeStation sample set-up.
 
-![gel](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/Virginica/2018-01-18-DNA-Shearing/2018-01-18-Virginica-Shearing-Gel-Image.png)
+![gel](https://raw.githubusercontent.com/RobertsLab/project-virginica-oa/master/images/Virginica/2018-01-18-DNA-Shearing/2018-01-18-Virginica-Shearing-Gel-Image.png)
 
-![A1](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/Virginica/2018-01-18-DNA-Shearing/2018-01-18-Virginica-Shearing-A1-Ladder.png)
+![A1](https://raw.githubusercontent.com/RobertsLab/project-virginica-oa/master/images/Virginica/2018-01-18-DNA-Shearing/2018-01-18-Virginica-Shearing-A1-Ladder.png)
 
-![B1](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/Virginica/2018-01-18-DNA-Shearing/2018-01-18-Virginica-Shearing-B1-023.png)
+![B1](https://raw.githubusercontent.com/RobertsLab/project-virginica-oa/master/images/Virginica/2018-01-18-DNA-Shearing/2018-01-18-Virginica-Shearing-B1-023.png)
 
-![C1](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/Virginica/2018-01-18-DNA-Shearing/2018-01-18-Virginica-Shearing-C1-035.png)
+![C1](https://raw.githubusercontent.com/RobertsLab/project-virginica-oa/master/images/Virginica/2018-01-18-DNA-Shearing/2018-01-18-Virginica-Shearing-C1-035.png)
 
-![D1](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/Virginica/2018-01-18-DNA-Shearing/2018-01-18-Virginica-Shearing-D1-036.png)
+![D1](https://raw.githubusercontent.com/RobertsLab/project-virginica-oa/master/images/Virginica/2018-01-18-DNA-Shearing/2018-01-18-Virginica-Shearing-D1-036.png)
 
-![E1](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/Virginica/2018-01-18-DNA-Shearing/2018-01-18-Virginica-Shearing-E1-031.png)
+![E1](https://raw.githubusercontent.com/RobertsLab/project-virginica-oa/master/images/Virginica/2018-01-18-DNA-Shearing/2018-01-18-Virginica-Shearing-E1-031.png)
 
-![F1](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/Virginica/2018-01-18-DNA-Shearing/2018-01-18-Virginica-Shearing-F1-032.png)
+![F1](https://raw.githubusercontent.com/RobertsLab/project-virginica-oa/master/images/Virginica/2018-01-18-DNA-Shearing/2018-01-18-Virginica-Shearing-F1-032.png)
 
-![G1](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/Virginica/2018-01-18-DNA-Shearing/2018-01-18-Virginica-Shearing-G1-103-and-104.png)
+![G1](https://raw.githubusercontent.com/RobertsLab/project-virginica-oa/master/images/Virginica/2018-01-18-DNA-Shearing/2018-01-18-Virginica-Shearing-G1-103-and-104.png)
 
-![H1](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/Virginica/2018-01-18-DNA-Shearing/2018-01-18-Virginica-Shearing-H1-Blank.png)
+![H1](https://raw.githubusercontent.com/RobertsLab/project-virginica-oa/master/images/Virginica/2018-01-18-DNA-Shearing/2018-01-18-Virginica-Shearing-H1-Blank.png)
 
-![A2](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/Virginica/2018-01-18-DNA-Shearing/2018-01-18-Virginica-Shearing-A2-105.png)
+![A2](https://raw.githubusercontent.com/RobertsLab/project-virginica-oa/master/images/Virginica/2018-01-18-DNA-Shearing/2018-01-18-Virginica-Shearing-A2-105.png)
 
-![B2](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/Virginica/2018-01-18-DNA-Shearing/2018-01-18-Virginica-Shearing-B2-106.png)
+![B2](https://raw.githubusercontent.com/RobertsLab/project-virginica-oa/master/images/Virginica/2018-01-18-DNA-Shearing/2018-01-18-Virginica-Shearing-B2-106.png)
 
-![C2](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/Virginica/2018-01-18-DNA-Shearing/2018-01-18-Virginica-Shearing-C2-108.png)
+![C2](https://raw.githubusercontent.com/RobertsLab/project-virginica-oa/master/images/Virginica/2018-01-18-DNA-Shearing/2018-01-18-Virginica-Shearing-C2-108.png)
 
 **Figures 2-13**. Shearing results. The peak indicates the average DNA fragment length. A1 was the ladder, which we used to estimate the length of sample DNA. G1 had two samples while H1 was blank because I distracted Mac while she was pipetting.
 
