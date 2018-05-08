@@ -93,7 +93,7 @@ Now, I needed to add my alignment files. I tried adding in one of the files, but
 
 **Figure 4**. Path to index file request.
 
-I don't think `bismark` generated any .bai files, so I'm not sure how to proceed. I posted [this issue](https://github.com/RobertsLab/resources/issues/248) to get to the bottom of it.
+I don't think `bismark` generated any .bai files, so I'm not sure how to proceed. I saved my IGV file [here](https://github.com/RobertsLab/project-virginica-oa/blob/master/analyses/2018-04-27-Bismark/2018-05-07-Subset-Alignment.xml), then posted [this issue](https://github.com/RobertsLab/resources/issues/248) to get to the bottom of it.
 
 {% if page.comments %}
 
