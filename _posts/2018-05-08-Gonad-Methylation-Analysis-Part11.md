@@ -9,15 +9,7 @@ tags: virginica bismark MBDSeq
 
 ![jerry](https://i.pinimg.com/originals/e7/ba/bc/e7babcb371caf0c4bd0b8c174913dfc1.png)
 
-Today I'm really riding the struggle bus! In [this issue](https://github.com/RobertsLab/resources/issues/252), I found out that I forgot an important argument in my `bismark` alignment. I did not indicate that I had paired read data. I now have to invoke my inner Jerry Gergich and redo the work.
-
-I added this argument and reran the alignments for my full data and for the subset:
-
-![untitled](https://user-images.githubusercontent.com/22335838/39781734-ed3f5b30-52c4-11e8-8591-826ba3c93714.png)
-
-![untitled2](https://user-images.githubusercontent.com/22335838/39781735-ed5bcf5e-52c4-11e8-8571-d9da14b84848.png)
-
-**Figure 1-2**. Modified `bismark` alignment code, including -p argument indicating paired reads.
+Today I'm really riding the struggle bus! In [this issue](https://github.com/RobertsLab/resources/issues/252), I found out that I forgot an important argument in my `bismark` alignment. I did not indicate that I had paired read data. I now have to invoke my inner Jerry Gergich and redo the work. I specified the -1 and -2 "mates" files and reran the code.
 
 For my subset, I will also re-extract the methylated data and remake my reports. All of the file names will stay the same, so they should still be easy to find. While I wait for the alignment to finish on the subset, I'll start working with `methylKit`. Switching out the correct data will be simple!
 
