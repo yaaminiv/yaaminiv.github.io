@@ -16,7 +16,7 @@ I created [a new R script](https://github.com/RobertsLab/project-virginica-oa/bl
 1. Steven's files are trimmed, but mine are not
 2. Steven's files used the first 1,000,000 as a subset, but mine used the first 10,000
 
-Either way, Steven said I should move on to the full pipeline and validate everything. He also said that I should remove the `-score_min` argument. This will make `bismark` run the default setting for alignment mismatches, and allow us to compare the alignment results. Time to start a computer process that will take several days to run!
+Either way, Steven said I should move on to the full pipeline and validate everything. Sam and Steven both pointed me to [this directory](http://owl.fish.washington.edu/Athaliana/20180411_trimgalore_10bp_Cvirginica_MBD/), which has the trimmed files. He also said that I should remove the `-score_min` argument. This will make `bismark` run the default setting for alignment mismatches, and allow us to compare the alignment results. Time to start a computer process that will take several days to run!
 
 {% if page.comments %}
 
