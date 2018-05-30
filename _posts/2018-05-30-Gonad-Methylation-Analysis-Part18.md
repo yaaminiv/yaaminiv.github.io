@@ -15,7 +15,7 @@ Before I can understand where differentially methylated loci (DML) are located w
 
 O2-5 (ambient conditions) are more closely clustered than any of the oysters from treatment conditions. It's possible that there are organismal differences in methylation responses, or that we just didn't have a large enough sample size to deal with this variation.
 
-In the last part of the script, I saved my DML information as a BED file. [BED files](https://genome.ucsc.edu/FAQ/FAQformat.html) have chromosome ID, start, and stop positions that I can use to pare down information about my DMLs. I can then compare the DML location with other important genomic features using [bedtools](http://bedtools.readthedocs.io/en/latest/). The [`intersect`](https://www.biostars.org/p/13516/) tool seems especially useful. I know we covered `bedtools` in the [2016 Bioinformatics class](https://github.com/sr320/course-fish546-2016/wiki), so I'll review those notes!
+In the last part of the script, I saved my DML information as a BED file. I mimicked [Steven's code](https://sr320.github.io/OALK-to-the-browser/) to do this. [BED files](https://genome.ucsc.edu/FAQ/FAQformat.html) have chromosome ID, start, and stop positions that I can use to pare down information about my DMLs. I can then compare the DML location with other important genomic features using [bedtools](http://bedtools.readthedocs.io/en/latest/). The [`intersect`](https://www.biostars.org/p/13516/) tool seems especially useful. I know we covered `bedtools` in the [2016 Bioinformatics class](https://github.com/sr320/course-fish546-2016/wiki), so I'll review those notes!
 
 {% if page.comments %}
 
