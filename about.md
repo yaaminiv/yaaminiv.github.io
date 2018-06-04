@@ -4,9 +4,7 @@ title: About
 permalink: /about/
 ---
 
-## About
-
-The Lab Notebook of Yaamini Venkataraman, a graduate student in the Roberts Lab at the University of Washington, Seattle.
+## The Lab Notebook of Yaamini Venkataraman, a graduate student in the Roberts Lab at the University of Washington, Seattle.
 
 *The short version:*
 
@@ -48,6 +46,7 @@ I'm also interested in projects at the intersection of science, policy and commu
 
 ### Presentations
 
+-  **Venkataraman Y**, Roberts S, *Pre-Gametogenic pH Exposure Induces Larval Carryover Effect* (National Shellfisheries Association, March 2018)
 -  **Venkataraman Y**, Roberts S, Timmins-Schiffman E *Exploring Proteomic Variation in Pacific Oysters* (Western Society of Naturalists, November 2017)
 - **Venkataraman Y**, Lowder K, Taylor J *Effect of Low pH on Growth and Feeding Quantity in the Surfgrass Limpet* (University of California, San Diego, May 2016)
 - **Venkataraman Y**, Cage P, Niles J *Social Media for a Global Movement: How Can Social Media Influence an International Climate Change Negotiation?* (University of California, San Diego, June 2016)
@@ -55,9 +54,13 @@ I'm also interested in projects at the intersection of science, policy and commu
 - **Venkataraman Y**, Bernal B, Megonigal P *Mean Residence Time of Carbon in an Experimental Tidal Wetland* (Smithsonian Environmental Research Center, August 2015)
 - Ajaz B, Neelakantan M, **Venkataraman Y**, Zalan A, Nguyen K, Pogliano J, Pogliano K *Genes associated with lysogeny in the "lytic" mycobateriophage Qbert* (University of California, San Diego, May 2013)
 
+### Grants
+
+- National Science Foundation Graduate Research Fellowships Program (May 2018-Present)
+- Hall Conservation Genetics Research Award (March 2017)
+
 ### Awards
 
-- Hall Conservation Genetics Research Award (March 2017)
 - Division of Biological Sciences Distinction (June 2016)
 - Physical Sciences Dean's Undergraduate Award of Excellence (May 2015)
 - Muir College Caledonian Honor Society Member (November 2014)
@@ -72,10 +75,10 @@ I'm also interested in projects at the intersection of science, policy and commu
 
 **One-day events**
 - North Cascades Institute: Graduate Student Panelist (February 10, 2017)
-- Robert Eagle Staff Middle School: Guest teacher (February 6, 2017)
 - Scientist of the Month: The Evergreen School (December 14, 2017)
 - Seattle Youth Climate Action Summit: Graduate Student Panelist (October 28, 2017)
 - Seattle Climate Action Now: Lab Tour Host (July 26, 2017)
+- Robert Eagle Staff Middle School: Guest teacher (February 6, 2018)
 
 ### Science communication
 
@@ -107,10 +110,10 @@ I'm also interested in projects at the intersection of science, policy and commu
 - Spring Picnic Planning Committee (February 2017-May 2017)
 - Graduate Student Retreat Planning Committee (October 2016-January 2017)
 
-**Graduate Recruitment, Retention, and Diversity Committee**: Member (April 2017-Present)
-- Provide feedback on College of the Environment's recruitment and retention efforts
+**Graduate Recruitment, Retention, and Diversity Committee**: Member (April 2017-December 2017)
+- Provided feedback on College of the Environment's recruitment and retention efforts
 
 ### Contact me
 
-[yaaminiv@uw.edu](mailto:yaaminiv@uw.edu)
+[yaaminiv@uw.edu](mailto:yaaminiv@uw.edu) 
 Twitter: @YaaminiV
