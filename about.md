@@ -110,6 +110,8 @@ I'm also interested in projects at the intersection of science, policy and commu
 - Spring Picnic Planning Committee (February 2017-May 2017)
 - Graduate Student Retreat Planning Committee (October 2016-January 2017)
 
+**Dr. Nancy Foster Scholarship Program Application Reviewer**: March 2018
+
 **Graduate Recruitment, Retention, and Diversity Committee**: Member (April 2017-December 2017)
 - Provided feedback on College of the Environment's recruitment and retention efforts
 
