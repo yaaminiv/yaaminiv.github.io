@@ -33,8 +33,6 @@ Here are the answsers to the second and third questions:
 
 Those numbers are different, so there's definitely some sort of enrichment going on! Maybe when I figure out that [gene set enrichment](https://yaaminiv.github.io/DML-Analysis-Part2/) everything will make sense.
 
-That's a wrap on the gonad methylation stuff until I'm back in town!
-
 {% if page.comments %}
 
 <div id="disqus_thread"></div>
