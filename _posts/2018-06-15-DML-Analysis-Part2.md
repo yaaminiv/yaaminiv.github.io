@@ -15,6 +15,11 @@ I set up some code and reformatted by DML-mRNA overlap file in the script. `topG
 
 I rearraged my R Markdown file and started `blastx`. We'll see how this goes...
 
+Want to know more about my thought process for this analysis? I started using Wordpress to document intermediate thoughts! Click on the "Feed" link in the top right corner of this webpage, or navigate to these links:
+
+- [Gene Enrichment methods](https://genefish.wordpress.com/2018/06/12/dml-analysis-possible-gene-enrichment-methods/)
+- [Getting GOterms](https://genefish.wordpress.com/2018/06/15/dml-analysis-how-to-get-goterms/) and [this associated issue](https://github.com/RobertsLab/resources/issues/292)
+
 {% if page.comments %}
 
 <div id="disqus_thread"></div>
