@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: DML Analysis Part 2
-tags: virginica MBDSeq DML bedtools
+tags: virginica MBDSeq DAVID topGO enrichment
 ---
 
 ## Understanding gene enrichment
