@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: DML Analysis Part 5
-tags: virginica MBDSeq DML bedtools
+tags: virginica MBDSeq DML gene-enrichment
 ---
 
 ## Blasting for Uniprot codes
