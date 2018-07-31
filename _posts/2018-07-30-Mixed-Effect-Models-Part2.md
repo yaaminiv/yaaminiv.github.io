@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Mixed Effects Models
+title: Mixed Effects Models Part 2
 tags: manchester mixed-effect-models
 ---
 
