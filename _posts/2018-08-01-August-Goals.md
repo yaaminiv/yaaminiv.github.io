@@ -31,7 +31,7 @@ Since I got back from vacation mid-July, I didn't make a July Goals notebook ent
 - Addressed minor comments from both reviewers
 - Started addressing comments from Laura and Sam
 
-**Gigas**:
+**Gigas Broodstock**:
 
 - Received PAXgene DNA kit for extractions
 
