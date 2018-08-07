@@ -24,6 +24,14 @@ Now that I had both [xylene and a thermomixer](https://yaaminiv.github.io/Gigas-
 - Set the tissue on the weigh paper until I had 0.02 g of tissue
   - The weigh paper kept oscillating between 0.00, 0.01, and 0.02! I carved out more tissue than I did the first time so I'm confident I have enough tissue. I need to find a more sensitive scale to use so my breathing doesn't affect the scale.
 
+![histo](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/Manchester/Lab-Notebook/2018-08-06-Protocol-Test/1-histoblock.JPG)
+
+**Figure 1**. Histology block before I scooped out the sample
+
+![histoscoop](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/Manchester/Lab-Notebook/2018-08-06-Protocol-Test/2-histoscoop.JPG)
+
+**Figure 2**. Histology block after I scooped out the sample
+
 ### Step 2: Cut the block into smaller pieces and place them into a 2 mL round-bottomed processing tube
 
 - The block was already cut into smaller pieces, so I carefully folded the weigh paper and scooped the tissue into a 2 mL screwtop tube
@@ -63,6 +71,10 @@ Now that I had both [xylene and a thermomixer](https://yaaminiv.github.io/Gigas-
 - I used the Genome Sciences thermomixer, set to 56ºC and 1400 rpm, for one hour.
 - After the incubation ended, I increased the temperature to 80ºC to prepare for Step 18
 
+![thermomixer](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/Manchester/Lab-Notebook/2018-08-06-Protocol-Test/3-thermomixer.JPG)
+
+**Figure 3**. Thermomixer borrowed from Genome Sciences.
+
 ### Step 16: Briefly centrifuge the microcentrifuge-safelock tube to remove drops from the inside of the lid
 
 - I centrifuged the tube for 0.5 minutes at 13,000 RPM x g
@@ -74,6 +86,10 @@ Now that I had both [xylene and a thermomixer](https://yaaminiv.github.io/Gigas-
 - Vortexed for 20 s at maximum speed
 - Incubated at room temperature for 2 minutes
 - Incubated at room temperature an extra 5 minutes while I was waiting for the thermomixer to reach 80ºC
+
+![RNAse](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/Manchester/Lab-Notebook/2018-08-06-Protocol-Test/4-RNAse.JPG)
+
+**Figure 4**. RNase A used for the protocol.
 
 ### Step 18: Incubate for 60 min at 80ºC at 1400 rpm
 
@@ -113,6 +129,14 @@ Now that I had both [xylene and a thermomixer](https://yaaminiv.github.io/Gigas-
 - Incubate tubes at room temperature for 2 minutes
 - Use Quibit to quantify yield
   - It's pretty easy to follow the instructions on the machine! You select your assay (dsDNA BR), read standards, then load in the samples
+
+![qubit-1](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/Manchester/Lab-Notebook/2018-08-06-Protocol-Test/5-qubit.JPG)
+
+![qubit-2](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/Manchester/Lab-Notebook/2018-08-06-Protocol-Test/6-qubit.JPG)
+
+![qubit-3](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/images/Manchester/Lab-Notebook/2018-08-06-Protocol-Test/7-qubit.JPG)
+
+**Figures 5-7**. Qubit results.
 
 ### Results
 
