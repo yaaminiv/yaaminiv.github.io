@@ -23,6 +23,10 @@ Here we go again!
 - Set the tissue on the weigh paper
 - Weighed 0.0201 g of tissue
 
+[1-histologyblock](https://user-images.githubusercontent.com/22335838/43988281-c478357a-9ce6-11e8-84f3-1203018f50f6.jpg)
+
+**Figure 1**. Histology block with tissue taken from the sample.
+
 ### Step 2: Cut the block into smaller pieces and place them into a 2 mL round-bottomed processing tube
 
 - Following the protocol's suggestions, I cut the block into much smaller pieces than I did yesterday
@@ -113,6 +117,14 @@ Here we go again!
 - Incubate tubes at room temperature for 2 minutes
 - Use Quibit to quantify yield
   - It's pretty easy to follow the instructions on the machine! You select your assay (dsDNA BR), read standards, then load in the samples
+
+![2-qubit](https://user-images.githubusercontent.com/22335838/43988282-c490b744-9ce6-11e8-9fcb-d727f561cf77.jpg)
+
+![3-qubit](https://user-images.githubusercontent.com/22335838/43988283-c4a6c70a-9ce6-11e8-9a5c-c9858ec19ac8.jpg)
+
+![4-qubit](https://user-images.githubusercontent.com/22335838/43988284-c4be370a-9ce6-11e8-8803-35f0fbce62c1.jpg)
+
+**Figures 2-4**. Qubit results.
 
 ### Results
 
