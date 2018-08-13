@@ -47,7 +47,7 @@ I used the [same protocol](https://yaaminiv.github.io/Gigas-Broodstock-DNA-Extra
 
 ### Results
 
-**Table 1**. Tube number, initial sample added, and DNA concentration. All of these concentrations are too low for downstream appliciations, and there does not seem to be any pattern regarding method and yield. T2-V2 yield was too low for the Qubit to measure.
+**Table 1**. Tube number, initial sample added, and DNA concentration. All of these concentrations are too low for downstream appliciations, and there does not seem to be any pattern regarding method and yield. T2-V2 yield was too low for the Qubit to measure. 50 µL of the elution buffer was used.
 
 | **Tube** | **Initial Mass (g)** | **DNA Concentration (ng/µL)** |
 |----------|----------------------|-------------------------------|
