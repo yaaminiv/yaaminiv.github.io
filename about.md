@@ -79,11 +79,15 @@ I'm also interested in projects at the intersection of science, policy and commu
 - Seattle Youth Climate Action Summit: Graduate Student Panelist (October 28, 2017)
 - Seattle Climate Action Now: Lab Tour Host (July 26, 2017)
 - Robert Eagle Staff Middle School: Guest teacher (February 6, 2018)
+- UW Botanical Gardens Summer Camp: Activity Facilitator (August 22, 2018)
+- Refugee Women's Alliance Summer Camp: Activity Facilitator (August 24, 2018 and August 31, 2018)
 
 ### Science communication
 
 **NOAA Office of National Marine Sanctuaries**: Social Media Volunteer Intern (April 2017-Present)
 - Create social media content for the Earth Is Blue campaign in addition to spearheadeding a series highlighting the graduate students in the Dr. Nancy Foster Scholarship Program
+- Write scripts and cut together Earth Is Blue videos
+- Curate social media posts
 
 **ComSciCon-PNW**: Various roles
 - Organizer (September 2017-Present): Responsible for recruiting panelists, organizing workshops, and coordinating day-of logistics
