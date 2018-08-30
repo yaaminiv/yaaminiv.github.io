@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-## The Lab Notebook of Yaamini Venkataraman, a graduate student in the Roberts Lab at the University of Washington, Seattle.
+## The Lab Notebook of Yaamini R. Venkataraman, a graduate student in the Roberts Lab at the University of Washington, Seattle.
 
 *The short version:*
 
@@ -78,9 +78,10 @@ I'm also interested in projects at the intersection of science, policy and commu
 - Scientist of the Month: The Evergreen School (December 14, 2017)
 - Seattle Youth Climate Action Summit: Graduate Student Panelist (October 28, 2017)
 - Seattle Climate Action Now: Lab Tour Host (July 26, 2017)
-- Robert Eagle Staff Middle School: Guest teacher (February 6, 2018)
+- Robert Eagle Staff Middle School: Guest Teacher (February 6, 2018)
 - UW Botanical Gardens Summer Camp: Activity Facilitator (August 22, 2018)
-- Refugee Women's Alliance Summer Camp: Activity Facilitator (August 24, 2018 and August 31, 2018)
+- Refugee Women's Alliance Summer Camp: Activity Facilitator (August 24, 2018)
+- Climate Science on Tap: Guest Scientist (August 28, 2018)
 
 ### Science communication
 
