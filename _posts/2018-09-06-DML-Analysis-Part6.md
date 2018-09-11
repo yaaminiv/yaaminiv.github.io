@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: DML Analysis Part 5
+title: DML Analysis Part 6
 tags: virginica MBDSeq DML gene-enrichment
 ---
 
