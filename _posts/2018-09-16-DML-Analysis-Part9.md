@@ -9,7 +9,11 @@ tags: virginica MBDSeq DML gene-enrichment compGO
 
 Mike fixed the [gene enrichment tool](https://meta.yeastrc.org/compgo_yaamini_oyster/pages/goAnalysisForm.jsp), so I got to use it! Good thing, becuase ReVIGO is currently down and I cannot generate gene enrichment visualizations any other way. All of this information can be found in [my R Markdown analysis notebook](https://github.com/RobertsLab/project-virginica-oa/blob/master/analyses/2018-06-14-Gene-Enrichment-Analysis/2018-06-14-Gene-Enrichment-Analysis.Rmd).
 
-The website expects inputs in the "sp|Q9C098|DCLK3_HUMAN" format (but without quotation marks). 
+The website expects inputs in the sp|Q9C098|DCLK3_HUMAN format. 
+
+![screen shot 2018-09-16 at 3 02 08 pm 2](https://user-images.githubusercontent.com/22335838/45603253-330aee00-b9df-11e8-8efe-527d6b4a6009.png)
+
+**Figure 1**. `compGO` interface.
 
 This means I don't need to unfold the specific code from anything. The tool generates both reports and images, all of which can be found in [this folder](https://github.com/RobertsLab/project-virginica-oa/tree/master/analyses/2018-06-14-Gene-Enrichment-Analysis/2018-09-16-compGO-Output). I can also do comparisons between two different lists, which is useful. I used a p-value of 1e-2, the default, for each enrichment.
 
@@ -23,7 +27,7 @@ Overrepresented biological processes include cytoskeletal growth and reorganizat
 
 ![mf](https://raw.githubusercontent.com/RobertsLab/project-virginica-oa/master/analyses/2018-06-14-Gene-Enrichment-Analysis/2018-09-16-compGO-Output/compGO-DML-mRNA-MF-p1E-2.png)
 
-**Figures 1-3**. Gene enrichment visualizations for biological processes, cellular components, and molecular functions.
+**Figures 2-4**. Gene enrichment visualizations for biological processes, cellular components, and molecular functions.
 
 ### Exon and intron Uniprot codes
 
@@ -41,11 +45,13 @@ The overrepresented biological processes in the DML-Intron overlaps were focused
 
 ![mf](https://raw.githubusercontent.com/RobertsLab/project-virginica-oa/master/analyses/2018-06-14-Gene-Enrichment-Analysis/2018-09-16-compGO-Output/compGO-DML-Intron-MF-p1E-2.png)
 
-**Figures 4-6**. Gene enrichment visualizations for biological processes, cellular components, and molecular functions.
+**Figures 5-7**. Gene enrichment visualizations for biological processes, cellular components, and molecular functions.
 
 ### Biological processes comparison
 
 ![mrna-intron](https://raw.githubusercontent.com/RobertsLab/project-virginica-oa/master/analyses/2018-06-14-Gene-Enrichment-Analysis/2018-09-16-compGO-Output/compGO-mRNA-Intron-Differences-BP-p1E-2.png)
+
+**Figure 8**. Comparison of DML-mRNA and DML-Intron gene enrichment.
 
 ### Going forward
 
