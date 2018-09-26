@@ -7,7 +7,7 @@ tags: manchester labwork gigas-broodstock
 
 ## Extraction plan for actual samples
 
-Kaitlyn ran DNA samples from protocol [test 3](https://yaaminiv.github.io/Gigas-Broodstock-DNA-Extraction-Part4/) and [test 4](https://yaaminiv.github.io/Gigas-Broodstock-DNA-Extraction-Part6/) on the Bioanalyzer. You can see her results [here](). Based on her findings, I need to use a TissueTearor at setting 1 for 10 seconds to lyse the samples before incubation. I will also remove RNA from the DNA samples. The official protocol can be found [here]().
+Kaitlyn ran DNA samples from protocol [test 3](https://yaaminiv.github.io/Gigas-Broodstock-DNA-Extraction-Part4/) and [test 4](https://yaaminiv.github.io/Gigas-Broodstock-DNA-Extraction-Part6/) on the Bioanalyzer. You can see her results [in this notebook post](). Based on her findings, I need to use a TissueTearor at setting 1 for 10 seconds to lyse the samples before incubation. I will also remove RNA from the DNA samples. The official protocol can be found [here]().
 
 I have 10 gonad samples per pH treatment (ambient or low). Because 20 samples is a lot to work with at once, I'll do 2 days of DNA extractions with 10 samples each. I randomly selected which ambient and low pH samples to extract in each batch. The IDs correspond to names on histology photos in [this folder](https://github.com/RobertsLab/project-oyster-oa/tree/master/images/Manchester/Gigas-gonad-histology/2017-04-08-Sampling). Below are diagrams for each histology block:
 
