@@ -60,7 +60,7 @@ Kailtyn and I followed [this protocol](https://github.com/RobertsLab/resources/b
 - Step 18: Relabeled some sample tubes (markings on either top or side had rubbed off) after the fourth 10 minute incubation and one minute vortex. Both labels on UK-03 rubbed off.
 - Steps 28-32: Kaitlyn needed to leave, but she wanted to learn how to use the Qubit. We decided to save this series for Friday.
 
-I stored the samples in this box in the fridge. We'll see how we did tomorrow!
+I stored the samples in the fridge. We'll see how we did tomorrow!
 
 {% if page.comments %}
 
