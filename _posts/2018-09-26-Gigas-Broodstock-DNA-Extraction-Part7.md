@@ -7,7 +7,27 @@ tags: manchester labwork gigas-broodstock
 
 ## Extraction plan for actual samples
 
-Kaitlyn ran DNA samples from protocol [test 3](https://yaaminiv.github.io/Gigas-Broodstock-DNA-Extraction-Part4/) and [test 4](https://yaaminiv.github.io/Gigas-Broodstock-DNA-Extraction-Part6/) on the Bioanalyzer. You can see her results [in this notebook post](). Based on her findings, I need to use a TissueTearor at setting 1 for 10 seconds to lyse the samples before incubation. I will also remove RNA from the DNA samples. The official protocol can be found [here]().
+But first...
+
+### Bioanalyzer results
+
+Kaitlyn ran DNA samples from protocol [test 3](https://yaaminiv.github.io/Gigas-Broodstock-DNA-Extraction-Part4/) and [test 4](https://yaaminiv.github.io/Gigas-Broodstock-DNA-Extraction-Part6/) on the Bioanalyzer. To see the results, I used the 2100 Expert software on the Windows machine. I selected "High Sensitivity DNA" and opened the data files. Each data file has two separate result views: electropherogram and gel. I took screenshots of both formats.
+
+![electro1](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/31d8e6020bc6ce3d7426c3f26810423ccdadf49a/images/Manchester/Lab-Notebook/2018-09-26-Bioanalyzer-Results/2018-09-26-Bioanalyzer-Electropherogram1.png)
+
+![gel1](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/31d8e6020bc6ce3d7426c3f26810423ccdadf49a/images/Manchester/Lab-Notebook/2018-09-26-Bioanalyzer-Results/2018-09-26-Bioanalyzer-Gel1.png)
+
+![electro2](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/31d8e6020bc6ce3d7426c3f26810423ccdadf49a/images/Manchester/Lab-Notebook/2018-09-26-Bioanalyzer-Results/2018-09-26-Bioanalyzer-Electropherogram2.png)
+
+![gel2](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/31d8e6020bc6ce3d7426c3f26810423ccdadf49a/images/Manchester/Lab-Notebook/2018-09-26-Bioanalyzer-Results/2018-09-26-Bioanalyzer-Gel2.png)
+
+**Figure 1-4**. Electropherogram and gel results for samples run on Bioanalyzer. Sample names are on the left. The top two photos correspond to the first set of samples, and the bottom two with the second set.
+
+Based on her findings, all of my methods lead to DNA shearing to 35 bp. However, my tissue tearor method samples also have electropherogram peaks at 10,380 bp. I wasn't sure if I needed a different lysis method or if I was good to go, so I posted [this issue](https://github.com/RobertsLab/resources/issues/398).
+
+### Extraction protocol
+
+The official protocol can be found [here](https://github.com/RobertsLab/resources/blob/master/protocols/DNA-Extraction-from-Histology-Blocks.md).
 
 I have 10 gonad samples per pH treatment (ambient or low). Because 20 samples is a lot to work with at once, I'll do 2 days of DNA extractions with 10 samples each. I randomly selected which ambient and low pH samples to extract in each batch. The IDs correspond to names on histology photos in [this folder](https://github.com/RobertsLab/project-oyster-oa/tree/master/images/Manchester/Gigas-gonad-histology/2017-04-08-Sampling). Below are diagrams for each histology block:
 
