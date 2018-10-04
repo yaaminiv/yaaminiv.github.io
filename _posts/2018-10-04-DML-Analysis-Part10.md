@@ -30,6 +30,8 @@ Therefore, the first mapping efficiency listed belongs to sample 10, second to s
 |      9     |     33.0     |     41.2     |     49.9     |
 |     10     |     36.6     |     44.9     |     53.0     |
 
+To optimize mapping efficiency, [we decided](https://github.com/RobertsLab/resources/issues/409) to run full samples with `-score_min L,0,-1.2`. I started the analysis in a [new Jupyter notebook](https://github.com/RobertsLab/project-virginica-oa/blob/master/notebooks/2018-10-04-Bismark-Full-Samples-Revised-Parameters.ipynb).
+
 {% if page.comments %}
 
 <div id="disqus_thread"></div>
