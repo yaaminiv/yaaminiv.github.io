@@ -60,6 +60,7 @@ Kailtyn and I followed [this protocol](https://github.com/RobertsLab/resources/b
 
 - Step 17: Incubated samples with RNase an extra 5 minutes while waiting for the heat block to reach 80ºC.
 - Step 18: Relabeled some sample tubes (markings on either top or side had rubbed off) after the fourth 10 minute incubation and one minute vortex. Both labels on UK-03 rubbed off.
+- Step 22: Precipitate formed in all samples.
 - Step 27: Kaitlyn needed to leave, but she wanted to learn how to use the Qubit. We stored the eluted DNA in the fridge and resumed the protocol on Friday.
 - Step 28: On Friday, we needed to make a master solution with 3283.5 µL of buffer and 16.5 µL of dye. However, we did not have enough dye and I could not find anymore in the lab. Kailtyn [posted an issue](https://github.com/RobertsLab/resources/issues/400). We'll resume the protocol when we have more dye.
 
