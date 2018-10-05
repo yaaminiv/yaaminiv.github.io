@@ -25,6 +25,8 @@ Ambient pH:
 - UK-03
 - UK-01
 
+### Methods
+
 Kailtyn and I followed [this protocol](https://github.com/RobertsLab/resources/blob/master/protocols/DNA-Extraction-from-Histology-Blocks.md). Here are some notes:
 
 - Step 1: Kaitlyn carved out the tissue from histology blocks while I was in class. There are definitely some samples that I cannot re-extract DNA from or try and extract RNA from.
@@ -60,6 +62,33 @@ Kailtyn and I followed [this protocol](https://github.com/RobertsLab/resources/b
 - Step 18: Relabeled some sample tubes (markings on either top or side had rubbed off) after the fourth 10 minute incubation and one minute vortex. Both labels on UK-03 rubbed off.
 - Step 27: Kaitlyn needed to leave, but she wanted to learn how to use the Qubit. We stored the eluted DNA in the fridge and resumed the protocol on Friday.
 - Step 28: On Friday, we needed to make a master solution with 3283.5 µL of buffer and 16.5 µL of dye. However, we did not have enough dye and I could not find anymore in the lab. Kailtyn [posted an issue](https://github.com/RobertsLab/resources/issues/400). We'll resume the protocol when we have more dye.
+
+### Results
+
+*Update 2018-10-05* 
+
+- Step 28: We received Qubit dye and proceeded with Step 28.
+- Step 30: While adding DNA to the Qubit assay tube, we decided it would be best to vortex our samples, then pipet. Samples 9-T2, 2-T1, 4-T3, and UK-07 were not vortexed because we had already added the sample to the assay tube.
+- Step 32: S1 = 266.81; S2 = 31156.45
+
+**Table 1**. DNA concentration for extracted samples. A total of 50 µL of DNA was eluated per sample.
+
+| **Sample ID** | **DNA Concentration (ng/µL)** |
+|:-------------:|:-----------------------------:|
+|      2-T1     |              31.2             |
+|      4-T3     |              14.4             |
+|      6-T1     |              17.9             |
+|      5-T3     |              9.12             |
+|      9-T2     |              15.9             |
+|     12-T6     |              5.64             |
+|     UK-03     |              11.6             |
+|     UK-01     |              63.0             |
+|     UK-04     |              9.26             |
+|     UK-07     |              6.40             |
+
+### Going forward
+
+These extractions gave me the highest yields I've seen! I'm confident with this method now. Kaitlyn and I will extract [batch 2](https://yaaminiv.github.io/Gigas-Broodstock-DNA-Extraction-Part7/) on Monday.
 
 {% if page.comments %}
 
