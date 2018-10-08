@@ -54,23 +54,9 @@ Kailtyn and I followed [this protocol](https://github.com/RobertsLab/resources/b
 - Step 10: Kaitlyn noted we were low on Buffer TD1
 - Step 15: For the first incubation-vortex set, the temperature was 56.9ºC instead of 56ºC. I loosened the foil and allowed some air flow, which brought the temperature to 56ºC.
 - Step 17: Samples incubated an extra 3 minutes while waiting for the heat block to reach 80ºC
+- Step 27: Samples were placed in the fridge for quantification on Tuesday
 
 ### Results
-
-**Table 1**. DNA concentration for extracted samples. A total of 50 µL of DNA was eluated per sample.
-
-| **Sample ID** | **DNA Concentration (ng/µL)** |
-|:-------------:|:-----------------------------:|
-|      1-T3     |              31.2             |
-|      7-T2     |              14.4             |
-|      8-T2     |              17.9             |
-|     10-T3     |              9.12             |
-|      3-T1     |              15.9             |
-|     UK-06     |              5.64             |
-|     11-T4     |              11.6             |
-|     UK-05     |              63.0             |
-|     UK-08     |              9.26             |
-|     UK-02     |              6.40             |
 
 ### Going forward
 
