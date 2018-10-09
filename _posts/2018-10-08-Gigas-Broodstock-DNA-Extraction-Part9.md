@@ -54,6 +54,8 @@ Kailtyn and I followed [this protocol](https://github.com/RobertsLab/resources/b
 - Step 10: Kaitlyn noted we were low on Buffer TD1
 - Step 15: For the first incubation-vortex set, the temperature was 56.9ºC instead of 56ºC. I loosened the foil and allowed some air flow, which brought the temperature to 56ºC.
 - Step 17: Samples incubated an extra 3 minutes while waiting for the heat block to reach 80ºC
+- Step 18: During the fourth incubation-vortex set, UK-O8 and (possibly) 3-T1 leaked.
+- Step 23: Some of 8-T2 spilled before centrifuging the sample
 - Step 27: Samples were placed in the fridge for quantification on Tuesday
 
 ### Results
