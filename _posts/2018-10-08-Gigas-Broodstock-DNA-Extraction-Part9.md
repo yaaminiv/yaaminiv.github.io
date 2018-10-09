@@ -60,32 +60,32 @@ Kailtyn and I followed [this protocol](https://github.com/RobertsLab/resources/b
 
 ### Results
 
+Today's DNA concentrations were more consistent than batch 1. Summary information can be found in Table 1. The same information, along with phenotypic data, can be found in [this file](https://github.com/RobertsLab/project-oyster-oa/blob/6cf11ef90159df249473e3c2ae4130a695b65bf4/data/Manchester/2018-10-2018-Broodstock-DNA-Extractions/2018-10-09-DNA-Extraction-Results.csv).
+
 **Table 1**. Tissue mass (mg), DNA concentration (ng/µL), and total DNA eluted (ng) for each sample extracted. Treatments and extraction batches are also indicated.
 
-| **Sample ID** | **Treatment** | **Extraction Batch** | **Tissue Mass (mg) ** | **DNA Concentration (ng/µL)** | **Total DNA Eluted (ng)** |
-|:-------------:|:-------------:|:--------------------:|:---------------------:|:-----------------------------:|:-------------------------:|
-|      2-T1     |      Low      |           1          |          19.7         |              31.2             |            1560           |
-|      4-T3     |      Low      |           1          |          19.8         |              14.4             |            720            |
-|      5-T3     |      Low      |           1          |          20.0         |              9.12             |            456            |
-|      6-T1     |      Low      |           1          |          20.0         |              17.9             |            895            |
-|      9-T2     |      Low      |           1          |          19.6         |              15.9             |            795            |
-|      1-T3     |      Low      |           2          |          19.7         |              7.78             |            389            |
-|      3-T1     |      Low      |           2          |          20.2         |              6.40             |            320            |
-|      7-T2     |      Low      |           2          |          19.9         |              10.8             |            540            |
-|      8-T2     |      Low      |           2          |          19.8         |              19.3             |            965            |
-|     10-T3     |      Low      |           2          |          19.7         |              18.3             |            915            |
-|     12-T6     |    Ambient    |           1          |          20.0         |              5.64             |            282            |
-|     UK-01     |    Ambient    |           1          |          19.7         |              63.0             |            3150           |
-|     UK-03     |    Ambient    |           1          |          19.8         |              11.6             |            580            |
-|     UK-04     |    Ambient    |           1          |          20.0         |              9.26             |            463            |
-|     UK-07     |    Ambient    |           1          |          19.9         |              6.40             |            320            |
-|     11-T4     |    Ambient    |           2          |          19.8         |              15.7             |            785            |
-|     UK-02     |    Ambient    |           2          |          20.2         |              10.5             |            525            |
-|     UK-05     |    Ambient    |           2          |          19.7         |              9.26             |            463            |
-|     UK-06     |    Ambient    |           2          |          20.0         |              16.0             |            800            |
-|     UK-08     |    Ambient    |           2          |          20.0         |              7.86             |            393            |
-
-This batch's DNA concentrations were more consistent than the last batch.
+| **Sample ID** | **Treatment** | **Extraction Batch** | **Tissue Mass (mg)** | **DNA Concentration (ng/µL)** | **Total DNA Eluted (ng)** |
+|:-------------:|:-------------:|:--------------------:|:--------------------:|:-----------------------------:|:-------------------------:|
+|      2-T1     |      Low      |           1          |          19.7        |              31.2             |            1560           |
+|      4-T3     |      Low      |           1          |          19.8        |              14.4             |            720            |
+|      5-T3     |      Low      |           1          |          20.0        |              9.12             |            456            |
+|      6-T1     |      Low      |           1          |          20.0        |              17.9             |            895            |
+|      9-T2     |      Low      |           1          |          19.6        |              15.9             |            795            |
+|      1-T3     |      Low      |           2          |          19.7        |              7.78             |            389            |
+|      3-T1     |      Low      |           2          |          20.2        |              6.40             |            320            |
+|      7-T2     |      Low      |           2          |          19.9        |              10.8             |            540            |
+|      8-T2     |      Low      |           2          |          19.8        |              19.3             |            965            |
+|     10-T3     |      Low      |           2          |          19.7        |              18.3             |            915            |
+|     12-T6     |    Ambient    |           1          |          20.0        |              5.64             |            282            |
+|     UK-01     |    Ambient    |           1          |          19.7        |              63.0             |            3150           |
+|     UK-03     |    Ambient    |           1          |          19.8        |              11.6             |            580            |
+|     UK-04     |    Ambient    |           1          |          20.0        |              9.26             |            463            |
+|     UK-07     |    Ambient    |           1          |          19.9        |              6.40             |            320            |
+|     11-T4     |    Ambient    |           2          |          19.8        |              15.7             |            785            |
+|     UK-02     |    Ambient    |           2          |          20.2        |              10.5             |            525            |
+|     UK-05     |    Ambient    |           2          |          19.7        |              9.26             |            463            |
+|     UK-06     |    Ambient    |           2          |          20.0        |              16.0             |            800            |
+|     UK-08     |    Ambient    |           2          |          20.0        |              7.86             |            393            |
 
 ### Going forward
 
