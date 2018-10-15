@@ -87,11 +87,14 @@ Today's DNA concentrations were more consistent than batch 1. Summary informatio
 |     UK-06     |    Ambient    |           2          |          20.0        |              16.0             |            800            |
 |     UK-08     |    Ambient    |           2          |          20.0        |              7.86             |            393            |
 
+**Update 2018-10-15**
+
+Kaitlyn ran the samples on the bioanalyzer. The electropherograms, gel pictures, and results tables can be found in [this folder](https://github.com/RobertsLab/project-oyster-oa/tree/master/data/Manchester/2018-10-09-Broodstock-DNA-Extractions/2018-10-10-Bioanalyzer-Results). UK-05 had a funny pattern with multiple peaks, but two of those peaks were above 500 bp. The gel matrix in samples UK-04, UK-03, 4-T3, and 6-T1 were compromised, so the assay was unable to detect the upper marker in this assay. In both of these instances, I think I can still go ahead.
+
 ### Going forward
 
-1. Run all samples on the Bioanalyzer
-2. Determine the appropriate bisulfite sequencing prep assay
-3. Figure out if I can extract RNA from remaining samples
+1. Determine the appropriate bisulfite sequencing prep assay. Steven said I can start with [this link](https://twitter.com/dustrubenstein/status/1048312118855041026?s=12).
+2. Figure out if I can extract RNA from remaining samples
 
 {% if page.comments %}
 
