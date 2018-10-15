@@ -111,8 +111,10 @@ I'm also interested in projects at the intersection of science, policy and commu
 
 ### Other involvements
 
-**Western Society of Naturalists Student Committee**: October 2018-Present
+**Western Society of Naturalists Student Committee**: Member (October 2018-Present)
 - Helping plan the 2019 and 2020 meetings
+
+**Research Coordinated Network for Evolution in Changing Seas**: Member (October 2018-Present)
 
 **Fisheries Interdisciplinary Network of Students**: Various roles
 - President (June 2017-Present): Organizational head, liaison between graduate students, faculty, and administration
