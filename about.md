@@ -69,6 +69,7 @@ I'm also interested in projects at the intersection of science, policy and commu
 
 **Students Exploring Aquatic Sciences**: Curriculum Developer (August 2017-Present)
 - Co-planning a Spring 2018 FISH 508 class to empower graduate students to cater their outreach activities to diverse classrooms
+- Working with teachers from Jane Addams Middle School to teach a week-long science course May 2019
 
 **National Center for Science Education**: Scientist in the Classroom (January 2017-June 2017)
 - Worked with middle school science teacher to develop lessons about climate change in the Pacific Northwest, specifically ocean acidification. Taught two lessons in person
@@ -82,6 +83,7 @@ I'm also interested in projects at the intersection of science, policy and commu
 - UW Botanical Gardens Summer Camp: Activity Facilitator (August 22, 2018)
 - Refugee Women's Alliance Summer Camp: Activity Facilitator (August 24, 2018)
 - Climate Science on Tap: Guest Scientist (August 28, 2018)
+- Sound Waters University: Invited Teacher (February 9, 2019)
 
 ### Science communication
 
@@ -108,6 +110,9 @@ I'm also interested in projects at the intersection of science, policy and commu
 - Examined effect of social media on perceptions of Paris Agreement and COP23
 
 ### Other involvements
+
+**Western Society of Naturalists Student Committee**: October 2018-Present
+- Helping plan the 2019 and 2020 meetings
 
 **Fisheries Interdisciplinary Network of Students**: Various roles
 - President (June 2017-Present): Organizational head, liaison between graduate students, faculty, and administration
