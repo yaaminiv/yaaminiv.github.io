@@ -116,6 +116,9 @@ I'm also interested in projects at the intersection of science, policy and commu
 
 **Research Coordinated Network for Evolution in Changing Seas**: Member (October 2018-Present)
 
+**NSF Graduate Research Fellowship Program (GRFP) Application Workshop**: Mentor (Fall 2018)
+- Helped graduate students write and apply for the NSF GRFP
+
 **Fisheries Interdisciplinary Network of Students**: Various roles
 - President (June 2017-Present): Organizational head, liaison between graduate students, faculty, and administration
 - Diversity and Equity Forum Leader (September 2016-June 2017): Hosted events to start dialogue about diversity, equity, and inclusion within the department
