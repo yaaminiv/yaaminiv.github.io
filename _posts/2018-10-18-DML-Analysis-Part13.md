@@ -13,13 +13,21 @@ Using [this R Markdown file](https://github.com/RobertsLab/project-virginica-oa/
 
 All of my output from this analysis can be found [here](https://github.com/RobertsLab/project-virginica-oa/tree/master/analyses/2018-10-11-MethylKit-Parameter-Testing/2018-10-14-Steven-Samples). Below are some highlights:
 
-**Figures 1-3**. Percent CpG coverage for all samples using a) `mincov = 1` b) `mincov = 3` or c) `mincov = 5`.
+![cpgmeth1](https://raw.githubusercontent.com/RobertsLab/project-virginica-oa/master/analyses/2018-10-11-MethylKit-Parameter-Testing/2018-10-14-Steven-Samples/2018-10-11-Full-Sample-CpG-Methylation-Clustering-Cov1.jpeg)
 
-**Figures 4-6**. Percent CpG methylation for all samples using a) `mincov = 1` b) `mincov = 3` or c) `mincov = 5`.
+![cpgmeth3](https://raw.githubusercontent.com/RobertsLab/project-virginica-oa/master/analyses/2018-10-11-MethylKit-Parameter-Testing/2018-10-14-Steven-Samples/2018-10-11-Full-Sample-CpG-Methylation-Clustering-Cov3.jpeg)
 
-**Figures 7-9**. Full sample CpG methylation clustering using a) `mincov = 1` b) `mincov = 3` or c) `mincov = 5`.
+![cpgmeth5](https://raw.githubusercontent.com/RobertsLab/project-virginica-oa/master/analyses/2018-10-11-MethylKit-Parameter-Testing/2018-10-14-Steven-Samples/2018-10-11-Full-Sample-CpG-Methylation-Clustering-Cov5.jpeg)
 
-**Figures 10-12* PCA of full sample methylation using a) `mincov = 1` b) `mincov = 3` or c) `mincov = 5`.
+**Figures 1-3**. Full sample CpG methylation clustering using a) `mincov = 1` b) `mincov = 3` or c) `mincov = 5`.
+
+![PCA1](https://raw.githubusercontent.com/RobertsLab/project-virginica-oa/master/analyses/2018-10-11-MethylKit-Parameter-Testing/2018-10-14-Steven-Samples/2018-10-11-Full-Sample-Methylation-PCA-Cov1.jpeg)
+
+![PCA3](https://raw.githubusercontent.com/RobertsLab/project-virginica-oa/master/analyses/2018-10-11-MethylKit-Parameter-Testing/2018-10-14-Steven-Samples/2018-10-11-Full-Sample-Methylation-PCA-Cov3.jpeg)
+
+![PCA5](https://raw.githubusercontent.com/RobertsLab/project-virginica-oa/master/analyses/2018-10-11-MethylKit-Parameter-Testing/2018-10-14-Steven-Samples/2018-10-11-Full-Sample-Methylation-PCA-Cov5.jpeg)
+
+**Figures 4-6** PCA of full sample methylation using a) `mincov = 1` b) `mincov = 3` or c) `mincov = 5`.
 
 I also wrote out differentially methylated loci that were at least 50% different between my treatment and control for [`mincov = 1`](https://github.com/RobertsLab/project-virginica-oa/blob/master/analyses/2018-10-11-MethylKit-Parameter-Testing/2018-10-14-Steven-Samples/2018-10-11-Steven-Samples-Differentially-Methylated-Loci-50-Cov1.csv), [`mincov = 3`](https://github.com/RobertsLab/project-virginica-oa/blob/master/analyses/2018-10-11-MethylKit-Parameter-Testing/2018-10-14-Steven-Samples/2018-10-11-Steven-Samples-Differentially-Methylated-Loci-50-Cov3.csv), and [`mincov = 5`](https://github.com/RobertsLab/project-virginica-oa/blob/master/analyses/2018-10-11-MethylKit-Parameter-Testing/2018-10-14-Steven-Samples/2018-10-11-Steven-Samples-Differentially-Methylated-Loci-50-Cov5.csv). I haven't dug into what the exact differences are between these files, but there are at least differences in the number of DMLs produced.
 
@@ -43,13 +51,9 @@ I went through the [`bismark` pipeline in my Jupyter notebook](https://github.co
 
 All output from `methylKit` testing for my samples can be found [here]().
 
-**Figures 13-15**. Percent CpG coverage for all samples using a) `mincov = 1` b) `mincov = 3` or c) `mincov = 5`.
+**Figures 7-9**. Full sample CpG methylation clustering using a) `mincov = 1` b) `mincov = 3` or c) `mincov = 5`.
 
-**Figures 16-18**. Percent CpG methylation for all samples using a) `mincov = 1` b) `mincov = 3` or c) `mincov = 5`.
-
-**Figures 19-21**. Full sample CpG methylation clustering using a) `mincov = 1` b) `mincov = 3` or c) `mincov = 5`.
-
-**Figures 22-24* PCA of full sample methylation using a) `mincov = 1` b) `mincov = 3` or c) `mincov = 5`.
+**Figures 10-12* PCA of full sample methylation using a) `mincov = 1` b) `mincov = 3` or c) `mincov = 5`.
 
 {% if page.comments %}
 
