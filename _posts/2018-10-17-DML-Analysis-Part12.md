@@ -35,7 +35,7 @@ rsync --archive --progress --verbose yaamini@172.25.149.226:/Volumes/web/Athalia
 
 `````
 md5sum -c checksums.md5 #Check checksums. All passed!
-````
+`````
 
 Based on [Steven's feedback](https://github.com/RobertsLab/resources/issues/431#issuecomment-430770659), I transferred my shell script to my user directory.
 
