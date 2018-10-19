@@ -51,6 +51,12 @@ When calcuating differential methylation, I didn't get any error about a glm not
 |         1000         |        1000        |       104144      |                     118                    |
 |         1000         |         100        |       104144      |                     118                    |
 
+I wrote out DMRs for each method in individual .csv files:
+
+- [100 bp window and step size](https://github.com/RobertsLab/project-virginica-oa/blob/master/analyses/2018-10-11-MethylKit-Parameter-Testing/2018-10-19-Tiling-Analysis/2018-10-19-Genefish-Samples-Differentially-Methylated-Loci-50-Cov3-Tiles100.csv)
+- [1000 bp window and step size](https://github.com/RobertsLab/project-virginica-oa/blob/master/analyses/2018-10-11-MethylKit-Parameter-Testing/2018-10-19-Tiling-Analysis/2018-10-19-Genefish-Samples-Differentially-Methylated-Loci-50-Cov3-Tiles1000.csv)
+- [1000 bp window and 100 bp step size](https://github.com/RobertsLab/project-virginica-oa/blob/master/analyses/2018-10-11-MethylKit-Parameter-Testing/2018-10-19-Tiling-Analysis/2018-10-19-Genefish-Samples-Differentially-Methylated-Loci-50-Cov3-Tiles1000-Step100.csv)
+
 ### Going forward
 
 I think it makes sense to have smaller-sized DMRs, so I'd rather continue wiht the 100 bp windows and steps. The 100 bp window and step PCA also has the best separation between ambient and treatment samples. I posted [this issue]() to get Steven's opinion.
