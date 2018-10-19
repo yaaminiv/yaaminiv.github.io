@@ -65,7 +65,7 @@ All output from `methylKit` testing for my samples can be found [here](https://g
 
 ![PCA5](https://raw.githubusercontent.com/RobertsLab/project-virginica-oa/master/analyses/2018-10-11-MethylKit-Parameter-Testing/2018-10-18-Genefish-Samples/2018-10-18-Full-Sample-Methylation-PCA-Cov5.jpeg)
 
-**Figures 10-12* PCA of full sample methylation using a) `mincov = 1` b) `mincov = 3` or c) `mincov = 5`.
+**Figures 10-12** PCA of full sample methylation using a) `mincov = 1` b) `mincov = 3` or c) `mincov = 5`.
 
 **Table 2**. The `mincov` metric, total number of loci produced, and the number of DMLs that were at least 50% different between treatment andc control samples. More restrictive `mincov` metrics produced less significantly different DMLs.
 
