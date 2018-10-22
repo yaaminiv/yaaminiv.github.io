@@ -59,7 +59,7 @@ I wrote out DMRs for each method in individual .csv files:
 
 ### Going forward
 
-I think it makes sense to have smaller-sized DMRs, so I'd rather continue wiht the 100 bp windows and steps. The 100 bp window and step PCA also has the best separation between ambient and treatment samples. I posted [this issue]() to get Steven's opinion.
+I think it makes sense to have smaller-sized DMRs, so I'd rather continue wiht the 100 bp windows and steps. The 100 bp window and step PCA also has the best separation between ambient and treatment samples. I posted [this issue](https://github.com/RobertsLab/resources/issues/445) to get Steven's opinion, and he agreed. Now to get a list of genes!
 
 {% if page.comments %}
 
