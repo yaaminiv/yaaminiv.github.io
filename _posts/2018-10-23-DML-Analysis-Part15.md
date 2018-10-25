@@ -19,6 +19,7 @@ One thing that came up while Steven and I were looking at my results is that Ste
 
 1. I will update the [*C. virginica* gonad methylation paper](https://docs.google.com/document/d/1gOMJrnhs4D-jCKWlJK2tm0Z27IrSqMkmc7K1pDBmqi0/edit#heading=h.r39if6ga2q0r) with reproducible methods and preliminary results. Steven will use this information to reproduce my work and hopefully figure out why we're getting different results.
 2. I need to figure out how to do a proper gene enrichment and flanking analysis
+3. Ready scripts for sample analysis when my Mox job finishes running
 
 {% if page.comments %}
 
