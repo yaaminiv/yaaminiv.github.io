@@ -5,6 +5,10 @@ title: November 2018 Goals
 tags: goals
 ---
 
+![fun](https://az616578.vo.msecnd.net/files/2016/11/01/636136293419616000-748552172_funny-Cinderella-clock-Halloween-Christmas.jpg)
+
+It's November. Not December. Let's all eat some pumpkin pie and work on our monthly goals.
+
 ### [October Goals Recap](https://yaaminiv.github.io/October-2018-Goals/):
 
 **Manchester**:
