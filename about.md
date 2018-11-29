@@ -44,10 +44,15 @@ I'm also interested in projects at the intersection of science, policy and commu
 **Phage Genomics Research Initiative** (September 2012-June 2013)
 - Characterized genome of newly-isolated bacteriophage
 
+### Publications
+
+- **Venkataraman Y**, Spencer L, Roberts S, *Adult low pH Exposure Influences Larval Abundance in Pacific Oysters (Crassostrea gigas)* (Journal of Shellfish Research, *in press*)
+
 ### Presentations
 
--  **Venkataraman Y**, Roberts S, *Pre-Gametogenic pH Exposure Induces Larval Carryover Effect* (National Shellfisheries Association, March 2018)
--  **Venkataraman Y**, Roberts S, Timmins-Schiffman E *Exploring Proteomic Variation in Pacific Oysters* (Western Society of Naturalists, November 2017)
+- **Venkataraman Y**, Spencer L, Roberts S, *Adult low pH Exposure Influences Larval Abundance in Pacific Oysters (Crassostrea gigas)* (Western Society of Naturalists, November 2018)
+- **Venkataraman Y**, Roberts S, *Pre-Gametogenic pH Exposure Induces Larval Carryover Effect* (National Shellfisheries Association, March 2018)
+- **Venkataraman Y**, Roberts S, Timmins-Schiffman E *Exploring Proteomic Variation in Pacific Oysters* (Western Society of Naturalists, November 2017)
 - **Venkataraman Y**, Lowder K, Taylor J *Effect of Low pH on Growth and Feeding Quantity in the Surfgrass Limpet* (University of California, San Diego, May 2016)
 - **Venkataraman Y**, Cage P, Niles J *Social Media for a Global Movement: How Can Social Media Influence an International Climate Change Negotiation?* (University of California, San Diego, June 2016)
 - **Venkataraman Y**, Sun P, Edmands S, *Effects of Shading on Environmental Parameters, *Tigriopus californicus* population dynamics, and copper tolerance*  (Association for the Sciences of Limnology and Oceanography, February 2016)
