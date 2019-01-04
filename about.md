@@ -73,6 +73,8 @@ I'm also interested in projects at the intersection of science, policy and commu
 
 ### Outreach
 
+Outreach activities marked with an asterisk are related to my research on oysters and ocean acidification.
+
 **Students Exploring Aquatic Sciences**: Curriculum Developer (August 2017-Present)
 - Co-planning a Spring 2018 FISH 508 class to empower graduate students to cater their outreach activities to diverse classrooms
 - Working with teachers from Jane Addams Middle School to teach a week-long science course May 2019 *
