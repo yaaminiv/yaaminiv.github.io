@@ -91,6 +91,7 @@ Outreach activities marked with an asterisk are related to my research on oyster
 - UW Botanical Gardens Summer Camp: Activity Facilitator (August 22, 2018)
 - Refugee Women's Alliance Summer Camp: Activity Facilitator (August 24, 2018)
 - Climate Science on Tap: Guest Scientist (August 28, 2018) *
+- EarthTones Podcast: Guest (January 2019) *
 - Sound Waters University: Invited Teacher (February 2, 2019) *
 
 ### Science communication
