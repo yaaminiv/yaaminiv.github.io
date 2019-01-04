@@ -75,21 +75,21 @@ I'm also interested in projects at the intersection of science, policy and commu
 
 **Students Exploring Aquatic Sciences**: Curriculum Developer (August 2017-Present)
 - Co-planning a Spring 2018 FISH 508 class to empower graduate students to cater their outreach activities to diverse classrooms
-- Working with teachers from Jane Addams Middle School to teach a week-long science course May 2019
+- Working with teachers from Jane Addams Middle School to teach a week-long science course May 2019 *
 
 **National Center for Science Education**: Scientist in the Classroom (January 2017-June 2017)
-- Worked with middle school science teacher to develop lessons about climate change in the Pacific Northwest, specifically ocean acidification. Taught two lessons in person
+- Worked with middle school science teacher to develop lessons about climate change in the Pacific Northwest, specifically ocean acidification. Taught two lessons in person *
 
 **One-day events**
 - North Cascades Institute: Graduate Student Panelist (February 10, 2017)
-- Scientist of the Month: The Evergreen School (December 14, 2017)
+- Scientist of the Month: The Evergreen School (December 14, 2017; December 13, 2018) *
 - Seattle Youth Climate Action Summit: Graduate Student Panelist (October 28, 2017)
-- Seattle Climate Action Now: Lab Tour Host (July 26, 2017)
+- Seattle Climate Action Now: Lab Tour Host (July 26, 2017) *
 - Robert Eagle Staff Middle School: Guest Teacher (February 6, 2018)
 - UW Botanical Gardens Summer Camp: Activity Facilitator (August 22, 2018)
 - Refugee Women's Alliance Summer Camp: Activity Facilitator (August 24, 2018)
-- Climate Science on Tap: Guest Scientist (August 28, 2018)
-- Sound Waters University: Invited Teacher (February 9, 2019)
+- Climate Science on Tap: Guest Scientist (August 28, 2018) *
+- Sound Waters University: Invited Teacher (February 2, 2019) *
 
 ### Science communication
 
