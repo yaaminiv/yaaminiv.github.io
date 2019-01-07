@@ -47,6 +47,7 @@ I'm also interested in projects at the intersection of science, policy and commu
 ### Publications
 
 - **Venkataraman Y**, Spencer L, Roberts S, *Adult low pH Exposure Influences Larval Abundance in Pacific Oysters (Crassostrea gigas)* (Journal of Shellfish Research, *in press*)
+- **Venkataraman Y**, Timmins-Schiffman E, Horwith M, Lowe A, Nunn B, Vadopalas B, Spencer L, Roberts S, *Characterization of proteomic response to natural environmental differences in the Pacific oyster (Crassostrea gigas)* (Marine Ecology Progress Series, *in press*). [bioRXiv preprint](https://www.biorxiv.org/content/early/2018/12/11/460204)
 
 ### Presentations
 
