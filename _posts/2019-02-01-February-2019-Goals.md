@@ -18,6 +18,10 @@ Turns out I'm not the greatest at working on projects while writing a grant prop
 - [Investigated my clustering](https://yaaminiv.github.io/DML-Analysis-Part21/), but decided it wasn't an important rabbit hole to go down
 - Kept my methods and results updated
 
+**Bypass**:
+
+- Wrote my bypass statement
+
 **Other**:
 
 - Applied for Husky100
@@ -27,6 +31,12 @@ Turns out I'm not the greatest at working on projects while writing a grant prop
 ### February Goals:
 
 These are the things that got left behind last month, so now I can focus on them.
+
+**Virginica**:
+
+- Complete gene enrichment
+- Describe genes DMRs are in
+- Draft discussion and introduction
 
 **Gigas Broodstock**:
 
@@ -38,7 +48,6 @@ These are the things that got left behind last month, so now I can focus on them
 
 - Finish draft Ph.D proposal
 - Update CV
-- Write bypass statement
 - Send bypass application to committee for approval
 - Submit bypass application
 
