@@ -1,11 +1,11 @@
 ---
 layout: post
 comments: true
-title: Gigas Broodstock DNA Extraction Part 10
+title: WGBS Samples
 tags: manchester labwork gigas-broodstock WGBS
 ---
 
-## Preparing samples for WGBS
+## Preparing *C. gigas* DNA for WGBS
 
 We're planning on sending samples for whole genome bisulfite sequencing, and Steven asked me prepare two pooled samples with  [*C. gigas* broodstock DNA I extracted](yaaminiv.github.io/Gigas-Broodstock-DNA-Extraction-Part9.md). These samples needed to have at least 500 ng of DNA and a concentration of 20 ng/µL. I decided to make 2 pooled samples: one for the low pH group and one for the ambient pH group. For each pooled sample, I used two stage 0 oyster samples (sexually undifferentiated) with the highest yield. This way, I could hopefully use the samples for sequencing again, and I'd have a baseline for DNA methylation without sex effects. Since each pooled sample needed 500 ng, I obtained 250 ng of DNA from each individual sample.
 
