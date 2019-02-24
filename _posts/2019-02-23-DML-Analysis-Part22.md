@@ -15,15 +15,7 @@ I followed the instructions from my previous gene enrichment using [DAVID](https
 
 I performed a gene enrichment from the [DMR-mRNA](https://github.com/fish546-2018/yaamini-virginica/blob/master/analyses/2018-11-01-DML-and-DMR-Analysis/2018-11-07-DMR-mRNA.txt) and [DML-mRNA](https://github.com/fish546-2018/yaamini-virginica/blob/master/analyses/2018-11-01-DML-and-DMR-Analysis/2018-11-07-DML-mRNA-Unfolded.txt) overlaps to see which genes were overrepresented in differentially methylated loci and regions between ambient and treatment samples.
 
-#### DMR
-
-Specific results can be found [here](https://github.com/fish546-2018/yaamini-virginica/tree/master/analyses/2018-12-02-Gene-Enrichment-Analysis/2019-02-22-DAVID-Output/2019-02-22-DMR-mRNA-Overlaps).
-
-Based on corrected p-values, there was only one significantly enriched GOterm for this analysis: [cilium morphogenesis](http://www.informatics.jax.org/vocab/gene_ontology/GO:0060271)! That could be interesting seeing how impacts on cilia could affect cellular structure. The only other GOterm with less than a 10% FDR was [cellular projection organization](http://www.informatics.jax.org/vocab/gene_ontology/GO:0030030), which may also be involved with cilia, flagella, and sperm motility.
-
-#### DML
-
-Specific results can be found [here](https://github.com/fish546-2018/yaamini-virginica/tree/master/analyses/2018-12-02-Gene-Enrichment-Analysis/2019-02-22-DAVID-Output/2019-02-22-DML-mRNA-Overlaps).
+Based on corrected p-values, there was only one significantly enriched GOterm for DMR-mRNA overlaps: [cilium morphogenesis](http://www.informatics.jax.org/vocab/gene_ontology/GO:0060271)! That could be interesting seeing how impacts on cilia could affect cellular structure. The only other GOterm with less than a 10% FDR was [cellular projection organization](http://www.informatics.jax.org/vocab/gene_ontology/GO:0030030), which may also be involved with cilia, flagella, and sperm motility.
 
 There were no significantly enriched GOterms when I looked at DMLs instead of DMRs. For cellular components, cytoplasm had a FDR less than 10%. The molecular function ubiquitin-protein transferase activity also had a FDR less than 10%.
 
