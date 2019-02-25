@@ -42,7 +42,7 @@ There were also no significantly enriched GOterms for the closest non-overlappin
 ### Going forward
 
 1. Determine if this is the best gene enrichment approach
-2. Find a way to do a gene enrichment with exon, intron, and transposable element overlaps
+2. Add Genbank IDs to exon, intron, and transposable element overlaps, then perform gene enrichment
 3. Describe functions of most interesting genes with DML and DMR
 
 {% if page.comments %}
