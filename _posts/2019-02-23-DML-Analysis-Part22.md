@@ -27,9 +27,8 @@ Now that I had the product information isolated, I wanted to create a new docume
 
 ### Going forward
 
-1. Repeat this with DML-mRNA overlaps
-2. Visualize gene product information
-3. Relate this information to gene enrichment
+1. Visualize gene product information
+2. Relate this information to gene enrichment
 
 {% if page.comments %}
 
