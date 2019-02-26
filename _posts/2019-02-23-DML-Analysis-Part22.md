@@ -27,8 +27,9 @@ Now that I had the product information isolated, I wanted to create a new docume
 
 ### Going forward
 
-1. Visualize gene product information
-2. Relate this information to gene enrichment
+1. Repeat this process with DMR-exon, DMR-intron, and DMR-TE overlaps
+2. Visualize gene product information
+3. Relate this information to gene enrichment
 
 {% if page.comments %}
 
