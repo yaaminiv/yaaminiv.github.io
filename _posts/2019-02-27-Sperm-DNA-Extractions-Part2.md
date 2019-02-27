@@ -71,10 +71,10 @@ tags: virginica labwork sperm WGBS
 
 **Table 1**. Sample ID, concentration, and total DNA yield.
 
-| **Sample** | **Concentration (ng/µL)** | **DNA Yield (45 µL total)** |
-|:----------:|:-------------------------:|:---------------------------:|
-|  L18A0012s |             125           |             5625            |
-|  L18A0031s |            9.84           |            442.8            |
+| **Sample** | **Concentration (ng/µL)** | **Total DNA Yield (ng in 45 µL total)** |
+|:----------:|:-------------------------:|:---------------------------------------:|
+|  L18A0012s |             125           |                   5625                  |
+|  L18A0031s |            9.84           |                  442.8                  |
 
 My two samples had very different concentrations! I think I was able to get enough DNA for whole genome bisulfite sequencing out of these samples. Since Sam isn't in today for me to confirm, I'll comment in [this issue](https://github.com/RobertsLab/resources/issues/587) and continue with labwork tomorrow.
 
