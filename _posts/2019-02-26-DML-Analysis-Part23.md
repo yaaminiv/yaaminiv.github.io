@@ -7,7 +7,7 @@ tags: virginica MBDSeq gene-enrichment
 
 ## DMR-mRNA gene product information
 
-Since I didn't get much information from [my previous gene enrichment](), I thought I would start describing the function of coding regions with DMRs in them. When I looked at the [DMR-mRNA overlap file](https://github.com/fish546-2018/yaamini-virginica/blob/master/analyses/2018-11-01-DML-and-DMR-Analysis/2018-11-07-DMR-mRNA.txt), I saw that there was gene product information buried in the last column:
+Since I didn't get much information from [my previous gene enrichment](https://yaaminiv.github.io/DML-Analysis-Part22/), I thought I would start describing the function of coding regions with DMRs in them. When I looked at the [DMR-mRNA overlap file](https://github.com/fish546-2018/yaamini-virginica/blob/master/analyses/2018-11-01-DML-and-DMR-Analysis/2018-11-07-DMR-mRNA.txt), I saw that there was gene product information buried in the last column:
 
 ```
 ID=rna48;Parent=gene35;Dbxref=GeneID:111114201,Genbank:XM_022452489.1;Name=XM_022452489.1;Note=The sequence of the model RefSeq transcript was modified relative to this genomic sequence to represent the inferred CDS: inserted 2 bases in 2 codons;exception=unclassified transcription discrepancy;gbkey=mRNA;gene=LOC111114201;model_evidence=Supporting evidence includes similarity to: 4 Proteins%2C and 99%25 coverage of the annotated genomic feature by RNAseq alignments%2C including 9 samples with support for all annotated introns;product=vacuolar protein sorting-associated protein 13B-like;transcript_id=XM_022452489.1
