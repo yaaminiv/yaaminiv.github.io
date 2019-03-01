@@ -26,6 +26,7 @@ tags: virginica labwork sperm WGBS
 **Step 6**. Obtain the E.Z.N.A. Mollusc Kit. Add 350 µL ML1 Buffer and 25 µL Proteinase K Solution to each sample. Vortex thoroughly.
 
 **Step 7**. Place the samples on 37ºC heat block for overnight incubation.
+  - I started the incubtation at 10:20 a.m.
 
 **Step 8**. Soak used mortars and pestles in a 10% bleach solution for 5 minutes. Clean the equipment with a sponge and rinse with DI water before drying. The equipment can be sprayed with 100% ethanol to speed up the drying process.
 
