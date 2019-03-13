@@ -24,6 +24,10 @@ Last day of sperm DNA extractions! Kaitlyn helped me isolate DNA from the [sampl
     - 350 µL: 6s, 59s
     - 400 µL: 7s, 13s, 57s, 63s
     - 450 µL: 23s
+    
+![IMG_9915](https://user-images.githubusercontent.com/22335838/54253743-d6136f00-450d-11e9-9d6c-c3004ab140eb.jpg)
+
+**Figure 1**. Phase separation in Step 11.
   
 **Step 12**. Add MBL Buffer in the same amount as the volume of the aqueous phase transferred in Step 11. Add 10 µL of RNase A to each sample, then vortex at maximum speed for 15 seconds.
   - Volume MBL Buffer added:
