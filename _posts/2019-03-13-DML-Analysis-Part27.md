@@ -5,7 +5,7 @@ title: DML Analysis Part 27
 tags: virginica MBDSeq IGV
 ---
 
-## Resolving DML and DMR Visuazation Issues
+## Resolving DML and DMR visualization issues
 
 TL;DR Certain things are a dumpster fire so it's time to put out the dumpster fire.
 
