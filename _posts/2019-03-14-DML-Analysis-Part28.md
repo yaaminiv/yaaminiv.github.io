@@ -45,6 +45,10 @@ I revisited my [`bedtools` Jupyter notebook](https://github.com/fish546-2018/yaa
 
 The track had 630 DML, instead of the 1398 in my 3x coverage track. Of the 630 DML, were 335 hypermethylated in the treatment and were 295 hypomethylated. Most of the DML, 576, were located in mRNA coding (genic) regions, with 1474 genes represented. In the genic regions, 388 DML overlapped with exons and 200 overlapped with introns. 61 DML overlapped with transposable elements generated using all species in the database, and 40 DML overlapped with transposable elements generated using *C. gigas* only. In 1000 bp flanking regions upstream and downstream of mRNA coding regions, 46 DML overlapped with upstream flanks and 50 overlapped with downstream flanks.
 
+**Edit 2019-03-17**:
+
+Steven suggested I count the number of DML that do not overlap with any features (i.e. are in unannotated intergenic regions). To do this, I used the `-v` argument in `intersectBed`, which reports "those entries in A that have no overlap in B. I also specified multiple files with `-b`: exons, introns, and transposable elements identified using *C. gigas* only. I don't need to include mRNA coding regions, since exons and introns are included in that file. I found that 39 DML did not overlap with my feature tracks. I saved the list of DML [here](https://github.com/fish546-2018/yaamini-virginica/blob/master/analyses/2018-11-01-DML-and-DMR-Analysis/2019-03-17-No-Overlap-DML.txt). 
+
 ### Going forward
 
 1. Conduct a proportion test for DML locations
