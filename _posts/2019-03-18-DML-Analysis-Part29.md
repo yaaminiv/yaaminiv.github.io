@@ -91,7 +91,7 @@ awk '{print $1"\t"$2"\t"$3}' 2019-03-18-Control-5x-CpG-Loci-Methylated.bedgraph 
 > 2019-03-18-Control-5x-CpG-Loci-Methylated.bed
 `````
 
-Similar to the DML, methylated CpG were primarily located in genic regions (56,055 CpG; 92.6%), with 3,083 unique genes represented. More CpG (40,127; 66.27%) overlaped with exons than with introns (17,510; 28.92%). I found 4,687 CpG (7.74%) in transposable elements and 1,221 CpG (2.02%) in putative promoter regions 1 kb upstream of transcription start sites. There were 2278 methylated loci (3.76%) that did not overlap with exons, introns, transposable elements, or putative promoters.
+Similar to the DML, methylated CpG were primarily located in genic regions (56,055 CpG; 92.6%), with 3,083 unique genes represented. More CpG (40,127; 66.27%) overlaped with exons than with introns (17,510; 28.92%). I found 4,687 CpG (7.74%) in transposable elements and 1,221 CpG (2.02%) in putative promoter regions 1 kb upstream of transcription start sites. There were 2278 methylated loci (3.76%) that did not overlap with exons, introns, transposable elements, or putative promoters. All lists of overlapping loci can be found in [this folder](https://github.com/fish546-2018/yaamini-virginica/tree/master/analyses/2019-03-18-Characterizing-CpG-Methylation).
 
 ### TL;DR
 
