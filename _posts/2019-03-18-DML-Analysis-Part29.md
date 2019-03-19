@@ -52,6 +52,27 @@ done
 
 I counted [untrimmed reads](https://github.com/fish546-2018/yaamini-virginica/blob/master/data/2019-03-17-Counting-Reads/2019-03-17-Untrimmed-Reads/2019-03-17-Untrimmed-Read-Counts.txt), [trimmed reads](https://github.com/fish546-2018/yaamini-virginica/blob/master/data/2019-03-17-Counting-Reads/2019-03-17-FastQC-Reports/2019-03-17-Trimmed-Read-Counts.txt), and [reads that were not mapped to the genome](https://github.com/fish546-2018/yaamini-virginica/blob/master/data/2019-03-17-Counting-Reads/2019-03-17-Mapped-Reads/2019-03-17-Unmapped-Read-Counts.txt). For the unmapped reads, I subtracted the number of unmapped reads from the number of trimmed reads to obtain the number of reads mapped to the genome. There are 279,681,264 untrimmed reads sequence reads. Of 275,914,272 trimmed paired-end reads, 190,675,298 reads were mapped.
 
+### Counting all CpG loci represented in data (added 2019-19-03)
+
+Since I did MBD, it's unlikely that all 14,458,703 CpG motifs are represented in my dataset. I want to know how many CpG loci have at least 1x coverage across all of my samples. To do this, I first filtered 1x loci, but only saved the chromosome, start, and stop positions:
+
+`````
+%%bash
+for f in *.cov
+do
+    awk '{print $1, $2-1, $2, $4, $5+$6}' ${f} | awk '{if ($5 >= 1) { print $1, $2-1, $2}}' \
+> ${f}_1x.bedgraph
+done
+`````
+
+I then used `cat` to combine all of my files vertically (similar to `rbind` in R). I sorted the loci with `sort`, then piped the sorted output into `uniq -u` to only get unique lines. My output file has only the chromosome, start, and stop positions.
+
+`````
+!cat *1x.bedgraph | sort | uniq -u > 2019-03-18-Unique-1x-CpGs.bedgraph
+`````
+
+I counted 7,041,430 CpGs represented in my dataset, which is 48.7% of all CpGs.
+
 ### Identify methylated CpG loci
 
 I want to describe general methylation trends, irrespective of pCO<sub>2</sub> treatment in my *C. virginica* gonad data. Claire and Mac both had sections in their papers where determined if a CpG locus was methylated or not. From Mac's 2013 PeerJ paper:
@@ -80,7 +101,7 @@ The final file with 5x loci across all samples can be found [here](https://githu
 - [Sparsely methylated (10-50% methylated; 50 < sum < 250)](https://github.com/fish546-2018/yaamini-virginica/blob/master/analyses/2019-03-18-Characterizing-CpG-Methylation/2019-03-18-Control-5x-CpG-Loci-Sparsely-Methylated.bedgraph)
 - [Ummethylated (0% methylation; sum = 0)](https://github.com/fish546-2018/yaamini-virginica/blob/master/analyses/2019-03-18-Characterizing-CpG-Methylation/2019-03-18-Control-5x-CpG-Loci-Unmethylated.bedgraph)
 
-Using `wc -l` to count the number of loci in each file, I had 63,827 total loci across all samples with at least 5x coverage. This is very different from the 14,458,703 CpG motifs across the *C. virginica* genome. Of the loci with at least 5x coverage, 60,552 were methylated, 2,796 were sparsely methylated, and 479 were unmethylated.
+Using `wc -l` to count the number of loci in each file, I had 63,827 total loci across all samples with at least 5x coverage, which is 0.91% of CpGs with at least 1x coverage in any sample. Of the loci with at least 5x coverage, 60,552 were methylated, 2,796 were sparsely methylated, and 479 were unmethylated.
 
 ### Characterize location of methylated CpG
 
