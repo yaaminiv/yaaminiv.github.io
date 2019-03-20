@@ -103,6 +103,10 @@ The final file with 5x loci across all samples can be found [here](https://githu
 
 Using `wc -l` to count the number of loci in each file, I had 63,827 total loci across all samples with at least 5x coverage, which is 0.91% of CpGs with at least 1x coverage in any sample. Of the loci with at least 5x coverage, 60,552 were methylated, 2,796 were sparsely methylated, and 479 were unmethylated.
 
+**ADDED 2019-03-19**: To visualize the frequencies of methylated, sparsely methylated, and unmethylated CpGs, I created a frequency distribution plot in [this R Markdown file](https://github.com/fish546-2018/yaamini-virginica/blob/master/analyses/2019-03-18-Characterizing-CpG-Methylation/2019-03-19-Characterizing-CpG-Methylation.Rmd). I saved the plot [here](https://github.com/fish546-2018/yaamini-virginica/blob/master/analyses/2019-03-18-Characterizing-CpG-Methylation/2019-03-19-5x-CpG-Frequency-Distribution.pdf) as a pdf, but here's a screenshot:
+
+<img width="814" alt="Screen Shot 2019-03-19 at 10 22 40 PM" src="https://user-images.githubusercontent.com/22335838/54661126-379b8680-4a96-11e9-8498-279ee71c7c57.png">
+
 ### Characterize location of methylated CpG
 
 The last step to describe methylated CpG is to figure out where the 60,552 loci are in the genome! I set up `intersectBed` in [my Jupyter notebook](https://github.com/fish546-2018/yaamini-virginica/blob/master/notebooks/2019-03-18-Characterizing-CpG-Methylation.ipynb) to find overlaps between my methylated loci and exons, introns, mRNA coding regions, transposable elements, and putative promoter regions. When creating my BEDfile, I needed to specify tab delimiters (`\t`) to get `intersectBed` to recognize the file:
@@ -118,13 +122,16 @@ Similar to the DML, methylated CpG were primarily located in genic regions (56,0
 
 I had lots of `awk` and bash coding issues today BUT I FIGURED MOST OF THEM OUT MYSELF! Just in time to go on vacation and lose all of my hard-earned coding prowess.
 
-### Going forward
+### Going forward (updated 2019-03-19)
+
+These are the things I'll tackle after I get back from vacation:
 
 1. Conduct a proportion test for DML locations
-2. Update paper methods and results
-3. Work through gene-level analysis
-4. Figure out what's going on with DMR
-5. Figure out what's going on with the gene background
+2. Visualize proportion test results
+3. Update paper methods and results
+4. Figure out what's going on with the gene background
+5. Figure out what's going on with DMR
+6. Work through gene-level analysis
 
 {% if page.comments %}
 
