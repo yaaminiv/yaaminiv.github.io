@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-## The Lab Notebook of Yaamini R. Venkataraman, a graduate student in the Roberts Lab at the University of Washington, Seattle.
+## The Lab Notebook of Yaamini R. Venkataraman, a Ph.D student in the Roberts Lab at the University of Washington, Seattle.
 
 *The short version:*
 
@@ -21,7 +21,7 @@ I'm also interested in projects at the intersection of science, policy and commu
 ### Education
 
 **University of Washington, Seattle** (September 2016-Present)
-- Master's in Aquatic and Fishery Sciences 
+- Doctor of Philosophy in Aquatic and Fishery Sciences 
 
 **University of California, San Diego** (Summa Cum Laude; September 2012-June 2016)
 - B.S. General Biology
@@ -46,8 +46,10 @@ I'm also interested in projects at the intersection of science, policy and commu
 
 ### Publications
 
-- **Venkataraman Y**, Spencer L, Roberts S, *Adult low pH Exposure Influences Larval Abundance in Pacific Oysters (Crassostrea gigas)* (Journal of Shellfish Research, *in press*)
-- **Venkataraman Y**, Timmins-Schiffman E, Horwith M, Lowe A, Nunn B, Vadopalas B, Spencer L, Roberts S, *Characterization of proteomic response to natural environmental differences in the Pacific oyster (Crassostrea gigas)* (Marine Ecology Progress Series, *in press*). [bioRXiv preprint](https://www.biorxiv.org/content/early/2018/12/11/460204)
+- **Venkataraman YR**, Spencer LH, Roberts SB, "Larval response to parental low pH exposure in Pacific oysters (*Crassostrea gigas*)" *Journal of Shellfish Research (in press)*
+- Foley HB, Sun PY, Ramirez R, So BK, **Venkataraman YR**, Nixon EN, Davies KJA, Edmands S. “Sex-specific stress tolerance, proteolysis, and lifespan in the invertebrate *Tigriopus californicus*.” *Experimental Gerontology* 119:46-56. https://doi.org/10.1016/j.exger.2019.02.006
+- Spencer LH, Horwith M, Lowe AT, **Venkataraman YR**, Timmins-Schiffman E, Nunn BL, Roberts SB. "Pacific geoduck (*Panopea generosa*) resilience to natural pH variation." *Comparative Biochemistry and Physiology Part D: Genomics and Proteomics*. https://doi.org/10.1016/j.cbd.2019.01.010
+- **Venkataraman YR**, Timmins-Schiffman E, Horwith M, Lowe AT, Nunn BL, Vadopalas B, Spencer LH, Roberts SB, "Characterization of proteomic response to natural environmental differences in the Pacific oyster (*Crassostrea gigas*)." *Marine Ecology Progress Series* 610:65-81. https://doi.org/10.3354/meps12858
 
 ### Presentations
 
