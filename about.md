@@ -53,16 +53,16 @@ I'm also interested in projects at the intersection of science, policy and commu
 
 ### Presentations
 
-- **Venkataraman Y** *Multidimensional Training for Multidimensional Graduate Students: Better Preparing Tomorrow's Leaders)* (School of Aquatic and Fishery Sciences 100 Year Celebration and 2019 Bevan Symposium, April 2019)
-- **Venkataraman Y**, Spencer L, Roberts S, *Adult low pH Exposure Influences Larval Abundance in Pacific Oysters (Crassostrea gigas)* (Western Society of Naturalists, November 2018)
-- **Venkataraman Y**, Roberts S, *Influence of Ocean Acidification on Eastern oyster (Crassostrea virginica) reproductive tissue* (Pacific Growers Shellfish Growers Association 2018)
-- **Venkataraman Y**, Roberts S, *Pre-Gametogenic pH Exposure Induces Larval Carryover Effect* (National Shellfisheries Association, March 2018)
-- **Venkataraman Y**, Roberts S, Timmins-Schiffman E *Exploring Proteomic Variation in Pacific Oysters* (Western Society of Naturalists, November 2017)
-- **Venkataraman Y**, Lowder K, Taylor J *Effect of Low pH on Growth and Feeding Quantity in the Surfgrass Limpet* (University of California, San Diego, May 2016)
-- **Venkataraman Y**, Cage P, Niles J *Social Media for a Global Movement: How Can Social Media Influence an International Climate Change Negotiation?* (University of California, San Diego, June 2016)
-- **Venkataraman Y**, Sun P, Edmands S, *Effects of Shading on Environmental Parameters, Tigriopus californicus population dynamics, and copper tolerance*  (Association for the Sciences of Limnology and Oceanography, February 2016)
-- **Venkataraman Y**, Bernal B, Megonigal P *Mean Residence Time of Carbon in an Experimental Tidal Wetland* (Smithsonian Environmental Research Center, August 2015)
-- Ajaz B, Neelakantan M, **Venkataraman Y**, Zalan A, Nguyen K, Pogliano J, Pogliano K *Genes associated with lysogeny in the "lytic" mycobateriophage Qbert* (University of California, San Diego, May 2013)
+- **Venkataraman YR** *Multidimensional Training for Multidimensional Graduate Students: Better Preparing Tomorrow's Leaders)* (School of Aquatic and Fishery Sciences 100 Year Celebration and 2019 Bevan Symposium, April 2019)
+- **Venkataraman YR**, Spencer LH, Roberts SB, *Adult low pH Exposure Influences Larval Abundance in Pacific Oysters (Crassostrea gigas)* (Western Society of Naturalists, November 2018)
+- **Venkataraman YR**, Roberts SB, *Influence of Ocean Acidification on Eastern oyster (Crassostrea virginica) reproductive tissue* (Pacific Growers Shellfish Growers Association 2018)
+- **Venkataraman YR**, Roberts SB, *Pre-Gametogenic pH Exposure Induces Larval Carryover Effect* (National Shellfisheries Association, March 2018)
+- **Venkataraman YR**, Roberts SB, Timmins-Schiffman E *Exploring Proteomic Variation in Pacific Oysters* (Western Society of Naturalists, November 2017)
+- **Venkataraman YR**, Lowder K, Taylor J *Effect of Low pH on Growth and Feeding Quantity in the Surfgrass Limpet* (University of California, San Diego, May 2016)
+- **Venkataraman YR**, Cage P, Niles J *Social Media for a Global Movement: How Can Social Media Influence an International Climate Change Negotiation?* (University of California, San Diego, June 2016)
+- **Venkataraman YR**, Sun PY, Edmands S, *Effects of Shading on Environmental Parameters, Tigriopus californicus population dynamics, and copper tolerance*  (Association for the Sciences of Limnology and Oceanography, February 2016)
+- **Venkataraman YR**, Bernal B, Megonigal P *Mean Residence Time of Carbon in an Experimental Tidal Wetland* (Smithsonian Environmental Research Center, August 2015)
+- Ajaz B, Neelakantan M, **Venkataraman YR**, Zalan A, Nguyen K, Pogliano J, Pogliano K *Genes associated with lysogeny in the "lytic" mycobateriophage Qbert* (University of California, San Diego, May 2013)
 
 ### Grants
 
