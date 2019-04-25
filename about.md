@@ -51,6 +51,7 @@ I'm also interested in projects at the intersection of science, policy and commu
 
 ### Presentations
 
+- **Venkataraman Y** *Multidimensional Training for Multidimensional Graduate Students: Better Preparing Tomorrow's Leaders)* (School of Aquatic and Fishery Sciences 100 Year Celebration and 2019 Bevan Symposium, April 2019)
 - **Venkataraman Y**, Spencer L, Roberts S, *Adult low pH Exposure Influences Larval Abundance in Pacific Oysters (Crassostrea gigas)* (Western Society of Naturalists, November 2018)
 - **Venkataraman Y**, Roberts S, *Influence of Ocean Acidification on Eastern oyster (Crassostrea virginica) reproductive tissue* (Pacific Growers Shellfish Growers Association 2018)
 - **Venkataraman Y**, Roberts S, *Pre-Gametogenic pH Exposure Induces Larval Carryover Effect* (National Shellfisheries Association, March 2018)
@@ -68,6 +69,8 @@ I'm also interested in projects at the intersection of science, policy and commu
 
 ### Awards
 
+- College of the Environment Outstanding Diversity Committment (April 2019)
+- University of Washington Husky 100 (April 2019)
 - Division of Biological Sciences Distinction (June 2016)
 - Physical Sciences Dean's Undergraduate Award of Excellence (May 2015)
 - Muir College Caledonian Honor Society Member (November 2014)
@@ -95,6 +98,7 @@ Outreach activities marked with an asterisk are related to my research on oyster
 - Skype-a-Scientist (October 24, 2018) *
 - EarthTones Podcast: Guest (January 2019) *
 - Sound Waters University: Invited Teacher (February 2, 2019) *
+- UW Science Now at Town Hall Seattle: Public Lecture (April 23, 2019) *
 
 ### Science communication
 
@@ -104,7 +108,7 @@ Outreach activities marked with an asterisk are related to my research on oyster
 - Curate social media posts
 
 **ComSciCon-PNW**: Various roles
-- Organizer (September 2017-Present): Responsible for recruiting panelists, organizing workshops, and coordinating day-of logistics
+- Organizer (September 2017-September 2019): Responsible for recruiting panelists, organizing workshops, and coordinating day-of logistics
 - Attendee (March 2017): Conference focused on bolstering science communication skills for graduate students
 
 **Saltman Quarterly**: Various roles
@@ -123,7 +127,8 @@ Outreach activities marked with an asterisk are related to my research on oyster
 ### Other involvements
 
 **Western Society of Naturalists Student Committee**: Member (October 2018-Present)
-- Helping plan the 2019 and 2020 meetings
+- Tasked with planning 2019 and 2020 society meetings
+- Organize the Thursday Workshop for the 2019 meeting centering around mental health in academia
 
 **Research Coordinated Network for Evolution in Changing Seas**: Member (October 2018-Present)
 
