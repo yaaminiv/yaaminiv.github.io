@@ -37,7 +37,7 @@ For this round of chi-squared tests, I updated my [overlap proportions](https://
 
 ![Screen Shot 2019-04-29 at 7 14 20 PM](https://user-images.githubusercontent.com/22335838/56937698-ffcf2800-6ab2-11e9-8b16-fb7b96adb154.png)
 
-I psoted [this issue]() to get some clarification on my methods.
+I psoted [this issue](https://github.com/RobertsLab/resources/issues/685) to get some clarification on my methods.
 
 ### Revised figures
 
