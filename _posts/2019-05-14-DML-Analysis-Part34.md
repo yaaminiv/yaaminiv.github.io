@@ -66,7 +66,7 @@ However, there were instances of the intron track I generated still including ex
 
 **Figures 8-9**. Areas where the intron track still contained exons.
 
-I posted my findings in [this comment](https://github.com/RobertsLab/resources/issues/692#issuecomment-492849768) and asked if it was an artifact of enforcing same strandedness with `-s`, or if it was worth using `subtractBed` on the intron and exon tracks to get rid of the overlaps.
+I posted my findings in [this comment](https://github.com/RobertsLab/resources/issues/692#issuecomment-492849768) and asked if it was an artifact of enforcing same strandedness with `-s`, or if it was worth using `subtractBed` on the intron and exon tracks to get rid of the overlaps. Since exons and introns are on the same strand, I don't think `-s` is the issue, but perhaps there's a different way I need to code it. 
 
 ### Going forward
 
