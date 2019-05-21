@@ -55,7 +55,7 @@ I'm also interested in projects at the intersection of science, policy and commu
 
 - **Venkataraman YR** *Multidimensional Training for Multidimensional Graduate Students: Better Preparing Tomorrow's Leaders)* (School of Aquatic and Fishery Sciences 100 Year Celebration and 2019 Bevan Symposium, April 2019)
 - **Venkataraman YR**, Spencer LH, Roberts SB, *Adult low pH Exposure Influences Larval Abundance in Pacific Oysters (Crassostrea gigas)* (Western Society of Naturalists, November 2018)
-- **Venkataraman YR**, Roberts SB, *Influence of Ocean Acidification on Eastern oyster (Crassostrea virginica) reproductive tissue* (Pacific Growers Shellfish Growers Association 2018)
+- **Venkataraman YR**, Roberts SB, *Influence of Ocean Acidification on Eastern oyster (Crassostrea virginica) reproductive tissue* (Pacific Growers Shellfish Growers Association 2018). Honorable Mention for Best Student Presentation Award
 - **Venkataraman YR**, Roberts SB, *Pre-Gametogenic pH Exposure Induces Larval Carryover Effect* (National Shellfisheries Association, March 2018)
 - **Venkataraman YR**, Roberts SB, Timmins-Schiffman E *Exploring Proteomic Variation in Pacific Oysters* (Western Society of Naturalists, November 2017)
 - **Venkataraman YR**, Lowder K, Taylor J *Effect of Low pH on Growth and Feeding Quantity in the Surfgrass Limpet* (University of California, San Diego, May 2016)
@@ -71,8 +71,9 @@ I'm also interested in projects at the intersection of science, policy and commu
 
 ### Awards
 
-- College of the Environment Outstanding Diversity Committment (April 2019)
+- College of the Environment Outstanding Diversity Committment (May 2019)
 - University of Washington Husky 100 (April 2019)
+- Honorable Mention: Best Student Presentation (PCSGA; September 2018)
 - Division of Biological Sciences Distinction (June 2016)
 - Physical Sciences Dean's Undergraduate Award of Excellence (May 2015)
 - Muir College Caledonian Honor Society Member (November 2014)
@@ -83,7 +84,7 @@ Outreach activities marked with an asterisk are related to my research on oyster
 
 **Students Exploring Aquatic Sciences**: Curriculum Developer (August 2017-Present)
 - Co-planning a Spring 2018 FISH 508 class to empower graduate students to cater their outreach activities to diverse classrooms
-- Working with teachers from Jane Addams Middle School to teach a week-long science course May 2019 *
+- Worked with teachers from Jane Addams Middle School to teach a week-long science course May 2019, including generation of a [Shiny App](https://sthurner.shinyapps.io/oav1/) *
 
 **National Center for Science Education**: Scientist in the Classroom (January 2017-June 2017)
 - Worked with middle school science teacher to develop lessons about climate change in the Pacific Northwest, specifically ocean acidification. Taught two lessons in person *
@@ -101,6 +102,7 @@ Outreach activities marked with an asterisk are related to my research on oyster
 - EarthTones Podcast: Guest (January 2019) *
 - Sound Waters University: Invited Teacher (February 2, 2019) *
 - UW Science Now at Town Hall Seattle: Public Lecture (April 23, 2019) *
+- Guest Speaker at Shorewood High School STEAM Expo (May 16, 2019) *
 
 ### Science communication
 
