@@ -53,7 +53,7 @@ I'm also interested in projects at the intersection of science, policy and commu
 
 ### Presentations
 
-- **Venkataraman YR** *Multidimensional Training for Multidimensional Graduate Students: Better Preparing Tomorrow's Leaders)* (School of Aquatic and Fishery Sciences 100 Year Celebration and 2019 Bevan Symposium, April 2019)
+- **Venkataraman YR** [*Multidimensional Training for Multidimensional Graduate Students: Better Preparing Tomorrow's Leaders)*](https://www.youtube.com/watch?v=8TbcVPMdo1w&list=PLgDT5hypdTyTHB5lI338UDbinahTxU8ew&index=55&t=0s) (School of Aquatic and Fishery Sciences 100 Year Celebration and 2019 Bevan Symposium, April 2019)
 - **Venkataraman YR**, Spencer LH, Roberts SB, *Adult low pH Exposure Influences Larval Abundance in Pacific Oysters (Crassostrea gigas)* (Western Society of Naturalists, November 2018)
 - **Venkataraman YR**, Roberts SB, *Influence of Ocean Acidification on Eastern oyster (Crassostrea virginica) reproductive tissue* (Pacific Growers Shellfish Growers Association 2018). Honorable Mention for Best Student Presentation Award
 - **Venkataraman YR**, Roberts SB, *Pre-Gametogenic pH Exposure Induces Larval Carryover Effect* (National Shellfisheries Association, March 2018)
