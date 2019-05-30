@@ -140,7 +140,7 @@ Keeping the `bedtools` party going, I decided to recharacterize overlaps of feat
 |            Putative promoters           |     203,330     |       134,468       |            27,429            |         41,433        |
 |                  Other                  |     579,159     |       349,064       |            81,168            |        148,927        |
 
-The main concern Mac brought up [in this issue](https://github.com/RobertsLab/resources/issues/685#issuecomment-488016732) that sent me on a saga of feature track generation was that overlap counts for methylated CpGs (`methylatedCpG`) were greater than those for all 5x CpGs (`totalCpG`). That doesn't seem to be the case this time!
+The main concern Mac brought up [in this issue](https://github.com/RobertsLab/resources/issues/685#issuecomment-488016732) that sent me on a saga of feature track generation was that overlap counts for methylated CpGs (`methylatedCpG`) were greater than those for CG motifs (`totalCpG`). That doesn't seem to be the case this time!
 
 ### Returning to the chi-squared test
 
