@@ -68,6 +68,25 @@ However, there were instances of the intron track I generated still including ex
 
 I posted my findings in [this comment](https://github.com/RobertsLab/resources/issues/692#issuecomment-492849768) and asked if it was an artifact of enforcing same strandedness with `-s`, or if it was worth using `subtractBed` on the intron and exon tracks to get rid of the overlaps. Since exons and introns are on the same strand, I don't think `-s` is the issue, but perhaps there's a different way I need to code it. 
 
+## Hypermethylated vs. hypomethylated DML
+
+One thing I’ve been meaning to do for a while is characterize location differences between hypermethylated and hypomethylated DML. While I did [just generate genome feature tracks myself](https://yaaminiv.github.io/DML-Analysis-Part33/), I decided to use the pre-made tracks I downloaded to complete this analysis so I know the code works. I can always revise the paths to the tracks later once my tracks are finalized.
+
+### Characterizing locations of hypermethylated and hypomethylated DML
+
+I returned to [this Jupyter notebook](https://github.com/fish546-2018/yaamini-virginica/blob/master/notebooks/2018-11-01-DML-and-DMR-Analysis.ipynb) to use `intersectBed` and get locations of hypermethylated and hypomethylated DML. There are 310 hypermethylated and 288 hypomethylated DML. I was curious if one type of DML would be more dominant in exons or introns. The only pattern that jumped out to me was the difference in hypermethylated vs. hypomethylated DML in putative promoter regions (44+/23-).
+
+**Table 1**. Genomic locations of hypermethylated and hypomethylated DML
+
+|       **Genomic Feature**       | **Hypermethylated** | **Hypomethylated** |
+|:———————————————:|:—————————:|:—————————:|
+|         **Unique mRNA**         |         761         |         792        |
+|            **Exons**            |         190         |         178        |
+|           **Introns**           |          99         |         92         |
+| **Transposable Elements (All)** |          26         |         31         |
+|      **Putative Promoters**     |          44         |         23         |
+|            **Other**            |          13         |          7         |
+
 ### Going forward
 
 1. Finalize the intron track
