@@ -5,7 +5,7 @@ title: DML Analysis Part 37
 tags: virginica MBDSeq
 ---
 
-## Gene descriptions and enrichment
+## Gene annotation tables
 
  With my [finalized DML](https://yaaminiv.github.io/DML-Analysis-Part35/), I decided to describe the genes they are in. Steven suggested I start by making tables annotating the genes DML overlap with. Once I realized this would just involve some (hopefully) quick R manipulation, I created a grand plan:
 
