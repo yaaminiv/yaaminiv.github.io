@@ -74,6 +74,8 @@ I'm also interested in projects at the intersection of science, policy and commu
 - College of the Environment Outstanding Diversity Committment (May 2019)
 - University of Washington Husky 100 (April 2019)
 - Honorable Mention: Best Student Presentation (PCSGA; September 2018)
+- College of the Environment Travel Grant (September 2017)
+- Fisheries Interdisciplinary Network of Students Travel Grant (September 2017)
 - Division of Biological Sciences Distinction (June 2016)
 - Physical Sciences Dean's Undergraduate Award of Excellence (May 2015)
 - Muir College Caledonian Honor Society Member (November 2014)
