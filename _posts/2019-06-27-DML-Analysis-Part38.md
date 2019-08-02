@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: DML Analysis Part 38
-tags: virginica MBDSeq DAVID GO-MWU gene-enrichment
+tags: virginica MBDSeq DAVID gene-enrichment
 ---
 
 ## Gene enrichment and description
