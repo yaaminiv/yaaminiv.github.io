@@ -162,7 +162,7 @@ And that's how you end up with an R Markdown file that's close to 600 lines long
 
 {% if page.comments %}
 
-<div id=“disqus_thread”></div>
+<div id="disqus_thread"></div>
 <script>
 
 /**
