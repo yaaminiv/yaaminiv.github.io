@@ -24,3 +24,30 @@ A large component of the course was working on projects. For the project [examin
 The other part of the course I helped with was science communication practice. Students were required to write one blog post for a public audience and create a short talk about a disease for the class. I worked with each student on their blog post and provided targetted feedback when editing their initial drafts. I also had students give practice presentations to me so I could help them if they needed. Most of my comments were directed at improving the organization of their pieces or talks. I took it upon myself to help them outline their final papers and reviewed their final presentations so they would not have similar issues.
 
 Overall TAing at FHL was a lot of work but really rewarding! I learned a lot about what it means to be a good instructor and I cannot wait to flex those skills soon.
+
+{% if page.comments %}
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://the-responsible-grad-student.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{% endif %}
+
+<script id="dsq-count-scr" src="//the-responsible-grad-student.disqus.com/count.js" async></script>
