@@ -159,7 +159,7 @@ After I looked at my statistical test results, I had a mild panic that the mRNA 
 
 Liew et al. filtered data before they conducted their statistical tests by ony retaining genes with at least five methylated positions. Even though keeping genes with no missing data pared down my list by ~10,000 genes, I figured it couldn't hurt to replicate their efforts. I don't really understand why they chose genes with at least five methylated positions, sice it seems like that would bias the analysis towards heavily methylated genes.
 
-I thought an easier, and perhaps more meaningful way to pare down my list and see if it had an effect was to only look at genes with DML. I extracted unique `geneID` from my DML list and merged that with my `kruskal.test` results. I then applied a Benjamini-Hochberg correction to the p-values from the 481 genes. None of the adjusted p-values for genes with DML were significant. My paper will focus solely on the DML.
+I thought an easier, and perhaps more meaningful way to pare down my list and see if it had an effect was to only look at genes with DML. I extracted unique `geneID` from my DML list and merged that with my `kruskal.test` results. I then applied a Benjamini-Hochberg correction to the p-values from the 481 genes. None of the adjusted p-values for genes with DML were significant (I saved a separate file [here](https://github.com/fish546-2018/yaamini-virginica/blob/master/analyses/2019-08-14-Differentially-Methylated-Genes/2019-08-14-DMG-KW-Test-Results-DMLOnly.csv)). My paper will focus solely on the DML.
 
 Speaking of which...time to WRITE!
 
