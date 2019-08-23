@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: DMG Analysis
-tags: virginica MBDSeq GO-MWU DMG
+tags: virginica MBDSeq DMG
 ---
 
 ## Starting the differentially methylated gene analysis
