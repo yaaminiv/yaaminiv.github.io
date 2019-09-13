@@ -46,12 +46,20 @@ Even though my final bam files may not be identical to the ones I transferred fr
 
 I started `processBismarkAln` and it's chugging along. Here's hoping I can solidify the pipeline and get data so I can make a presentation!
 
+**Update 2019-09-12 10:45 p.m.: I have over 15,000 DML! Relevant files below:**
+
+All DML: [BEDfile](https://github.com/RobertsLab/project-gigas-oa-meth/blob/master/analyses/2019-09-12-MethylKit/2019-09-12-DML-Destrand-5x-Locations.bed); [csv](https://github.com/RobertsLab/project-gigas-oa-meth/blob/master/analyses/2019-09-12-MethylKit/2019-09-12-Loci-Analysis/2019-09-12-Differentially-Methylated-Loci-Filtered-Destrand-50-Cov5.csv)
+Hypermethylated DML: [BEDfile](https://github.com/RobertsLab/project-gigas-oa-meth/blob/master/analyses/2019-09-12-MethylKit/2019-09-12-DML-Destrand-5x-Locations-Hypermethylated.bed); [csv](https://github.com/RobertsLab/project-gigas-oa-meth/blob/master/analyses/2019-09-12-MethylKit/2019-09-12-Loci-Analysis/2019-09-12-Differentially-Methylated-Loci-Filtered-Destrand-50-Cov5-Hypermethylated.csv)
+Hypomethylated DML: [BEDfile](https://github.com/RobertsLab/project-gigas-oa-meth/blob/master/analyses/2019-09-12-MethylKit/2019-09-12-DML-Destrand-5x-Locations-Hypomethylated.bed); [csv](https://github.com/RobertsLab/project-gigas-oa-meth/blob/master/analyses/2019-09-12-MethylKit/2019-09-12-Loci-Analysis/2019-09-12-Differentially-Methylated-Loci-Filtered-Destrand-50-Cov5-Hypomethylated.csv)
+
+I will check these in IGV before proceeding with analyses.
+
 ### Going forward
 
-1. Finish testing `methylKit` pipeline
-2. Get revised `bismark` output from Mox
+2. Get revised `bismark` output from Mox and run through analysis pipeline
+3. Verify DML in IGV
 3. Obtain *C. gigas* feature tracks
-4. Characterize locations of DML (if there are any)
+4. Characterize locations of DML
 5. Conduct a gene enrichment and/or identify genes with DML and discern what it means
 
 {% if page.comments %}
