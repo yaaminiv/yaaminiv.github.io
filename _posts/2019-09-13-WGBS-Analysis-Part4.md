@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: WGBS Analysis Part 4
-tags: manchester gigas-broodstock WGBS bismark mox IGV bedtools
+tags: manchester gigas-broodstock WGBS bismark mox IGV
 ---
 
 ## Looking at preliminary DML
