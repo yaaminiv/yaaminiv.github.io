@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: WGBS Analysis Part 5
-tags: manchester gigas-broodstock WGBS bismark mox IGV
+tags: manchester gigas-broodstock WGBS bismark mox methylKit IGV
 ---
 
 ## Finalizing the analysis pipeline
