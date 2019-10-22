@@ -12,9 +12,9 @@ I'm primarily interested in how climate change is going to affect the organisms 
 
 *The long version:*
 
-As a California Bay Area native, I grew up going to the Monterey Bay Aquarium. I was always floored by the intricacies of the organisms themselves, but also how complex their environments were. These experiences pushed me to get my B.S. in General Biology and B.A. in Environmental Policy at the University of California, San Diego (UCSD). I studied several different species-environment interactions, including copepods and copper toxicity at the Wrigley Institute for Environmental Studies, marsh plants species and increased carbon inputs at the Smithsonian Institute for Environmental Studies and limpet-surfgrass interactions under acidified conditions at UCSD. At the Roberts Lab, I study how climate change is going to affect the organisms in our current and future oceans. My current projects involve examining ocean acidification's effects oysters using "-omic" techniques. 
+As a California Bay Area native, I grew up going to the Monterey Bay Aquarium. I was always floored by the intricacies of the organisms themselves, but also how complex their environments were. These experiences pushed me to get my B.S. in General Biology and B.A. in Environmental Policy at the University of California, San Diego (UCSD). I studied several different species-environment interactions, including copepods and copper toxicity at the Wrigley Institute for Environmental Studies, marsh plants species and increased carbon inputs at the Smithsonian Institute for Environmental Studies and limpet-surfgrass interactions under acidified conditions at UCSD. At the Roberts Lab, I study ocean acidification's effects on Pacific and Eastern oysters using "-omic" techniques. 
 
-I'm also interested in projects at the intersection of science, policy and communication! I currently serve as the Social Media Intern at the NOAA Office of National Marine Sanctuaries, where I spearheaded a profile series featuring graduate students in the Dr. Nancy Foster Scholarship Program. I interned at the Tropical Forest Group and served on the editorial board of the undergraduate biology research journal, Saltman Quarterly. I have also participated in several education and outreach experiences through the Monterey Bay Aquarium, where I assisted with developing a teen social media brand and was a part of the aquarium's youth delegation for the 2012 International Aquarium Congress.
+I'm also interested in projects at the intersection of science, policy and communication! I currently serve as the Social Media Intern at the NOAA Office of National Marine Sanctuaries, where I spearheaded a profile series featuring graduate students in the Dr. Nancy Foster Scholarship Program. I am an active member of Students Explore Aquatic Sciences. Through this outreach organization, I develop and teach lessons about my own research for middle schoolers in the Greater Seattle Area. I've also served on the UW Graduate and Professional Student Senate's Science and Poicy Committee.
 
 ## CV
 
@@ -47,12 +47,14 @@ I'm also interested in projects at the intersection of science, policy and commu
 ### Publications
 
 - **Venkataraman YR**, Spencer LH, Roberts SB, "Larval response to parental low pH exposure in Pacific oysters (*Crassostrea gigas*)" *Journal of Shellfish Research (in press)*
+- Spencer LH, **Venkataraman YR**, Crim R, Ryan S, Horwith M, Roberts SB, "Carry-over effects of temperature and pCO<sub>2</sub> across multiple Olympia oyster populations" *Ecological Applications (in press)*
 - Foley HB, Sun PY, Ramirez R, So BK, **Venkataraman YR**, Nixon EN, Davies KJA, Edmands S. “Sex-specific stress tolerance, proteolysis, and lifespan in the invertebrate *Tigriopus californicus*.” *Experimental Gerontology* 119:46-56. https://doi.org/10.1016/j.exger.2019.02.006
 - Spencer LH, Horwith M, Lowe AT, **Venkataraman YR**, Timmins-Schiffman E, Nunn BL, Roberts SB. "Pacific geoduck (*Panopea generosa*) resilience to natural pH variation." *Comparative Biochemistry and Physiology Part D: Genomics and Proteomics*. https://doi.org/10.1016/j.cbd.2019.01.010
 - **Venkataraman YR**, Timmins-Schiffman E, Horwith M, Lowe AT, Nunn BL, Vadopalas B, Spencer LH, Roberts SB, "Characterization of proteomic response to natural environmental differences in the Pacific oyster (*Crassostrea gigas*)." *Marine Ecology Progress Series* 610:65-81. https://doi.org/10.3354/meps12858
 
 ### Presentations
 
+- **Venkataraman YR** and Roberts SB, *Influence of Ocean Acidification on Pacific Oyster (Crassostrea gigas) DNA Methylation)* (Pacific Coast Shellfish Growers Association, September 2019)
 - **Venkataraman YR** [*Multidimensional Training for Multidimensional Graduate Students: Better Preparing Tomorrow's Leaders)*](https://www.youtube.com/watch?v=8TbcVPMdo1w&list=PLgDT5hypdTyTHB5lI338UDbinahTxU8ew&index=55&t=0s) (School of Aquatic and Fishery Sciences 100 Year Celebration and 2019 Bevan Symposium, April 2019)
 - **Venkataraman YR**, Spencer LH, Roberts SB, *Adult low pH Exposure Influences Larval Abundance in Pacific Oysters (Crassostrea gigas)* (Western Society of Naturalists, November 2018)
 - **Venkataraman YR**, Roberts SB, *Influence of Ocean Acidification on Eastern oyster (Crassostrea virginica) reproductive tissue* (Pacific Growers Shellfish Growers Association 2018). Honorable Mention for Best Student Presentation Award
@@ -105,6 +107,7 @@ Outreach activities marked with an asterisk are related to my research on oyster
 - Sound Waters University: Invited Teacher (February 2, 2019) *
 - UW Science Now at Town Hall Seattle: Public Lecture (April 23, 2019) *
 - Guest Speaker at Shorewood High School STEAM Expo (May 16, 2019) *
+- Invited Speaker for Huxley Environmental Speaker Series (December 5, 2019) *
 
 ### Science communication
 
@@ -124,7 +127,7 @@ Outreach activities marked with an asterisk are related to my research on oyster
 
 ### Science policy
 
-**Graduate Student and Professional Senate**: Science and Policy Steering Committee Member (Septmeber 2016-Present)
+**Graduate Student and Professional Senate**: Science and Policy Steering Committee Member (Septmeber 2016-June 2019)
 - Address professional development needs for graduate students relating to science policy, including science communication trainings, ethics discussions, and white paper workshops
 
 **ParisAgreement.org**: Affiliate (September 2015-June 2016)
