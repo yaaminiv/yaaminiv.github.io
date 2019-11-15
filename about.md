@@ -27,23 +27,6 @@ I'm also interested in projects at the intersection of science, policy and commu
 - B.S. General Biology
 - B.A. Environmental Systems: Environmental Policy
 
-### Research experience
-
-**Undergraduate Researcher**: Taylor Lab, Scripps Institution of Oceanography (September 2015-June 2016)
-- Studied ocean acidification's effect on feeding patterns in the surfgrass limpet, *Tectura palacea*
-
-**Research Experiences for Undergraduates**: Smithsonian Environmental Research Center (June 2015-August 2015)
-- Investigated mean residence time of new recalcitrant carbon inputs at the Global Change Research Wetland (G-CREW) using stable isotope analysis
-
-**Research Experience for Undergraduates**: Coastal Ocean Systems and Sustainability (June 2014-August 2014)
-- Examined impact of shade on copepod (*Tigriopus californicus*) mortality and copper toxin tolerance
-
-**Undergraduate Researcher**: Burton Lab, Scripps Institution of Oceanography (April 2013-December 2013)
-- Ran experiments to understand life history traits of *Tigriopus californicus* linked to mitochondrial DNA to discern if speciation had occurred between different populations
-
-**Phage Genomics Research Initiative** (September 2012-June 2013)
-- Characterized genome of newly-isolated bacteriophage
-
 ### Publications
 
 - **Venkataraman YR**, Spencer LH, Roberts SB, "Larval response to parental low pH exposure in Pacific oysters (*Crassostrea gigas*)" *Journal of Shellfish Research (in press)*
@@ -82,6 +65,27 @@ I'm also interested in projects at the intersection of science, policy and commu
 - Physical Sciences Dean's Undergraduate Award of Excellence (May 2015)
 - Muir College Caledonian Honor Society Member (November 2014)
 
+### Professional Service
+
+- Reviewer for Evolutionary Applications
+
+### Research experience
+
+**Undergraduate Researcher**: Taylor Lab, Scripps Institution of Oceanography (September 2015-June 2016)
+- Studied ocean acidification's effect on feeding patterns in the surfgrass limpet, *Tectura palacea*
+
+**Research Experiences for Undergraduates**: Smithsonian Environmental Research Center (June 2015-August 2015)
+- Investigated mean residence time of new recalcitrant carbon inputs at the Global Change Research Wetland (G-CREW) using stable isotope analysis
+
+**Research Experience for Undergraduates**: Coastal Ocean Systems and Sustainability (June 2014-August 2014)
+- Examined impact of shade on copepod (*Tigriopus californicus*) mortality and copper toxin tolerance
+
+**Undergraduate Researcher**: Burton Lab, Scripps Institution of Oceanography (April 2013-December 2013)
+- Ran experiments to understand life history traits of *Tigriopus californicus* linked to mitochondrial DNA to discern if speciation had occurred between different populations
+
+**Phage Genomics Research Initiative** (September 2012-June 2013)
+- Characterized genome of newly-isolated bacteriophage
+
 ### Outreach
 
 Outreach activities marked with an asterisk are related to my research on oysters and ocean acidification.
@@ -111,7 +115,7 @@ Outreach activities marked with an asterisk are related to my research on oyster
 
 ### Science communication
 
-**NOAA Office of National Marine Sanctuaries**: Social Media Volunteer Intern (April 2017-Present)
+**NOAA Office of National Marine Sanctuaries**: Social Media Volunteer Intern (April 2017-December 2019)
 - Create social media content for the Earth Is Blue campaign in addition to spearheadeding a series highlighting the graduate students in the Dr. Nancy Foster Scholarship Program
 - Write scripts and cut together Earth Is Blue videos
 - Curate social media posts
@@ -138,10 +142,11 @@ Outreach activities marked with an asterisk are related to my research on oyster
 **Western Society of Naturalists Student Committee**: Member (October 2018-Present)
 - Tasked with planning 2019 and 2020 society meetings
 - Organize the Thursday Workshop for the 2019 meeting centering around mental health in academia
+- Committee Co-chair for 2020 meeting responsible for delegating roles to committee members and coordinating with WSN Secretariat
 
 **Research Coordinated Network for Evolution in Changing Seas**: Member (October 2018-Present)
 
-**NSF Graduate Research Fellowship Program (GRFP) Application Workshop**: Mentor (Fall 2018)
+**NSF Graduate Research Fellowship Program (GRFP) Application Workshop**: Mentor (Fall 2018, Fall 2019)
 - Helped graduate students write and apply for the NSF GRFP
 
 **Fisheries Interdisciplinary Network of Students**: Various roles
