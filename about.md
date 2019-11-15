@@ -37,7 +37,7 @@ I'm also interested in projects at the intersection of science, policy and commu
 
 ### Presentations
 
-- **Venkataraman YR** and Roberts SB, *Influence of Ocean Acidification on Pacific Oyster (Crassostrea gigas) DNA Methylation)* (Pacific Coast Shellfish Growers Association, September 2019)
+- **Venkataraman YR** and Roberts SB, *Influence of Ocean Acidification on Pacific Oyster (Crassostrea gigas) DNA Methylation)* (Pacific Coast Shellfish Growers Association, September 2019 and Western Society of Naturalists, November 2019)
 - **Venkataraman YR** [*Multidimensional Training for Multidimensional Graduate Students: Better Preparing Tomorrow's Leaders)*](https://www.youtube.com/watch?v=8TbcVPMdo1w&list=PLgDT5hypdTyTHB5lI338UDbinahTxU8ew&index=55&t=0s) (School of Aquatic and Fishery Sciences 100 Year Celebration and 2019 Bevan Symposium, April 2019)
 - **Venkataraman YR**, Spencer LH, Roberts SB, *Adult low pH Exposure Influences Larval Abundance in Pacific Oysters (Crassostrea gigas)* (Western Society of Naturalists, November 2018)
 - **Venkataraman YR**, Roberts SB, *Influence of Ocean Acidification on Eastern oyster (Crassostrea virginica) reproductive tissue* (Pacific Growers Shellfish Growers Association 2018). Honorable Mention for Best Student Presentation Award
@@ -64,6 +64,21 @@ I'm also interested in projects at the intersection of science, policy and commu
 - Division of Biological Sciences Distinction (June 2016)
 - Physical Sciences Dean's Undergraduate Award of Excellence (May 2015)
 - Muir College Caledonian Honor Society Member (November 2014)
+
+### Teaching
+
+**FISH/OCEAN/BIOL 250: Marine Biology** (Fall 2019)
+- Worked with teaching team to teach introductory marine biology course to majors and non-majors in an active learning-style classroom
+- Organized, developed, and taught two weekly lab sessions
+- Lead field trip experiences for students
+- Prepared an active learning-style lecture on ocean acidification as part of the course
+
+**FHL 568: Advanced Topics in Ecology and Biology** (Summer 2019)
+- Worked with teaching team to teach Ecology of Infectious Marine Diseases at Friday Harbor Laboratories
+- Coordinated and ran lab sessions and field excursions
+- [Taught students basic genomic analysis methods](https://github.com/eimd-2019/tutorials)
+- Spearheaded science communication of the course, which included helping students create blog posts and short presentations
+- Lead student groups for class projects
 
 ### Professional Service
 
@@ -114,6 +129,10 @@ Outreach activities marked with an asterisk are related to my research on oyster
 - Invited Speaker for Huxley Environmental Speaker Series (December 5, 2019) *
 
 ### Science communication
+
+**Engage**: Various roles
+- Board member (September 2019-Present): Assist with science communication workshops and plan for future of organization
+- Class participant (Winter 2019): Underwent rigorous science communication training to present a 20 minute public talk on my research
 
 **NOAA Office of National Marine Sanctuaries**: Social Media Volunteer Intern (April 2017-December 2019)
 - Create social media content for the Earth Is Blue campaign in addition to spearheadeding a series highlighting the graduate students in the Dr. Nancy Foster Scholarship Program
