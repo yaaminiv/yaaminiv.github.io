@@ -82,7 +82,8 @@ I'm also interested in projects at the intersection of science, policy and commu
 
 ### Professional Service
 
-- Reviewer for Evolutionary Applications
+- Reviewer for [Evolutionary Applications](https://onlinelibrary.wiley.com/journal/17524571)
+- Application Reviewer for [Dr. Nancy Foster Scholarship Program](https://fosterscholars.noaa.gov)
 
 ### Research experience
 
@@ -173,8 +174,6 @@ Outreach activities marked with an asterisk are related to my research on oyster
 - Diversity and Equity Forum Leader (September 2016-June 2017): Hosted events to start dialogue about diversity, equity, and inclusion within the department
 - Spring Picnic Planning Committee (February 2017-May 2017)
 - Graduate Student Retreat Planning Committee (October 2016-January 2017)
-
-**Dr. Nancy Foster Scholarship Program Application Reviewer**: March 2018
 
 **Graduate Recruitment, Retention, and Diversity Committee**: Member (April 2017-December 2017)
 - Provided feedback on College of the Environment's recruitment and retention efforts
