@@ -186,7 +186,7 @@ mtext("Density", cex = 1.6, las = 3, adj = 0.8, padj = -29) #Manually add y-axis
 
 I've used `pheatmap` before, but I like how `heatmap.2` also generates a density plot as part of the legend. I decided to save the `heatmap.2` version for the paper.
 
-![Screen Shot 2019-11-23 at 1 22 15 PM](https://user-images.githubusercontent.com/22335838/69487026-1ac70800-0e08-11ea-8049-62a5fe8921b8.png)
+<img width="814" alt="Screen Shot 2019-11-25 at 11 13 00 PM" src="https://user-images.githubusercontent.com/22335838/69760428-62f06e00-1119-11ea-9acf-1890423ba2f5.png">
 
 **Figure 13**. Heatmap of DML with percent methylation density plot in legend.
 
