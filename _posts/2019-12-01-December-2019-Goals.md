@@ -7,7 +7,7 @@ tags: goals
 
 ![feels](https://i.imgflip.com/1w4ip5.jpg)
 
-As usual Dwight K. Schrute is right. 
+As usual Dwight K. Schrute is right. The end of the quarter is here and I've got a few things I want to check off my to-do list before the decade ends.
 
 ### [November Goals Recap](https://yaaminiv.github.io/November-2019-Goals/)
 
