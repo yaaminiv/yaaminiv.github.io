@@ -87,6 +87,11 @@ I'm also interested in projects at the intersection of science, policy and commu
 - Reviewer for [Evolutionary Applications](https://onlinelibrary.wiley.com/journal/17524571)
 - Application Reviewer for [Dr. Nancy Foster Scholarship Program](https://fosterscholars.noaa.gov)
 
+**Western Society of Naturalists Student Committee**: Member (October 2018-Present)
+- Tasked with planning 2019 and 2020 society meetings
+- Organize the Thursday Workshop for the 2019 meeting centering around mental health in academia
+- Committee Co-chair for 2020 meeting responsible for delegating roles to committee members and coordinating with WSN Secretariat
+
 ### Research experience
 
 **Undergraduate Researcher**: Taylor Lab, Scripps Institution of Oceanography (September 2015-June 2016)
@@ -159,21 +164,16 @@ Outreach activities marked with an asterisk are related to my research on oyster
 
 ### Other involvements
 
-**Western Society of Naturalists Student Committee**: Member (October 2018-Present)
-- Tasked with planning 2019 and 2020 society meetings
-- Organize the Thursday Workshop for the 2019 meeting centering around mental health in academia
-- Committee Co-chair for 2020 meeting responsible for delegating roles to committee members and coordinating with WSN Secretariat
-
-**Research Coordinated Network for Evolution in Changing Seas**: Member (October 2018-Present)
-
-**NSF Graduate Research Fellowship Program (GRFP) Application Workshop**: Mentor (Fall 2018, Fall 2019)
-- Helped graduate students write and apply for the NSF GRFP
-
 **Fisheries Interdisciplinary Network of Students**: Various roles
 - President (June 2017-Present): Organizational head, liaison between graduate students, faculty, and administration
 - Diversity and Equity Forum Leader (September 2016-June 2017): Hosted events to start dialogue about diversity, equity, and inclusion within the department
 - Spring Picnic Planning Committee (February 2017-May 2017)
 - Graduate Student Retreat Planning Committee (October 2016-January 2017)
+
+**Research Coordinated Network for Evolution in Changing Seas**: Member (October 2018-Present)
+
+**NSF Graduate Research Fellowship Program (GRFP) Application Workshop**: Mentor (Fall 2018, Fall 2019)
+- Helped graduate students write and apply for the NSF GRFP
 
 **Graduate Recruitment, Retention, and Diversity Committee**: Member (April 2017-December 2017)
 - Provided feedback on College of the Environment's recruitment and retention efforts
