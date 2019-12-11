@@ -140,7 +140,7 @@ Outreach activities marked with an asterisk are related to my research on oyster
 - Board member (September 2019-Present): Assist with science communication workshops and plan for future of organization
 - Class participant (Winter 2019): Underwent rigorous science communication training to present a 20 minute public talk on my research
 
-**NOAA Office of National Marine Sanctuaries**: Social Media Volunteer Intern (April 2017-December 2019)
+**NOAA Office of National Marine Sanctuaries**: Social Media Volunteer Intern (April 2017-January 2020)
 - Create social media content for the Earth Is Blue campaign in addition to spearheadeding a series highlighting the graduate students in the Dr. Nancy Foster Scholarship Program
 - Write scripts and cut together Earth Is Blue videos
 - Curate social media posts
