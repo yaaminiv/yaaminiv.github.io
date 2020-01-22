@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: DML Analysis Part 14
-tags: virginica MBDSeq DML methylkit 
+tags: virginica MBDSeq DML methylKit 
 ---
 
 ## Tiling window analysis in `methylKit`

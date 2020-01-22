@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Gonad Methylation Analysis Part 12
-tags: virginica methylkit MBDSeq
+tags: virginica methylKit MBDSeq
 ---
 
 ## Reproducibility rodeo

@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Gonad Methylation Analysis Part 7
-tags: virginica methylkit macau MBDSeq
+tags: virginica methylKit macau MBDSeq
 ---
 
 ## M&M: methylKit and MACAU

@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: DML Analysis Part 13
-tags: virginica MBDSeq DML methylkit 
+tags: virginica MBDSeq DML methylKit 
 ---
 
 ## Different `mincov` values in `methylKit`
