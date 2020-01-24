@@ -29,11 +29,12 @@ I'm also interested in projects at the intersection of science, policy and commu
 
 ### Publications
 
-- **Venkataraman YR**, Spencer LH, Roberts SB, "Larval response to parental low pH exposure in Pacific oysters (*Crassostrea gigas*)" *Journal of Shellfish Research (in press)*
-- Spencer LH, **Venkataraman YR**, Crim R, Ryan S, Horwith M, Roberts SB, "Carry-over effects of temperature and pCO<sub>2</sub> across multiple Olympia oyster populations" *Ecological Applications (in press)*
-- Foley HB, Sun PY, Ramirez R, So BK, **Venkataraman YR**, Nixon EN, Davies KJA, Edmands S. “Sex-specific stress tolerance, proteolysis, and lifespan in the invertebrate *Tigriopus californicus*.” *Experimental Gerontology* 119:46-56. https://doi.org/10.1016/j.exger.2019.02.006
-- Spencer LH, Horwith M, Lowe AT, **Venkataraman YR**, Timmins-Schiffman E, Nunn BL, Roberts SB. "Pacific geoduck (*Panopea generosa*) resilience to natural pH variation." *Comparative Biochemistry and Physiology Part D: Genomics and Proteomics*. https://doi.org/10.1016/j.cbd.2019.01.010
-- **Venkataraman YR**, Timmins-Schiffman E, Horwith M, Lowe AT, Nunn BL, Vadopalas B, Spencer LH, Roberts SB, "Characterization of proteomic response to natural environmental differences in the Pacific oyster (*Crassostrea gigas*)." *Marine Ecology Progress Series* 610:65-81. https://doi.org/10.3354/meps12858
+- **Venkataraman YR**, Downey-Wall AM, Ries J, Westfield I, White S, Roberts SB, Lotterhos KE, "General DNA methylation patterns and environmentally-induced differential methylation in the eastern oyster (*Crassostrea virginica*)" https://doi.org/10.1101/2020.01.07.897934
+- **Venkataraman YR**, Spencer LH, Roberts SB, "Larval response to parental low pH exposure in Pacific oysters (*Crassostrea gigas*)" *Journal of Shellfish Research* 38(3):743-750 (2019). https://doi.org/10.2983/035.038.0325
+- Spencer LH, **Venkataraman YR**, Crim R, Ryan S, Horwith M, Roberts SB, "Carry-over effects of temperature and pCO<sub>2</sub> across multiple Olympia oyster populations" *Ecological Applications*  https://doi.org/10.1002/eap.2060
+- Foley HB, Sun PY, Ramirez R, So BK, **Venkataraman YR**, Nixon EN, Davies KJA, Edmands S. “Sex-specific stress tolerance, proteolysis, and lifespan in the invertebrate *Tigriopus californicus*.” *Experimental Gerontology* 119:46-56 (2019). https://doi.org/10.1016/j.exger.2019.02.006
+- Spencer LH, Horwith M, Lowe AT, **Venkataraman YR**, Timmins-Schiffman E, Nunn BL, Roberts SB. "Pacific geoduck (*Panopea generosa*) resilience to natural pH variation." *Comparative Biochemistry and Physiology Part D: Genomics and Proteomics*. (2019) https://doi.org/10.1016/j.cbd.2019.01.010
+- **Venkataraman YR**, Timmins-Schiffman E, Horwith M, Lowe AT, Nunn BL, Vadopalas B, Spencer LH, Roberts SB, "Characterization of proteomic response to natural environmental differences in the Pacific oyster (*Crassostrea gigas*)." *Marine Ecology Progress Series* 610:65-81 (2019). https://doi.org/10.3354/meps12858
 
 ### Presentations
 
@@ -45,10 +46,13 @@ I'm also interested in projects at the intersection of science, policy and commu
 - **Venkataraman YR**, Roberts SB, *Influence of Ocean Acidification on Eastern oyster (Crassostrea virginica) reproductive tissue* (Pacific Growers Shellfish Growers Association 2018). Honorable Mention for Best Student Presentation Award
 - **Venkataraman YR**, Roberts SB, *Pre-Gametogenic pH Exposure Induces Larval Carryover Effect* (National Shellfisheries Association, March 2018)
 - **Venkataraman YR**, Roberts SB, Timmins-Schiffman E *Exploring Proteomic Variation in Pacific Oysters* (Western Society of Naturalists, November 2017)
-- **Venkataraman YR**, Lowder K, Taylor J *Effect of Low pH on Growth and Feeding Quantity in the Surfgrass Limpet* (University of California, San Diego, May 2016)
-- **Venkataraman YR**, Cage P, Niles J *Social Media for a Global Movement: How Can Social Media Influence an International Climate Change Negotiation?* (University of California, San Diego, June 2016)
 - **Venkataraman YR**, Sun PY, Edmands S, *Effects of Shading on Environmental Parameters, Tigriopus californicus population dynamics, and copper tolerance*  (Association for the Sciences of Limnology and Oceanography, February 2016)
 - **Venkataraman YR**, Bernal B, Megonigal P *Mean Residence Time of Carbon in an Experimental Tidal Wetland* (Smithsonian Environmental Research Center, August 2015)
+
+### Posters
+
+- **Venkataraman YR**, Lowder K, Taylor J *Effect of Low pH on Growth and Feeding Quantity in the Surfgrass Limpet* (University of California, San Diego, May 2016)
+- **Venkataraman YR**, Cage P, Niles J *Social Media for a Global Movement: How Can Social Media Influence an International Climate Change Negotiation?* (University of California, San Diego, June 2016)
 - Ajaz B, Neelakantan M, **Venkataraman YR**, Zalan A, Nguyen K, Pogliano J, Pogliano K *Genes associated with lysogeny in the "lytic" mycobateriophage Qbert* (University of California, San Diego, May 2013)
 
 ### Grants
@@ -62,7 +66,7 @@ I'm also interested in projects at the intersection of science, policy and commu
 - University of Washington Husky 100 (April 2019)
 - Honorable Mention: Best Student Presentation (PCSGA; September 2018)
 - College of the Environment Travel Grant (September 2017)
-- Fisheries Interdisciplinary Network of Students Travel Grant (September 2017)
+- Fisheries Interdisciplinary Network of Students Travel Grant (September 2017, January 2019)
 - Division of Biological Sciences Distinction (June 2016)
 - Physical Sciences Dean's Undergraduate Award of Excellence (May 2015)
 - Muir College Caledonian Honor Society Member (November 2014)
@@ -84,7 +88,7 @@ I'm also interested in projects at the intersection of science, policy and commu
 
 ### Professional Service
 
-- Reviewer for [Evolutionary Applications](https://onlinelibrary.wiley.com/journal/17524571)
+- Reviewer for [Evolutionary Applications](https://onlinelibrary.wiley.com/journal/17524571), [ICES Journal of Marine Science](https://academic.oup.com/icesjms)
 - Application Reviewer for [Dr. Nancy Foster Scholarship Program](https://fosterscholars.noaa.gov)
 
 **Western Society of Naturalists Student Committee**: Member (October 2018-Present)
@@ -122,7 +126,7 @@ Outreach activities marked with an asterisk are related to my research on oyster
 
 **One-day events**
 - North Cascades Institute: Graduate Student Panelist (February 10, 2017)
-- Scientist of the Month: The Evergreen School (December 14, 2017; December 13, 2018; January 23, 2019) *
+- Scientist of the Month: The Evergreen School (December 14, 2017; December 13, 2018; January 23, 2020) *
 - Seattle Youth Climate Action Summit: Graduate Student Panelist (October 28, 2017)
 - Seattle Climate Action Now: Lab Tour Host (July 26, 2017) *
 - Robert Eagle Staff Middle School: Guest Teacher (February 6, 2018)
