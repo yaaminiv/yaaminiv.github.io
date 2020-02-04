@@ -13,8 +13,6 @@ Jumanji understands how studying for quals works (or doesn't work...depends on t
 
 **Virginica Gonad Methylation**:
 
-### January Goals
-
 **Gigas Gonad Methylation**:
 
 - I didn't get a chance to do a GO-MWU enrichment or DMG analysis, but I reviewed my [last post](https://yaaminiv.github.io/WGBS-Analysis-Part8/) on *C. gigas* analysis.
