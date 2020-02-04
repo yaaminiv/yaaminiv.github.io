@@ -32,7 +32,7 @@ Jumanji understands how studying for quals works (or doesn't work...depends on t
 - [Submitted the *C. virginica* paper to bioRXiv and cleaned up the repository](https://yaaminiv.github.io/Final-Virginica-Tasks/)!
 - Got all my committee reading lists and start studying for quals. Turns out reading takes a lot of energy and requires many snack and nap breaks.
 
-### **[February Goals]**:
+### **February Goals**:
 
 **Quals**:
 
