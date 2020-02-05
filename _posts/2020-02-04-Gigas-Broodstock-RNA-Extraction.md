@@ -86,11 +86,69 @@ I followed [the ZymoResearch Quick DNA/RNA Microprep Plus Kit protocol](https://
 
 #### Step 13: Add 15 µL DNase/RNase-Free Water to the column. Incubate at room temperature for 5 minutes. Centrifuge at 15,000 x g for 30 seconds to elute the RNA.
 
+- I stopped here and put my samples in the -80ºC to quantify the next morning.
+
+*Updated 2020-02-05*
+
+### Methods: Sample Quantification
+
+#### Step 14: Prepare the master solution using a 1:200 ratio of buffer to dye. For each sample and both standards, 200 µL of master solution is needed.
+
+- RNA: 6567 µL of buffer and 33 µL of dye using Qubit RNA HS kit
+- DNA: I used the pre-mixed master solution for the Qubit dsDNA HS kit!!!!!!!!! Amazing
+
+#### Step 14: For each standard’s designated Qubit assay tube, add 10 µL of the correct standard and 190 µL of the master solution.
+
+#### Step 14: Vortex the sample before adding it to the assay tube. For each sample’s designated Qubit assay tube, add 1 µL of the sample and 199 µL of the master solution. 
+
+- After vortexing I quickly spun down the tubes to get the liquid that splattered back down.
+
+#### Step 14: Vortex all Qubit assay tube for 2-3 seconds at maximum speed. Incubate tubes at room temperature for two minutes.
+
+#### Step 14: Use Qubit to quantify RNA and DNA yield in each sample tube.
+
+### Results
+
+**Table 2**. RNA concentration for extracted samples. A total of 15 µL of RNA or DNA was eluted per sample. Final RNA or DNA yields only consider the remaining 14 µL after using 1 µL for quantification.
+
+| **Sample ID** | **RNA Concentration (ng/µL)** | **Total RNA Yield (ng)** | **DNA Concentration (ng/µL)** | **Total DNA Yield (ng)** |
+|:-------------:|:-----------------------------:|:------------------------:|:-----------------------------:|:------------------------:|
+|      1-T3     |               10              |            140           |              1.10             |           15.4           |
+|      2-T1     |              8.86             |          124.04          |              1.14             |           15.96          |
+|      3-T1     |              6.66             |           93.24          |             0.424             |           5.936          |
+|      4-T3     |              12.4             |           173.6          |             0.660             |           9.24           |
+|      5-T3     |              10.2             |           142.8          |              1.36             |           19.04          |
+|      6-T1     |              12.3             |           172.2          |             0.344             |           4.816          |
+|      7-T2     |              9.88             |          138.832         |             0.646             |           9.044          |
+|      8-T2     |              5.84             |           81.76          |             0.544             |           7.616          |
+|      9-T2     |              5.42             |           75.88          |             0.422             |           5.908          |
+|     10-T3     |              5.34             |           74.76          |             0.896             |          12.544          |
+|     11-T4     |              N/A              |            N/A           |             0.322             |           4.508          |
+|     12-T6     |              N/A              |            N/A           |             0.130             |           1.82           |
+|     13-T5     |              4.6              |           64.4           |             0.704             |           9.856          |
+|     14-T6     |              6.8              |           95.2           |             0.960             |           13.44          |
+|     15-T5     |              10.4             |           145.6          |             0.738             |          10.332          |
+|     16-T4     |              4.0              |            56            |             0.908             |          12.712          |
+|     17-T4     |              13.0             |            182           |             0.512             |           7.168          |
+|     18-T6     |              7.2              |           100.8          |              2.60             |           36.4           |
+|     19-T5     |              12.5             |            175           |             0.948             |          13.272          |
+|     20-T6     |              5.6              |           78.4           |             0.372             |           5.208          |
+
+Not bad for messing up twice! Even assuming my yield would double had I not made those mistakes, I still don't have enough for the 1000 ng minimum necessary to sequence each sample individually. I'd need to repeat extraction 4 more times for each sample for RNA, and DNA is completely out of the question.
+
+Two thoughts:
+
+- I shouldn't use this kit to extract DNA, period. I probably have a better chance getting a higher yield with the E.Z.N.A Mollusc Kit. 
+- Since my input is only 5 mg, it may be a better use of my time to use a different RNA extraction kit that allows for a higher input volume. Laura used RNAzol for her extractions, which has a maximum tissue input of 100 mg. The only downside to using RNAzol is that it uses a phase separation which I know I am more likely to screw up. The RNeasy kit has a maximum tissue input of 30 mg and involves spin columns instead.
+
+I'll consult with Steven and Sam to figure out my plan of action before doing any further extractions.
+
 ### Going forward
 
-1. Quantify yields from today
-1. Extract and quantify ctenidia RNA and DNA 
-2. Extract and quantify mantle RNA and DNA
+1. Figure out the best extraction option
+2. Re-extract adductor RNA
+3. Extract ctenidia RNA
+4. Extract mantle RNA
 
 {% if page.comments %}
 
