@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Gigas and Virginica Comparison
-tags: manchester gigas-broodstock virginica DML methylation-islands
+tags: manchester gigas-broodstock virginica methylation-islands
 ---
 
 ## Comparing *Crassostrea spp.* methylation patterns
