@@ -24,7 +24,7 @@ The first takeaway is that the *C. gigas* experimental duration was longer (7 we
 |      *C. virginica* (control)     | 7.95 ± 0.01 |          492 ± 50          | 1960 ± 32 |     2140 ± 15     |       3.01 ± 0.25       |
 |     *C. virginica* (treatment)    | 7.29 ± 0.01 |         2550 ± 211         | 2173 ± 37 |     2132 ± 42     |       0.72 ± 0.06       |
 
-The *C. gigas* analysis had a smaller sample size. Pooled samples were used since I had lower DNA yield from histology blocks than from the tissue Katie and Alan sent. To compensate for the smaller sample size, I used more stringent analysis parameters (minimum sequencing depth used in downstream analyses and `bismark` alignment score).
+The *C. gigas* analysis had a smaller sample size. Pooled samples were used since I had lower DNA yield from histology blocks than from the tissue Katie and Alan sent. To compensate for the smaller sample size, I used more stringent analysis parameters (minimum sequencing depth used in downstream analyses and `bismark` alignment score). Another important note is that I only sequenced stage 2 female gonad for *C. gigas*, but sex and maturity are unknown for *C. virginica*.
 
 **Table 2**. Sequencing and analysis parameters. For *C. gigas*, one pooled sample with two individuals of the same sex and reproductive sstage was created for each treatment. Alignment score refers to the `score_min` parameter used by `bismark`.
 
