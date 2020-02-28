@@ -20,7 +20,7 @@ Although the whole gang wasn't present Mac and Steven gave me some great feedbac
 
 ### Calculating "genome methylation"
 
-In the paper, I state that 22% of the *C. virginica* genome was methylated. Mac and Steven were hesitant to make this claim since it wasn't clear how I got this number, and I couldn't find it in the methods anywhere. When I looked at the 3,181,904  methylated CpGs (> 50% methylated) versus the 14,458,703 total CpGs in the *C. virginca* gneome, I got 22%. This doesn't saying that 22% of the genome is methylated. Instead, 22% of CpGs were found to be methylated. I clarified this statement in the abstract, results, and discussion.
+In the paper, I state that 22% of the *C. virginica* genome was methylated. Mac and Steven were hesitant to make this claim since it wasn't clear how I got this number, and I couldn't find it in the methods anywhere. When I looked at the 3,181,904  methylated CpGs (> 50% methylated) versus the 14,458,703 total CpGs in the *C. virginca* gneome, I got 22%. This doesn't saying that 22% of the genome is methylated. Instead, 22% of CpGs were found to be methylated. In [this Jupyter notebook](https://github.com/fish546-2018/yaamini-virginica/blob/master/notebooks/2019-05-13-Generating-Genome-Feature-Tracks.ipynb) I counted the number of cytosines in the *C. virginica* genome. Out of the 119,229,194 cytosines in the genome, 3,181,904  methylated CpGs means that the 2.7% of cytosines are methylated. This is similar to what Mac reported in her 2013 paper. I clarified this statement in the abstract, results, and discussion.
 
 ### Methylation islands
 
