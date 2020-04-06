@@ -8,7 +8,7 @@ permalink: /about/
 
 *The short version:*
 
-I'm primarily interested in how climate change is going to affect the organisms in our current and future oceans. I currently study how ocean acidification affects oysters using "-omic" techniques. I'm also interested in projects at the intersection of science, policy and communication!
+I'm interested in how climate change is going to affect the organisms in our current and future oceans. Currently, I study how ocean acidification affects Pacific and Eastern oysters using "-omic" techniques. I'm also interested in projects at the intersection of science, policy and communication!
 
 *The long version:*
 
@@ -29,7 +29,7 @@ I'm also interested in projects at the intersection of science, policy and commu
 
 ### Publications
 
-- **Venkataraman YR**, Downey-Wall AM, Ries J, Westfield I, White S, Roberts SB, Lotterhos KE, "General DNA methylation patterns and environmentally-induced differential methylation in the eastern oyster (*Crassostrea virginica*)" https://doi.org/10.1101/2020.01.07.897934
+- **Venkataraman YR**, Downey-Wall AM, Ries J, Westfield I, White S, Roberts SB, Lotterhos KE, "General DNA methylation patterns and environmentally-induced differential methylation in the eastern oyster (*Crassostrea virginica*)" https://doi.org/10.3389/fmars.2020.00225
 - **Venkataraman YR**, Spencer LH, Roberts SB, "Larval response to parental low pH exposure in Pacific oysters (*Crassostrea gigas*)" *Journal of Shellfish Research* 38(3):743-750 (2019). https://doi.org/10.2983/035.038.0325
 - Spencer LH, **Venkataraman YR**, Crim R, Ryan S, Horwith M, Roberts SB, "Carry-over effects of temperature and pCO<sub>2</sub> across multiple Olympia oyster populations" *Ecological Applications*  https://doi.org/10.1002/eap.2060
 - Foley HB, Sun PY, Ramirez R, So BK, **Venkataraman YR**, Nixon EN, Davies KJA, Edmands S. “Sex-specific stress tolerance, proteolysis, and lifespan in the invertebrate *Tigriopus californicus*.” *Experimental Gerontology* 119:46-56 (2019). https://doi.org/10.1016/j.exger.2019.02.006
@@ -51,6 +51,7 @@ I'm also interested in projects at the intersection of science, policy and commu
 
 ### Posters
 
+- **Venkataraman YR**, Downey-Wall A, Lotterhos K, Roberts SB [*Influence of ocean acidification on eastern (Crassostrea virginica) and Pacific oyster (Crassostrea gigas) DNA methylation*](https://doi.org/10.6084/m9.figshare.11868231.v1) (Ocean Sciences Meeting 2020, February 2020)
 - **Venkataraman YR**, Lowder K, Taylor J *Effect of Low pH on Growth and Feeding Quantity in the Surfgrass Limpet* (University of California, San Diego, May 2016)
 - **Venkataraman YR**, Cage P, Niles J *Social Media for a Global Movement: How Can Social Media Influence an International Climate Change Negotiation?* (University of California, San Diego, June 2016)
 - Ajaz B, Neelakantan M, **Venkataraman YR**, Zalan A, Nguyen K, Pogliano J, Pogliano K *Genes associated with lysogeny in the "lytic" mycobateriophage Qbert* (University of California, San Diego, May 2013)
@@ -72,6 +73,11 @@ I'm also interested in projects at the intersection of science, policy and commu
 - Muir College Caledonian Honor Society Member (November 2014)
 
 ### Teaching
+
+**FISH 441/551: Integrative Environmental Physiology** (Spring 2020)
+- Assisted with implementing virtual learning and class structure during COVID-19 pandemic
+- Worked with teaching team to facilitate discussions over Zoom
+- Developed creative project guidelines for undergraduates, and separate guidelines for graduate students
 
 **FISH/OCEAN/BIOL 250: Marine Biology** (Fall 2019)
 - Worked with teaching team to teach introductory marine biology course to majors and non-majors in an active learning-style classroom
@@ -133,7 +139,7 @@ Outreach activities marked with an asterisk are related to my research on oyster
 - UW Botanical Gardens Summer Camp: Activity Facilitator (August 22, 2018)
 - Refugee Women's Alliance Summer Camp: Activity Facilitator (August 24, 2018)
 - Climate Science on Tap: Guest Scientist (August 28, 2018) *
-- Skype-a-Scientist (October 24, 2018) *
+- Skype-a-Scientist (May 28, 2017, October 24, 2018, January 31, 2020) *
 - EarthTones Podcast: Guest (January 2019) *
 - Sound Waters University: Invited Teacher (February 2, 2019) *
 - Guest Speaker at Shorewood High School STEAM Expo (May 16, 2019) *
@@ -144,7 +150,7 @@ Outreach activities marked with an asterisk are related to my research on oyster
 - Board member (September 2019-Present): Assist with science communication workshops and plan for future of organization
 - Class participant (Winter 2019): Underwent rigorous science communication training to present a 20 minute public talk on my research
 
-**NOAA Office of National Marine Sanctuaries**: Social Media Volunteer Intern (April 2017-January 2020)
+**NOAA Office of National Marine Sanctuaries**: Social Media Volunteer Intern (April 2017-April 2020)
 - Create social media content for the Earth Is Blue campaign in addition to spearheadeding a series highlighting the graduate students in the Dr. Nancy Foster Scholarship Program
 - Write scripts and cut together Earth Is Blue videos
 - Curate social media posts
@@ -169,7 +175,7 @@ Outreach activities marked with an asterisk are related to my research on oyster
 ### Other involvements
 
 **Fisheries Interdisciplinary Network of Students**: Various roles
-- President (June 2017-Present): Organizational head, liaison between graduate students, faculty, and administration
+- President (June 2017-June 2020): Organizational head, liaison between graduate students, faculty, and administration
 - Diversity and Equity Forum Leader (September 2016-June 2017): Hosted events to start dialogue about diversity, equity, and inclusion within the department
 - Spring Picnic Planning Committee (February 2017-May 2017)
 - Graduate Student Retreat Planning Committee (October 2016-January 2017)
@@ -186,3 +192,6 @@ Outreach activities marked with an asterisk are related to my research on oyster
 
 [yaaminiv@uw.edu](mailto:yaaminiv@uw.edu) 
 Twitter: @YaaminiV
+ORCID: https://orcid.org/0000-0002-0364-1829
+Google Scholar: *coming soon!*
+Research Gate: *coming soon!*
