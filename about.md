@@ -38,9 +38,9 @@ I'm also interested in projects at the intersection of science, policy and commu
 
 ### Presentations
 
-- **Venkataraman YR** [*Oysters, Ocean Acidification, and -Omics*]() (Huxley Speaker Series, Western Washington University, December 2019)
-- **Venkataraman YR** and Roberts SB, *Influence of Ocean Acidification on Pacific Oyster (Crassostrea gigas) DNA Methylation)* (Pacific Coast Shellfish Growers Association, September 2019 and Western Society of Naturalists, November 2019)
-- **Venkataraman YR** [*Will They Survive?*]() (UW Science Now at Town Hall Seattle, April 2019)
+- **Venkataraman YR** *Oysters, Ocean Acidification, and -Omics* (Huxley Speaker Series, Western Washington University, December 2019)
+- **Venkataraman YR** and Roberts SB, *Influence of Ocean Acidification on Pacific Oyster (Crassostrea gigas) DNA Methylation* (Pacific Coast Shellfish Growers Association, September 2019 and Western Society of Naturalists, November 2019)
+- **Venkataraman YR** *Will They Survive?* (UW Science Now at Town Hall Seattle, April 2019)
 - **Venkataraman YR** [*Multidimensional Training for Multidimensional Graduate Students: Better Preparing Tomorrow's Leaders*](https://www.youtube.com/watch?v=8TbcVPMdo1w&list=PLgDT5hypdTyTHB5lI338UDbinahTxU8ew&index=55&t=0s) (School of Aquatic and Fishery Sciences 100 Year Celebration and 2019 Bevan Symposium, April 2019)
 - **Venkataraman YR**, Spencer LH, Roberts SB, *Adult low pH Exposure Influences Larval Abundance in Pacific Oysters (Crassostrea gigas)* (Western Society of Naturalists, November 2018)
 - **Venkataraman YR**, Roberts SB, *Influence of Ocean Acidification on Eastern oyster (Crassostrea virginica) reproductive tissue* (Pacific Growers Shellfish Growers Association 2018). Honorable Mention for Best Student Presentation Award
