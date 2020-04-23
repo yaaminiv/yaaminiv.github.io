@@ -190,8 +190,7 @@ Outreach activities marked with an asterisk are related to my research on oyster
 
 ### Contact me
 
-[yaaminiv@uw.edu](mailto:yaaminiv@uw.edu) 
-Twitter: @YaaminiV
-ORCID: https://orcid.org/0000-0002-0364-1829
-Google Scholar: *coming soon!*
-Research Gate: *coming soon!*
+- [yaaminiv@uw.edu](mailto:yaaminiv@uw.edu) 
+- Twitter: @YaaminiV
+- [ORCID](https://orcid.org/0000-0002-0364-1829)
+- [Google Scholar](https://scholar.google.com/citations?user=x9WA39wAAAAJ&hl=en&oi=sra)
