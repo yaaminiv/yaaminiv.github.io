@@ -77,6 +77,14 @@ text("p = 0.008", x = 2.5, y = 108, cex = 1.2) #Add p-value
 
 I messed around with adding a greyscale legend, but I didn't like the way it looked. I'll deal with that later.
 
+<img width="742" alt="Screen Shot 2020-05-04 at 4 46 33 PM" src="https://user-images.githubusercontent.com/22335838/81023985-ddd75680-8e26-11ea-8ce5-7717439c7533.png">
+
+**Figure 1**. CpG distribution for *M. capitata* (pdf [here](https://github.com/hputnam/Meth_Compare/blob/master/analyses/Characterizing-CpG-Methylation-5x/Mcap/Mcap-CpG-Type-Combined.pdf))
+
+<img width="752" alt="Screen Shot 2020-05-04 at 4 46 42 PM" src="https://user-images.githubusercontent.com/22335838/81023984-dca62980-8e26-11ea-8540-a013ec11f081.png">
+
+**Figure 2**. CpG distribution for *P. acuta* (pdf [here](https://github.com/hputnam/Meth_Compare/blob/master/analyses/Characterizing-CpG-Methylation-5x/Pact/Pact-CpG-Type-Combined.pdf))
+
 ### Second thoughts
 
 After all of this work, I started to have some doubts about how I concatenated the data. I summed all the categories between the three samples then calculated percentages. However, Hollie used averages to create Circos plots. I wasn't sure which method was better (and I went back-and-forth when I was doing it in the first place), so I commented in [this issue](https://github.com/hputnam/Meth_Compare/issues/58) only an hour after I closed it. Whoops.
