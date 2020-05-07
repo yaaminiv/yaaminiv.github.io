@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: MethCompare Part 11
-tags: MethCompare prop.test bedtools
+tags: MethCompare bedtools
 ---
 
 ## More feature tracks
