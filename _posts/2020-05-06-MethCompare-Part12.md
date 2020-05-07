@@ -2,12 +2,12 @@
 layout: post
 comments: true
 title: MethCompare Part 12
-tags: MethCompare bedtools prop.test
+tags: MethCompare bedtools
 ---
 
 ## Characterizing union bedgraphs
 
-I'm building up to [characterizing CpG locations in various genome features](https://github.com/hputnam/Meth_Compare/issues/60). To start, I translated my [individual sample characterization](https://github.com/hputnam/Meth_Compare/blob/master/scripts/Characterizing-CpG-Methylation-5x.ipynb) and [figure creation](https://github.com/hputnam/Meth_Compare/blob/master/scripts/Characterizing-CpG-Methylation.Rmd) pipeline to union bedgraphs. While having individual sample information might be nice when we decide to look at interindividual variation in methods, our methods comparisons will benefit from concatenating the three individual samples.
+I'm building up to [characterizing CpG locations in various genome features](https://github.com/hputnam/Meth_Compare/issues/60). To start, I translated my [individual sample characterization](https://github.com/hputnam/Meth_Compare/blob/master/scripts/Characterizing-CpG-Methylation-5x.ipynb) pipeline to union bedgraphs. While having individual sample information might be nice when we decide to look at interindividual variation in methods, our methods comparisons will benefit from concatenating the three individual samples.
 
 ### Identifying methylated loci
 
@@ -41,7 +41,7 @@ I then separated all the methods, removed lines where the percent methylation wa
 > Mcap_union_5x-averages-WGBS.bedgraph
 ```
 
-I had to repeat this step a few times because when I would move forward, I learned that I didn't correctly save the columns! I saved columns 1-3 for all methods, which was actually row number, chromosome, and start instead of chromosome, start, end. Whoops. The counts for *M. capitata* are [here](https://github.com/hputnam/Meth_Compare/blob/master/analyses/Characterizing-CpG-Methylation-5x-Union/Mcap/Mcap_union_5x-averages-counts.txt) and the counts for *P. acuta* are [here]().
+I had to repeat this step a few times because when I would move forward, I learned that I didn't correctly save the columns! I saved columns 1-3 for all methods, which was actually row number, chromosome, and start instead of chromosome, start, end. Whoops. The counts for *M. capitata* are [here](https://github.com/hputnam/Meth_Compare/blob/master/analyses/Characterizing-CpG-Methylation-5x-Union/Mcap/Mcap_union_5x-averages-counts.txt) and the counts for *P. acuta* are [here](https://github.com/hputnam/Meth_Compare/blob/master/analyses/Characterizing-CpG-Methylation-5x-Union/Pact/Pact_union_5x-averages-counts.txt).
 
 ### CpG locations in the genome
 
@@ -55,36 +55,37 @@ Once I finalized my union bedgraphs, I went through and identified methylated, s
 
 **P. acuta**:
 
-- [Methylated loci]()
-- [Sparsely methylated loci]()
-- [Unmethylated loci]()
+- [Methylated loci](https://github.com/hputnam/Meth_Compare/blob/master/analyses/Characterizing-CpG-Methylation-5x-Union/Pact/Pact_union_5x-Meth-counts.txt)
+- [Sparsely methylated loci](https://github.com/hputnam/Meth_Compare/blob/master/analyses/Characterizing-CpG-Methylation-5x-Union/Pact/Pact_union_5x-sparseMeth-counts.txt)
+- [Unmethylated loci](https://github.com/hputnam/Meth_Compare/blob/master/analyses/Characterizing-CpG-Methylation-5x-Union/Pact/Pact_union_5x-unMeth-counts.txt)
+
+For each CpG type, I looked at intersections between genes, CDS, introns, flanking regions, and intergenic regions. Again, I added intermediate files to the `.gitignore` and saved line counts:
 
 **M. capitata**:
 
-- [Genes]()
-- [CDS]()
-- [Introns]()
-- [Flanking regions]()
-- [Intergenic regions]()
+- [Genes](https://github.com/hputnam/Meth_Compare/blob/master/analyses/Characterizing-CpG-Methylation-5x-Union/Mcap/Mcap_union_5x-mcGenes-counts.txt)
+- [CDS](https://github.com/hputnam/Meth_Compare/blob/master/analyses/Characterizing-CpG-Methylation-5x-Union/Mcap/Mcap_union_5x-mcCDS-counts.txt)
+- [Introns](https://github.com/hputnam/Meth_Compare/blob/master/analyses/Characterizing-CpG-Methylation-5x-Union/Mcap/Mcap_union_5x-mcIntrons-counts.txt)
+- [Flanking regions](https://github.com/hputnam/Meth_Compare/blob/master/analyses/Characterizing-CpG-Methylation-5x-Union/Mcap/Mcap_union_5x-mcFlanks-counts.txt)
+- [Intergenic regions](https://github.com/hputnam/Meth_Compare/blob/master/analyses/Characterizing-CpG-Methylation-5x-Union/Mcap/Mcap_union_5x-mcIntergenic-counts.txt)
 
 **P. acuta**:
 
-- [Genes]()
-- [CDS]()
-- [Introns]()
-- [Flanking regions]()
-- [Intergenic regions]()
-
-### Stacked barplots
+- [Genes](https://github.com/hputnam/Meth_Compare/blob/master/analyses/Characterizing-CpG-Methylation-5x-Union/Pact/Pact_union_5x-paGenes-counts.txt)
+- [CDS](https://github.com/hputnam/Meth_Compare/blob/master/analyses/Characterizing-CpG-Methylation-5x-Union/Pact/Pact_union_5x-paCDS-counts.txt)
+- [Introns](https://github.com/hputnam/Meth_Compare/blob/master/analyses/Characterizing-CpG-Methylation-5x-Union/Pact/Pact_union_5x-paIntron-counts.txt)
+- [Flanking regions](https://github.com/hputnam/Meth_Compare/blob/master/analyses/Characterizing-CpG-Methylation-5x-Union/Pact/Pact_union_5x-paFlanks-counts.txt)
+- [Intergenic regions](https://github.com/hputnam/Meth_Compare/blob/master/analyses/Characterizing-CpG-Methylation-5x-Union/Pact/Pact_union_5x-paIntergenic-counts.txt)
 
 ### Going forward
 
-4. Update methods
-5. Update results
-2. [Locate TE tracks](https://github.com/hputnam/Meth_Compare/issues/56)
-2. [Characterize intersections between data and TE, and create summary tables](https://github.com/hputnam/Meth_Compare/issues/59)
-3. [Create figures for CpG characterization in various genome features](https://github.com/hputnam/Meth_Compare/issues/60)
-3. Figure out methylation island analysis
+1. [Remake stacked barplots with union data](https://github.com/hputnam/Meth_Compare/issues/58)
+2. Update methods
+3. Update results
+4. [Create figures for CpG characterization in various genome features](https://github.com/hputnam/Meth_Compare/issues/60)
+5. [Locate TE tracks](https://github.com/hputnam/Meth_Compare/issues/56)
+6. [Characterize intersections between data and TE, and create summary tables](https://github.com/hputnam/Meth_Compare/issues/59)
+7. Figure out methylation island analysis
 
 {% if page.comments %}
 
