@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: MethCompare Part 13
-tags: MethCompare prop.test bedtools
+tags: MethCompare chi.sq bedtools
 ---
 
 ## Revamping distribution plots and creating genome feature plots
