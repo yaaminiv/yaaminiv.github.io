@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: MethCompare Part 10
-tags: MethCompare prop.test
+tags: MethCompare chisq.test
 ---
 
 ## Revisiting CpG distributions
