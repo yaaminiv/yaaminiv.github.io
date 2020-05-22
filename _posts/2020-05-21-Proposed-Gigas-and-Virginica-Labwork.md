@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Figuring Out ATAC-Seq Part 2
+title: Proposed Gigas and Virginica Labwork
 tags: ATAC-Seq gigas-broodstock larvae virginica
 ---
 
