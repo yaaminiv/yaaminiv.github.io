@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Proposed Gigas and Virginica Labwork
-tags: ATAC-Seq gigas-broodstock larvae virginica
+tags: ATAC-Seq virginica gigas-broodstock larvae
 ---
 
 ## Retooling labwork plans
