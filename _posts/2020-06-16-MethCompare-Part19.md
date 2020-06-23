@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: MethCompare Part 19
-tags: MethCompare
+tags: MethCompare NMDS
 ---
 
 ## Multivariate analysis for compositional data
