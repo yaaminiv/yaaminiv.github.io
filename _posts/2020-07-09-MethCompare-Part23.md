@@ -85,7 +85,7 @@ for (i in 1:length(samplesMcap)) { #For each sample listed in samplesMcap
 }
 ```
 
-The trick of putting dataframes in a vector to run the same commands on them is super useful. Definitely using that in the future.
+The trick of putting dataframes in a vector to run the same commands on them is super useful. Definitely using that in the future. I posted the links to the *M. capitata* and *P. acuta* subdirectories in [this issue](https://github.com/hputnam/Meth_Compare/issues/86) for Hollie to use.
 
 Aside from calculating methylation, I also modified figures based on suggestions from Hollie and updated the methods section. Not much left to work on (hopefully)!
 
