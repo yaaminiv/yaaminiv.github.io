@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: WGBS Samples Part 5
+title: WGBS Samples Part 6
 tags: manchester labwork gigas-broodstock WGBS
 ---
 
