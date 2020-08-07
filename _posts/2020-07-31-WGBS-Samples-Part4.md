@@ -32,19 +32,19 @@ I added these results to [my spreadsheet](https://github.com/RobertsLab/project-
 
 **Low**:
 
-02-T1
-04-T3
-06-T1: No tissue left for RNA extraction
-07-T2
-08-T2: Less than half of tissue sample left for RNA extraction
+- 02-T1
+- 04-T3
+- 06-T1: No tissue left for RNA extraction
+- 07-T2
+- 08-T2: Less than half of tissue sample left for RNA extraction
 
 **Ambient**:
 
-11-T4
-UK-02: Less than 500 ng
-UK-03: Less than 500 ng
-UK-04
-UK-06: Less than half of tissue sample left for RNA extraction
+- 11-T4
+- UK-02: Less than 500 ng
+- UK-03: Less than 500 ng
+- UK-04
+- UK-06: Less than half of tissue sample left for RNA extraction
 
 ### Going forward
 
