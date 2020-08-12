@@ -68,8 +68,8 @@ I started the [MethylMiner protocol](https://github.com/RobertsLab/resources/blo
 
 1. Label six sets of 1.7 mL centrifuge tubes for non-captured DNA, washes, and elutions
 2. Make 10 mL more of the 1X Bind/Wash Buffer
-3. Process second batch of *C. virginica* sperm samples
-4. Complete ethanol precipitation with all *C. virginica* sperm samples
+3. Complete elutions and ethanol precipitations
+4. Process second batch of *C. virginica* sperm samples
 
 {% if page.comments %}
 
