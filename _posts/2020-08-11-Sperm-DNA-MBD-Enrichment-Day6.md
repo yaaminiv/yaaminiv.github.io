@@ -7,7 +7,7 @@ tags: virginica labwork sperm
 
 ## Final shearing and quality checks
 
-I need to confirm samples 6, 48, and 63 are good to go before I can do MBD enrichment. I made 1:100 dilutions using 1 µL of each sample and 99 µL of DNAse free water, vortexed them to mix, and ran them on the BioAnalyzer with [some *C. gigas* samples]().
+I need to confirm samples 6, 48, and 63 are good to go before I can do MBD enrichment. I made 1:100 dilutions using 1 µL of each sample and 99 µL of DNAse free water, vortexed them to mix, and ran them on the BioAnalyzer with [some *C. gigas* samples](https://yaaminiv.github.io/WGBS-Samples-Part7/).
 
 ![Capture](https://user-images.githubusercontent.com/22335838/90073597-5bc0be80-dcae-11ea-9120-33aa4091a0e2.PNG)
 
