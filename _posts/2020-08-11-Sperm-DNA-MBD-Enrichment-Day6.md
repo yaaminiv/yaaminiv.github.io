@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Sperm DNA MBD Enrichment Day 7
+title: Sperm DNA MBD Enrichment Day 6
 tags: virginica labwork sperm
 ---
 
