@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Sperm DNA MBD Enrichment Day 7
+title: Sperm DNA MBD Enrichment Day 8
 tags: virginica labwork sperm MethylMiner
 ---
 
