@@ -29,6 +29,7 @@ I'm also interested in projects at the intersection of science, policy and commu
 
 ### Publications
 
+- Downey-Wall AM, Cameron L, Ford B, McNally, E, **Venkataraman YR**, Roberts SB, Ries J, Lotterhos KE, "Ocean acidification induces subtle shifts in gene expression and DNA methylation in mantle tissue of the eastern oyster (*Crassostrea virginica*)" *Front. Mar. Sci.* (in press)
 - **Venkataraman YR**, Downey-Wall AM, Ries J, Westfield I, White S, Roberts SB, Lotterhos KE, "General DNA methylation patterns and environmentally-induced differential methylation in the eastern oyster (*Crassostrea virginica*)" *Front. Mar. Sci.* 7:225 (2020). https://doi.org/10.3389/fmars.2020.00225
 - **Venkataraman YR**, Spencer LH, Roberts SB, "Larval response to parental low pH exposure in Pacific oysters (*Crassostrea gigas*)" *Journal of Shellfish Research* 38(3):743-750 (2019). https://doi.org/10.2983/035.038.0325
 - Spencer LH, **Venkataraman YR**, Crim R, Ryan S, Horwith M, Roberts SB, "Carry-over effects of temperature and pCO<sub>2</sub> across multiple Olympia oyster populations" *Ecological Applications*  https://doi.org/10.1002/eap.2060
@@ -38,7 +39,7 @@ I'm also interested in projects at the intersection of science, policy and commu
 
 ### Presentations
 
-- **Venkataraman YR** *Oysters, Ocean Acidification, and -Omics* (Huxley Speaker Series, Western Washington University, December 2019)
+- **Venkataraman YR** *Oysters, Ocean Acidification, and -Omics* (Huxley Speaker Series, Western Washington University, December 2019 and Summer Virtual Seminar Series, Friday Harbor Laboratory, June 2020)
 - **Venkataraman YR** and Roberts SB, *Influence of Ocean Acidification on Pacific Oyster (Crassostrea gigas) DNA Methylation* (Pacific Coast Shellfish Growers Association, September 2019 and Western Society of Naturalists, November 2019)
 - **Venkataraman YR** *Will They Survive?* (UW Science Now at Town Hall Seattle, April 2019)
 - **Venkataraman YR** [*Multidimensional Training for Multidimensional Graduate Students: Better Preparing Tomorrow's Leaders*](https://www.youtube.com/watch?v=8TbcVPMdo1w&list=PLgDT5hypdTyTHB5lI338UDbinahTxU8ew&index=55&t=0s) (School of Aquatic and Fishery Sciences 100 Year Celebration and 2019 Bevan Symposium, April 2019)
@@ -72,7 +73,7 @@ I'm also interested in projects at the intersection of science, policy and commu
 - Physical Sciences Dean's Undergraduate Award of Excellence (May 2015)
 - Muir College Caledonian Honor Society Member (November 2014)
 
-### Teaching
+### Teaching and Mentorship
 
 **FISH 441/551: Integrative Environmental Physiology** (Spring 2020)
 - Assisted with implementing virtual learning and class structure during COVID-19 pandemic
@@ -92,17 +93,25 @@ I'm also interested in projects at the intersection of science, policy and commu
 - Spearheaded science communication of the course, which included helping students create blog posts and short presentations
 - Lead student groups for class projects
 
+**Letters to a Pre-Scientist**: Scientist penpal (September 2018-June 2020)
+- Wrote letters to a middle school penpal each school year to demonstrate that STEM professionals are diverse and foster a curiosity about STEM careers
+- Explained how my background lead to my interest in marine science and my eventual scientific career
+- Engaged with my penpal's interests to humanize myself as a scientist and connect with them on a deeper level
+
+**Students Mentored**: Lorraine Lee (Program on the Environment, Class of 2019)
+
 ### Professional Service
 
-- Reviewer for [Evolutionary Applications](https://onlinelibrary.wiley.com/journal/17524571), [ICES Journal of Marine Science](https://academic.oup.com/icesjms)
+- Reviewer for [Evolutionary Applications](https://onlinelibrary.wiley.com/journal/17524571) (1), [ICES Journal of Marine Science](https://academic.oup.com/icesjms) (1), [Ecological Applications](https://esajournals.onlinelibrary.wiley.com/journal/19395582) (1), [Molecular Ecology](https://onlinelibrary.wiley.com/journal/1365294x) (1)
 - Application Reviewer for [Dr. Nancy Foster Scholarship Program](https://fosterscholars.noaa.gov)
 
-**Western Society of Naturalists Student Committee**: Member (October 2018-Present)
+**Western Society of Naturalists Student Committee**: Co-Chair (November 2019-Present), Member (October 2018-November 2019)
 - Tasked with planning 2019 and 2020 society meetings
 - Organize the Thursday Workshop for the 2019 meeting centering around mental health in academia
 - Committee Co-chair for 2020 meeting responsible for delegating roles to committee members and coordinating with WSN Secretariat
+- Collaborated with WSN Secretariat and Diversity, Equity, and Inclusion Committee to improve conference atmosphere and create intentional mentoring and networking opportunities for the 2020 virtual conference
 
-### Research experience
+### Additonal research experience
 
 **Undergraduate Researcher**: Taylor Lab, Scripps Institution of Oceanography (September 2015-June 2016)
 - Studied ocean acidification's effect on feeding patterns in the surfgrass limpet, *Tectura palacea*
@@ -119,18 +128,19 @@ I'm also interested in projects at the intersection of science, policy and commu
 **Phage Genomics Research Initiative** (September 2012-June 2013)
 - Characterized genome of newly-isolated bacteriophage
 
-### Outreach
+### Community Engagement
 
-Outreach activities marked with an asterisk are related to my research on oysters and ocean acidification.
+Activities marked with an asterisk are related to my research on oysters and ocean acidification.
 
-**Students Exploring Aquatic Sciences**: Curriculum Developer (August 2017-Present)
+**Students Exploring Aquatic Sciences**: Founding Member (August 2017-Present)
 - Co-planning a Spring 2018 FISH 508 class to empower graduate students to cater their outreach activities to diverse classrooms
-- Worked with teachers from Jane Addams Middle School to teach a week-long science course May 2019, including generation of a [Shiny App](https://sthurner.shinyapps.io/oav1/) *
+- Worked with teachers from Jane Addams Middle School and a Program on the Environment undergraduate capstone student Lorraine Lee to teach a week-long science course May 2019, including generation of a [Shiny App](https://sthurner.shinyapps.io/oav1/) *
+- Worked with Board of Directors to create a sustainable virtual community engagement program in response to COVID-19 pandemic
 
 **National Center for Science Education**: Scientist in the Classroom (January 2017-June 2017)
 - Worked with middle school science teacher to develop lessons about climate change in the Pacific Northwest, specifically ocean acidification. Taught two lessons in person *
 
-**One-day events**
+**One-day Events**
 - North Cascades Institute: Graduate Student Panelist (February 10, 2017)
 - Scientist of the Month: The Evergreen School (December 14, 2017; December 13, 2018; January 23, 2020) *
 - Seattle Youth Climate Action Summit: Graduate Student Panelist (October 28, 2017)
@@ -144,7 +154,7 @@ Outreach activities marked with an asterisk are related to my research on oyster
 - Sound Waters University: Invited Teacher (February 2, 2019) *
 - Guest Speaker at Shorewood High School STEAM Expo (May 16, 2019) *
 
-### Science communication
+### Science Communication
 
 **Engage**: Various roles
 - Board member (September 2019-Present): Assist with science communication workshops and plan for future of organization
@@ -164,7 +174,7 @@ Outreach activities marked with an asterisk are related to my research on oyster
 - Head Production Editor (May 2014-May 2015): Learned how to convey stories visually, and taught my team to do the same for both publications
 - Blogger (September 2013-June 2014): One of the first bloggers for our website, SQ Online. Detailed journey of self-discovery as one of several biology majors who did not intend to pursue a health-related career in my blog, “No, I’m not Pre-Med"
 
-### Science policy
+### Science Policy
 
 **Graduate Student and Professional Senate**: Science and Policy Steering Committee Member (Septmeber 2016-June 2019)
 - Address professional development needs for graduate students relating to science policy, including science communication trainings, ethics discussions, and white paper workshops
@@ -172,7 +182,7 @@ Outreach activities marked with an asterisk are related to my research on oyster
 **ParisAgreement.org**: Affiliate (September 2015-June 2016)
 - Examined effect of social media on perceptions of Paris Agreement and COP23
 
-### Other involvements
+### Other Involvements
 
 **Fisheries Interdisciplinary Network of Students**: Various roles
 - President (June 2017-June 2020): Organizational head, liaison between graduate students, faculty, and administration
@@ -182,13 +192,13 @@ Outreach activities marked with an asterisk are related to my research on oyster
 
 **Research Coordinated Network for Evolution in Changing Seas**: Member (October 2018-Present)
 
-**NSF Graduate Research Fellowship Program (GRFP) Application Workshop**: Mentor (Fall 2018, Fall 2019)
-- Helped graduate students write and apply for the NSF GRFP
+**NSF Graduate Research Fellowship Program (GRFP) Application Workshop**: Mentor (Fall 2018, Fall 2019, Fall 2020)
+- Helped undergradaute and graduate students write and apply for the NSF GRFP
 
 **Graduate Recruitment, Retention, and Diversity Committee**: Member (April 2017-December 2017)
 - Provided feedback on College of the Environment's recruitment and retention efforts
 
-### Contact me
+### Contact Me
 
 - [yaaminiv@uw.edu](mailto:yaaminiv@uw.edu) 
 - Twitter: @YaaminiV
