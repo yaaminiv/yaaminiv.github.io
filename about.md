@@ -98,7 +98,10 @@ I'm also interested in projects at the intersection of science, policy and commu
 - Explained how my background lead to my interest in marine science and my eventual scientific career
 - Engaged with my penpal's interests to humanize myself as a scientist and connect with them on a deeper level
 
-**Students Mentored**: Lorraine Lee (Program on the Environment, Class of 2019)
+**Students Mentored**: 
+
+- Lorraine Lee (University of Washington Program on the Environment Capstone Student, Students Explore Aquatic Sciences Intern)
+- Maureen Muñoz (University of California, Berkeley, Society of Women in Marine Science Mentorship Program)
 
 ### Professional Service
 
