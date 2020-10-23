@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Virginica Gonad DNA Extractions Part 5
+title: Virginica Gonad DNA Extractions
 tags: virginica labwork gonad WGBS
 ---
 
