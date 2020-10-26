@@ -40,8 +40,6 @@ After this step, I remembered how small 5 mg of tissue is! I showed the quantity
 
 #### Step 4: For every 300 µL of sample, add 30 µL PK Digestion Buffer and 15 µL Proteinase K. Mix by vortexing gently.
 
-- After adding 300 µL nuclease-free water, my sample volume had effectively doubled. I added an additional 30 µL PK Digestion Buffer and 15 µL Proteinase K, totalling 60 µL PK Digestion Buffer and 30 µL Proteinase K per sample.
-
 #### Step 5: Place samples on a heat block at 55ºC overnight.
 
 - I started the incubation at 4:20 p.m.
