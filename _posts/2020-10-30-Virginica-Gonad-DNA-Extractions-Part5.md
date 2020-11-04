@@ -7,7 +7,7 @@ tags: virginica labwork gonad WGBS
 
 ## Remaining female DNA and RNA extractions
 
-Alright, time to finish up the female samples. Last night I set up the [samples I prepared Wednesday](https://yaaminiv.github.io/Virginica-Gonad-DNA-Extractions-Part for the overnight incubation and lysis!
+Alright, time to finish up the female samples. Last night I set up the [samples I prepared Wednesday](https://yaaminiv.github.io/Virginica-Gonad-DNA-Extractions-Part4/) for the overnight incubation and lysis!
 
 ### Methods: Sample Preparation
 
