@@ -29,7 +29,7 @@ I'm also interested in projects at the intersection of science, policy and commu
 
 ### Publications
 
-- Downey-Wall AM, Cameron L, Ford B, McNally, E, **Venkataraman YR**, Roberts SB, Ries J, Lotterhos KE, "Ocean acidification induces subtle shifts in gene expression and DNA methylation in mantle tissue of the eastern oyster (*Crassostrea virginica*)" *Front. Mar. Sci.* (in press)
+- Downey-Wall AM, Cameron L, Ford B, McNally, E, **Venkataraman YR**, Roberts SB, Ries J, Lotterhos KE, "Ocean acidification induces subtle shifts in gene expression and DNA methylation in mantle tissue of the eastern oyster (*Crassostrea virginica*)" *Front. Mar. Sci.* https://doi.org/10.3389/fmars.2020.566419
 - **Venkataraman YR**, Downey-Wall AM, Ries J, Westfield I, White S, Roberts SB, Lotterhos KE, "General DNA methylation patterns and environmentally-induced differential methylation in the eastern oyster (*Crassostrea virginica*)" *Front. Mar. Sci.* 7:225 (2020). https://doi.org/10.3389/fmars.2020.00225
 - **Venkataraman YR**, Spencer LH, Roberts SB, "Larval response to parental low pH exposure in Pacific oysters (*Crassostrea gigas*)" *Journal of Shellfish Research* 38(3):743-750 (2019). https://doi.org/10.2983/035.038.0325
 - Spencer LH, **Venkataraman YR**, Crim R, Ryan S, Horwith M, Roberts SB, "Carry-over effects of temperature and pCO<sub>2</sub> across multiple Olympia oyster populations" *Ecological Applications*  https://doi.org/10.1002/eap.2060
