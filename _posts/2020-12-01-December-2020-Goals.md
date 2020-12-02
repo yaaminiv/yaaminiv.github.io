@@ -37,6 +37,7 @@ What last-minute panic is better than end-of-the-year panic?! I've got 17 days o
 **ATAC-Seq Labwork**:
 
 - Purchase reagents and identify samples to test cell dissociation protocols
+- Ensure protocol is easy to follow and is accessible for the lab
 - Dissociate and cryopreserve some cells
 
 **Gigas Labwork**:
@@ -44,6 +45,7 @@ What last-minute panic is better than end-of-the-year panic?! I've got 17 days o
 - If there's some lag time while waiting for ATAC-Seq reagents, test RNA extraction protocol
 - Extract RNA from samples sent for WGBS
 - Send RNA for library preparation and sequencing
+- Identify location of larval samples for potential extractions
 
 **Coral Methylation Comparison**:
 
