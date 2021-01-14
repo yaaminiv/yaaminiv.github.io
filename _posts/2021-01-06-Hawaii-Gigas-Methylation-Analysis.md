@@ -7,7 +7,7 @@ tags: hawaii gigas-ploidy mox trimgalore
 
 ## Trimming Hawaii data
 
-I'm starting data analysis for a new(-ish) project! [Dr. Maria Hawes at the University of Hawai'i Hilo exposed diploid and triploid adult *C. gigas* to low or ambient pH in a factorial design for six weeks and dissected ctenidia tissue](https://github.com/RobertsLab/project-oyster-oa#changes-in-dna-methylation-in-diploid--triploid-crassostrea-gigas-exposed-to-different-ph-levels-id-haws). Sam extracted DNA from these tissues for WGBS at Zymo. Once he got the [sequencing data](https://docs.google.com/spreadsheets/d/1_XqIOPVHSBVGscnjzDSWUeRL7HUHXfaHxVzec-I-8Xk/edit#gid=0), [he ran FastQC](https://robertslab.github.io/sams-notebook/2020/12/06/FastQC-MultiQc-C.gigas-Ploidy-pH-WGBS-Raw-Sequence-Data-from-Haws-Lab-on-Mox.html). My goal is to identify differentially methylated loci associated with ploidy and/or ocean acidification in these samples.
+I'm starting data analysis for a new(-ish) project! [Dr. Maria Haws at the University of Hawai'i Hilo exposed diploid and triploid adult *C. gigas* to low or ambient pH in a factorial design for six weeks and dissected ctenidia tissue](https://github.com/RobertsLab/project-oyster-oa#changes-in-dna-methylation-in-diploid--triploid-crassostrea-gigas-exposed-to-different-ph-levels-id-haws). Sam extracted DNA from these tissues for WGBS at Zymo. Once he got the [sequencing data](https://docs.google.com/spreadsheets/d/1_XqIOPVHSBVGscnjzDSWUeRL7HUHXfaHxVzec-I-8Xk/edit#gid=0), [he ran FastQC](https://robertslab.github.io/sams-notebook/2020/12/06/FastQC-MultiQc-C.gigas-Ploidy-pH-WGBS-Raw-Sequence-Data-from-Haws-Lab-on-Mox.html). My goal is to identify differentially methylated loci associated with ploidy and/or ocean acidification in these samples.
 
 To start, I wanted to trim data with `trimgalore` on `mox`. Even though `fastp` works faster, I wanted to use `trimgalore` because that's what we used in the [coral methylation comparison pipeline](https://github.com/hputnam/Meth_Compare/blob/master/code/00.01-DNA-sequence-processing.md). I started by downloading the sequence data from `nightingales` into the `gscratch/scrubbed/yaaminiv` directory on `mox`:
 
@@ -17,10 +17,10 @@ wget http://owl.fish.washington.edu/nightingales/C_gigas/zr3644_MD5.txt #Obtain 
 md5sum -c zr3644_MD5.txt #Check md5sum
 ```
 
-I copied the [`mox` script we used to trim coral samples](https://github.com/hputnam/Meth_Compare/blob/master/code/00.01-DNA-sequence-processing.md#quality-trimming) and pasted it into [a new shell script](https://github.com/RobertsLab/project-oyster-oa/blob/master/code/Hawes/01-trimgalore.sh). For the paired WGBS data, I need to hard trim 10 bp from each end, so I made sure the script did that. I added all the paths for the paired data into the script, then transferred it to `mox` and ran it:
+I copied the [`mox` script we used to trim coral samples](https://github.com/hputnam/Meth_Compare/blob/master/code/00.01-DNA-sequence-processing.md#quality-trimming) and pasted it into [a new shell script](https://github.com/RobertsLab/project-oyster-oa/blob/master/code/Haws/01-trimgalore.sh). For the paired WGBS data, I need to hard trim 10 bp from each end, so I made sure the script did that. I added all the paths for the paired data into the script, then transferred it to `mox` and ran it:
 
 ```
-rsync —archive —progress —verbose yaamini@172.25.149.226:/Users/yaamini/Documents/project-oyster-oa/code/Hawes/01-trimgalore.sh . #Transfer script to USER directory, not scrubbed directory
+rsync —archive —progress —verbose yaamini@172.25.149.226:/Users/yaamini/Documents/project-oyster-oa/code/Haws/01-trimgalore.sh . #Transfer script to USER directory, not scrubbed directory
 sbatch 01-trimgalore.sh
 ```
 
