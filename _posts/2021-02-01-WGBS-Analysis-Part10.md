@@ -34,7 +34,7 @@ rsync —archive —progress —verbose zr3616_* /Volumes/web-1/nightingales/C_g
 
 While the files transferred over many hours, I updated the Google Sheet with sample metadata.
 
-### Assessing raw data quality
+### Raw data quality
 
  When I received the data from ZymoResearch, the pdf implied that adapters were trimmed out of the data. Confused, I posted [this discussion](https://github.com/RobertsLab/resources/discussions/1082) to determine if I needed to modify my trimming protocol. Sam informed me that the samples were likely not trimmed, and I would see this if I ran [`FastQC`](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/). Once the files were transferred to Nightingales, I needed to transfer them to `mox` and do just that.
 
@@ -55,11 +55,40 @@ rsync —archive —verbose —progress yaamini@172.25.149.226:/users/yaamini/Do
 sbatch 01-fastqc.sh #Run script
 ```
 
-Once the initial quality assessment is done, I'll run `trimgalore` to remove adapter sequences!
+My script finished running in 40 minutes. It exited with an error message, but when I checked the [`multiqc` report]() all samples were accounted for. Looking at the report, I saw that there were no identified adapter sequences in any sample.
+
+<img width="1084" alt="Screen Shot 2021-02-02 at 12 27 25 AM" src="https://user-images.githubusercontent.com/22335838/106573227-376fcd00-64ee-11eb-8b85-f4a45d69b1bd.png">
+
+**Figure 1**. Summary of FastQC report parameters for all samples
+
+When I dug into individual reports, I noticed that there were overrepresented PCR primers. And of course, poly-G tails were present in almost all R2 samples, leading to a spike in the tail end of the per sequence GC content distribution.
+
+<img width="763" alt="Screen Shot 2021-02-02 at 12 32 13 AM" src="https://user-images.githubusercontent.com/22335838/106573237-3a6abd80-64ee-11eb-988a-803a5d570749.png">
+
+<img width="623" alt="Screen Shot 2021-02-02 at 12 32 32 AM" src="https://user-images.githubusercontent.com/22335838/106573245-3ccd1780-64ee-11eb-9a4e-f2d46d3834cc.png">
+
+**Figures 2-3**. Overrepresented sequences and per sequence GC content distribution for sample 2 R2.
+
+The lack of adapter sequences was concerning, so I looked at the [Hawaii *C. gigas* MultiQC report](https://gannet.fish.washington.edu/Atumefaciens/20201206_cgig_fastqc_multiqc_ploidy-pH-wgbs/multiqc_report.html#fastqc_adapter_content). Although there were plenty of adapter and overrepresented sequences in that data, the summary at the bottom of the report doesn't indicate this!
+
+**Figure 4**. Summary of FastQC report parameters for Hawaii samples
+
+<img width="1107" alt="Screen Shot 2021-02-02 at 12 43 15 AM" src="https://user-images.githubusercontent.com/22335838/106574394-b6193a00-64ef-11eb-9b3e-bab3ace762d8.png">
+
+This is a very odd classification convention, but I think it means my samples were not trimmed. I can proceed to the next step!
+
+### Trimming samples
+
+Since I saw poly-G tails in the FastQC reports, I know I need three rounds of trimming. Luckily, I already had my [Hawaii data `trimgalore` script](https://github.com/RobertsLab/project-oyster-oa/blob/master/code/Haws/01-trimgalore-2.sh) I could modify for this project. [For this project's script](https://github.com/RobertsLab/project-gigas-oa-meth/blob/master/code/02-trimgalore.sh), I updated file paths, directory paths, and included `echo` commands so I could easily search the slurm output and determine which steps were completed. I then transferred the script to `mox` and let it run:
+
+```
+rsync --archive --progress --verbose yaamini@172.25.149.226:/Users/yaamini/Documents/project-gigas-oa-meth/code/02-trimgalore.sh . #Transfer script to user directory
+sbatch 02-trimaglore.sh #Run script
+```
 
 ### Going forward
 
-1. Trim samples, checking specifically for reasons to trim multiple times
+1. Check trimming output
 2. Start `bismark`
 3. Identify DML
 2. Determine if RNA should be extracted
