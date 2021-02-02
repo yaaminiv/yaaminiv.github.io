@@ -55,7 +55,7 @@ rsync —archive —verbose —progress yaamini@172.25.149.226:/users/yaamini/Do
 sbatch 01-fastqc.sh #Run script
 ```
 
-My script finished running in 40 minutes. It exited with an error message, but when I checked the [`multiqc` report]() all samples were accounted for. Looking at the report, I saw that there were no identified adapter sequences in any sample.
+My script finished running in 40 minutes. It exited with an error message, but when I checked the [`multiqc` report](https://gannet.fish.washington.edu/spartina/project-gigas-oa-meth/output/fastqc/multiqc_report.html) all samples were accounted for. Looking at the report, I saw that there were no identified adapter sequences in any sample.
 
 <img width="1084" alt="Screen Shot 2021-02-02 at 12 27 25 AM" src="https://user-images.githubusercontent.com/22335838/106573227-376fcd00-64ee-11eb-8b85-f4a45d69b1bd.png">
 
