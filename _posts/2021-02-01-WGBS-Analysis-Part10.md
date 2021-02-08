@@ -15,7 +15,8 @@ The first thing I needed to do was download the data. ZymoResearch provided two 
 
 I found [this link](https://www.howtogeek.com/447033/how-to-use-curl-to-download-files-from-the-linux-command-line/) with information on how to do just that! Once I downloaded the text file, I could use `xargs` to specify the individual URls to download:
 
-```curl https://epiquest.s3.amazonaws.com/epiquest_zr3616/yZDEfJOtQKi6iHfwuDtQa3mUJiy4vC/download_fastq.txt > download_fastq.txt #Download file provided by ZymoResearch
+```
+curl https://epiquest.s3.amazonaws.com/epiquest_zr3616/yZDEfJOtQKi6iHfwuDtQa3mUJiy4vC/download_fastq.txt > download_fastq.txt #Download file provided by ZymoResearch
 xargs -n 1 curl -O < download_fastq.txt  #Download fastq files
 ```
 
