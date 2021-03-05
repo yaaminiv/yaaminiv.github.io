@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Hawaii Gigas Methylation Analysis Part 6
+title: Hawaii Gigas Methylation Analysis Part 7
 tags: hawaii gigas-ploidy bismark mox methylkit
 ---
 
