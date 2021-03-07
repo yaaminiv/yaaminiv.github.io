@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Hawaii Gigas Methylation Analysis Part 9
+title: Hawaii Gigas Methylation Analysis Part 8
 tags: hawaii gigas-ploidy methylkit
 ---
 
