@@ -46,6 +46,12 @@ The clustering diagram didn't reveal any clear sample differences, and the corre
 
 The next step was to use `calculateDiffMeth` on the united dataset to quantify methylation differences by treatment in CpG loci with at least 5x coverage in all samples. I created a covariate matrix with sex and stage based on the [histology processing information](https://github.com/RobertsLab/project-oyster-oa/blob/master/data/Manchester/2018-02-27-Gigas-Histology-Classification.csv). At this point, I also realized that one sample from each treatment was an indeterminate oyster!! I thought I only had female oysters sequenced, but looking back through my notes I didn't have enough DNA from only female samples. Once I finish testing some parameters, I think I'll need to separate my analysis into two parts: 3 vs. 3 samples for low pH vs. control pH, and then 1 vs. 1 sample for the indeterminate oysters. This way, I can differentiate between treatment effects on oysters that are at the same(-ish) maturation stages. If any DML overlap, that may indicate a treatment effect that isn't dependent on reproduction! Interestingly, sample 2 is an indeterminate sample, but sample 7 is not. Who knows what's happening in that PCA.
 
+Sidenote, here's a screenshot of the Zymo report to remind me that samples 1-4 are low pH samples!
+
+<img width="500" alt="Screen Shot 2021-03-10 at 2 09 41 PM" src="https://user-images.githubusercontent.com/22335838/111222519-2dcf8f80-8599-11eb-9eeb-09f722e5d201.png">
+
+**Figure 4**. Zymo sample information
+
 I decided to run the code from the [`methylKit` handbook](https://bioconductor.riken.jp/packages/3.4/bioc/vignettes/methylKit/inst/doc/methylKit.html#38_accounting_for_covariates)...
 
 ```{r}
