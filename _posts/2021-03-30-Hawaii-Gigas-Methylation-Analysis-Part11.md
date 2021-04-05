@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Hawaii Gigas Methylation Analysis Part 10
-tags: hawaii gigas-ploidy samtools
+tags: hawaii gigas-ploidy samtools SNP
 ---
 
 ## Merging BAM files
