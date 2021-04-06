@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: WGBS Analysis Part 15
+title: WGBS Analysis Part 16
 tags: manchester gigas-broodstock bismark mox
 ---
 
