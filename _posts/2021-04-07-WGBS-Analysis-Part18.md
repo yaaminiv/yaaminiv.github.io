@@ -5,7 +5,7 @@ title: WGBS Analysis Part 18
 tags: manchester gigas-broodstock methylKit mox
 ---
 
-## Preparing R scripts for `mox`
+## Testing base `methylKit` code
 
 Alright, it's time to run [`methylKit`](https://bioconductor.org/packages/release/bioc/vignettes/methylKit/inst/doc/methylKit.html) on `mox`! Steven and Sam suggested I run my `methylKit` code in [this discussion](https://github.com/RobertsLab/resources/discussions/1137#discussioncomment-451773), so I'll finish testing my code, make some modifications, and create a script to run on `mox`.
 
