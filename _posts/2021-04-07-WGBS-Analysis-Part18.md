@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: WGBS Analysis Part 18
-tags: manchester gigas-broodstock methylKit mox
+tags: manchester gigas-broodstock methylKit
 ---
 
 ## Testing base `methylKit` code
