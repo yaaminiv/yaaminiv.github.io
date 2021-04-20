@@ -5,7 +5,7 @@ title: WGBS Analysis Part 20
 tags: manchester gigas-broodstock methylKit mox
 ---
 
-## Running R scripts on `mox`
+## Preparing to R scripts on `mox`
 
 The moment we've all been waiting for: moving over to `mox`! A week ago I posted [this discussion](https://github.com/RobertsLab/resources/discussions/1176) to get more information about the actual process, but I didn't get any feedback. Turns out this kind of workflow is new for the lab, so I'll be figuring more stuff out on my own. Thankfully I think I have enough information from `mox` documentation, so we'll see what happens.
 
