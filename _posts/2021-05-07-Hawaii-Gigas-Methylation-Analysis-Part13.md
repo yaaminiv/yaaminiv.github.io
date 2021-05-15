@@ -41,7 +41,7 @@ I commented on this [discussion](https://github.com/RobertsLab/resources/discuss
 
 With my R markdown script on the R Studio server, I started with the processing the coverage files. When I tried running `methRead`, I realized my root directory was set to be where my R Markdown file was located: my home directory/login node. Since I was using an R Markdown file, I couldn't just use `setwd()` to change my working directory to `/gscratch/scrubbed/yaaminiv/Hawes/analyses/methylKit`. After a quick Google Search, I learned I could change the root directory in my `knitr` set up chunk:
 
-```{r setup, include=FALSE}
+```
 knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_knit$set(root.dir = "/gscratch/scrubbed/yaaminiv/Hawes/analyses/methylKit/") #Set root directory
 ```
@@ -54,15 +54,15 @@ Before uniting the data, I examined percent CpG coverage and methylation in each
 
 Next, I united the data and created a [correlation plot](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/Haws_04-methylKit/general-stats/Full-Sample-Pearson-Correlation-Plot-FilteredCov5Destrand.jpeg), [clustering diagram](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/Haws_04-methylKit/general-stats/Full-Sample-CpG-Methylation-Clustering-FilteredCov5Destrand.jpeg), and [PCA](https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/Haws_04-methylKit/general-stats/Full-Sample-Methylation-PCA-FilteredCov5Destrand.jpeg).
 
-![corr-plot](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/Haws_04-methylKit/general-stats/Full-Sample-Pearson-Correlation-Plot-FilteredCov5Destrand.jpeg)
+<img width="683" alt="Screen Shot 2021-05-15 at 1 10 16 PM" src="https://user-images.githubusercontent.com/22335838/118376800-0d16bc80-b57f-11eb-9621-2260bbd52769.png">
 
 **Figure 1**. Correlation plot
 
-![clustering](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/Haws_04-methylKit/general-stats/Full-Sample-CpG-Methylation-Clustering-FilteredCov5Destrand.jpeg)
+<img width="683" alt="Screen Shot 2021-05-15 at 1 10 46 PM" src="https://user-images.githubusercontent.com/22335838/118376804-12740700-b57f-11eb-8def-ed46b3ae97f8.png">
 
 **Figure 2**. Clustering diagram
 
-![PCA](https://raw.githubusercontent.com/RobertsLab/project-oyster-oa/master/analyses/Haws_04-methylKit/general-stats/Full-Sample-Methylation-PCA-FilteredCov5Destrand.jpeg)
+<img width="683" alt="Screen Shot 2021-05-15 at 1 10 58 PM" src="https://user-images.githubusercontent.com/22335838/118376805-130c9d80-b57f-11eb-85c3-24f0d387cf9e.png">
 
 **Figure 3**. PCA
 
