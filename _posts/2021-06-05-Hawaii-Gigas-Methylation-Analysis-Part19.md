@@ -19,7 +19,7 @@ I spot-checked the protein IDs from the protein annotation, and saw those were r
 
 ### Moving on to standard `blastx`
 
-I reworked [this script](https://github.com/RobertsLab/project-gigas-oa-meth/blob/master/code/11-blastx.sh) for `blastx` instead of `DIAMOND blastx`. It wasn't too difficult, as the syntax is mostly similar between the two programs.
+I reworked [this script](https://github.com/RobertsLab/project-gigas-oa-meth/blob/master/code/11-blastx.sh) for `blastx` instead of `DIAMOND blastx`. It wasn't too difficult, as the syntax is mostly similar between the two programs. I started running this on `mox`, so hopefully it finishes in a day and I can use the output for enrichment analysis!
 
 # Exit script if any command fails
 set -e
@@ -46,7 +46,6 @@ ${blast}blastx \
 -evalue 1e-4 \
 -max_target_seqs 1 \
 -num_threads 28
-
 
 ### Going forward
 
