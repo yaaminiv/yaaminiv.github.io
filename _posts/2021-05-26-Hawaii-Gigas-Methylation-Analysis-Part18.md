@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Hawaii Gigas Methylation Analysis Part 18
-tags: hawaii gigas-ploidy blast uniprot GOterms
+tags: hawaii gigas-ploidy blast uniprot
 ---
 
 ## Functional annotation for new *C. gigas* genome
