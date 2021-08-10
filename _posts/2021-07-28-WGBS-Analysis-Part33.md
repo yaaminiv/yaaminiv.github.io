@@ -33,6 +33,10 @@ allDMLGOtermsFiltered <- filter(allDMLGOterms, is.na(chr.y) == "TRUE")  %>%
 
 I counted the number of unique genes and DML represented by the revised dataframe, then performed the enrichment analysis. Interestingly, I got very different results! Not only were the enriched biological process terms completely different from what I had previously, but there were also no enriched molecular function terms and enriched cellular component terms. I think differential enrichment results will be a sentence or so in my revised discussion.
 
+<img width="885" alt="Screen Shot 2021-07-28 at 4 13 07 PM" src="https://user-images.githubusercontent.com/22335838/128931522-348380df-c868-4aea-b7ae-6b21dbf09854.png">
+
+**Figure 2**. Revised `simplifyEnrichment` figure
+
 When talking about the SNP analysis with Steven, he brought up an interesting point. Any DML overlaps with C/T SNPs mean that there was a T present, not C. However, `methylKit` requires a CpG site at a locus for all samples! I wasn't sure how to reconcile these two points, and since no one looked over my SNP analysis to begin with, I posted [this discussion](https://github.com/RobertsLab/resources/discussions/1254). I'll certainly want to look over the SNP analysis before publication.
 
 ### Going forward
