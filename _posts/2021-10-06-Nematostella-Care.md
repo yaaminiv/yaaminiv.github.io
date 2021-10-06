@@ -15,11 +15,12 @@ For the next few weeks, I'll be helping take care of *Nematostella vectensis* an
 2. Disconnect the air line for the live shrimp and clip to the aerator. Let the shrimp settle for a few minutes such that the unhatched eggs remain on the top.
 3. Obtain a large glass dish for live brine shrimp, a filter, and a small glass container to hold the filter. Place the filter in the small glass container.
 4. Place the aerator on a shelf and carefully drain only the live shrimp into the glass container. Pour the live shrimp into the filter.
-5. Rinse the live shrimp in the filter with half-strength seawater, then fill the container with half-strength seawater.
+5. Fill the aerator with full-strength seawater and add a spoon of brine shrimp eggs. Plug the air line back in. The shrimp will hatch in 24 hours, which will be just in time for the next feeding.
 
 ### Feeding
 
-To feed the anemones, squeeze 3-7 drops of shrimp into the various holding containers. The number of drops depends on the size of the container. It's best to place shrimp near anemones that have longer extended tentacles. Since the anemones are not being experimented with currently, they do not need to be fed an exact amount. The anemones can always be checked a few minutes after they are fed to see if there are still live shrimp remaining, or to add extra shrimp.
+1. Rinse the live shrimp in the filter with half-strength seawater, then fill the container with half-strength seawater. The anemones themselves are in half-strength seawater, so the shrimp must be brought to the same salinity.
+2. To feed the anemones, squeeze 3-7 drops of shrimp into the various holding containers. The number of drops depends on the size of the container. It's best to place shrimp near anemones that have longer extended tentacles. Since the anemones are not being experimented with currently, they do not need to be fed an exact amount. The anemones can always be checked a few minutes after they are fed to see if there are still live shrimp remaining, or to add extra shrimp.
 
 {% if page.comments %}
 
