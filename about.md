@@ -4,15 +4,15 @@ title: About
 permalink: /about/
 ---
 
-## The Lab Notebook of Yaamini R. Venkataraman, a Ph.D student in the Roberts Lab at the University of Washington, Seattle.
+## The Lab Notebook of Dr. Yaamini R. Venkataraman, a Postdoctoral Scholar at Woods Hole Oceanographic Institution.
 
 *The short version:*
 
-I'm interested in how climate change is going to affect the organisms in our current and future oceans. Currently, I study how ocean acidification affects Pacific and Eastern oysters using "-omic" techniques. I'm also interested in projects at the intersection of science, policy and communication!
+I'm interested in how climate change is going to affect the organisms in our current and future oceans. Currently, I study how hypoxia and warming impact Caribbean corals, and how temperature influences crab metabolism using "-omic" techniques.
 
 *The long version:*
 
-Originally from the California Bay Area, I grew up going to the Monterey Bay Aquarium. I was always floored by the intricacies of the organisms themselves, but also how complex their environments were. These experiences pushed me to get my B.S. in General Biology and B.A. in Environmental Policy at the University of California, San Diego (UCSD). I studied several different species-environment interactions, including copepods and copper toxicity at the Wrigley Institute for Environmental Studies, marsh plants species and increased carbon inputs at the Smithsonian Institute for Environmental Studies and limpet-surfgrass interactions under acidified conditions at UCSD. At the Roberts Lab, I study ocean acidification's effects on Pacific and Eastern oysters using "-omic" techniques. 
+Originally from the California Bay Area, I grew up going to the Monterey Bay Aquarium. I was always floored by the intricacies of the organisms themselves, but also how complex their environments were. These experiences pushed me to get my B.S. in General Biology and B.A. in Environmental Policy at the University of California, San Diego (UCSD). I studied several different species-environment interactions, including copepods and copper toxicity at the Wrigley Institute for Environmental Studies, marsh plants species and increased carbon inputs at the Smithsonian Institute for Environmental Studies and limpet-surfgrass interactions under acidified conditions at UCSD. For my Ph.D at the Roberts Lab, I studied ocean acidification's effects on Pacific and Eastern oysters using epigenomic techniques. 
 
 I'm also interested in projects at the intersection of science, policy and communication! I currently serve on the Engage Science Board of Directors. I was a as the Social Media Intern at the NOAA Office of National Marine Sanctuaries, where I spearheaded a profile series featuring graduate students in the Dr. Nancy Foster Scholarship Program. I am an active member of Students Explore Aquatic Sciences. Through this outreach organization, I develop and teach lessons about my own research for middle schoolers in the Greater Seattle Area. I've also served on the UW Graduate and Professional Student Senate's Science and Poicy Committee and the College of the Environment's Graduate Recruitment, Retention, and Diversity Committee.
 
@@ -20,7 +20,7 @@ I'm also interested in projects at the intersection of science, policy and commu
 
 ### Education
 
-**University of Washington, Seattle** (September 2016-Present)
+**University of Washington, Seattle** (September 2016-August 2021)
 - Doctor of Philosophy in Aquatic and Fishery Sciences 
 
 **University of California, San Diego** (Summa Cum Laude; September 2012-June 2016)
