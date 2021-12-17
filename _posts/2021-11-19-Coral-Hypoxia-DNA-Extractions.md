@@ -21,13 +21,13 @@ We followed a modified version of the animal tissue protocol based on previous e
 
 #### Preparing samples for extractions
 
-D0. Obtain coral sample tubes from the -80ºC freezer and place on ice. Label bead beating tubes, 2.0 mL centrifuge tubes, spin columns, column collection tubes, and 1.5 mL elution tubes for all samples. Sterilize tweezers in a 70% ethanol solution and dry with a kim wipe.
-D1. Fill a bead beating tube with glass beads up to the white line at the bottom of the tube, and add 700 µL of lysis solution.  
-D2. Using a sterilized dry tweezer, obtain a fragment of coral roughly half the size of a pinkie nail. The coral skeleton in this fragment should have plenty of visible tissue. Samples should be kept on ice when not in use.
-D3. Place the bead beating tubes with lysis solution and coral fragments on a vortex. At high speed, bead beat the tubes for two minutes total over two one-minute intervals.
-D4. Centrifuge the samples in the bead beating tubes for 3 minutes at 16,500 rcf to precipitate the skeleton and glass beads. Transfer the lysate to a clean labelled 2.0 mL centrifuge tube. Samples should be kept on ice when not in use.
+0. Obtain coral sample tubes from the -80ºC freezer and place on ice. Label bead beating tubes, 1.0 mL centrifuge tubes, spin columns, column collection tubes, and 1.5 mL elution tubes for all samples. Sterilize tweezers in a 70% ethanol solution and dry with a kim wipe.
+2. Fill a bead beating tube with glass beads up to the white line at the bottom of the tube, and add 700 µL of lysis solution.  
+3. Using a sterilized dry tweezer, obtain a fragment of coral roughly half the size of a pinkie nail. The coral skeleton in this fragment should have plenty of visible tissue. Samples should be kept on ice when not in use.
+4. Place the bead beating tubes with lysis solution and coral fragments on a vortex. At high speed, bead beat the tubes for two minutes total over two one-minute intervals.
+5. Centrifuge the samples in the bead beating tubes for 3 minutes at 16,500 rcf to precipitate the skeleton and glass beads. Transfer the lysate to a clean labelled 2.0 mL centrifuge tube. Samples should be kept on ice when not in use.
   - I had to recentrifuge 29A and 30D for 30 additional seconds to ensure I could remove all of the lysate from the tube. I noticed the symbiont cells were clumped at the bottom of the tube. Not a problem for coral RNA extractions, but it could be an issue for potential metatranscriptomics analyses.
-D5. Add 700 µL of 60% ethanol to the lysate in the 2 mL tubes and pipet up and down to mix. Samples should be kept on ice when not in use.
+6. Add 700 µL of 60% ethanol to the lysate in the 2 mL tubes and pipet up and down to mix. Samples should be kept on ice when not in use.
 
 #### Isolating RNA
 
