@@ -35,6 +35,10 @@ tags: goals
 
 **Gigas Gonad Methylation**:
 
+- Finish discussion
+- Rework introduction
+- Send for revisions!
+
 **Hawaii Gigas Methylation**:
 
 - Review `DSS` script and determine if I should go back to `methylKit` for better interpretation
