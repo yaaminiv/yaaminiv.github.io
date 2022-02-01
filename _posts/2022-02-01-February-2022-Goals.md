@@ -5,6 +5,9 @@ title: February 2022 Goals
 tags: goals
 ---
 
+![life](https://user-images.githubusercontent.com/22335838/152021300-583c0bab-cedc-40ce-9303-9884dc7c9db7.jpeg)
+
+It's February! Which mean's I've spent the first part of this year trying (and failing) to make it past the protocol phase of RNA extractions. But I did some other things too...I think.
 
 ### [January Goals Recap](https://yaaminiv.github.io/January-2022-Goals/)
 
@@ -30,6 +33,13 @@ tags: goals
 - Integrated new papers into main text and supplementary material
 - Included new studies in revised Figure 2
 
+**Other**:
+
+- Updated WGCNA methods and results for the eelgrass paper
+- Had a great meeting with CAN to discuss projects!
+- Put more thought into potential future projects
+- Developed surveys for the postdoctoral mentoring program
+
 ### February Goals
 
 **Gigas Gonad Methylation**:
@@ -41,7 +51,7 @@ tags: goals
 
 **Coral Transcriptomics**:
 
-- Continue testing extraction protocol to identify a successful methods
+- Continue testing extraction protocol to identify a successful method
 - Use gel to check RNA integrity
 - Extract all samples possible
 
@@ -53,14 +63,16 @@ tags: goals
 
 **Ocean Acidification and Reproduction Review**:
 
-- Start integrating new papers into main text and supplemental material
-- Revise figures
+- Revise discussion section
+- Complete a full read-through of the main text and supplementary material
 
 **Other**:
 
-- Meet with Carolyn, Ann, and Neel to discuss projects and funding opportunities for the next six months
-- Develop any potential projects
-- Coordinate postdoctoral mentoring program with Maggi
+- Contribute to eelgrass transcriptomics paper
+- Think more about potential projects
+- Send out postdoctoral mentorship survey
+- Coordinate pre-application postdoctoral mentoring program
+- Apply to any relevant faculty positions, funding opportunities, or postdocs
 
 ### Deep Freeze
 
