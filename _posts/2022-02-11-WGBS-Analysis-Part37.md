@@ -5,7 +5,7 @@ title: WGBS Analysis Part 37
 tags: manchester BS-Snper
 ---
 
-## Thinking about SNPs and DML
+## Thinking about SNPs
 
 Steven and I have gone through the [BS-Snper code and results](https://github.com/RobertsLab/project-gigas-oa-meth/blob/master/code/07-BS-SNPer.ipynb) multiple times this week to determine how to deal with SNPs that overlapped with DML. We dove into the BS-Snper program information to understand how it could identify C->T SNPs over bisulfite-converted unmethylated CpGs. During bisulfite conversion, unmethylated cytosines are replaced with uracils, then converted to adenines during PCR amplification. The complementary strand for this locus would have a guanine, since the original base pair was a cytosine. If there's a C->T SNP, then the complementary strand would have an adenine.
 
@@ -22,6 +22,12 @@ Once we clarified the methods, we realized that the SNPs needed to be excluded f
 ![Screen Shot 2022-02-11 at 10 27 22 AM](https://user-images.githubusercontent.com/22335838/153632450-ea49e6d5-a4e9-47fc-b8a0-4c6b21f61ea1.png)
 
 **Figure 3**. Genomic location of DML
+
+I also went through and removed SNPs from my general methylation characterization. No point characterizing the methylation status of loci that are incorrectly on that list anyways! I used [this Jupyter notebook](https://github.com/RobertsLab/project-gigas-oa-meth/blob/master/code/09-General-Methylation-Landscape.ipynb) to remove SNPs from the 5x union BEDgraphs I used to separate highly, moderately, and lowly methylated CpGs. I used the updated counts in [this R Markdown script](https://github.com/RobertsLab/project-gigas-oa-meth/blob/master/code/09-General-Methylation-Landscape.Rmd) to revise my figures and supplementary tables.
+
+![Screen Shot 2022-02-14 at 2 06 34 PM](https://user-images.githubusercontent.com/22335838/153933405-c5ab4ed1-5899-463b-a8e9-5764b00b6ba5.png)
+
+**Figure 4**. Genomic location of CpG categories
 
 Nothing left to do now but put the finishing touches on!
 
