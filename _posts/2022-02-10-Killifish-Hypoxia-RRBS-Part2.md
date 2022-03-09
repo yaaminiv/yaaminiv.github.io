@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Killifish Hypoxia RRBS Part 2
-tags: killifish RRBS poseidon
+tags: killifish RRBS poseidon fastqc trimgalore
 ---
 
 ## Trimming RRBS data

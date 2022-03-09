@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Killifish Hypoxia RRBS
-tags: killifish RRBS poseidon
+tags: killifish RRBS poseidon fastqc
 ---
 
 ## Starting a new project!

@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Killifish Hypoxia RRBS Part 3
-tags: killifish RRBS poseidon
+tags: killifish RRBS poseidon BAT
 ---
 
 ## Mapping RRBS data
