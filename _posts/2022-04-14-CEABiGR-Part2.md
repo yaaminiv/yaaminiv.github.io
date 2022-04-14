@@ -5,7 +5,7 @@ title: CEABiGR
 tags: virginica mixOmics sPLS
 ---
 
-## Sex-specific sPLS
+## Trying to tune the sPLS
 
 Based on my [initial sPLS](https://yaaminiv.github.io/CEABiGR/) results, I needed to separate male and female samples and run individual analyses to understand the relationship between pH, exon methylation, and expression.
 
