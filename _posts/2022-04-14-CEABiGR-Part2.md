@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: CEABiGR
-tags: virginica mixOmics sPLS
+tags: virginica mixOmics sPLS CEABiGR
 ---
 
 ## Trying to tune the sPLS
