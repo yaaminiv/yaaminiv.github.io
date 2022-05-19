@@ -35,11 +35,14 @@ But first...I revised the *C. virginica* genome feature tracks. I made the origi
 
 In [this Jupyter notebook](https://github.com/sr320/ceabigr/blob/main/code/General-Methylation-Landscape.ipynb), I created union bedGraphs for males and females separately. I kept my code for the all-sample union bedGraph since I can't remember if Katherine used it for any of her analyses. Once I had the union bedGraphs, I counted the number of highly, sparsely, and lowly methylated CpGs in each sample. I also counted the CpGs present in each genomic feature. I created [this R Markdown script](https://github.com/sr320/ceabigr/blob/main/code/General-Methylation-Landscape.Rmd) to create figures and perform chi-squared tests comparing the distribution of CpGs in the *C. virginica* genome with highly methylated CpGs. As expected, the distribution was significantly different. All output can be found in [this `gannet` folder](https://gannet.fish.washington.edu/seashell/ceabigr/output/methylation-landscape/), and the relevant count files, statistical output, and figures can be found [on Github](https://github.com/sr320/ceabigr/tree/main/output/methylation-landscape).
 
-**Figures 1-2**. Genome feature overlaps for all, highly methylated, moderately methylated, and lowly methylated CpGs for female and male union bedGraphs
+**Figures 1-3**. Genome feature overlaps for all 10x CpGs with data in at least one sample, highly methylated, moderately methylated, and lowly methylated CpGs for female and male union bedGraphs
 
-![Screen Shot 2022-05-17 at 11 50 18 AM](https://user-images.githubusercontent.com/22335838/168854385-af1482c6-0d0a-48b9-9fed-a891c8ac3a20.png)
+![Screen Shot 2022-05-18 at 4 53 00 PM](https://user-images.githubusercontent.com/22335838/169154300-642953c1-0043-4e5e-9853-ae269f17d91c.png)
 
-![Screen Shot 2022-05-17 at 11 50 23 AM](https://user-images.githubusercontent.com/22335838/168854391-6485c58d-f959-4e67-b330-63ec0381392f.png)
+![Screen Shot 2022-05-18 at 4 53 06 PM](https://user-images.githubusercontent.com/22335838/169154303-a9878996-4b58-4f75-b4b7-52d0d21b98f7.png)
+
+![Screen Shot 2022-05-18 at 4 53 56 PM](https://user-images.githubusercontent.com/22335838/169154305-dd75ff15-5701-43e2-a3b2-ff2ad3bf9a57.png)
+
 
 ### Going forward
 
