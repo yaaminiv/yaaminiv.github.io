@@ -32,12 +32,23 @@ Looks like reverting back to 100 reads maximum per locus doesn't yield any DMR, 
 
 ### Going forward
 
+<<<<<<< HEAD
 1. Annotate DMR locations
 2. Revise methylation landscape information
 1. Update methods and results
 3. Match DMR with RNA-Seq information
 2. Start mapping with new genome
 2. Try DMR identification with `bismark` and `methylKit`
+=======
+1. Determine if I should use the new genome for analysis
+2. Ask Neel about missing values from group 1 and 2 for `BAT_summarize`
+2. Confirm methylated and unmethylated definitions
+3. Finish generating genome feature tracks
+3. Annotate DMR locations
+1. Update methods and results
+2. Try DMR identification with `bismark` and `methylKit`
+5. Start RNA-Seq analysis
+>>>>>>> 312e9d5658fe418b8582f547975316d84240ddb8
 6. Create OSF repository for all intermediate files
 
 {% if page.comments %}
