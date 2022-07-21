@@ -40,7 +40,6 @@ tags: green-crab
   - T6: 8.0
 - Performed water change, cleaned, and added 1/2 tsp conditioner to T1, T3, T4, and T6
 - Fed crabs 1/4 tsp in cold and ambient tanks, 3/8 tsp in warm tanks after respirometry
-- When I left the lab around midnight I noticed that T6 temperature was 27-28ºC. Added insulating tank near the 15ºC line to bring it up to temperature.
 
 ### Day 9
 
