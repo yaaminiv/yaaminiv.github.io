@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: CEABiGR
+title: CEABiGR Part 6
 tags: virginica CEABiGR mixOmics mox
 ---
 

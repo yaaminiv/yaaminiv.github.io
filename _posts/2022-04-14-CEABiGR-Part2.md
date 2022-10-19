@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: CEABiGR
+title: CEABiGR Part 2
 tags: virginica mixOmics sPLS CEABiGR
 ---
 
