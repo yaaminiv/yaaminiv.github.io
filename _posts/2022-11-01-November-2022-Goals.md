@@ -1,80 +1,70 @@
 ---
 layout: post
 comments: true
-title: October 2022 Goals
+title: November 2022 Goals
 tags: goals
 ---
 
-![life](https://user-images.githubusercontent.com/22335838/194585718-e28e2f12-eeff-473f-a2f0-5abce949f446.png)
+<img width="467" alt="Screen Shot 2022-09-13 at 2 52 14 PM" src="https://user-images.githubusercontent.com/22335838/200045212-73b51791-e23f-4785-842c-33a20a72e675.png">
 
-September was a *doozy*. It set the pace for what's proving to be an absurdly busy fall, between making progress on multiple projects and applying to faculty jobs! Hopefully there's room for some disco amongst all the panic.
+Fall is in full swing! I focused on analyses for different conference presentations this month.
 
-### [September Goals Recap](https://yaaminiv.github.io/September-2022-Goals/)
-
-**Coral Transcriptomics**:
-
-- Finalized the differential expression analysis
-- Annotated the differentially expressed gene list and started digging through results
-- Completed gene enrichment analysis
-- Started compiling lists of relevant papers
-
-**Killifish Methylation and Expression**:
-
-- [Completed alignment to the new genome](https://yaaminiv.github.io/Killifish-Hypoxia-RRBS-Part20/)
-- [Continued the RRBS workflow with the new genome alignments](https://yaaminiv.github.io/Killifish-Hypoxia-RRBS-Part21/)
-- [Reviewed RNA-Seq data](https://yaaminiv.github.io/Killifish-Hypoxia-RRBS-Part21/)
-- Decided against presenting this data at EPIMAR because the methylation story was not clear
+### [October Goals Recap](https://yaaminiv.github.io/October-2022-Goals/)
 
 **Virginica Methylation and Expression**:
 
-- [Returned to SPLS anlysis](https://yaaminiv.github.io/CEABiGR-Part6/)...but wasn't able to get results because of `mox` issues
-
-**Faculty Applications**
-
-- Revised my research, teaching, and DEI statements
-- Submitted three applications!
-
-**Other**:
-
-- Finished addressing reviewer comments on ocean acidification and reproduction review. Our review was accepted!
-
-### October Goals
-
-**Virginica Methylation and Expression**:
-
-- Finish SPLS analysis for gene methylation and expression
-- Conduct predominant isoform analysis
-- Conduct transcriptional noise analysis
-- Present results at EPIMAR
-- Determine which other hypotheses should be tested
+- [Conducted SPLS analysis for gene methylation and expression without tuning](https://yaaminiv.github.io/CEABiGR-Part7/)
+- [Conducted predominant isoform ad transcriptional noise analyses](https://yaaminiv.github.io/CEABiGR-Part8/), and found some interesting results!
+- Presented results at EPIMAR!
 
 **Killifish Methylation and Expression**:
 
-- Test `BAT_DMRcorrelating` to match RRBS and RNA-Seq data
-- Conduct pathway analysis for RNA-Seq data
-- Investigate SNP associations with RRBS data
-- Look into mQTL analysis
-- Start RRBS mapping with new genome
-- Update methods and results
-- Put together APS talk
+- [Reviewed methylation landscape analysis](https://yaaminiv.github.io/Killifish-Hypoxia-RRBS-Part22/)
+- Didn't test `BAT_DMRcorrelating` to match RRBS and RNA-Seq data because only one DMR was located in a gene, and that gene was not differentially expressed
+- I was missing information to conduct the pathway analysis, so I looked at HIF and AHR pathways instead
+- Tracked down SNPs information for populations, but couldn't find pre-existing SNP information for Scorton Creek
+- Gave a talk at the APS Comparative Physiology Conference!
 
 **Green Crab Pilot Experiment**:
 
-- Figure out which parts of the analysis Sara and Mikayla can work on
+- Emailed Sara and Mikayla to determine which parts of the analyses they were interested in working on
+
+**Other**:
+
+- [THE OCEAN ACIDIFICATION AND REPRODUCTION REVIEW IS PUBLISHED!](https://doi.org/10.3389/fmars.2022.977754)
+
+### November Goals
+
+This month, I want to focus on postdoc projects so I can work towards getting a publication ready soon.
+
+**Coral Transcriptomics*:
+
+- Run a WGCNA
+- Dig into gene functions for assigned categories
+- Update methods and results
+
+**Killifish Methylation and Expression**:
+
+- Continue BAT workflow with new genome
+- Conduct formal pathway analysis for RNA-Seq data
+- Review existing lab data
+- Determine protocol for SNP identification
+- Conduct in silico RRBS digestion
+- Characterize DEG that overlap between populations
+- Quantify gene expression variability
+- Visualize DEG data
+
+**Green Crab Pilot Experiment**:
+
 - Analyze survivorship data by treatment and sex
 - Analyze time-to-right data by treatment, sex, weight, and integument color
 - Update methods and results
 - Determine workflow for respiration data analysis
 - Determine workflow for metabolomics sample processing
 
-**Coral Transcriptomics**:
-
-- Dig into annotated genes
-- Conduct WGCNA on the cluster
-
 **Other**:
 
-- Finish addressing reviewer comments on ocean acidification and reproduction review
+- Review supplementary material for eelgrass transcriptomics paper
 - Distribute results of postdoctoral mentorship experiences survey
 - Launch the postdoctoral mentoring program
 
@@ -84,7 +74,7 @@ Things that are not immediate enough to be on the backburner, so they're stuck i
 
 **Hawaii Gigas Methylation**:
 
-I will revisit this paper after EPIMAR.
+I will revisit this paper in December.
 
 - Address Rajan's edits
 - Return to `methylKit` for better interpretation
