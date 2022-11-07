@@ -90,7 +90,7 @@ I'm also interested in projects at the intersection of science, policy, communic
 4. **Venkataraman YR** and Roberts SB, "Influence of ocean acidification on Pacific oyster (*Crassostrea gigas*) DNA methylation" (Pacific Coast Shellfish Growers Association, September 2019; Western Society of Naturalists, November 2019; Society for Integrative and Comparative Biology, January 2021)
 5. **Venkataraman YR**, Spencer LH, Roberts SB, "Adult low pH exposure influences larval abundance in Pacific oysters (*Crassostrea gigas*)" (Western Society of Naturalists, November 2018; National Shellfisheries Association, March 2018)
 6. **Venkataraman YR**, Roberts SB, "Influence of ocean acidification on eastern oyster (*Crassostrea virginica*) reproductive tissue" (Pacific Growers Shellfish Growers Association 2018). Honorable Mention for Best Student Presentation Award
-7. **Venkataraman YR** Roberts SB, Timmins-Schiffman, "Exploring proteomic variation in Pacific oysters" (Western Society of Naturalists, November 2017)
+7. **Venkataraman YR** Roberts SB, Timmins-Schiffman E, "Exploring proteomic variation in Pacific oysters" (Western Society of Naturalists, November 2017)
 8. **Venkataraman YR**, Sun PY, Edmands S, "Effects of shading on environmental parameters, *Tigriopus californicus* population dynamics, and copper tolerance" (Ocean Sciences Meeting 2016)
 
 *Invited Talks*
