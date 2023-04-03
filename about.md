@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-## The Lab Notebook of Dr. Yaamini R. Venkataraman, a Postdoctoral Scholar and NSF Postdoctoral Research Fellow in Biology (NSF PRFB) at Woods Hole Oceanographic Institution.
+## The Lab Notebook of Dr. Yaamini R. Venkataraman, an NSF Postdoctoral Research Fellow in Biology (NSF PRFB) at Woods Hole Oceanographic Institution.
 
 *The short version:*
 
@@ -49,16 +49,17 @@ I'm also interested in projects at the intersection of science, policy, communic
 
 ### Publications
 
-1. Padilla-Gamiño J+, Alma L+, Spencer LH+, **Venkataraman YR**+, Wessler L+, “Ocean acidification does not overlook sex: Review of understudied effects and implications of low pH on marine invertebrate sexual reproduction.” *Front. Mar. Sci.* (2022). https://doi.org/10.3389/fmars.2022.977754 (+ = equal contribution)
-2. **Venkataraman YR**, White SJ, Roberts SB, “Differential DNA methylation in Pacific oyster reproductive tissue associated with ocean acidification.” *BMC Genom.* (2022). https://doi.org/​​10.1186/s12864-022-08781-5
-3. Trigg SA+, **Venkataraman YR**+, Gavery M, Roberts SB, Bhattacharya D, Downey-Wall AM, Eirin-Lopez JM, Johnson KM, Lotterhos KE, Puritz JM, - -Putnam HM, “Invertebrate methylomes provide insight into mechanisms of environmental tolerance and reveal methodological biases” *Mol. Ecol. Res.* (2021) https://doi.org/10.1111/1755-0998.13542 (+ = equal contribution)
-4. Downey-Wall AM, Cameron L, Ford B, McNally, E, **Venkataraman YR**, Roberts SB, Ries J, Lotterhos KE, "Ocean acidification induces subtle shifts in gene expression and DNA methylation in mantle tissue of the eastern oyster (*Crassostrea virginica*)" *Front. Mar. Sci.* https://doi.org/10.3389/fmars.2020.566419
-5. **Venkataraman YR**, Downey-Wall AM, Ries J, Westfield I, White S, Roberts SB, Lotterhos KE, "General DNA methylation patterns and environmentally-induced differential methylation in the eastern oyster (*Crassostrea virginica*)" *Front. Mar. Sci.* 7:225 (2020). https://doi.org/10.3389/fmars.2020.00225
-6. **Venkataraman YR**, Spencer LH, Roberts SB, "Larval response to parental low pH exposure in Pacific oysters (*Crassostrea gigas*)" *Journal of Shellfish Research* 38(3):743-750 (2019). https://doi.org/10.2983/035.038.0325
-7. Spencer LH, **Venkataraman YR**, Crim R, Ryan S, Horwith M, Roberts SB, "Carry-over effects of temperature and pCO<sub>2</sub> across multiple Olympia oyster populations" *Ecological Applications*  https://doi.org/10.1002/eap.2060
-8. Foley HB, Sun PY, Ramirez R, So BK, **Venkataraman YR**, Nixon EN, Davies KJA, Edmands S. “Sex-specific stress tolerance, proteolysis, and lifespan in the invertebrate *Tigriopus californicus*.” *Experimental Gerontology* 119:46-56 (2019). https://doi.org/10.1016/j.exger.2019.02.006
-9. Spencer LH, Horwith M, Lowe AT, **Venkataraman YR**, Timmins-Schiffman E, Nunn BL, Roberts SB. "Pacific geoduck (*Panopea generosa*) resilience to natural pH variation." *Comparative Biochemistry and Physiology Part D: Genomics and Proteomics*. (2019) https://doi.org/10.1016/j.cbd.2019.01.010
-10. **Venkataraman YR**, Timmins-Schiffman E, Horwith M, Lowe AT, Nunn BL, Vadopalas B, Spencer LH, Roberts SB, "Characterization of proteomic response to natural environmental differences in the Pacific oyster (*Crassostrea gigas*)." *Marine Ecology Progress Series* 610:65-81 (2019). https://doi.org/10.3354/meps12858
+1. **Venkataraman YR**+, Shore A+, Dayal S, Lee J, Salimi MA, Crandall G, Loeher MM, Stoops M, Swanger M, Eisenlord MEE, Van Alstyne KL, Fast MD, Burge CA, Groner ML, “Characterizing host-pathogen interactions between *Zostera marina* and *Labyrinthula zosterae*.” *Front. Mar. Sci.* in review (+ = equal contribution)
+2. Padilla-Gamiño J+, Alma L+, Spencer LH+, **Venkataraman YR**+, Wessler L+, “Ocean acidification does not overlook sex: Review of understudied effects and implications of low pH on marine invertebrate sexual reproduction.” *Front. Mar. Sci.* (2022). https://doi.org/10.3389/fmars.2022.977754 (+ = equal contribution)
+3. **Venkataraman YR**, White SJ, Roberts SB, “Differential DNA methylation in Pacific oyster reproductive tissue associated with ocean acidification.” *BMC Genom.* (2022). https://doi.org/​​10.1186/s12864-022-08781-5
+4. Trigg SA+, **Venkataraman YR**+, Gavery M, Roberts SB, Bhattacharya D, Downey-Wall AM, Eirin-Lopez JM, Johnson KM, Lotterhos KE, Puritz JM, - -Putnam HM, “Invertebrate methylomes provide insight into mechanisms of environmental tolerance and reveal methodological biases” *Mol. Ecol. Res.* (2021) https://doi.org/10.1111/1755-0998.13542 (+ = equal contribution)
+5. Downey-Wall AM, Cameron L, Ford B, McNally, E, **Venkataraman YR**, Roberts SB, Ries J, Lotterhos KE, "Ocean acidification induces subtle shifts in gene expression and DNA methylation in mantle tissue of the eastern oyster (*Crassostrea virginica*)" *Front. Mar. Sci.* https://doi.org/10.3389/fmars.2020.566419
+6. **Venkataraman YR**, Downey-Wall AM, Ries J, Westfield I, White S, Roberts SB, Lotterhos KE, "General DNA methylation patterns and environmentally-induced differential methylation in the eastern oyster (*Crassostrea virginica*)" *Front. Mar. Sci.* 7:225 (2020). https://doi.org/10.3389/fmars.2020.00225
+7. **Venkataraman YR**, Spencer LH, Roberts SB, "Larval response to parental low pH exposure in Pacific oysters (*Crassostrea gigas*)" *Journal of Shellfish Research* 38(3):743-750 (2019). https://doi.org/10.2983/035.038.0325
+8. Spencer LH, **Venkataraman YR**, Crim R, Ryan S, Horwith M, Roberts SB, "Carry-over effects of temperature and pCO<sub>2</sub> across multiple Olympia oyster populations" *Ecological Applications*  https://doi.org/10.1002/eap.2060
+9. Foley HB, Sun PY, Ramirez R, So BK, **Venkataraman YR**, Nixon EN, Davies KJA, Edmands S. “Sex-specific stress tolerance, proteolysis, and lifespan in the invertebrate *Tigriopus californicus*.” *Experimental Gerontology* 119:46-56 (2019). https://doi.org/10.1016/j.exger.2019.02.006
+10. Spencer LH, Horwith M, Lowe AT, **Venkataraman YR**, Timmins-Schiffman E, Nunn BL, Roberts SB. "Pacific geoduck (*Panopea generosa*) resilience to natural pH variation." *Comparative Biochemistry and Physiology Part D: Genomics and Proteomics*. (2019) https://doi.org/10.1016/j.cbd.2019.01.010
+11. **Venkataraman YR**, Timmins-Schiffman E, Horwith M, Lowe AT, Nunn BL, Vadopalas B, Spencer LH, Roberts SB, "Characterization of proteomic response to natural environmental differences in the Pacific oyster (*Crassostrea gigas*)." *Marine Ecology Progress Series* 610:65-81 (2019). https://doi.org/10.3354/meps12858
 
 ### Grants
 
