@@ -28,7 +28,7 @@ Overall, most studies use some form of ANOVA or linear model to analyze differen
 
 But first...visualizations! I decided to plot the data to see if there were any relationships or tests I wanted to try that I was not initially aware of. I first formatted the data, adding various columns for day, treatment, a binary for whether or not crabs were missing legs, an index for length and width, removing outliers (91 s), and averaging TTR across the three trials per crab and across treatments.
 
-```{r}
+```
 modTTR <- rawTTR %>%
   dplyr::select(., -c(sampling.ID, notes, probe.number)) %>%
   mutate(., day = case_when(date == "7/8/2022" ~ 4,
@@ -65,7 +65,7 @@ I then plotted TTR averaged across the three trials for each crab veruss day, co
 
 To tackle the first question, I used an ANOVA to understand differences in the log-transformed average time-to-right in seconds by treatment, time, and other demographic data similar to [Blakeslee et al. 2021](https://doi.org/10.1098/rspb.2021.0703). The decision to use an ANOVA took a bit of time. Initially, I used a linear model, but when I looked at the residuals I saw vertical lines in my residual plot. I asked ChatGPT what this meant, and it suggested that the discretization could be because I'm using several discrete, or categorical, explanatory variables that do not capture the full variation in the model. I engaged in a back-and-forth with the AI trying to figure out a better approach to analyze the data. It initially suggested using a `glm` with a logarithmic link function. When I tried this in R, I got a new error: `Error: Error in eval(family$initialize): cannot find valid starting values: please specify some`. Turns out I needed to provide initial model estimates prior to using this method. I didn't feel comfortable doing a supervised analysis, so I pivoted to the ANOVA. Interestingly, the residual plot shows less discretization when I use an ANVOA instead of a `glm` with stepwise deletion! With both the initial GLM and the final ANOVA, treatment was significant, but day was marginally significant:
 
-```{r}
+```
 TTRmodel <- aov(log(TTRavg) ~ treatment + day + treatment*day + as.factor(sex) + as.factor(integument.color) + size + weight + as.factor(missing.legs), data = modTTR) #ANOVA, with log(TTRavg) as the response variable, and treatment, day, the interaction between treatment and day, sex, integument color, size, weight, and whether or not a crab is missing legs as explanatory variables.
 summary(TTRmodel) #Only treatment is significant
 ```
@@ -87,7 +87,7 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 
 My ANOVA output table can be found [here](https://github.com/yaaminiv/green-crab-metabolomics/blob/main/output/03-TTR-analysis/TTR-ANOVA-output.csv). I then conducted post-hoc tests to understand my results. I initially used `TukeyHSD` to run the post-hoc test, but I got an error. Again, I asked my new BFF ChatGPT to tell me how to analyze the data. Turns out the Tukey test was only appropriate when I had categorial data. I used the Tukey test for treatment, but then used a pairwise t-test to understand differences by day.
 
-```{r}
+```
 TukeyHSD(TTRmodel, "treatment", conf.level = 0.95) #Use TukeyHSD for categorical variables. Significant difference between all pairwise treatment comparisons.
 ```
 
@@ -106,7 +106,7 @@ $treatment
 
 Based on the [Tukey test output](https://github.com/yaaminiv/green-crab-metabolomics/blob/main/output/03-TTR-analysis/TTR-ANOVA-treatment-Tukey.csv), there is a significant difference between the 5ºC and the other two treatments, where TTR is higher for the 5ºC treatment. There is also a significant difference between the 30ºC and 13ºC, with TTR for the 30ºC crabs being slightly lower. You can't really see this when plotting because the numbers are so close together.
 
-```{r}
+```
 pairwise.t.test(x = log(modTTR$TTRavg), modTTR$day, p.adjust.method = "bonferroni") #Use pairwise t-test for quantitative variables. Marginal significance between days 4 and 11.
 ```
 
@@ -131,13 +131,13 @@ Looking at the [pairwise t-test output](https://github.com/yaaminiv/green-crab-m
 
 The last thing I wanted to do analytically is determine if there's a difference in the proportion of crabs that righted within a specific threshold by day and treatment. The first thing I needed to do was pick a threshold. I asked ChatGPT how to find outliers, and one of its suggestions was to use a boxplot, since values are sorted into quantiles and identified as outliers if they do not fit those bounds. I was interested in upper outliers, since I have right-skewed data:
 
-```{r}
+```
 boxplot.stats(modTTR$TTRavg)$stats[5] #Use Tukey's method to identify upper bound of outliers
 ```
 
 The upper bound was identified as ~9.2. I then added a column to my dataset with a binary for whether the crab righted within 9.2 seconds (1), or whether it did not (0). I used a binomial GLM to analyze my data, similar to [Coyle et al. (2019)](https://doi.org/10.1242/jeb.203521).
 
-```{r}
+```
 TTRthreshModel2 <- glm(I(TTRthresh == 1) ~ treatment + day,
                        family = binomial(),
                        data = modTTR) #Run model selected by step with only significant terms
@@ -177,7 +177,7 @@ Based on the [model output](https://github.com/yaaminiv/green-crab-metabolomics/
 
 The last thing I did was plot my results! I plotted average TTR for each treatment across time, and included SE bars for each point and a horizontal line at the 9.2 second threshold I used in the above analysis. I contemplated adding an inset for 0-1.5 seconds, but even looking at that didn't resolve the differences between the 13ºC and 30ºC visually.
 
-```{r}
+```
 modTTR %>%
   dplyr::select(., c(day, treatment, TTRavgFull, TTRavgFullLow, TTRavgFullHigh)) %>%
   distinct(.) %>%
