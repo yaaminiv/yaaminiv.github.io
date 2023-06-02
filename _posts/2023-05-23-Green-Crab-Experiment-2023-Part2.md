@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: West Coast Green Crab Experiment
+title: West Coast Green Crab Experiment Part 2
 tags: green-crab-wc experimental-design
 ---
 
