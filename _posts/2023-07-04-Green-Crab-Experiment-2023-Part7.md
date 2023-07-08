@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: West Coast Green Crab Experiment Part 6
+title: West Coast Green Crab Experiment Part 7
 tags: green-crab-wc time-to-right
 ---
 
