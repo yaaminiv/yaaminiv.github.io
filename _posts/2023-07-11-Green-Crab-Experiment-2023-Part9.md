@@ -104,7 +104,6 @@ tags: green-crab-wc
 7. Respirometry analysis
 8. Update methods
 9. Update results
-10. Cover respirometry chambers with black trash bags and duct tape, and add the probe holders with silicone glue
 
 {% if page.comments %}
 
