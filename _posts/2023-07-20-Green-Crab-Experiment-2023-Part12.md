@@ -45,13 +45,15 @@ tags: green-crab-wc respirometry time-to-right
     - T1: 36
     - T4: 36
     - T7: 35
+- Got HOBO data
+  - Low battery warnings from T9A, T1A, T1B, T4B
 - Cold room update
   - FINALLY Checked the HOBO data from last Friday, and it seems like the additional chillers brought the temperature down to 5ºC before the cold room was fixed. I contemplated raising the temperature in the room, but with the fan situation I'd rather keep as many failsafes as possible.
   - Which is the correct choice because the cold room fan still failing. Dion from Facilities came and turned it off to defrost again. He said they need to order a new part, but in the mean time they'll periodically turn off the fan so the ice in the back can defrost and the fan can function.
 - Updated TTR spreadsheet
 - Updates survivorship spreadsheet
 - Updated ammonia spreadsheet
-- Helped Lauren set up HOBO loggers and epoxy probe fittings to the back of her crabs for her salinity experiment
+- Helped Lauren set up HOBO loggers and epoxy probe fittings to the back of her crabs for her salinity experiment. Replaced a bunch of batteries in HOBO loggers.
 
 <img width="455" alt="Screenshot 2023-07-19 at 8 09 19 AM" src="https://github.com/yaaminiv/green-crab-metabolomics/assets/22335838/82fbea10-d093-4ca6-9a8a-c4eaa5619f5d">
 
