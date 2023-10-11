@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: West Coast Green Crab Experiment Part 18
-tags: green-crab-wc chelex PCR
+tags: green-crab-wc chelex PCR gel
 ---
 
 ## Starting chelex extractions for genotyping
@@ -20,8 +20,8 @@ Carolyn and I agree that it would be nice to present genotype data for PICES lat
 4. Prepare a 10% Chelex solution (ex. 0.1 g Chelex beads in 1 mL of DEPC/nuclease-free water). Vortex thoroughly (10-15 seconds) and spin down briefly (5 secconds)
 5. Add 70 µL of Chelex solution to each tube. Vortex Chelex solution for 10-15 seconds in between each sample tube since the Chelex beads settle quickly
 6. Obtain and set up a flaming station and two pairs of tweezers. Ethanol and flame tweezers, then place on a clean kim wipe.
-7. For each sample, use one tweezer to remove the leg joint from the sample tube with ethanol, and another pair of tweezers to remove the tissue from the leg. Be sure to avoid any exoskeletal pieces, as the chiton in the shell can inhibit the Chelex reaction. Place the tissue on a clean kim wipe and press to dab ethanol from the sample (which can also impede the Chelex reaction). After placing the blotted tissue in the sample tube, ethanol and flame the tweezers and use RNAse AWAY to clean the bench in case small pieces of tissue "flaked" away during the dabbing process.
-8. Repeat step 7, ensuring a clean kim wipe is used to blot each sample.
+7. For each sample, use one tweezer to remove the leg joint from the sample tube with ethanol, and another pair of tweezers to remove the tissue from the leg. Be sure to avoid any exoskeletal pieces, as the chiton in the shell can inhibit the Chelex reaction. Place the tissue on a clean kim wipe and press to dab ethanol from the sample (which can also impede the Chelex reaction). After placing the blotted tissue in the sample tube, ethanol and flame the tweezers.
+8. Repeat step 7, ensuring a clean kim wipe section is used to blot each sample.
 9. If doing extractions in a plate, seal wells with caps.
 10. Vortex samples for 10-15 seconds, and spin samples briefly (5-10 seconds).
 11. Place samples in the thermal cycler and run the CHELEX protocol, or on a heat block for 20 minutes at 100ºC.
