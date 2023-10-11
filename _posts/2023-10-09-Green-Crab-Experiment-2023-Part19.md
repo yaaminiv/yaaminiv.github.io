@@ -7,7 +7,7 @@ tags: green-crab-wc chelex PCR gel
 
 ## Re-trying PCR
 
-[Last week](), I tried Chelex extractions, gel, and PCR. However, my PCR blank was contaminated! Based on Carolyn's advice, I redid my PCR using new GoTaq, primer, and NF water aliquots.
+[Last week](https://yaaminiv.github.io/Green-Crab-Experiment-2023-Part18/), I tried Chelex extractions, gel, and PCR. However, my PCR blank was contaminated! Based on Carolyn's advice, I redid my PCR using new GoTaq, primer, and NF water aliquots.
 
 ### Methods
 
