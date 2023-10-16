@@ -1,14 +1,18 @@
 ---
 layout: post
 comments: true
-title: West Coast Green Crab Experiment Part 20
+title: West Coast Green Crab Experiment Part 21
 tags: green-crab-wc chelex PCR gel
 ---
 
-## Re-trying extractions, PCR, and gel
+## Extractions, PCR, and gel with second set of respirometry crabs
 
-Okay, I've still got a contamination issue. So let's start from the beginning and see if I can run through the full protocol with more cleaning, new reagents, and working on the cleaner molecular bench.
+Based on my [last gel](https://yaaminiv.github.io/Green-Crab-Experiment-2023-Part20/), Carolyn suggested I move forward with another set of samples with the following modifications:
 
+- Carolyn took apart and cleaned the 1000 µL pipet for me
+- use the "Pineda" Chelex beads
+- add an extra blank for the old Chelex solution I used last time
+- RNAse AWAY the tweezers in between each sample
 
 ### Methods
 
@@ -21,7 +25,7 @@ Okay, I've still got a contamination issue. So let's start from the beginning an
 4. Prepare a 10% Chelex solution (ex. 0.1 g Chelex beads in 1 mL of DEPC/nuclease-free water). Vortex thoroughly (10-15 seconds) and spin down briefly (5 secconds)
 5. Add 70 µL of Chelex solution to each tube. Vortex Chelex solution for 10-15 seconds in between each sample tube since the Chelex beads settle quickly
 6. Obtain and set up a flaming station and two pairs of tweezers. Ethanol and flame tweezers, then place on a clean kim wipe.
-7. For each sample, use one tweezer to remove the leg joint from the sample tube with ethanol, and another pair of tweezers to remove the tissue from the leg. Be sure to avoid any exoskeletal pieces, as the chiton in the shell can inhibit the Chelex reaction. Place the tissue on a clean kim wipe and press to dab ethanol from the sample (which can also impede the Chelex reaction). After placing the blotted tissue in the sample tube, ethanol and flame the tweezers and **use RNAse AWAY to clean bench**.
+7. For each sample, use one tweezer to remove the leg joint from the sample tube with ethanol, and another pair of tweezers to remove the tissue from the leg. Be sure to avoid any exoskeletal pieces, as the chiton in the shell can inhibit the Chelex reaction. Place the tissue on a clean kim wipe and press to dab ethanol from the sample (which can also impede the Chelex reaction). After placing the blotted tissue in the sample tube, ethanol, flame, and RNAse AWAY the tweezers and **use RNAse AWAY to clean bench**.
 8. Repeat step 7, **ensuring clean kim wipe is used to blot each sample after cleaning the bench with RNAse AWAY**.
 9. If doing extractions in a plate, seal wells with caps.
 10. Vortex samples for 10-15 seconds, and spin samples briefly (5-10 seconds).
@@ -67,27 +71,30 @@ Okay, I've still got a contamination issue. So let's start from the beginning an
 
 ### Notes
 
-I ran out of the GoTaq master mix I used for [my non-contaminated PCR](https://yaaminiv.github.io/Green-Crab-Experiment-2023-Part19/), and I didn't want to use the master mix in Julia's box that I used for [my contaminated PCR](https://yaaminiv.github.io/Green-Crab-Experiment-2023-Part18/) in case that was the issue. So, I took some master mix from a barnacle box. There should be more master mix aliquots tomorrow.
+- Samples run: 5-61, 5-68, 5-125, 15-94, 15-06, 15-158, 15-159, 25-186, 25-115, 25-116, original Chelex blank, Pineda Chelax blank, PCR blank
+- PCR Master Mix calculations
+  - GoTaq: 12.5 µL x 16 = 200 µL
+  - SMC F: 2.5 µL x 16 = 40 µL
+  - SMC R: 2.5 µL x 16 = 40 µL
+  - NF H<sub>2</sub> = 88 µL
+- After finishing my Chelex extractions, I immediately loaded the samples into PCR tubes. However, I forgot to vortex and spin down the samples before adding them to the PCR tubes. Only samples 94, 96, 158, and 159 were vortexed prior.
+- Used the same tip to go between 159 S and 159 P (the first time I pipetted up from 159 S and put it in 159 P I just spit out air, so I re-pipetted but forgot to change tips). I didn't touch the PCR Master Mix in the tube, but it's possible the DNA has some PCR Master Mix in it now (should be negligible).
+- Need to aliquot more SMC F and SMC R primers for next time
+- Need to make more agarose gel for next time
 
 ### Results
 
 <img width="656" alt="Screenshot 2023-10-11 at 2 47 19 PM" src="https://github.com/RobertsLab/resources/assets/22335838/cd3712f8-7d85-44f3-a459-b4b9cea7bf96">
 
-**Figure 1**. Gel image for samples 3, 5, 10, 31, 32, 52, and 60 after re-trying extractions and PCR with clean reagents.
-
-The extraction blank is still showing a band, but that band is MUCH ligher than the other samples. This means that the extra cleaning is definitely helping! Carolyn said that I could sequence these samples plus the blanks in a pinch. If the blank is showing a genotype, or if all of the samples are showing the same genotype, then that lowers our confidence in these samples. But at the very least, I can move on to another set of respirometry crabs for extractions.
-
-We also talked about other potential contamination sources. We've eliminated the PCR reagents as a source of contamination. For PCR and Chelex extractions, I am using 10 µL and 200 µL pipets. Since those are common pipets and the PCR blank is clean, we know it's not those pipets. The only things unique to the Chelex extractions are the 1000 µL pipet and the Chelex beads themselves. Carolyn said she will take the 1000 µL pipet apart, clean it with RNAase AWAY, and stick it in the UV transilluminator to get rid of any potential contamination. I saved the Chelex solution I made last time. Additionally, we have another bottle of Chelex beads that I could use for extractions. I'm going to use the second bottle of Chelex beads for the next set of crabs, but also do PCR with a blank using beads from the second bottle, and another using the Chelex solution I used for this reaction. This will allow us to rule out the Chelex solution as a contamination source. Finally, Carolyn suggested spraying my dissection tools with RNAse AWAY after I ethanol and flame.
-
-But hey, progress.
+**Figure 1**. Gel image for samples 61, 68, 125, 94, 96, 158, 159, 186, 115, and 116.
 
 ### Going forward
 
 1. Determine contamination source for Chelex extractions
 2. Continue with Chelex extractions, PCRs, and gels
+3. Send samples out for Sanger sequencing
 2. Treatment-wise TTR analysis
 3. Treatment-wise respirometry analysis
-4. Get existing genotype data from Julia
 5. Incorporate genotype into TTR and respirometry analyses
 6. Prepare talk for PICES
 8. Update methods and results of 2023 paper
