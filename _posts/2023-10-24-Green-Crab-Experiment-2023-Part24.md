@@ -288,6 +288,26 @@ While you can still see that for the 15ºC and 25ºC treatments the crabs move t
 
 Finally, the bane of my existence, respirometry analysis. To be fair, this really only sucks because cleaning the data sucks. I imported, cleaned, and analyzed [respirometry data](https://github.com/yaaminiv/wc-green-crab/tree/main/data/respiration) in [this R Markdown script](https://github.com/yaaminiv/wc-green-crab/blob/main/code/04-respirometry-analysis.Rmd). Compared to last year's experiment, this year's data took me longer to clean because there were several instances of gaps in the data where a probe was disconnected or not fully connected. Most of the time, we realized a probe had a faulty connection in the beginning and were able to reset the probe and restart data collection. Sometimes, we were farther into data collection. In those instances, I cut the data until the probe was reattached. I contemplated just cutting out the gap in the data, but I have less confidence in data collected prior to a probe coming loose than after we've reattached it. Essentially, data was cleaned until around the first evident downward slope.
 
+Also, I did a silly thing this summer and forgot to take salinity measurements my first two respirometry time points. To get salinity measurements for those time points so I could calculate dissolved oxygen, I averaged salinity across the experiment for each treatment and then used those average values:
+
+```{r}
+salinityValues <- data.frame(day = c(7, 14, 21, 28, 42, 49),
+                             tank1 = c(NA, NA, 36, 40, 36, 39),
+                             tank2 = c(NA, NA, 35, 35, 35, NA),
+                             tank3 = c(NA, NA, 32, 34, 33, NA),
+                             tank4 = c(NA, NA, 36, 39, 36, 39),
+                             tank5 = c(NA, NA, 35, 34, 35, NA),
+                             tank6 = c(NA, NA, 32, 36, 33, NA),
+                             tank7 = c(NA, NA, 37, 38, 36, 39),
+                             tank8 = c(NA, NA, 35, 34, 35, NA),
+                             tank9 = c(NA, NA, 32, 34, 32, NA)) %>%
+  column_to_rownames(., var = "day") %>%
+  t(.) %>%
+  as.data.frame() %>%
+  mutate(., "7" = rowMeans(., na.rm = TRUE)) %>%
+  mutate(., "14" = rowMeans(., na.rm = TRUE)) #Create new dataframe with all salinity values recorded based on lab notebook posts. Use NA when no salinity values were recorded. Convert day column to rownames, then transpose. Use rowMeans to calculate average salinity values to use for the first two days of measurements for each tank.
+```
+
 Around here I did a HARD PIVOT to the genotype data so I could incorporate it into my analyses!
 
 ### Going forward
