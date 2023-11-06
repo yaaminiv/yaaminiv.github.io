@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: West Coast Green Crab Experiment Part 24
+title: West Coast Green Crab Experiment Part 25
 tags: green-crab-wc sequencher genotype
 ---
 
@@ -47,19 +47,68 @@ I got my Sanger sequencing data back! Before I sent out my samples, Carolyn show
 |      25ºC     |     6    |    0   |    1   |    2   |
 |      25ºC     |     9    |    0   |    3   |    0   |
 
+I went into [this R Markdown script for demographic data](https://github.com/yaaminiv/wc-green-crab/blob/main/code/02-demographic-data.Rmd) to pull together a few helpful pie charts for the genotype data. Turns out making pie charts in R is really annoying. I was able to put together an overall genotype pie chart easily:
+
+```{r}
+genotypeData %>%
+  group_by(., final.genotype) %>%
+  summarise(., count = n()) %>%
+  ggplot(., aes(x= "", y = count, fill = final.genotype)) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar("y", start = 0) +
+  geom_text(aes(label = paste0(round((count/sum(count)*100), digits = 0), "%")), position = position_stack(vjust = 0.5), size = 6) +
+  scale_fill_manual(name = "Genotype",
+                    values = c("#BAE4B3", "#74C476", "#006D2C")) +
+  theme_void(base_size = 15) #Group genotype data by genotype, then count the number of crabs in each genotype. Create a pie chart for genotype distribution, irrespective of treatment by using geom_bar then setting polar coordinates. Add text labels for % crabs in each genotype. Create a manual color scale.
+ggsave("figures/genotype.pdf", height = 8.5, width = 11)
+```
+
+<img width="743" alt="Screenshot 2023-11-06 at 3 32 21 PM" src="https://github.com/yaaminiv/wc-green-crab/assets/22335838/28d14d97-99ea-40c4-b324-c071d05cf058">
+
+**Figure 1**. Distribution of genotypes for all crabs
+
+I tried to do something similar and facet by treatment so I could get the percent of crabs for each genotype within a treatment. However, when I tried to do that, either the labels were completely off OR the pies themselves would shrink until they matched whatever pie fraction was present in the first pie chart. Obviously I spent way too much time on Stack Overflow trying to figure this out before giving up because it wasn't important.
+
+```{r}
+facet_labels <- c("15C" = "15ºC",
+                  "25C" = "25ºC",
+                  "5C" = "5ºC") #Assign labels for facets
+```
+
+```{r}
+genotypeData %>%
+  group_by(., treatment, final.genotype) %>%
+  summarise(., count = n()) %>%
+  ggplot(., aes(x= "", y = count, fill = final.genotype)) +
+  geom_bar(stat = "identity", width = 1, position = "fill") +
+  coord_polar("y", start = 0) +
+  facet_wrap(vars(treatment), ncol = 3, labeller = labeller(treatment = facet_labels)) +
+  scale_fill_manual(name = "Genotype",
+                    values = c("#BAE4B3", "#74C476", "#006D2C")) +
+  theme_void(base_size = 15)  + theme(strip.text.x = element_text(size = 15)) #Group genotype data by genotype, then count the number of crabs in each genotype. Create a pie chart for genotype distribution, irrespective of treatment by using geom_bar then setting polar coordinates. Create a manual color scale and adjust text of facet labels.
+ggsave("figures/genotype-by-treatment.pdf", height = 8.5, width = 11)
+```
+
+<img width="868" alt="Screenshot 2023-11-06 at 3 32 40 PM" src="https://github.com/yaaminiv/wc-green-crab/assets/22335838/9b550077-fe44-4e41-acc9-41d744aac26d">
+
+**Figure 2**. Distribution of genotypes within each treatment
+
 Looks like I have a few crabs per genotype in each treatment for my respirometry crabs, with the exception of missing CC from the 5ºC treatment. I need to confirm which genoytpe is connected to warm tolerance vs. cold tolerance.
 
 Now that I have this data, I can incorporate it into my TTR and respirometry analyses for the subset of crabs that were used for both!
 
 ### Going forward
 
-1. Treatment-wise respirometry analysis
-2. Incorporate genotype into TTR and respirometry analyses
-3. Prepare talk for PICES
+1. Incorporate genotype into TTR and respirometry analyses
+2. Prepare talk for PICES
+3. Q10 analysis for 2023 experiment
 4. Finish extracting respirometry samples
 5. Continue with Chelex extractions, PCRs, and gels for TTR crabs
 6. Update methods and results of 2022 paper
-7. Update methods and results of 2023 paper
+7. Examine HOBO data from 2023 experiment
+8. Demographic data analysis for 2023 paper
+9. Update methods and results of 2023 paper
+10. Revisit Julia's genotypes
 
 {% if page.comments %}
 
