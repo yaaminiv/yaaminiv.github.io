@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: West Coast Green Crab Experiment Part 26
+title: West Coast Green Crab Experiment Part 27
 tags: green-crab-wc respirometry genotype
 ---
 
