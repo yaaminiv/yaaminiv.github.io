@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: West Coast Green Crab Experiment Part 5
-tags: green-crab-wc experimental-design genotyping
+tags: green-crab-wc experimental-design genotype
 ---
 
 ## Experiment is UNDERWAY
