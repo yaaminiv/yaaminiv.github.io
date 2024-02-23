@@ -1,11 +1,11 @@
 ---
 layout: post
 comments: true
-title: West Coast Green Crab Experiment Part 38
-tags: green-crab-wc chelex PCR gel
+title: West Coast Green Crab Experiment Part 39
+tags: green-crab-wc PCR gel
 ---
 
-## PCR, and gel for TTR crabs
+## PCR and gel for TTR crabs
 
 Vanessa was out today, but I [ran the samples I extracted last week](https://yaaminiv.github.io/Green-Crab-Experiment-2023-Part38/) through PCR and gels!
 
@@ -50,10 +50,10 @@ Vanessa was out today, but I [ran the samples I extracted last week](https://yaa
 - Samples extracted: 202, 200, 122, 119, 105, 69, 48, 40, 9, 181, 114
 - PCR Master Mix calculations
   - 12 samples + 1 PCR blank + 1 extra = 14 aliquots
-  - GoTaq: 12.5 µL x 15 = 137.5 µL
-  - SMC F: 2.5 µL x 15 = 27.5 µL
-  - SMC R: 2.5 µL x 15 = 27.5 µL
-  - NF H<sub>2</sub>: 5.5 µL x 15 = 60.5 µL
+  - GoTaq: 12.5 µL x 14 = 175 µL
+  - SMC F: 2.5 µL x 14 = 35 µL
+  - SMC R: 2.5 µL x 14 = 35 µL
+  - NF H<sub>2</sub>: 5.5 µL x 14 = 77 µL
 
 ### Results
 
