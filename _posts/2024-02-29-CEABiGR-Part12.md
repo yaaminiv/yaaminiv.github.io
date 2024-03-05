@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: CEABiGR Part 11
+title: CEABiGR Part 12
 tags: virginica CEABiGR gene-expression alt-splicing
 ---
 
