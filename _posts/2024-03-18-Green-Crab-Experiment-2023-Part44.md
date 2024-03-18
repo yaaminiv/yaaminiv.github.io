@@ -9,6 +9,8 @@ tags: green-crab-wc PCR gel
 
 I have two more rounds of extractions before I can send off the next batch of samples! These will encompass all TTR crabs with associated samples at various timepoints. Afterwards, I'll have another four batches of extractions and PCR for all remaining samples.
 
+But first, I need to re-extract [one batch of samples](https://yaaminiv.github.io/Green-Crab-Experiment-2023-Part43/) since my previous extractions had a contaminated extraction blank (but clean PCR blank).
+
 ### Methods
 
 **Chelex Extraction**:
@@ -67,6 +69,7 @@ I have two more rounds of extractions before I can send off the next batch of sa
 ### Notes
 
 - Samples extracted: 133, 43, 56, 187, 191, 58, 127, 157, 59, 44, 189
+- Tossed old Chelex and made new Chelex solution. Also used NF water from the freezer instead of the DEPC water to reduce any potential contamination sources (beyond me not cleaning tweezers well)
 - Sample 58 tissue didn't pellet out so I had a hard time getting the sample from it.
 - Sample 56 may have ~1-2 µL PCR product less in the gel because it got stuck in the pipet tip and I'm not sure how that happened
 - PCR Master Mix calculations
