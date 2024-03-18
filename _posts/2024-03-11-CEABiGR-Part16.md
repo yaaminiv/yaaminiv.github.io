@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: CEABiGR Part 15
+title: CEABiGR Part 16
 tags: virginica CEABiGR
 ---
 
@@ -53,7 +53,7 @@ allRes.allFem <- rbind(allRes.maxTransFemPosDataBP, allRes.maxTransFemNegDataBP,
 head(allRes.allFem) #Confirm changes
 ```
 
-All output is saved in [this folder](https://github.com/sr320/ceabigr/tree/main/output/98-enrichment-result-compilation).
+All output is saved in [this folder](https://github.com/sr320/ceabigr/tree/main/output/98-enrichment-result-compilation). Oh, and I got to close [this issue](https://github.com/sr320/ceabigr/issues/105)!
 
 ### Paper notes and thoughts
 
