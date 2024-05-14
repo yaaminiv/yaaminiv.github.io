@@ -70,10 +70,10 @@ Vanessa did a set of extractions, PCR, and gel for me while I was away on May 3!
   - 170 was faint in Vanessa's gel (Figure 1)
 - I used 3 µL of ladder for my gel
 - PCR Master Mix calculations
-  - GoTaq: 12.5 µL x 16 = 200 µL
-  - SMC F: 2.5 µL x 16 = 40 µL
-  - SMC R: 2.5 µL x 16 = 40 µL
-  - NF H<sub>2</sub>: 5.5 µL x 14 = 88 µL
+  - GoTaq: 12.5 µL x 16 = 200 µL (from 4/22)
+  - SMC F: 2.5 µL x 16 = 40 µL (mix of 4/22, 4/26, and 4/29)
+  - SMC R: 2.5 µL x 16 = 40 µL (mix of 4/22, 4/26, and 4/29)
+  - NF H<sub>2</sub>: 5.5 µL x 14 = 88 µL (from 4/22)
 
 ### Results
 
