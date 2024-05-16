@@ -7,7 +7,7 @@ tags: green-crab-wc extractions PCR gel
 
 ## Extraction, PCR, and gel for remaining crabs
 
-Vanessa did a set of extractions, PCR, and gel for me while I was away on May 3! Today, I set out to extract more samples, as well as re-extract some with faint gel bands from [my previous gel]() and from Vanessa's gel.
+Vanessa did a set of extractions, PCR, and gel for me while I was away on May 3! Today, I set out to extract more samples, as well as re-extract some with faint gel bands from [my previous gel](https://yaaminiv.github.io/Green-Crab-Experiment-2023-Part51/) and from Vanessa's gel.
 
 **Chelex Extraction**:
 
