@@ -7,7 +7,7 @@ tags: green-crab-wc gel
 
 ## Rerunning samples on a gel
 
-[Yesterday]() and the [time before that](), my gel bands were pretty squished together and I had a hard time determining if some samples had a strong enough band for sequencing. Today I reran those samples.
+[Yesterday](https://yaaminiv.github.io/Green-Crab-Experiment-2023-Part53/) and the [time before that](https://yaaminiv.github.io/Green-Crab-Experiment-2023-Part52/), my gel bands were pretty squished together and I had a hard time determining if some samples had a strong enough band for sequencing. Today I reran those samples.
 
 **Gel**:
 
