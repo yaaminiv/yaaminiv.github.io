@@ -93,16 +93,16 @@ I wrote out this file [here](https://github.com/yaaminiv/killifish-hypoxia-RRBS/
 
 **Table 2**. Average methylation for various treatments
 
-| **Population** |  **Treatment**  | **Number of Methylated CpGs** | **Percent Methylation** |
-|:--------------:|:---------------:|:-----------------------------:|:-----------------------:|
-|   New Bedford  |       All       |             121017            |           28.3          |
-|   New Bedford  | Outside Control |             101532            |           27.9          |
-|   New Bedford  |     Normoxia    |             92498             |           27.2          |
-|   New Bedford  |     Hypoxia     |             96541             |           29.7          |
-|  Scorton Creek |       All       |             124001            |           28.8          |
-|  Scorton Creek | Outside Control |             124001            |           28.8          |
-|  Scorton Creek |     Normoxia    |             99786             |           28.8          |
-|  Scorton Creek |     Hypoxia     |             101036            |           29.2          |
+| **Population** |  **Treatment**  | **Number of Methylated CpGs (%)** | **Percent Methylation** |
+|:--------------:|:---------------:|:---------------------------------:|:-----------------------:|
+|   New Bedford  |       All       |           121017 (81.4%)          |           28.3          |
+|   New Bedford  | Outside Control |           101532 (68.3%)          |           27.9          |
+|   New Bedford  |     Normoxia    |           92498 (62.2%)           |           27.2          |
+|   New Bedford  |     Hypoxia     |           96541 (64.9%)           |           29.7          |
+|  Scorton Creek |       All       |           124001 (83.3%)          |           28.8          |
+|  Scorton Creek | Outside Control |           124001 (83.3%)          |           28.8          |
+|  Scorton Creek |     Normoxia    |           99786 (67.1%)           |           28.8          |
+|  Scorton Creek |     Hypoxia     |           101036 (68.0%)          |           29.2          |
 
 Overall, I wouldn't say there's a clear difference in average methylation by population and treatment. This doesn't surprise me since methylation in this species seems so minimal to begin with when compared with humans or mammals. I'll run this by Neel before I finalize any figures.
 
