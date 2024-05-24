@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: West Coast Green Crab Experiment Part 54
+title: Coold Acclimation Green Crab Experiment
 tags: green-crab-cold experimental-design
 ---
 
