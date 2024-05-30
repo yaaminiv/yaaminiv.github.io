@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Coold Acclimation Green Crab Experiment Part 2
+title: Cold Acclimation Green Crab Experiment Part 2
 tags: green-crab-cold restriction-digest
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Coold Acclimation Green Crab Experiment
+title: Cold Acclimation Green Crab Experiment
 tags: green-crab-cold experimental-design
 ---
 
