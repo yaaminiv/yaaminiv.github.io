@@ -20,7 +20,7 @@ Sibel very graciously let me borrow the ToxLab Alul enzyme. This is a Promega en
   - F primer: 2.5 µL/sample
   - R primer: 2.5 µL/sample
   - DEPC H<sub>2</sub>O: 5.5 µL/sample
-4. Preheat the thermocycler with the PCR protocol
+4. Preheat the thermocycler with the SMC_60RD PCR protocol
 5. Get ice and thaw PCR reagents and DNA at room temperature. Briefly vortex, spin down, and move onto ice as soon as reagents thaw.
 6. *IF NEEDED*, make new F and R primer aliquots. Take the 100 µM stock bottles (blue lids) and dilute into a new, labelled 1.5 mL eppendorf tube in a 1:10 dilution (ex. 10 µL primer stock, 90 µL NF water).
 6. Make master mix based on calculations in step 3 in the labelled PCR MM tube. Vortex, spin down, and keep on ice.
@@ -29,7 +29,7 @@ Sibel very graciously let me borrow the ToxLab Alul enzyme. This is a Promega en
 9. Add 2 µL of DNA into each sample tube. Add 2 µL DEPC water for the PCR blank.
 10. Seal wells completely. Use tube/well caps, foil plate seal, or Microseal A film to seal plates. Use roller to push down seal and use the plate sealer tool to ensure all wells are completely sealed.
 11. Vortex the sealed tubes and briefly spin down.
-12. Place in the thermocycler, close lid, and run PCR protocol.
+12. Place in the thermocycler, close lid, and run the SMC_60RD PCR protocol.
 13. When protocol is complete, immediately proceed to the restriction digest.
 
 **Restriction Digest**:
