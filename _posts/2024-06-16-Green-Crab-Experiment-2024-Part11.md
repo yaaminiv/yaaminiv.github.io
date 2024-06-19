@@ -30,6 +30,7 @@ tags: green-crab-cold experimental-design
 
 - T1-T3 air stones and filters were off. Catlin and Heidi must have forgotten to turn them back on after rearranging the cords
 - Took HOBO data for tank temperatures
+  - A couple of loggers were accidentally set to 10 second logging, so they were completely full. I relaunched these loggers today
   - I noticed that T5-7 were averaging ~ 17ºC, with big swings between 16ºC and ~18.5ºC during the day. T1-3, however, stayed constant at 16ºC. First, this is a good sign that my cold tanks are in the right place! I also expect the temperature fluctuations to not be an issue once the room is colder and heaters are in. However, I did lower the temperature of the room to 13.5ºC to try and get tank averages closer to 14 or 15ºC. I'll check HOBOs again on Thursday and if needed, lower the temperature further.
 
   <img width="1434" alt="Screenshot 2024-06-18 at 11 53 42 AM" src="https://github.com/yaaminiv/cold-green-crab/assets/22335838/632fa953-0000-4d32-b661-b739065bd32d">
@@ -41,6 +42,9 @@ tags: green-crab-cold experimental-design
 - Fed crabs
   - Brought in my 1/4 tsp for feeding!
 - Updated all online spreadsheets
+- Discarded tubes for dead crabs
+- Labelled all remaining crabs!
+  - Catlin and Heidi caught several carbs in the traps over the past week that we distributed between tanks. We added at least a few females and males to each tank
 
 ### 2024-06-19
 
