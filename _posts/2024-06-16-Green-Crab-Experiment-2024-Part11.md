@@ -7,6 +7,12 @@ tags: green-crab-cold experimental-design
 
 ## Experiment log: Acclimation week
 
+Important spreadsheets:
+
+- [crab metadata](https://docs.google.com/spreadsheets/d/1kiNju3AUOpKD7N6_U85KpOl9-tCiLO10I2WjjnL32is/edit#gid=0)
+- [survivorship](https://docs.google.com/spreadsheets/d/1SP9BigiEkJ19RyWd92oXc-RgcTI8_Mor2VoSuQEyiYE/edit#gid=0)
+- [ammonia](https://docs.google.com/spreadsheets/d/164b1LoTn7Wq5nbtDivdHYSw43b_DRXL9rLousaV4Em0/edit#gid=0)
+
 ### 2024-06-16
 
 - Came back from a week away! Catlin and Heidi did an amazing job taking care of the crabs and keeping notes in the binder
@@ -53,6 +59,30 @@ tags: green-crab-cold experimental-design
 - Replaced nitrogen filters
 - Fed crabs
 - *FINALLY* created a [Github repository](https://github.com/yaaminiv/cold-green-crab) for this project
+
+### 2024-06-20
+
+- Water change and ammonia check
+- 100 and 113 dead
+- Fed crabs
+
+### 2024-06-21
+
+- Cleaned and fed tanks
+- 120, 122, and 127 dead. These are all crabs from Eel Pond! They didn't seem to be in too bad of a state so I'm not really sure what happened with them
+
+### 2024-06-22
+
+- Cleaned and fed tanks
+- 14 in T1 looked like it was about to molt! Instead of letting it molt in the tank and get eaten (leaving me to clean up yucky crab bits) I moved it to empty T4 to molt. Maybe once its shell hardens up again I can relabel and move it back?
+- Made [TTR spreadsheet](https://docs.google.com/spreadsheets/d/1EnyWZG93fKutxVSRc-uQ6RtltTdEM8lDHO_4vNe4LWI/edit#gid=0) and picked crabs to dissect for the 0 hr time point
+
+### 2024-06-23
+
+- Water change, ammonia check, filters changed
+- 124 died (and was disgustingly actively being eaten). I raelly don't know why T7 is such a high mortality tank :/
+- 13 died (but thankfully was not being actively consumed)
+- Fed crabs
 
 ### Going forward
 
