@@ -158,6 +158,30 @@ Based on the 45 minute gel, I was able to genotype more samples than with the fi
 
 Carolyn and I also noticed that my product from 75A seemed a lot cleaner and tighter than the CC product around it on the gel. I thought this could be because 75A was digested for two hours, while my newer samples were only digested for one hour. While Carolyn agreed this could be a possibility, she thought a more likely explanation is that there is some variability in restriction digest runs. Instead of running previously-made restriction digest product on a gel, she suggested I take DNA from a known CC and TT, then redo PCR and the restriction digest with it to reduce any inter-digest variability.
 
+### 2024-06-22
+
+I extracted some new samples! Based on Carolyn's suggestion, I re-extracted samples 75 and 15 to reduce any inter-digest variability. I didn't have time to run my restriction digest until 6/24. I ran a gel on 6/26, and then ended up rerunning it on 6/30.
+
+#### Notes
+
+- Samples: 14, 16, 17, 31, 32, 34, 49, 50, 15, 51, 82, 83, 84, 100, 101, 103, 119, 120, 121
+- Made new restriction digest product for 75 and 15
+- PCR Master Mix calculations
+  - GoTaq: 12.5 µL x 26 = 325 µL
+  - SMC F: 2.5 µL x 26 = 65 µL
+  - SMC R: 2.5 µL x 26 = 65 µL
+  - NF H<sub>2</sub>: 5.5 µL x 26 = 143 µL
+
+#### Results
+
+![Screenshot 2024-07-09 at 2 21 38 PM](https://github.com/yaaminiv/cold-green-crab/assets/22335838/618ae060-3895-479f-aa75-6fb951f1fb3a)
+
+![Screenshot 2024-07-09 at 2 22 01 PM](https://github.com/yaaminiv/cold-green-crab/assets/22335838/8e54ad3e-0d6e-4778-bfac-5246c6f7d668)
+
+**Figures 1-2**. Gels for restriction digest product on 6/26 and 6/30
+
+I FORGOT TO ADD A LADDER WHEN I RAN MY GEL ON 6/26. So I reran the gel using 8 µL of restriction digest product on 6/30 (and remembered to add the ladder). The gel looks a lot better with 8 µL of product, and I'll probably add 10 µL in the next run. There are still a few samples that don't have any restriction digest product, so I'll need to add those to my list of samples to rerun.
+
 ### Going forward
 
 1. Run the MA experiment!
