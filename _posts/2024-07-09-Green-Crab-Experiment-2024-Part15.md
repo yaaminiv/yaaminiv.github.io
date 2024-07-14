@@ -5,7 +5,7 @@ title: Cold Acclimation Green Crab Experiment Part 15
 tags: green-crab-cold extractions PCR restriction-digest gel
 ---
 
-## Genotyping MA crabs (still)
+## Genotyping MA crabs (but now it's hell)
 
 ### Methods
 
@@ -206,6 +206,8 @@ Today I'm following up on my previous gel with no amplification. I performed 1/1
   - SMC F: 2.5 µL x 15 = 37.5 µL
   - SMC R: 2.5 µL x 15 = 37.5 µL
   - NF H<sub>2</sub>: 2.5 µL x 15 = 82.5 µL
+- Extracted remaining samples
+  - 60, 61, 62, 88, 89, 90, 108, 128, 122
 
 #### Results
 
@@ -220,9 +222,33 @@ STILL NO AMPLIFICATION. I shot Carolyn a quick message to see if I should try a 
 Alright, a lot to do today!
 
 1. Try a dilution series with 1/1000 and 1/10000 dilutions
-2. Run a PCR with the samples I just extracted
-3. Dilute all remaining samples appropriately
-4. Run remaining PCRs
+2. Run a PCR with the samples I just extracted and the dilution series
+3. Figure out the next steps
+
+#### Notes
+
+- Samples for dilutions: 1, 113, 75, 15
+  - Made a 1/1000 dilution using 1 µL of the 1/100 dilution and 9 µL of water
+  - Made a 1/10000 dilution using 1 µL of the 1/1000 dilution and 9 µL of water
+- Samples for PCR
+  - 60, 61, 62, 88, 89, 90, 108, 128, 122
+  - 1/100, 1/1000, and 1/10000 dilutions: 1, 113, 75, 15
+  - Used 80 as a known CT since my known CC (75) and TT (15) from last year's experiment are being weird. I have tons of known CC, but I don't have any known TT from this year!
+- PCR Master Mix calculations
+  - GoTaq: 12.5 µL x 28 = 350 µL
+  - SMC F: 2.5 µL x 28 = 70 µL
+  - SMC R: 2.5 µL x 28 = 70 µL
+  - NF H<sub>2</sub>: 2.5 µL x 28 = 154 µL
+
+#### Results
+
+![Screenshot 2024-07-14 at 3 11 43 PM](https://github.com/user-attachments/assets/e81ce0db-0f9b-4914-85d2-4fa54a528bf7)
+
+**Figure 5**. Gel for remaining samples (top) and serial dilution test (bottom)
+
+Welp, still no amplification! I'm especially concerned that sample 80, a sample I extracted before going to SEB and ran out on a gel earlier this week, has NO bands when it had really bright bands earlier. Truly every extraction/PCR/digest I've done this week has yielded a gel with faint or no bands. What is happening?! I'm truly at a loss and I feel like pulling all my hair out.
+
+I need to genotype my WA samples before my experiment so I'll prioritize working through that. Hopefully I won't run into any weird issues with my WA samples?!
 
 ### Going forward
 
