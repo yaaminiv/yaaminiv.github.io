@@ -16,6 +16,16 @@ It's the week before the experiment so it's officially acclimation week!
 - Moved tanks on lower rack that are really close to the light to the other side where there is no light. I'll either need to add a strip light there OR move the other tanks to the floor under the rack lights so they are on the same circadian rhythm.
 - Labelled crabs in T1-T3
 
+### 2024-07-16
+
+- No mortalities!
+  - Although, Heidi found a piece of carapace but no crabs seemed to have died...?!
+- Labelled crabs in T4-T8
+
+### 2024-07-17
+
+- 241 dead (it felt squishy like it had just molted, and Heidi did find that carapace piece yesterday)
+
 ### Going forward
 
 1. Label WA crabs
