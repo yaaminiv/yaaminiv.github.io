@@ -107,9 +107,65 @@ I'm trying two different troubleshooting approaches today:
 
 STILL NO AMPLIFICATION I AM LOSING MY MIND. WHY, OH WHY, CRUEL WORLD.
 
+### 2024-07-16
+
+Today to confirm exactly how I'm losing my mind, I took some of Carolyn's DNA (that had bands!!) and ran it through PCR and the restriction digest. Carolyn used a Qiagen column kit for extractions which takes longer, but yields much cleaner DNA. If Carolyn's extractions don't work, then we know there's an issue with the thermocycler or reagents. If Carolyn's extractions work, then there's an issue with the Chelex or with the MA crabs specifically.
+
+#### Notes
+
+- Samples for PCR and digest: Carolyn 1, 2, 3, 4, 5, 6, 7, 8
+- PCR Master Mix calculations (without BSA)
+  - GoTaq: 12.5 µL x 11 = 137.5 µL
+  - F: 2.5 µL x 11 = 27.5 µL
+  - R: 2.5 µL x 11 = 27.5 µL
+  - NF H<sub>2</sub>: 5.5 µL x 11 = 60.5 µL
+
+#### Results
+
+<img width="1011" alt="Screenshot 2024-07-18 at 12 29 26 PM" src="https://github.com/user-attachments/assets/4defc0fa-a6ae-4393-bd47-1241f9282837">
+
+**Figure 2**. Gel for Carolyn's extractions
+
+Of course, her samples had bands. So that means there's specifically an issue with the Chelex extractions. I really don't know why all of a sudden our Chelex protocol isn't working. Maybe there's something specific in the MA crabs inhibiting the Chelex or the PCR afterwards, since I developed the protocol specifically with WA crabs?
+
+### 2024-07-17
+
+The last thing I can think of to do right now is to extract some of the crabs from this year's WA experiments with Chelex to determine if there's a specific issue with the MA crabs. A Hail Mary, if you will.
+
+#### Notes
+
+- Samples for PCR and digest: 145, 146, 160, 161, 175, 190, 205, 206, 220, 235, 250
+- Sample 206 had orange-colored supernatant
+- Sample 175 evaporated during the Chelex incubation. I added 70 µL of DEPC water to the tube before vortexing and centrifuging. While centrifuging, the water escaped the tube! So there is likely something not working with that tube closure mechanism. I scraped the sample all together.
+- PCR Master Mix calculations
+  - GoTaq: 12.5 µL x 15 = 187.5 µL
+  - F: 2.5 µL x 15 = 37.5 µL
+  - R: 2.5 µL x 15 = 37.5 µL
+  - NF H<sub>2</sub>: 5.5 µL x 15 = 82.5 µL
+
+#### Results
+
+<img width="1011" alt="Screenshot 2024-07-18 at 12 34 27 PM" src="https://github.com/user-attachments/assets/905dbb76-9085-4f7f-9d65-b8fd84f98d1e">
+
+**Figure 3**. Gel for WA crabs
+
+Some faint bands, but really nothing to write home about. F. Me.
+
+Carolyn suggested a few things:
+
+1. Ask the department to see if anyone else has Chelex beads I can use to determine if something went wrong with ours
+2. Look up Chelex issues online
+3. Try using Chelex with WA samples from last year that I know worked (aka any of them)
+4. Just move forward genotyping a few crabs per tank with DNEasy
+
+I started looking up Chelex issues online. I found something on the BioRad website to suggest that Chelex should be stored at ambient temperature, and the lab air conditioning is currently not working. Unsure just how related that is, but oh well.
+
+I emailed the department to see if anyone had some Chelex we could use! Mindy offered some, so I have a different Chelex to try when I return to troubleshooting.
+
 ### Going forward
 
 1. Finish genotyping MA crabs
+2. Genotype WA crabs
 2. Analyze TTR data
 3. Develop lipid assay protocol
 3. Develop heart rate protocol
