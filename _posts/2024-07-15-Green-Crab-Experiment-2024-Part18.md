@@ -26,6 +26,15 @@ It's the week before the experiment so it's officially acclimation week!
 
 - 241 dead (it felt squishy like it had just molted, and Heidi did find that carapace piece yesterday)
 
+### 2024-07-18
+
+- Ammonia checks and water changes for all tanks
+- No mortalities!
+
+### 2024-07-19
+
+- Skipped today
+
 ### Going forward
 
 1. Label WA crabs
