@@ -49,6 +49,7 @@ It's the week before the experiment so it's officially acclimation week!
 - Created data sheets for tomorrow's experiment
 - Designed sampling scheme for the experiment
   - Sampling six crabs per treatment each day, but alternating either sampling two or one crab from tanks to keep overall sample size high for time-to-right
+- Set up computer program for heart rate data collection
 
 ### Going forward
 
