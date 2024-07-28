@@ -29,16 +29,30 @@ It's the week before the experiment so it's officially acclimation week!
 ### 2024-07-18
 
 - Ammonia checks and water changes for all tanks
+- Changed all filters
 - No mortalities!
 
 ### 2024-07-19
 
 - Skipped today
 
+### 2024-07-20
+
+- Crab 229 died
+- Cleaned tanks and fed crabs
+
+### 2024-07-21
+
+- Water changes and ammonia conditioner for all tanks
+- Changed all filters
+- Added heart rate backpacks to designated heart rate crabs
+- Created data sheets for tomorrow's experiment
+- Designed sampling scheme for the experiment
+  - Sampling six crabs per treatment each day, but alternating either sampling two or one crab from tanks to keep overall sample size high for time-to-right
+
 ### Going forward
 
-1. Label WA crabs
-2. Genotype WA crabs
+1. Genotype WA crabs
 3. Conduct WA experiment
 4. Develop heart rate protocol
 
