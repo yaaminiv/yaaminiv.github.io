@@ -58,6 +58,27 @@ tags: green-crab-cold
   - T5B-2 died. Le sigh. This is why we have two loggers per tank.
 - Cleaned EVERYTHING for the experiment and the cold room
 
+<img width="1278" alt="Screenshot 2024-07-28 at 12 49 23 PM" src="https://github.com/user-attachments/assets/781902c8-4ebf-4c85-b7cc-bcc0604f1a94">
+<img width="1278" alt="Screenshot 2024-07-28 at 12 49 38 PM" src="https://github.com/user-attachments/assets/a327d6b3-9090-441d-b684-657fee321fc1">
+<img width="1278" alt="Screenshot 2024-07-28 at 12 49 45 PM" src="https://github.com/user-attachments/assets/97d29495-9c22-4d73-b6f1-5dbcb9dda630">
+<img width="1278" alt="Screenshot 2024-07-28 at 12 49 54 PM" src="https://github.com/user-attachments/assets/18421948-4f03-4ecb-9bfd-2ad5d653b9ca">
+<img width="1278" alt="Screenshot 2024-07-28 at 12 50 07 PM" src="https://github.com/user-attachments/assets/77263a97-eca7-4f90-9002-c15326f7c98f">
+<img width="1278" alt="Screenshot 2024-07-28 at 12 50 26 PM" src="https://github.com/user-attachments/assets/f74f59d6-da90-4bd6-a7a2-afd0a903c0cd">
+<img width="1278" alt="Screenshot 2024-07-28 at 12 51 20 PM" src="https://github.com/user-attachments/assets/b91e8801-338e-41e1-b63d-253eb119f10d">
+<img width="1278" alt="Screenshot 2024-07-28 at 12 51 35 PM" src="https://github.com/user-attachments/assets/ace82e32-e830-43ea-a8b0-cc2b32d62b3b">
+
+**Figures 1-8**. Temperatures for 0ºC treatment tanks
+
+<img width="1278" alt="Screenshot 2024-07-28 at 12 53 00 PM" src="https://github.com/user-attachments/assets/e8fc134b-22d4-44ce-bf2b-789d80acb91b">
+<img width="1278" alt="Screenshot 2024-07-28 at 12 53 05 PM" src="https://github.com/user-attachments/assets/5f720330-9a2b-41a7-8dd0-1cfb7cc695e7">
+<img width="1278" alt="Screenshot 2024-07-28 at 12 53 09 PM" src="https://github.com/user-attachments/assets/391218d3-1c70-46e0-bfb0-9195931e58f6">
+<img width="1278" alt="Screenshot 2024-07-28 at 12 53 30 PM" src="https://github.com/user-attachments/assets/232fc8c3-c688-4ac8-b2f1-cebb15492a82">
+<img width="1278" alt="Screenshot 2024-07-28 at 12 53 37 PM" src="https://github.com/user-attachments/assets/dc9aeeac-f167-407a-bb34-6e91639f2cf2">
+<img width="1278" alt="Screenshot 2024-07-28 at 12 53 46 PM" src="https://github.com/user-attachments/assets/3f42b06b-3b21-401f-bd20-b8b4f20747c6">
+<img width="1278" alt="Screenshot 2024-07-28 at 12 53 57 PM" src="https://github.com/user-attachments/assets/b08446e3-0bc0-46e9-9571-4d7d5d482697">
+
+**Figures 9-15**. Temperatures for 5ºC treatment tanks
+
 ### Going forward
 
 1. Genotype WA crabs
