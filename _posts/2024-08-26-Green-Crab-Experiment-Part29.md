@@ -77,7 +77,7 @@ I made a similar plot for lactic acid fermentation and for the citric acid cycle
 
 **Figure 3**. Metabolites involved in the citric acid cycle
 
-My next step was to create a pathway diagram in [this InDesign document](https://github.com/yaaminiv/green-crab-metabolomics/blob/main/output/05-metabolomics-analysis/metaboanalyst/figures/combined-respiration-plot.indd). Apart from changing the layout, I wanted to see if any of the metabolites in this plot were significant VIP. To do this, I filtered metabolites of interest from my t-test output with [`%in%`]():
+My next step was to create a pathway diagram in [this InDesign document](https://github.com/yaaminiv/green-crab-metabolomics/blob/main/output/05-metabolomics-analysis/metaboanalyst/figures/combined-respiration-plot.indd). Apart from changing the layout, I wanted to see if any of the metabolites in this plot were significant VIP. To do this, I filtered metabolites of interest from my t-test output with [`%in%`](https://stackoverflow.com/questions/11612235/select-rows-from-a-data-frame-based-on-values-in-a-vector):
 
 ```
 respirationMetabolites <- c("glucose ", "glucose-1-phosphate", "glucose-6-phosphate", "fructose-6-phosphate ", "fructose-1-phosphate", "3-phosphoglycerate",
