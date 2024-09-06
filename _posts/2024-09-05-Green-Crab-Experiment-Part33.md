@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Green Crab Experiment Part 33
-tags: green-crab metabolomics WGCNA
+tags: green-crab lipidomics WGCNA
 ---
 
 ## Lipidomics WCNA

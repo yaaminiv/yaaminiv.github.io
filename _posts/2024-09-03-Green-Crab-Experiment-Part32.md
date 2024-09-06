@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Green Crab Experiment Part 32
-tags: green-crab metabolomics mixOmics
+tags: green-crab lipidomics mixOmics
 ---
 
 ## Reworking lipidomics analysis
