@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Killifish Hypoxia RRBS Part 30
+title: Killifish Hypoxia RRBS Part 31
 tags: killifish RRBS
 ---
 
@@ -38,7 +38,7 @@ dev.off()
 
 **Figures 1-2**. Heatmaps of average methylation across samples for normoxia vs. outside control DMR and hypoxia vs. outside control DMR.
 
-Looking at these heatmaps, I still see inter-individual variation. However, there are more DMR with clearer differences between treatments when comparing the control and severe hypoxia treatments. 
+Looking at these heatmaps, I still see inter-individual variation. However, there are more DMR with clearer differences between treatments when comparing the control and severe hypoxia treatments.
 
 ### `BAT_correlating` plots
 
