@@ -72,7 +72,7 @@ tags: green-crab-cold extractions PCR restriction-digest gel
 6. Obtain a piece of parafilm and pipet 1 µL of TriTrak dye for each sample, extraction blank, and PCR blank. On the parafilm, the dye will bead up. Place the dots far enough apart to avoid contamination.
 7. Take 10 µL of DNA, 6 µL of PCR product, or 20 µL of restriction digest product and mix with a 1 µL dot of TriTrak dye by pipetting up and down at least 10 times. Then, pipet up 6 µL and load gel. Repeat for each sample until halfway through samples. Then, add 3 µL of diluted ladder + dye mix, and continue with remaining samples.
 8. Run gel for 60 minutes at 90 V.
-9. After running gel, remove gel tray and image.
+9. After running gel, remove gel tray and image. If needed, run gel for longer in 5-10 minute intervals.
 
 ### 2024-12-02
 
@@ -87,6 +87,7 @@ Today I did PCR and restriction digest for the samples I [finished extracting la
   - R: 2.5 µL x 26 = 65 µL
   - NF H<sub>2</sub>: 5.5 µL x 26 = 143 µL
   - Made new F primer for today
+  - Ran gel for 65 minutes
 - Samples for DNEasy extraction: 56, 57, 58, 35, 36, 59, 60, 61, 52, 53, 54, 62, 87, 88, 89, 90, 101, 106, 108, 128
   - Initially I planned to extract 63 and 126 based on the entries in my genotyping spreadsheet. Turns out these samples don't exist since the crabs died before the experiment started!
 - When using the repeater pipet to add the ATL buffer, I noticed that it would suck up a lot of air, or something would block the pipet tip so it wouldn't suck up the full volume needed. I made sure all samples had roughly the same amount of ATL buffer before adding in the tissue.
@@ -111,7 +112,7 @@ There are a few samples I'll need to redo, but I can add them to tomorrow's gel.
 
 #### Notes
 
-- Samples for DNEasy extraction: 56, 57, 58, 35, 36, 59, 60, 61, 52, 53, 54, 62, 87, 88, 89, 90, 101, 106, 108, 128
+- Samples for DNEasy extraction, PCR, and restriction digest: 56, 57, 58, 35, 36, 59, 60, 61, 52, 53, 54, 62, 87, 88, 89, 90, 101, 106, 108, 128
   - Sample 52 had a yellow tinge after incubation that was cleaned up through the various washes
 - Added 160 mL 200 proof ethanol to new AW2 reagent to finish extractions
 - Additional samples for PCR and restriction digest: 18, 82, 86, 103
@@ -121,10 +122,37 @@ There are a few samples I'll need to redo, but I can add them to tomorrow's gel.
   - R: 2.5 µL x 27 = 67.5 µL
   - NF H<sub>2</sub>: 5.5 µL x 27 = 148.5 µL
   - Made new F and R primer for today in the same tubes
+- Ran gel for 65 minutes
 
 #### Results
 
-**Figure 4**. Restriction digest gel
+![Screenshot 2024-12-03 at 4 21 30 PM](https://github.com/user-attachments/assets/a7f3fed8-2ef1-4dc0-9e88-6909a519dbf3)
+
+![Screenshot 2024-12-03 at 4 21 43 PM](https://github.com/user-attachments/assets/e6440146-97c4-4cc7-b84f-d861daa207f7)
+
+**Figure 4-5**. Restriction digest gel printed and computer images
+
+Well...this is one hard to read gel! Apart from the fact that 103 is a TT genotype, I can't tell much. I'm going to redo the gel and empty out the TAE buffer from the gel rig and fill it with new buffer and hope that helps. I'll also need to re-extract the really yellow sample, 52!
+
+### 2024-12-05
+
+I redid the PCR and digest using samples from Tuesday. I also started to extract Washington samples!
+
+#### Notes
+
+- Samples for PCR and digest: 56, 57, 58, 35, 36, 59, 60, 61, 52, 53, 54, 62, 87, 88, 89, 90, 101, 106, 108, 128, 18, 82, 86
+- PCR Master Mix calculations
+  - GoTaq: 12.5 µL x 24 = 300 µL
+  - F: 2.5 µL x 24 = 60 µL
+  - R: 2.5 µL x 24 = 60 µL
+  - NF H<sub>2</sub>: 5.5 µL x 24 = 132 µL
+- Samples for DNEasy: 52, 146, 150, 160, 168, 179, 182, 190, 201, 209, 212
+  - 52 is from MA, all other samples are from WA
+  - The WA samples were chosen since they were some of the 30 crabs alive at the end of the experiment. I want to genotype these first
+  - I am doing a smaller amount of extractions today because I want to make sure that the protocol works for the WA samples! I'm not sure why they wouldn't...but you never know
+
+
+
 
 ### Going forward
 
