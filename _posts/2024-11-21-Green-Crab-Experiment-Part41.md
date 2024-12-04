@@ -109,13 +109,157 @@ Now that I had [unique VIP lipids](https://github.com/yaaminiv/green-crab-metabo
 
 The LION output can be found [here](https://github.com/yaaminiv/green-crab-metabolomics/tree/main/output/06-lipidomics-analysis/metaboanalyst/LION-enrichment-report-30v5-unique). I did not identify any significantly enriched LION terms with this set!
 
+### What's going on with PC and PE lipids?
+
+I did this a while back but never wrote a lab notebook post.....so here's the documentation! I decided to go down a bit of a rabbit hole and figure out how to visualize changes in lipid classes between treatments. The first thing I did was make some really chaotic stacked barplots. To do this, I needed to first pull lipid class information from [MS-DIAL nomenclature](https://systemsomicslab.github.io/compms/msdial/lipidnomenclature.html) and ensure that was reflected in my dataset. This was very annoying and sucked because of weird formatting inconsistencies and the need to Google lipid structures:
+
+```
+significantVIP_13v30_annot <- significantVIP_13v30 %>%
+  mutate(comparison = "13 vs. 30") %>%
+  mutate(., class = lipid) %>%
+  separate(., col = class, into = c("class", "structure"), sep = " ") %>%
+  mutate(class = gsub(pattern = "4-METHYL-2-OXO-PENTANOIC", replacement = "OxFA", x = class)) %>%
+  mutate(class = gsub(pattern = "(eicosanoyl)", replacement = "", x = class)) %>%
+  mutate(class = gsub(pattern = "()sphingosine", replacement = "", x = class)) %>%
+  mutate(class = gsub(pattern = "N-\\(\\)", replacement = "Cer", x = class)) %>%
+  mutate(class = gsub(pattern = "Phosphatidylethanolamine", replacement = "PE", x = class)) %>%
+  mutate(targetClass = case_when(class == "TG" ~ class,
+                                 class == "PE" ~ class,
+                                 class == "PC" ~ class,
+                                 class == "PI" ~ class,
+                                 class == "PS" ~ class,
+                                 class == "PA" ~ class,
+                                 class != "TG" | class != "PE" | class != "PC" | class != "PI" | class != "PS" | class != "PA" ~ "Other")) %>%
+  separate(., col = structure, into = c("carbons", "oxygen", "rest"), sep = ":") %>%
+  separate(., col = oxygen, into = c("oxygen", "trash"), sep = "_") %>%
+  dplyr::select(-trash) %>%
+  separate(., col = oxygen, into = c("oxygen", "trash"), sep = ";") %>%
+  dplyr::select(-trash) %>%
+  mutate(., oxygen = gsub(pattern = "\\|", replacement = "", x = oxygen)) %>%
+  mutate(., oxygen = gsub(pattern = "PC", replacement = "", x = oxygen)) %>%
+  mutate(., oxygen = gsub(pattern = "PE", replacement = "", x = oxygen)) %>%
+  mutate(., rest = case_when(is.na(rest) == TRUE ~ "0",
+                             is.na(rest) == FALSE ~ rest)) %>%
+  mutate(., rest = as.numeric(rest), oxygen = as.numeric(oxygen)) %>%
+  mutate(., totDoubleBond = oxygen + rest) %>%
+  mutate(., saturation = case_when(totDoubleBond == 0 ~ "Saturated",
+                                   totDoubleBond == 1 ~ "Monounsaturated",
+                                   totDoubleBond > 1 ~ "Polyunsaturated")) %>%
+  dplyr::select(-c(carbons, oxygen, rest, totDoubleBond)) #Take significant VIP from 13 vs. 30 comparison and create a class column. Replace specific anomalies with correct lipid class. Add a column with comparison type. Add a columnn with targeted class information. Separate out structural information to determine if lipids are saturated or unsaturated.
+
+#Replace specific values as needed
+significantVIP_13v30_annot$saturation[1] <- "Saturated"
+significantVIP_13v30_annot$saturation[28] <- "Monounsaturated"
+significantVIP_13v30_annot$saturation[113] <- "Polyunsaturated"
+```
+
+```
+significantVIP_13v5_annot <- significantVIP_13v5 %>%
+  mutate(comparison = "13 vs. 5") %>%
+  mutate(., class = lipid) %>%
+  separate(., col = class, into = c("class", "structure"), sep = " ") %>%
+  mutate(class = gsub(pattern = "Phosphatidylethanolamine", replacement = "PE", x = class)) %>%
+  mutate(targetClass = case_when(class == "TG" ~ class,
+                                 class == "PE" ~ class,
+                                 class == "PC" ~ class,
+                                 class == "PI" ~ class,
+                                 class == "PS" ~ class,
+                                 class == "PA" ~ class,
+                                 class != "TG" | class != "PE" | class != "PC" | class != "PI" | class != "PS" | class != "PA" ~ "Other")) %>%
+  separate(., col = structure, into = c("carbons", "oxygen", "rest"), sep = ":") %>%
+  separate(., col = oxygen, into = c("oxygen", "trash"), sep = "\\+") %>%
+  dplyr::select(-trash) %>%
+  separate(., col = oxygen, into = c("oxygen", "trash"), sep = "_") %>%
+  dplyr::select(-trash) %>%
+  mutate(., oxygen = gsub(pattern = "\\|", replacement = "", x = oxygen)) %>%
+  mutate(., oxygen = gsub(pattern = "PC", replacement = "", x = oxygen)) %>%
+  mutate(., oxygen = gsub(pattern = "PE", replacement = "", x = oxygen)) %>%
+  mutate(., rest = case_when(is.na(rest) == TRUE ~ "0",
+                             is.na(rest) == FALSE ~ rest)) %>%
+  mutate(., rest = as.numeric(rest), oxygen = as.numeric(oxygen)) %>%
+  mutate(., totDoubleBond = oxygen + rest) %>%
+  mutate(., saturation = case_when(totDoubleBond == 0 ~ "Saturated",
+                                   totDoubleBond == 1 ~ "Monounsaturated",
+                                   totDoubleBond > 1 ~ "Polyunsaturated")) %>%
+  dplyr::select(-c(carbons, oxygen, rest, totDoubleBond)) #Take significant VIP from 13 vs. 5 comparison and create a class column. Replace specific anomalies with correct lipid class. Add a column with comparison type. Add a columnn with targeted class information. Separate out structural information to determine if lipids are saturated or unsaturated.
+
+#Replace specific values as needed
+significantVIP_13v5_annot$saturation[59] <- "Polyunsaturated"
+```
+
+<img width="1143" alt="Screenshot 2024-12-03 at 10 27 38 PM" src="https://github.com/user-attachments/assets/f908f379-fb7d-42c5-9c79-c2c833c9a8ea">
+
+**Figure 5**. Stacked barplot for every lipid class found in this dataset.
+
+That rainbow monstrosity was not helpful, so I made a different stacked barplot using only classes of interest.
+
+<img width="1143" alt="Screenshot 2024-12-03 at 10 31 22 PM" src="https://github.com/user-attachments/assets/870f05be-3de4-40a6-97a7-ec85f526a4fb">
+
+**Figure 6**. Stacked barplot for lipid classes of interest
+
+Alright, now we were getting somewhere! The next thing I wanted to do was to overlay saturation information on lipid class information and abundance information. I decided to overlay this information onto the stacked barplots I already had:
+
+```{r}
+knownTransLipidData %>%
+  filter(., treatment != "5") %>%
+  dplyr::select(treatment, any_of(significantVIP_13v30$lipid)) %>%
+  group_by(treatment) %>%
+  summarize_all(funs(mean(., na.rm = TRUE))) %>%
+  column_to_rownames(var = "treatment") %>%
+  t(.) %>% as.data.frame(.) %>%
+  rownames_to_column(var = "lipid") %>%
+  mutate(., diff = `13` - `30`) %>%
+  mutate(., logDiff = log(abs(diff))) %>%
+  mutate(., logDiff = case_when(diff < 0 ~ -logDiff,
+                                diff > 0 ~ logDiff)) %>%
+  mutate(., status = case_when(logDiff > 0 ~ "13",
+                               logDiff < 0 ~ "30")) %>%
+  left_join(x = ., y = significantVIP_13v30_annot) %>%
+  dplyr::select(-c(estimate:comparison)) %>%
+  ggplot(., aes(x = logDiff, y = reorder(lipid, logDiff), fill = saturation)) +
+  facet_wrap(~ class, scales = "free_y") +
+  geom_bar(aes(fill = saturation, color = status), stat = 'identity') +
+  scale_fill_manual(name = "Saturation",
+                    values = c("grey40", "grey80", "black")) +
+  scale_color_manual(values = c(plotColors[2], plotColors[1]),
+                     guide = "none") +
+  labs(x = "log(Difference)", y = "Pairwise VIP Lipid") +
+  theme_classic(base_size = 15) + theme(axis.ticks.y = element_blank(),
+                                        axis.text.y = element_blank()) #Take lipid abundance data and remove data from 5ºC treatment. Select VIP of interest. Calculate average abundance for each lipid and traspose dataframe. Calculate difference in abundance between treatments of interest and calculate log difference. A column for whether the lipid had higher abundance in 13 or 30. Join with annotated VIP data. Remove extra columns and keep only PC and PE data. Create bargraph and facet by lipid class. Fill by saturation state and color by treatment.
+```
+
+<img width="1137" alt="Screenshot 2024-12-04 at 1 30 23 PM" src="https://github.com/user-attachments/assets/66cfe65e-b335-4869-bd9d-c45098ffc280">
+
+<img width="1137" alt="Screenshot 2024-12-04 at 1 30 39 PM" src="https://github.com/user-attachments/assets/e898a479-e9ba-43cf-b81b-892290a73141">
+
+**Figures 7-8**. VIP lipid abundances by lipid class
+
+Based on these figures, it seemed like the majority of the action for the 13ºC vs. 30ºC contrast was in the PC and PE lipids, so I made a bar chart with just those categories.
+
+<img width="1137" alt="Screenshot 2024-12-04 at 1 31 31 PM" src="https://github.com/user-attachments/assets/e13555b8-b67f-4bb8-9a3b-ec49c2afd290">
+
+**Figure 9**. VIP lipid abundances for PC and PE lipids
+
+It looks like monounsaturated and saturated lipids are more abundant in 30ºC than 13ºC! This makes sense, since reducing the number of double bonds would add more rigidity to membrane structures. I then did something similar with the 13ºC vs. 5ºC VIP lipids.
+
+<img width="1137" alt="Screenshot 2024-12-04 at 1 33 23 PM" src="https://github.com/user-attachments/assets/001eeecc-2cbf-4c29-8df6-bb4e0cf88c2d">
+
+<img width="1137" alt="Screenshot 2024-12-04 at 1 33 33 PM" src="https://github.com/user-attachments/assets/976c3ca6-4b7a-4c0b-a2bf-c12005bd6ff6">
+
+<img width="1137" alt="Screenshot 2024-12-04 at 1 33 43 PM" src="https://github.com/user-attachments/assets/7a84399c-74ff-4edb-8d4d-6752d9f666e3">
+
+**Figures 10-12**. Abundances by class for 13ºC vs. 5ºC VIP lipids
+
+The same saturation trend isn't prominent at 5ºC, which is interesting given that I saw differences in TTR and movement over the course of the experiment.
+
+Anyways, time to incorporate all of this information as needed into the manuscript.
+
 ### Going forward
 
-1. Address remaining comments on paper draft
-2. Update methods and results
 1. Interpret metabolomic and lipidomic WCNA correlations
 2. Integrate physiology and -omics data with WCNA
 3. Metabolomics and lipidomics DIABLO analysis
+1. Update methods and results
 4. Outline discussion
 5. Write discussion
 5. Write abstract
