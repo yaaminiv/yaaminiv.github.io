@@ -146,13 +146,36 @@ I redid the PCR and digest using samples from Tuesday. I also started to extract
   - F: 2.5 µL x 24 = 60 µL
   - R: 2.5 µL x 24 = 60 µL
   - NF H<sub>2</sub>: 5.5 µL x 24 = 132 µL
+  - Made new R primer today
 - Samples for DNEasy: 52, 146, 150, 160, 168, 179, 182, 190, 201, 209, 212
   - 52 is from MA, all other samples are from WA
+  - I am out of tissue for sample 52. I used the little that was left, but I may need to use a different tissue type to complete future extractions. I kept the old extracted DNA to run Qubit on in the future
   - The WA samples were chosen since they were some of the 30 crabs alive at the end of the experiment. I want to genotype these first
   - I am doing a smaller amount of extractions today because I want to make sure that the protocol works for the WA samples! I'm not sure why they wouldn't...but you never know
 
+#### Results
 
+![Screenshot 2024-12-05 at 4 04 25 PM](https://github.com/user-attachments/assets/c440536d-aa37-4d91-9828-d9eed44c397b)
 
+![Screenshot 2024-12-05 at 4 04 39 PM](https://github.com/user-attachments/assets/3315d9e2-72ef-4066-9166-6965483dcae4)
+
+**Figures 6-7**. Restriction digest gel printed and computer images
+
+All of these crabs are hets?! These are all from Eel Pond. Looking at my [genotype spreadsheet](https://docs.google.com/spreadsheets/d/1ZU01bZJ12b8WsqjSveQAOzgMtGOL41aPnmH41SXQyU8/edit?gid=0#gid=0), all my CC crabs are in the New Bedford population, whereas Eel Pond is predominantly CT crabs. Once I have all my genotype, I'll see if each population is in Hardy-Weinberg equilibrium. My guess is that Eel Pond is certainly not.
+
+### 2024-12-06
+
+A few things were done today:
+
+- Finished DNEasy extraction I started with WA crabs
+- Did Qubit with old and new extracted DNA for MA 52
+- Ran PCR and gel for WA crabs, as well as MA crabs I wanted to double check the genotypes for
+
+#### Notes
+
+- Samples for Qubit: 52 (old) and 52 (new)
+- Samples for PCR and digest: 52 (new), 146, 150, 160, 168, 179, 182, 190, 201, 209, 212, 52 (old)
+- Samples for QC gel to double-check genotypes: 103, 82, 62, 31, 3, 100, 21, 19, 8, 118, 35, 113
 
 ### Going forward
 
