@@ -89,6 +89,8 @@ I have all my crabs so I'm going to get cracking genotyping! Carolyn suspects th
 
 #### Results
 
+![Screenshot 2024-12-06 at 4 00 08 PM](https://github.com/user-attachments/assets/ad964b9a-62dd-453b-94f6-be477131ed76)
+
 **Figure 1**. Gel image for restriction digest product
 
 Well, a good amount of my samples don't have bands? My guess is that there isn't enough extraction product, so I'll need to Qubit and/or re-extract those. I also have two samples, 21 and 41, that have an ambiguous band pattern! They both look like they're CC, but there's a decent amount of clearer banding above the 301 + 389 double band that indicates a CC. I'll rerun the restriction digest product for these two samples to get confirmation. As expected, the majority of my crabs I could genotype from this run are CC!
