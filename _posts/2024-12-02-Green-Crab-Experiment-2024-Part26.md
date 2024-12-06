@@ -176,6 +176,32 @@ A few things were done today:
 - Samples for Qubit: 52 (old) and 52 (new)
 - Samples for PCR and digest: 52 (new), 146, 150, 160, 168, 179, 182, 190, 201, 209, 212, 52 (old)
 - Samples for QC gel to double-check genotypes: 103, 82, 62, 31, 3, 100, 21, 19, 8, 118, 35, 113
+- Made new AW1 buffer by adding 130 mL 200 proof ethanol to the provided reagent
+- PCR Master Mix calculations
+  - GoTaq: 12.5 µL x 27 = 337.5 µL
+  - F: 2.5 µL x 27 = 67.5 µL
+  - R: 2.5 µL x 27 = 67.5 µL
+  - NF H<sub>2</sub>: 5.5 µL x 27 = 148.5 µL
+  - Made new F and R primer today
+
+#### Results
+
+**Table 1**. Qubit dsDNA HS results for sample 52. S1 = 43.67, S2 = 25761.48
+
+| **Sample** | **Extraction Date** | **Concentration (ng/µL)** |
+|:----------:|:-------------------:|:-------------------------:|
+|     52A    |       12/3/24       |           46.70           |
+|     52B    |       12/6/24       |            5.53           |
+
+Alright, looks like there is DNA in both the sample I extracted on Tuesday and the sample I extracted today. As expected, there's more DNA in the sample I extracted on Tuesday since there was very little tissue in the extraction today. However, today's sample was not yellow. It's possible that there's some weird contamination in the old extraction, even though DNEasy extractions are meant to be cleaner.
+
+![Screenshot 2024-12-06 at 3 51 13 PM](https://github.com/user-attachments/assets/a53daed5-eb2f-455f-a7ee-bdaf9549349a)
+
+![Screenshot 2024-12-06 at 3 51 31 PM](https://github.com/user-attachments/assets/a7ada348-e3e2-4a99-86ea-066722678a88)
+
+**Figures 8-9**. Restriction digest gel printed and computer images
+
+Exciting that I have a genotype for sample 52 now! Must be that the yellow stuff was indicative of some PCR-inhibiting contaminant. The not so exciting news is that my 3 CC QCs (19, 3, 118) are showing up as CTs. Seeing how my extraction and PCR blanks are blank, and my TT QC is still showing up as a TT, I don't think there's a contamination issue. I did run that previous gel for 40 minutes instead of my now standard 65, so maybe the difference in gel protcol is leading to this? I'm going to rerun these three samples again next week to be very clear about what is happening. [The more concerning thing is that 19 was genotyped in June, and I feel good about calling that a CC](https://yaaminiv.github.io/Green-Crab-Experiment-2024-Part12/). If there is indeed a discrepancy in genotyping and running this sample again leads to a CT, I may need to re-genotype samples I've already finished.
 
 ### Going forward
 
