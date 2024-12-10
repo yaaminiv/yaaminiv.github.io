@@ -95,12 +95,29 @@ In addition to running a gel with the samples from yesterday, I'm including the 
   - F: 2.5 µL x 25 = 62.5 µL
   - R: 2.5 µL x 25 = 62.5 µL
   - NF H<sub>2</sub>: 5.5 µL x 25 = 137.5 µL
+- Almost out of Alul! Promega discontinued theirs, but Carolyn got a free one from ThermoFisher.
+- Made new ladder: 5 µL Gene Ruler, 5 µL dye, 35 µL NF H<sub>2</sub>
+- Started DNEasy extractions for: 148, 153, 157, 160, 164, 171, 176, 180, 181, 192, 197, 199, 207, 210, 213, 220, 222, 224, 238, 239, 245, 254, 258, 262
 
 #### Results
 
+![Screenshot 2024-12-10 at 4 44 49 PM](https://github.com/user-attachments/assets/abdc1a32-89e1-49b6-855f-cd3b3bc97c70)
+
+**Figure 1**. Restriction digest gel image
+
+Well, those MA crabs are definitely CT. I'll need to pick a few more MA samples that have been genotyped as CC and re-genotype to see if all of my CCs are CT, or if just some are.
+
+Apart from a few faint samples, looks like most WA crabs can be attributed to CT or TT! This makes sense, since we know there's less C in the Washington population. However, yesterday I was talking with Carolyn and she mentioned how some samples that appeared to be CT with a clear top band and a very faint and thin bottom band turned out to be TT when genotyped. I'm taking note of all my imbalanced CT genotypes with the goal of rerunning them. If they have a bright top band and much fainter bottom band, then I think I will need to send them to Sequegen to confirm their genotypes. I'll need to do this with the MA samples as well.
+
+### 2024-12-12
+
+- CHECK HOW MUCH ALUL IS LEFT. How many samples can I still digest? --> pick MA samples for genotyping based on how many can be confirmed ASAP.
+- Finish PCR
+- Extract DNA for MA CC crabs
+
 ### Going forward
 
-1. Troubleshoot QC gel discrepancies
+1. Troubleshoot QC gel discrepancies by rerunning MA CC samples
 2. Identify samples for confirmation sequencing (across Chelex and DNEasy extractions)
 2. Individual-level TTR data analysis for MA samples
 2. Genotype WA samples
