@@ -205,8 +205,7 @@ Exciting that I have a genotype for sample 52 now! Must be that the yellow stuff
 
 ### Going forward
 
-1. Genotype MA samples
-2. Run QC gel with samples from different extraction runs
+1. Troubleshoot QC gel discrepancies
 2. Individual-level TTR data analysis for MA samples
 2. Genotype WA samples
 2. Individual-level TTR data analysis for WA samples
