@@ -55,8 +55,8 @@ tags: green-crab-cold extractions PCR restriction-digest gel
 **Restriction Digest**:
 
 1. Preheat the thermocycler with the SMCRD_IN incubation protocol
-2. Obtain Alul enzyme from the -20ºC. VERY gently vortex and place on ice.
-3. Add 0.5 µL enzyme to each PCR reaction. Either pipet up and down to mix or VERY gently and briefly vortex
+2. Obtain Alul enzyme from the -20ºC. VERY gently vortex, spin down, and place on ice.
+3. Add 0.5 µL enzyme to each PCR reaction. Pipet up and down to mix
 4. Briefly spin down
 5. Place in thermocycler, close lid, and run the SMCRD_IN protocol
 6. When incubation is finished, either place product in the 4ºC or proceed to gel imaging.
@@ -111,13 +111,70 @@ Apart from a few faint samples, looks like most WA crabs can be attributed to CT
 
 ### 2024-12-12
 
-- CHECK HOW MUCH ALUL IS LEFT. How many samples can I still digest? --> pick MA samples for genotyping based on how many can be confirmed ASAP.
-- Finish PCR
-- Extract DNA for MA CC crabs
+Since I don't have much Alul left and I don't really want to do PCR today I'm just going to finish the DNEasy extraction I started yesterday. I'm also going to get a head start on re-extracting a few MA samples for troubleshooting.
+
+#### Notes
+
+- Finished DNEasy extractions for: 148, 153, 157, 160, 164, 171, 176, 180, 181, 192, 197, 199, 207, 210, 213, 220, 222, 224, 238, 239, 245, 254, 258, 262
+  - After addition of 200 µL of 200 proof ethanol, I vortexed samples 207, 210, 213, 220, 222, and 224. I noticed that 224 wasn't fully shut when I took the tubes out of the mini centrifuge and there was some liquid on the centrifuge. I cleaned everything thoroughly with RNAse Away
+  - So many broken caps from the centrifuge today?!
+  - According to my genotype spreadsheet, sample 160 is already extracted! Confirmed in [this lab notebook post](https://yaaminiv.github.io/Green-Crab-Experiment-2024-Part26/)
+- Pipetted 5 µL of Alul, meaning I could digest 10 more samples at least. Based on that, I decided to start extractions for some MA samples to confirm genotypes tomorrow
+- Started DNEasy for MA crabs: 38, 109, 30, 94, 16, 116
+  - [38 and 109 were genotyped 6/18/24](https://yaaminiv.github.io/Green-Crab-Experiment-2024-Part12/)
+  - [30 and 94 were genotyped 6/21/24](https://yaaminiv.github.io/Green-Crab-Experiment-2024-Part12/)
+  - [16 and 116 were genotyped 7/9/24](https://yaaminiv.github.io/Green-Crab-Experiment-2024-Part15/)
+
+### 2024-12-13
+
+I'm harnessing my "I was born on Friday the 13th" energy in lab today to hopefully get some clarity on the next steps with the MA samples! We got ThermoFisher Alul yesterday, but I'll run WA samples with that restriction enzyme after testing these MA samples.
+
+#### Notes
+
+- Finished DNEasy for MA crabs: 38, 109, 30, 94, 16, 116
+  - 30 was slightly yellow after the overnight incubation
+  - Used new Buffer AL
+- PCR and RD for MA crabs: 99, 38, 109, 30, 94, 16, 116
+  - [99 was extracted with DNEasy and genotyped on 11/22/24](https://yaaminiv.github.io/Green-Crab-Experiment-2024-Part24/), which is why I didn't need to re-extract it
+- PCR Master Mix calculations
+  - GoTaq: 12.5 µL x 10 = 125 µL
+  - F: 2.5 µL x 10 = 25 µL
+  - R: 2.5 µL x 10 = 25 µL
+  - NF H<sub>2</sub>: 5.5 µL x 10 = 55 µL
+  - Made new F primer
+
+#### Results
+
+![Screenshot 2024-12-13 at 3 15 30 PM](https://github.com/user-attachments/assets/bc541682-7356-457f-acfa-f808e5ccb389)
+
+![Screenshot 2024-12-13 at 3 15 46 PM](https://github.com/user-attachments/assets/53553f8b-8a4a-4012-9faf-5e5357ee9d6d)
+
+**Figures 2-3**. Restriction digest gel image and computer image
+
+Well...I think I may have jinxed myself because those bands look weird. Pro: they all look like they're the same genotype, which increases the likelihood that they're CC. Cons: the bands are higher than I would expect for CC or CT. They're very smushed and there's even some discrepancies in the pattern of the top bad. On the computer, it looked like there was a very tiny separation in two bands, but without that distinct hourglass shape that's often seen with CT I'm not confident about. Like a fool I ran genotypes I thought were CC without any CT or TT to contrast.
+
+I'm redo the PCR, digest, and gel with the same samples, but include a known CT and TT as contrasting samples to help with the genotyping.
+
+### 2024-12-16
+
+Alright, let's QC those MA samples again!
+
+#### Notes
+
+- PCR and RD for MA crabs: 99, 38, 109, 30, 94, 16, 116, 35 (CT), 100 (TT)
+- PCR Master Mix calculations
+  - GoTaq: 12.5 µL x 14 = 175 µL
+  - F: 2.5 µL x 14 = 35 µL
+  - R: 2.5 µL x 14 = 25 µL
+  - NF H<sub>2</sub>: 5.5 µL x 14 = 77 µL
+- Used new ThermoFisher Alul
+
+#### Results
 
 ### Going forward
 
 1. Troubleshoot QC gel discrepancies by rerunning MA CC samples
+2. Run a subset of WA samples with the new Alul
 2. Identify samples for confirmation sequencing (across Chelex and DNEasy extractions)
 2. Individual-level TTR data analysis for MA samples
 2. Genotype WA samples
