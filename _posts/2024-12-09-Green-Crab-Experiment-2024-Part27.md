@@ -72,7 +72,7 @@ tags: green-crab-cold extractions PCR restriction-digest gel
 6. Obtain a piece of parafilm and pipet 1 µL of TriTrak dye for each sample, extraction blank, and PCR blank. On the parafilm, the dye will bead up. Place the dots far enough apart to avoid contamination.
 7. Take 10 µL of DNA, 6 µL of PCR product, or 20 µL of restriction digest product and mix with a 1 µL dot of TriTrak dye by pipetting up and down at least 10 times. Then, pipet up 6 µL and load gel. Repeat for each sample until halfway through samples. Then, add 3 µL of diluted ladder + dye mix, and continue with remaining samples.
 8. Run gel for 65 minutes at 90 V.
-9. After running gel, remove gel tray and image. If needed, run gel for longer in 5-10 minute intervals.
+9. After running gel, remove gel tray and image. If needed, run gel for longer in 5-10 minute intervals. If the image isn't as bright or contrasted as it is on the computer, adjust the settings on the thermal printer and print again.
 
 ### 2024-12-09
 
@@ -168,14 +168,67 @@ Alright, let's QC those MA samples again!
   - R: 2.5 µL x 14 = 25 µL
   - NF H<sub>2</sub>: 5.5 µL x 14 = 77 µL
 - Used new ThermoFisher Alul
+- Figured out how to adjust contrast and brightness on the thermal printer as needed
 
 #### Results
+
+<img width="642" alt="Screenshot 2024-12-17 at 3 42 17 PM" src="https://github.com/user-attachments/assets/496efd0f-7556-4f52-85fe-6d8b30dfa6b0" />
+
+**Figure 4**. Restriction digest gel image
+
+Well...the blurry gel strikes again. I can't even tell the bands apart on my CT samples! I guess third time will be the charm? At least I know the new Alul works well, and I don't see those extra bands on the top this time!
+
+### 2024-12-17
+
+I got a late start on labwork today, so I'll just focus on getting through the PCR and the digest. Tomorrow I'll run two gels.
+
+#### Notes
+
+- PCR Master Mix calculations
+  - GoTaq: 12.5 µL x 37 = 462.5 µL
+  - F: 2.5 µL x 37 = 92.5 µL
+  - R: 2.5 µL x 37 = 92.5 µL
+  - NF H<sub>2</sub>: 5.5 µL x 37 = 203.5 µL
+  - Made new F and R primers
+    - Will need to order more F primer soon
+  - Down to the last NF H<sub>2</sub> aliquot!
+- PCR and RD for MA crabs: 99, 38, 109, 30, 94, 16, 116, 35 (CT), 100 (TT)
+- PCR and RD for WA crabs: 148, 153, 157, 164, 171, 176, 180, 181, 192, 197, 199, 207, 210, 213, 220, 222, 224, 238, 239, 245, 254, 258, 262
+  - Sample 239 was somehow missing? I didn't do PCR with that one
+  - I spilled some master mix when pipetting so I wasn't able to do samples 258 or 262
+  - I broke the tube for 213 when I was closing the lids after adding the PCR MM and the DNA, so I transferred it to a new tube
+
+### 2024-12-18
+
+Moment of truth! Time to run the gels from the samples I prepped yesterday.
+
+#### Notes
+
+- Gel for MA crabs: 99, 38, 109, 30, 94, 16, 116, 35 (CT), 100 (TT)
+  - Sample 116 was loaded with < 20 µL of restriction digest product because that's all that was in the tube. Might have had ~ 15 µL
+- Gel for WA crabs: 148, 153, 157, 164, 171, 176, 180, 181, 192, 197, 199, 207, 210, 213, 220, 222, 224, 238, 239, 245, 254, 258, 262
+
+#### Results
+
+![Screenshot 2024-12-18 at 12 12 28 PM](https://github.com/user-attachments/assets/eb15c81f-aef6-4661-9879-07da25e5f9a0)
+
+**Figure 5**. Restriction digest gel image for MA
+
+Alright, this is slightly better than before but still not clear enough to see two bands on the CT crabs! Samples 99 and 94 consistently have very faint bands, so I'll either need to re-extract or add more DNA to the PCR.
+
+I decided to add ~0.5 g of agarose to the remaining 100 mL of gel mix to make a 1.5% agarose gel and see if that improves the band separation. Unfortunately I added the agarose to warm gel mix, so it clumped up and didn't distribute very well. The final gel I poured was probably closer to a 1.2% gel. I then ran this gel for ~75 minutes.
+
+![Screenshot 2024-12-18 at 2 59 51 PM](https://github.com/user-attachments/assets/baa5f002-509e-43cb-953b-33f1b653efd4)
+
+**Figure 6**. Restriction digest gel image for WA
+
+SUCH CLEAN BANDS!!!!!!!!!!!!!!!!! Moving forward I may have to use a 1.2% agarose gel more consistently! And I have my first instances of WA CC genotypes.
 
 ### Going forward
 
 1. Troubleshoot QC gel discrepancies by rerunning MA CC samples
-2. Run a subset of WA samples with the new Alul
-2. Identify samples for confirmation sequencing (across Chelex and DNEasy extractions)
+2. Redo all Chelex samples?
+2. Identify samples for confirmation sequencing
 2. Individual-level TTR data analysis for MA samples
 2. Genotype WA samples
 2. Individual-level TTR data analysis for WA samples
