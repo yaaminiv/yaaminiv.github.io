@@ -87,7 +87,7 @@ I've decided to rerun all MA CC samples to give myself peace of mind. If they ar
   - GoTaq: 12.5 µL x 14 = 175 µL
   - F: 2.5 µL x 14 = 35 µL
   - R: 2.5 µL x 14 = 35 µL
-  - NF H<sub>2</sub>: 5.5 µL x 25 = 77 µL
+  - NF H<sub>2</sub>: 5.5 µL x 14 = 77 µL
 - Made new F and R primers
 - When making primer dilutions and adding NF H<sub>2</sub> to the PCR MM, I realized I used a 20 µL pipet tip by accident! I switched to the correct pipet tips and added the remaining quantities of water needed
 - Completely out of NF H<sub>2</sub> aliquots. Had to use DEPC H<sub>2</sub> for the PCR MM
@@ -103,6 +103,25 @@ I've decided to rerun all MA CC samples to give myself peace of mind. If they ar
 So.......this is weird. At first I thought that my CT looked great and my TT didn't show up! but my 35 looks like a CC and the 100 looks like a TT?. 35 and 100 are definitely CT and TT...don't really know what happened here. This is certainly better separation I've had with any previous testing gel from MA.
 
 These samples are frustrating so I'm going to put them aside for now. I'm also going to use a known CT and TT from the WA crabs since I have higher confidence in those genotypes. These MA bands are also not as clean as the WA samples, so I may try and increase the gel to a 1.5% agarose gel (aka what I intended previously but may not have hit)
+
+### 2025-02-06
+
+Jasmine started today! We got through PCR and RD with our sample set, and will finish up with a gel next week.
+
+#### Notes
+
+- Finished DNEasy extractions for: 14, 28, 112, 40, 74, 91, 41
+  - 112 was yellow after the overnight incubation
+- PCR and RD for: 14, 28, 112, 40, 74, 91, 41, 197, 196
+  - 197: CT
+  - 196: TT
+  - I used WA samples since my known MA samples were giving me grief
+- PCR Master Mix calculations
+  - GoTaq: 12.5 µL x 15 = 187.5 µL
+  - F: 2.5 µL x 15 = 37.5 µL
+  - R: 2.5 µL x 15 = 37.5 µL
+  - NF H<sub>2</sub>: 5.5 µL x 15 = 82.5 µL
+- Completely out of NF H<sub>2</sub> aliquots. Had to use DEPC H<sub>2</sub> for the PCR MM
 
 ### Going forward
 
