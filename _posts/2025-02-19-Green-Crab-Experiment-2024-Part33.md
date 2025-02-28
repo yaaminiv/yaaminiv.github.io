@@ -97,23 +97,166 @@ Jasmine did a great job with her first gel! All the samples we did were confirme
 
 ### 2025-02-20
 
-Today I walked through the first part of DNEasy extractions with Jasmine using MA samples. I also prepped samples from WA to finish tomorrow.
+Today I walked through DNEasy extractions with Jasmine using MA samples. She did an awesome job doing the extractions, and was already a bit more confident doing the PCR with minimal supervision! I also prepped samples from WA to finish tomorrow.
 
 #### Notes
 
-- Started DNEasy extractions for MA samples: 29, 44, 75, 92, 45, 76, 97
+- DNEasy extractions and PCR for MA samples: 29, 44, 75, 92, 45, 76, 97
+  - Incubated for ~ 2 hours total to achieve total lysis
+  - PCR Master Mix calculations
+    - GoTaq: 12.5 µL x 15 = 187.5 µL
+    - F: 2.5 µL x 15 = 37.5 µL
+    - R: 2.5 µL x 15 = 37.5 µL
+    - NF H<sub>2</sub>: 5.5 µL x 15 = 82.5 µL
+  - We have NF H<sub>2</sub> aliquots again!
+  - Carolyn placed these samples in the 4ºC when the cycle finished
 - Started DNEasy extractions for WA samples: 145, 151, 155, 162, 166, 172, 177, 183, 186, 191, 198, 202, 205, 211, 216, 225, 227, 230, 236, 241, 244, 252, 257, 262
+  - Completed the first 12 samples before Jasmine arrived at 10:30 a.m. Finished the last 12 samples and the extraction blank starting at 12:30 p.m. Kept the tools I was using aside so they wouldn't be used for Jasmine's samples.
 
+### 2025-02-21
+
+#### Notes
+
+- Finished DNEasy, PCR, digest, and gel for WA samples: 145, 151, 155, 162, 166, 172, 177, 183, 186, 191, 198, 202, 205, 211, 216, 225, 227, 230, 236, 241, 244, 252, 257, 262
+  - Accidentally did AW1 twice
+  - PCR Master Mix calculations
+    - GoTaq: 12.5 µL x 27 = 337.5 µL
+    - F: 2.5 µL x 27 = 67.5 µL
+    - R: 2.5 µL x 27 = 67.5 µL
+    - NF H<sub>2</sub>: 5.5 µL x 27 = 148.5 µL
+    - Made new F and R primer aliquots
+    - Initially miscalculated MM for 25 samples! When I added the amount for two samples extra, I was short some. The EB has less MM than the other samples but I think in the grand scheme of things that is fine.
+    - May have mixed 10 µL of 262 into 257 when loading the gels...I'll figure out what happened when I look at the results.
+
+#### Results
+
+<img width="663" alt="Image" src="https://github.com/user-attachments/assets/459b145f-db1c-4ea7-b14e-412cef0fc233" />
+
+**Figure 1**. Restriction digest product gel
+
+Lots of faint samples this time around! But the genotypes I have are clean. I need to run my gels for less than 75 minutes. I checked around the 65 minute mark and the gel was about to go off the edge! Next time I'll check after 60 minutes.
+
+Since I think I mixed 262 into 257 and they were both CT, I am suspicious. I'll redo those samples along with my faint buddies.
+
+### 2025-02-24
+
+#### Notes
+
+- Started DNEasy extractions for WA samples: 147, 149, 163, 165, 169, 170, 178, 184, 185, 193, 104, 200, 206, 208, 214, 226, 229, 237, 239, 242, 243, 253, 255, 258, 260, 261
+  - When doing the extractions, I think I may have blotted 261 in the same corner as 260. I created a new clean sample for 261
+
+### 2025-02-25
+
+#### Notes
+
+- Finished DNEasy extractions for WA samples: 147, 149, 163, 165, 169, 170, 178, 184, 185, 193, 104, 200, 206, 208, 214, 226, 229, 237, 239, 242, 243, 253, 255, 258, 260, 261
+- PCR and restriction digest for WA samples: 147, 163, 169, 170, 178, 184, 185, 193, 194, 200, 206, 214, 226, 237, 242, 243, 253, 255, 258, 260, 261, 149, 208, 229
+  - PCR Master Mix calculations
+    - GoTaq: 12.5 µL x 27 = 337.5 µL
+    - F: 2.5 µL x 27 = 67.5 µL
+    - R: 2.5 µL x 27 = 67.5 µL
+    - NF H<sub>2</sub>: 5.5 µL x 27 = 148.5 µL
+    - Made new R primer
+
+### 2025-02-26
+
+#### Notes
+
+- Gel for WA samples: 147, 163, 169, 170, 178, 184, 185, 193, 194, 200, 206, 214, 226, 237, 242, 243, 253, 255, 258, 260, 261, 149, 208, 229
+  - When loading the gel, I noticed that at sample 255 the number of used dye aliquots didn't match the number of open tubes and used gel wells. I sorted it out so that sample 260 is good, but I am not sure about samples 243, 253, 255, or 258. I will need to redo those
+  - Ran gel for 60 minutes instead of 75
+- PCR and restriction digest samples
+  - WA: 165, 239, 154, 156, 172, 183, 186, 198, 202, 257, 262, 236, 227, 215
+  - MA: 28, 40, 99, 38, 109, 16, 116. Used WA samples 197 and 196 as knowns
+  - PCR Master Mix calculations
+    - GoTaq: 12.5 µL x 27 = 337.5 µL
+    - F: 2.5 µL x 27 = 67.5 µL
+    - R: 2.5 µL x 27 = 67.5 µL
+    - NF H<sub>2</sub>: 5.5 µL x 27 = 148.5 µL
+    - Made new F primer
+  - When loading the PCR, I accidentally put sample 40 in 196B's tube! So I will only have 197A, 196A, and 197B as knowns for the top row in my gel
+
+#### Results
+
+<img width="673" alt="Image" src="https://github.com/user-attachments/assets/d955c836-4608-4d61-b721-b9c839ecf68b" />
+
+**Figure 2**. Gel for WA restriction digest product
+
+I truly do not know why the samples in the top row of the gel look so janky while the bottom row looks nice! I even tried running the gel for an extra 7 minutes to see if I could get some separation, but no dice. I'll have to redo those samples (and maybe put them in the bottom row...).
+
+As far as the 237-260 fiasco goes, here are my thoughts:
+
+- Sample 237 has to be good
+- Sample 260 I know is good
+- The mix-up happened somewhere in the middle.
+  - If I put 10 µL of 237 into 242 by accident, then added 10 µL of 242, then I would get a different banding result if 242 was a CT or TT. Since I only see CC bands, I think I am safe in thinking 242 is a CC. I will likely redo this anyways just for increased peace of mind.
+  - If I put 10 µL of 242 into 243 by accident, then 243 could be a CT or TT. I will need to redo this one
+  - 253 is blank, so that's a redo
+  - I saw the discrepancy when I got to 253 and noticed I took some 255 in my pipet, so I need to redo 255 and 258 since I was a little extra confused and didn't resolve the issue until I got to 260.
+
+![Image](https://github.com/user-attachments/assets/50b354b7-fc0b-45db-af39-c071d463b7ac)
+
+**Figure 3**. Gel for WA and MA restriction digest product
+
+Yet another weird thing with the first samples loaded! Sara suggested I ensure the gel is drying level and to double check the connections of the electrical cables to the gel rig. I normally place the drying gel box on a paper towel in case there's a spill, but perhaps this is leading to weird drying! I'll change that for next time and see if it helps.
+
+I thought I put 2 µL of sample 40 in 196B (which is why there are 2 40s). But 196A looks suspicious too. Since I'm going to do those samples again, I guess I'll have to check then. Sample 257 looks like it could be a TT or a CT, so that will need to be checked too.
+
+### 2025-02-27
+
+#### Notes
+
+- Started DNEasy extractions for MA samples: 47, 48, 79, 81, 98, 99
+  - No more sample 99 left after I pulled very little left from the leg.
+  - Incubated samples for two hours
+  - Sample 81 was yellow after incubation
+- PCR and restriction digest for samples
+  - MA: 47, 48, 79, 81, 98, 99, 94, 28, 40, 30. Used WA 197 and 196 as knowns
+  - WA: 147, 163, 165, 239, 243, 243, 255, 257, 258, 261  
+  - PCR Master Mix calculations
+      - GoTaq: 12.5 µL x 27 = 337.5 µL
+      - F: 2.5 µL x 27 = 67.5 µL
+      - R: 2.5 µL x 27 = 67.5 µL
+      - NF H<sub>2</sub>: 5.5 µL x 27 = 148.5 µL
+      - Made new F and R primer. I'm OUT of F primer!
+
+### 2025-02-28
+
+Today I wrapped up the gel for the restriction digest product from yesterday! Jasmine wasn't able to come in, but I finished up the restriction digest and gel with her samples from 2/20/2025.
+
+#### Notes
+
+- Gel for samples
+  - MA: 47, 48, 79, 81, 98, 99, 94, 28, 40, 30. Used WA 197 and 196 as knowns
+  - WA: 147, 163, 165, 239, 243, 243, 255, 257, 258, 261  
+- Restriction digest and gel for MA samples: 29, 44, 75, 92, 45, 76, 97. Used WA 197 and 196 as knowns
+  - When I was loading this gel, I realized I could be more time efficient if I added 2 µL of TriTrak to the strip tubes, pipetted up and down to mix, then put it in the gel well. You can estimate ~2 µL based on the gradations on the pipet tip so you can do one sample all in one go! It saved me a lot of time.
+
+#### Results
+
+![Image](https://github.com/user-attachments/assets/bdd3cd14-24a3-4b71-b3ae-e3b7a724fe16)
+
+![Image](https://github.com/user-attachments/assets/c56f9e33-5f1f-444f-acdd-c7750a6d2906)
+
+**Figures 4-5**. Gel and computer image for samples
+
+All samples had bands and I was able to genotype! The bands for 163 and 239 aren't clear for me to distinguish between CT and TT, so I'll need to redo those. I also didn't redo 253, which was blank in my gel from 2/26/2025. Three more samples and I'll have all the WA genotypes! It may be worth going through my gel images just to identify CT samples where the CC band is considerably fainter. I think I have a good feel for when a sample is a CT vs. a weird TT, but it doesn't hurt to look at several more and confirm my original suspicions.
+
+![Image](https://github.com/user-attachments/assets/f53d261c-7a6a-4922-8921-a755ee863bce)
+
+**Figure 6**. Gel for Jasmine's samples
+
+Jasmine's extraction and PCR blanks are clean!! And all of these MA samples are CC...which means 1) I FINISHED ALL THE MA SAMPLES and 2) I don't have to redo my analysis!!!!!!!!!!! What a great day to end the week (and month).
 
 ### Going forward
 
-1. Redo all MA CC samples
-2. Genotype WA samples
-3. Revise MA TTR analysis
+1. Write methods section in manuscript
+2. Add MA results to manuscript
+3. Add Catlin's methods and results to manuscript
+1. Genotype WA samples
 2. Revise WA TTR analysis
 3. Genotype Catlin's samples
 3. Determine methods for comparing population responses
-5. Scaffold manuscript
 3. Troubleshoot lipid assay protocol
 5. Conduct lipid assay for crabs of interest
 
