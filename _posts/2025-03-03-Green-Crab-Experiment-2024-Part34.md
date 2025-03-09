@@ -5,7 +5,7 @@ title: Cold Acclimation Green Crab Experiment Part 34
 tags: green-crab-cold extractions PCR restriction-digest gel
 ---
 
-## Finishing WA crabs
+## Finishing WA crabs and starting on Catlin's crabs
 
 Home stretch? I hope?
 
@@ -97,13 +97,59 @@ I [lied to myself last week](https://yaaminiv.github.io/Green-Crab-Experiment-20
 
 I could genotype most of these! I'm pretty sure 163, 169, and 200 are faint hets, but 239 and 253 have slightly funkier bottom bands. I will redo these samples along with some from my [initial runs without the 1.5% gel](https://yaaminiv.github.io/Green-Crab-Experiment-2024-Part27/) next.
 
+### 2025-03-04
+
+I was waiting on new primers from IDT today since I'm out of my F primer, so I had Jasmine work on extractions for Catlin's project today!
+
+#### Notes
+
+- DNEasy for Catlin's WA samples: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
+- PCR for Catlin's WA samples: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+  - Realized we extracted one more sample than what would fit in a single row of a gel!
+  - PCR Master Mix calculations
+    - GoTaq: 12.5 µL x 14 = 175 µL
+    - F: 2.5 µL x 14 = 35 µL
+    - R: 2.5 µL x 14 = 35 µL
+    - NF H<sub>2</sub>: 5.5 µL x 14 = 77 µL
+  - Made new R primer
+
+### 2025-03-06
+
+Today I did took my remaining WA samples from PCR to gel. I also finished up the restriction digest and gel for the samples Jasmine started Tuesday.
+
+Also, my IDT primers arrived! I'm running low on restriction enzyme so Carolyn put in an order.
+
+#### Notes
+
+- PCR, restriction digest, and gel for WA samples: 163, 167, 169, 195, 200, 217, 223, 228, 229, 235, 239, 253
+  - PCR Master Mix calculations
+      - GoTaq: 12.5 µL x 14 = 175 µL
+      - F: 2.5 µL x 14 = 35 µL
+      - R: 2.5 µL x 14 = 35 µL
+      - NF H<sub>2</sub>: 5.5 µL x 14 = 77 µL
+- Restriction digest and gel for Catlin's WA samples: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+- Extractions for Catlin's samples
+  - WA: 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30
+  - ME: 32, 33, 34, 35, 36, 37
+    - These samples are in a box and tubes labelled "MA." According to Catlin's spreadsheet, these should be ME samples. I confirmed this with him as well.
+
+#### Results
+
+<img width="507" alt="Image" src="https://github.com/user-attachments/assets/72ab21f0-1ffb-45bd-8f9e-9832f8a75637" />
+
+**Figure 2**. Restriction digest product gel for my samples (top) and Catlin's samples (bottom)
+
+All the samples I thought were hets, are hets! Sample 229 was a TT with a false bottom band [in my previous gel](), and it is showing up consistently with this pattern. Since the two samples around it are CT, it's easier to compare a TT with false bottom band to a CT. There's slightly more of a gap between the two true CT bands, and the bottom of the false band is less defined. Based on this, I think two of Catlin's samples are TT. I will redo them with sample WA 1 since that band was too faint to genotype. I'm not sure why WA 1-5 have a wavy band design. I must have done something weird when I placed or took out the well comb.
+
+NOW I HAVE ALL MY 2024 COLD CRAB RESULTS AND CAN START ACTUALLY WRITING. YAY!
+
 ### Going forward
 
 1. Write methods section in manuscript
 2. Add MA results to manuscript
-3. Add Catlin's methods and results to manuscript
-1. Genotype WA samples
 2. Revise WA TTR analysis
+3. Add WA results to manuscript
+3. Add Catlin's methods and results to manuscript
 3. Genotype Catlin's samples
 3. Determine methods for comparing population responses
 3. Troubleshoot lipid assay protocol
