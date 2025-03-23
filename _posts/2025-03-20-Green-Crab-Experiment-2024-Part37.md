@@ -107,12 +107,27 @@ I have a couple more potential TTs with false bottoms! I'm keeping track of them
       - F: 2.5 µL x 27 = 67.5 µL
       - R: 2.5 µL x 27 = 67.5 µL
       - NF H<sub>2</sub>: 5.5 µL x 27 = 148.5 µL
-  - Made new F primer
+  - Made new F primer with new IDT stock
+  - Made new R primer
+  - Used new GoTaq and new NF H<sub>2</sub>
+- When running the restriction digest, I forgot to press start on the thermocycler program! The samples sat at 37ºC for a little over an hour before I got to them.
+
+#### Results
+
+![Image](https://github.com/user-attachments/assets/55411060-8eb1-4d9a-bd1e-e997299719f9)
+
+**Figure 2**. Gel image for samples
+
+I ended up with an abnormally blurry top row! I thought I loaded it fast enough, but maybe not. I ran the gel for an extra 5 minutes (70 minutes total), which I think helped clarify some of the smudge. There are samples that I'm pretty sure are CTs even though they're blurry because there's an "underline" where that CC band should be. I have a handful more potential TTs with false bottoms that will need to be re-run for clarity.
 
 ### Going forward
 
 1. Genotype Catlin's samples
 1. Add Catlin's methods and results to manuscript
+3. Analyze 2024 HOBO data
+4. Analyze Julia's HOBO data
+5. Analyze Catlin's HOBO data
+6. Create an experimental setup figure
 2. Outline introduction
 3. Outline discussion
 3. Determine methods for comparing population responses
