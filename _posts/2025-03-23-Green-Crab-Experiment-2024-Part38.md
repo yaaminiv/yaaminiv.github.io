@@ -309,7 +309,7 @@ for (i in seq(2, 4, 2)) {
 
 I saved the output [here](https://github.com/yaaminiv/cold-green-crab/blob/main/output/repeat-heat/01-temp-conditions/overall-temp-mean-sd.csv). Tank 13 brought down the average pulse 2 conditions for the treatment tanks. Again, the ranges overlap so maybe it's ok? I started to calculate differences using an ANOVA for each portion of the experiment, but I'm not going to include those results since I think I need to use an approach that does better with uneven sample sizes.
 
-Finally I made the experimental condition figure! I wanted to include averages and SD ribbons for the two pulses. To do this, I employed `geom_segment` for the line, then defined the particular data window for `geom_ribbon` to ensure that they were concentrated at the pulses and not across the whole figure:
+Finally I made the experimental condition figure! I wanted to include averages and SD ribbons for the two pulses. To do this, I employed `geom_segment` for the line (based on [this Stak Overflow post](https://stackoverflow.com/questions/36207564/draw-geom-hline-not-across-entire-plot)), then defined the particular data window for `geom_ribbon` (based on [this blog post](https://rfortherestofus.com/2024/12/area-and-line-chart)) to ensure that they were concentrated at the pulses and not across the whole figure:
 
 ```
 tempClean[4:406,] %>%
