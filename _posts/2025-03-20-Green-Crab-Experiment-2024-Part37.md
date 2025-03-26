@@ -120,6 +120,55 @@ I have a couple more potential TTs with false bottoms! I'm keeping track of them
 
 I ended up with an abnormally blurry top row! I thought I loaded it fast enough, but maybe not. I ran the gel for an extra 5 minutes (70 minutes total), which I think helped clarify some of the smudge. There are samples that I'm pretty sure are CTs even though they're blurry because there's an "underline" where that CC band should be. I have a handful more potential TTs with false bottoms that will need to be re-run for clarity.
 
+### 2025-03-24
+
+#### Notes
+
+- PCR, restriction digest, and gel: 1, 3, 9, 10, 12, 13, 19, 22, 49, 50, 52, 58
+  -9, 12, and 50 are known CCs added in for contrast since the remaining samples are questionable CT or TTs
+  - PCR Master Mix calculations
+      - GoTaq: 12.5 µL x 13 = 162.5 µL
+      - F: 2.5 µL x 13 = 32.5 µL
+      - R: 2.5 µL x 13 = 32.5 µL
+      - NF H<sub>2</sub>: 5.5 µL x 71 = 148.5 µL
+  - Forgot to make enough MM for one extra sample, so the PCR blank had ~15 µL of MM
+  - Since I only had one row, I ran the samples for 75 minutes to get maximum separation
+- Started extractions for: 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80
+  - Starting with sample 67, I had a hard time getting tissue out of the leg joint. This is because many of these samples were just the final tip of the walking leg which generally has less tissue in it
+
+#### Results
+
+![Image](https://github.com/user-attachments/assets/4b6b6d14-1df4-45b8-84a3-f5dee94af492)
+
+**Figure 3**. Gel image for samples
+
+This gel is a great example of how to differentiate between CT and TT samples with false bottoms! The CT samples have a clear line in the CC band, where as the TT samples have a bit of a shadow that fades into oblivion before the CC band height. There's also more of a gap between the clear C and T lines in the CT samples than in the TT samples with the false bottom.
+
+Sample 10 is...puzzling. Both bands are bright, but the C band is slightly higher than where it is placed for the other CC and CT samples. It was similarly weird in [the first gel](https://yaaminiv.github.io/Green-Crab-Experiment-2024-Part34/). I'm inclined to call it a TT just based on band position, but I may also run the sample a third time.
+
+### 2025-03-25
+
+Jasmine is coming in tomorrow, so I wanted to finish the extractions so she can do the PCR, digests, and gels!
+
+#### Notes
+
+- Finished extractions for: 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80
+  - Samples 66 onwards had a yellow tinge after the overnight incubation. This yellow color cleaned up well after the washes.
+
+### 2025-03-26
+
+Jasmine is here today! She'll be getting through the PCR and digest for all samples, then breaking up the samples into two separate gel runs. I also noticed that I already extracted and genotyped sample 58, so I won't need to use the extracted 58 from yesterday for anything.
+
+#### Notes
+
+- PCR for: 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80
+  - PCR Master Mix calculations
+      - GoTaq: 12.5 µL x 13 = 162.5 µL
+      - F: 2.5 µL x 13 = 32.5 µL
+      - R: 2.5 µL x 13 = 32.5 µL
+      - NF H<sub>2</sub>: 5.5 µL x 71 = 148.5 µL
+  - Jasmine made new F and R primers, but she forgot to vortex the 100 µM primer stock before adding it to the 10 µM working tube!
+
 ### Going forward
 
 1. Genotype Catlin's samples

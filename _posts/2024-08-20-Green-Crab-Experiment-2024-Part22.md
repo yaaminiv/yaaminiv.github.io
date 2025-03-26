@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Cold Acclimation Green Crab Experiment Part 22
-tags: green-crab-cold TTR mixed-effect-models
+tags: green-crab-cold TTR mixed-effects-models
 ---
 
 ## Analyzing WA crab TTR data

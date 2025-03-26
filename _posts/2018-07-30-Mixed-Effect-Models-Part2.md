@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Mixed Effects Models Part 2
-tags: manchester mixed-effect-models
+tags: manchester mixed-effects-models
 ---
 
 ## Assumptions and p-values

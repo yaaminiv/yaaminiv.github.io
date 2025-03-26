@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: West Coast Green Crab Experiment Part 58
-tags: green-crab-wc genotype TTR mixed-effects-model
+tags: green-crab-wc genotype TTR mixed-effects-models
 ---
 
 ## Re-analyzing Julia's data

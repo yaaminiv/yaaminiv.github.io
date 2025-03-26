@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: West Coast Green Crab Experiment Part 57
-tags: green-crab-wc genotype TTR respirometry mixed-effects-model
+tags: green-crab-wc genotype TTR respirometry mixed-effects-models
 ---
 
 ## Linear mixed effects models for TTR

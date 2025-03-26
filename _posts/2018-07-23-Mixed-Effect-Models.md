@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Mixed Effects Models
-tags: manchester mixed-effect-models
+tags: manchester mixed-effects-models
 ---
 
 ## lmers and glmers
