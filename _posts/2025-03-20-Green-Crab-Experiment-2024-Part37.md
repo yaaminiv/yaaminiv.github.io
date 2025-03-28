@@ -168,6 +168,65 @@ Jasmine is here today! She'll be getting through the PCR and digest for all samp
       - R: 2.5 µL x 13 = 32.5 µL
       - NF H<sub>2</sub>: 5.5 µL x 71 = 148.5 µL
   - Jasmine made new F and R primers, but she forgot to vortex the 100 µM primer stock before adding it to the 10 µM working tube!
+  - Samples were kept at 37ºC for 2-3 minutes while Jasmine was cleaning the bench.
+- Gel for: 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69
+
+#### Results
+
+<img width="659" alt="Image" src="https://github.com/user-attachments/assets/8539489b-cfd9-4c8e-bc7a-54ef73ec9882" />
+
+**Figure 4**. Gel image for samples
+
+Jasmine did a great job with the gel! We'll need to redo sample 67, but we can do that after the finishing the gel for the remaining samples.
+
+### 2025-03-27
+
+#### Notes
+
+- Gel for: 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80
+- PCR for: 13, 50, 1, 100, 259, 77, 86, 103, 82
+  - Undigested PCR product: 13
+  - CC: 50
+  - CT: 1
+  - TT (without shadow): 100
+  - TT (with shadow): 259
+  - Samples with no band: 77
+  - Questionable: 86, 103, 82
+  - When going through my gel images to pick good TT samples, I noticed a few MA samples looked questionably like the could be CT or TT, but I never did any follow-up. I'm going to redo these three samples in addition to my good samples!
+  - Jasmine performed the PCR
+
+#### Results
+
+<img width="665" alt="Image" src="https://github.com/user-attachments/assets/2bc8177a-1080-46d9-a09e-6912c3b81d8e" />
+
+**Figure 5**. Gel image for samples
+
+New gel looks great! There are no other samples here that need to be redone, so we can proceed to PCR the samples listed above. AND I have all but one of Catlin's genotypes now!
+
+### 2025-03-28
+
+#### Notes
+
+- Digest and gel for: 13, 50, 1, 100, 259, 77, 86, 103, 82
+  - Undigested PCR product: 13
+  - CC: 50
+  - CT: 1
+  - TT (without shadow): 100
+  - TT (with shadow): 259
+  - Samples with no band: 77
+  - Questionable: 86, 103, 82
+
+#### Results
+
+<img width="487" alt="Image" src="https://github.com/user-attachments/assets/92691afc-eb68-44b8-9f84-4a1e02881d38" />
+
+**Figure 6**. Gel image for samples
+
+Looking at the undigested sample reminded me that the "shadow" was really some laddering/non-target amplification from the primers! Hopefully another primer set can be optimized to avoid it. Including the first four sample wells on this gel in the paper will be very helpful for anyone else using these primers!
+
+Sample 259 I thought was a TT, but alas, it's a CT! I looked at the [gel image from December](https://yaaminiv.github.io/Green-Crab-Experiment-2024-Part27/) and the sample was very faint. Additionally, that sample was run on a 1% gel, so I'm not surprised that the 1.5% was a bit clearer. I updated the data for this sample and will need to revise my WA analysis.
+
+The very faint 67 is truly a CC, and the questionable MA samples are in fact CTs. So with that, I am DONE GENOTYPING 2024 SAMPLES. At least for now...you never know. Jasmine is going to work with Carolyn on new primer sets, so I'll be sure to pick out some samples that may need some extra genotype confirmation.
 
 ### Going forward
 
