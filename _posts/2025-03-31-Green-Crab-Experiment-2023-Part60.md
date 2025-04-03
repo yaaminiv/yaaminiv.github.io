@@ -41,20 +41,29 @@ It's time to extract RNA! For now I have pulled out all of the 2023 boxes I coul
 
 **Cleaning and resuspending RNA**:
 
-1. Centrifuge 8 min at 4-25°C / 12,000 xg.
-2. While samples are centrifuging, prepare just enough 75% ethanol for samples (2000).
+1. Centrifuge 8 min at 4°C / 12,000 xg.
+2. While samples are centrifuging, prepare just enough 75% ethanol for samples (2000 µL).
 3. Remove and discard the supernatant, being careful not to disturb the pellet.
 4. Add 1000 µL 75% ethanol and vortex to mix.
-5. Centrifuge 5 min at 4-25°C / 7,500 xg.
+5. Centrifuge 5 min at 4°C / 7,500 xg.
 6. Remove and discard the supernatant, being careful not to disturb the pellet.
 7. Add 1000 µL 75% ethanol and vortex to mix.
-8. Centrifuge 5 min at 4-25°C / 7,500 xg.
-9. Remove and discard the supernatant, being careful not to disturb the pellet.
+8. Centrifuge 5 min at 4°C / 7,500 xg.
+9. Remove and discard the supernatant, being careful not to disturb the pellet. For this final step, it helps to remove supernatant with the 1000 µL pipet, then go back in with a 10 or 20 µL pipet to remove the remainder of the liquid.
 10. Air-dry the RNA pellet for 3 - 5 min. Do not let it dry completely.
-11. Add 50 µL RNAse-free water and resuspend pellet by pipetting.
-12. Incubate for 10 - 15 minutes at 55 - 60°C to fully resuspend RNA.
+11. While the pellet is air drying, aliquot RNAse-free water and place in a heat block set to 56ºC.
+12. Add 50 µL RNAse-free water and resuspend pellet by pipetting.
+13. Incubate for 15 minutes at 56°C to fully resuspend RNA.
 
 **Quantify RNA**:
+
+1. While samples are incubating, prepare for Qubit quantification. Label a Qubit tube for each sample and two standards.
+2. Use the Qubit to calculate the amount of buffer and reagent to use for all samples, two standard, and an extra tube (overage).
+3. Combine the RNA Broad Range buffer and reagent. Add 190 µL of combined reagent mix to each standard tube, and 198 µl of working stock to each sample tube.
+4. Add 10 µL of Standard 1 to the correct Qubit tube. Repeat for Standard 2.
+5. Remove RNA samples from heat block and vortex gently. Add 2 µL of RNA to the correct Qubit tube.
+6. Vortex Qubit tubes and incubate at room temperature for 2 minutes.
+7. Read standards, then samples, with Qubit.
 
 ### 2025-03-31
 
@@ -62,16 +71,31 @@ Carolyn is walking me through the extraction protocol since it is my first time!
 
 #### Notes
 
-- Started RNA extractions:
-  - Dropped ____ on the clean bench. Added it to tube prior to homogenization.
+- Started RNA extractions: 25-117, 25-058, 25-193, 5-124, 5-187
+  - Dropped 5-124 on the clean bench. Added it to tube prior to homogenization.
   - Performed 5 minute incubation after BCP addition
 
-### 2025-04-01
+### 2025-04-02
 
 #### Notes
 
-- Finished extractions and quantified:
+- Finished extractions and quantified: 25-117, 25-058, 25-193, 5-124, 5-187
+  - Did centrifuge steps at 4ºC
+  - Air dried samples for 3 minutes, then removed even more liquid from samples, and air dried again for 2 minutes
+  - Qubit could not calibrate after I ran the standards! This means we need new buffer and reagent. I quantified the samples using the previously-read samples just to make sure I had something
 
+#### Results
+
+**Table 1**. RNA concentrations
+
+| **Sample** | **µg/µL** | **ng/µL** |
+|:----------:|:---------:|:---------:|
+|   25-117   |   0.0892  |    89.2   |
+|   25-058   |   0.0576  |    57.6   |
+|   25-193   |   0.0371  |    37.1   |
+|    5-124   |   0.0777  |    77.7   |
+|    5-187   |   0.0782  |    78.2   |
+|     EB     |  TOO LOW  |  TOO LOW  |
 
 ### Going forward
 
