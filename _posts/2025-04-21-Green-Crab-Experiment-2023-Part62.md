@@ -13,20 +13,19 @@ tags: green-crab-wc RNA-extractions
 1. Thoroughly clean RNA room, bench, and hood. Clean any equipment that will be used.
 2. Remove samples from the -20ºC and allow to thaw on the bench.
 3. Label 1 low-adhesion tube for each sample and an additional tube for the extraction blank.
-4. Pre-cool the centrifuge to 4ºC.
 
 **Tissue processing**:
 
-1. Remove crab heart from RNALater tube using an unfiltered pipet tip and place into a cleaned weigh boat. Cut a subsection of the tissue using a clean scalpel. Blot RNALater from tissue on clean kim wipes. Use the pipet tip to place the subsection into the labelled tube. Repeat for all samples.
+1. Remove crab heart from RNALater tube using an unfiltered pipet tip and place into a cleaned weigh boat. Cut a subsection of the tissue using a clean scalpel. Blot RNALater from tissue on a clean kim wipe folded in half. Use the pipet tip to place the subsection into the labelled tube. Repeat for all samples.
 2. Break up tissue samples using a disposable pestle. Once the texture is similar to wet sand, leave the pestle in the tube and proceed to the next sample.
 3. In the hood, add 500 µL of TRIzol. Mix using the disposable pestle already in the tube. Remove the pestle and ensure no sample is on it before disposing in a Ziploc bag.
 4. Add an additional 500 µL of TRIzol and pipet repeatedly to completely homogenize. Any remaining chunks of tissue should easily pass through the pipet tip.
-5. Let sit 5 minutes at room temperature.
+5. Let sit 5 minutes at room temperature. While samples are sitting, pre-cool the centrifuge to 4ºC.
 
 **Phase separation**:
 
 1. Add 100 µl BCP and shake vigorously for 15 seconds.
-2. Let sit for 2-15 min at room temperature.
+2. Let sit for 15 min at room temperature.
 3. Centrifuge 15 min at 4°C / 12,000 xg.
 4. While centrifuge is running, remove the glycogen from the -20ºC to thaw. Label 1 low-adhesion tube for each sample and blank.
 5. Transfer the upper, clear aqueous phase to a fresh tube (about 450 µL - 470 µL).
@@ -46,12 +45,11 @@ tags: green-crab-wc RNA-extractions
 5. Centrifuge 5 min at 4°C / 7,500 xg.
 6. Remove and discard the supernatant, being careful not to disturb the pellet.
 7. Add 1000 µL 75% ethanol and vortex to mix.
-8. Centrifuge 5 min at 4°C / 7,500 xg.
-9. Remove and discard the supernatant, being careful not to disturb the pellet. For this final step, it helps to remove supernatant with the 1000 µL pipet, then go back in with a 10 or 20 µL pipet to remove the remainder of the liquid.
-10. Air-dry the RNA pellet for 3 - 5 min. Do not let it dry completely.
-11. While the pellet is air drying, aliquot RNAse-free water and place in a heat block set to 56ºC.
-12. Add 50 µL RNAse-free water and resuspend pellet by pipetting.
-13. Incubate for 15 minutes at 56°C to fully resuspend RNA.
+8. Centrifuge 5 min at 4°C / 7,500 xg. While samples are centrifuging, obtain all Qubit reagents and let them come to room temperature. Additionally, aliquot RNAse-free water and place in a heat block set to 56ºC.
+9. Remove and discard the supernatant, being careful not to disturb the pellet. For this final step, it helps to remove supernatant with the 1000 µL pipet, then go back in with a 20 µL pipet to remove the remainder of the liquid.
+10. Air-dry the RNA pellet for 3 min. After 3 min, remove any remaining liquid using a 10 µL pipet and let samples it for ~1 min more. Do not let it dry completely.
+11. Add 50 µL RNAse-free water and resuspend pellet by pipetting. To resuspend, it helps to aim the water on the "pointy" side of the pellet so it easily comes off the bottom.
+12. Incubate for 15 minutes at 56°C to fully resuspend RNA.
 
 **Quantify RNA**:
 
@@ -86,8 +84,91 @@ Let's see how many samples I can get done before the end of the month!
 
 - Finished RNA extractions for 8 samples and a blank
   - 6/29: 25-056, 25-194, 25-049, 25-203, 15-152, 25-167, 25-120, 15-091
-- Started RNA extractions for 11 samples and a blank
+  - Made 20 µL of 75% EtOh
+  - Qubit: 12 µL dye, 2388 µL buffer
+  - Did not vortex samples 15-152, 25-167, and 25-120 before adding to the Qubit working mix
+- Started RNA extractions for 12 samples and a blank
+  - 7/5: 15-154, 25-109, 25-180, 25-047, 5-014, 5-066, 5-127, 5-181
+  - 8/9: 15-033, 25-046, 25-050
+  - 25-180: Top is labelled 25-177, tube is 25-180
+  - 25-047: Tissue tube is labelled as 25-048
+  - 5-066: Tube is labelled 5-060. Spilled RNALater from tube when removing tissue
+  - 25-050: Forgot to blot RNALater before smushing with pestle!
 - Labelled a new box for samples I've already processed
+
+#### Results
+
+**Table 1**. RNA concentrations (µg/mL). S1 = 435.21, S2 = 7961.68
+
+| **Sample** | **µg/µL** |
+|:----------:|:---------:|
+|   25-056   |   0.088   |
+|   25-194   |   0.0645  |
+|   25-049   |   0.0674  |
+|   25-203   |   0.0360  |
+|   15-152   |   0.127   |
+|   25-167   |   0.0560  |
+|   25-120   |   0.195   |
+|   15-091   |   0.0749  |
+|     EB     |  TOO LOW  |
+
+I have decent looking yields! Carolyn and Dain had some issues with the Qubit this morning, so I followed their advice and ensured all Qubit reagents were at room temperature for 30 minutes before I ran the reactions.
+
+### 2025-04-23
+
+#### Notes
+
+- Finished RNA extractions for 12 samples and a blank
+  - 7/5: 15-154, 25-109, 25-180, 25-047, 5-014, 5-066, 5-127, 5-181
+  - 8/9: 15-033, 25-046, 25-050
+  - 15-033: Disturbed pellet when removing supernatant! Put back in the centrifuge with the EB to spin for 3 minutes to repellet
+  - Centrifuge was at 16ºC at the start of the 8 minute spin, but cooled down quickly
+  - Made 32 µL of 75% EtOH
+  - Qubit: 16 µL dye, 3184 buffer.
+- Started RNA extractions for 16 samples and a blank
+  - 6/28: 25-051, 5-133, 15-161
+  - 7/24: 25-055
+  - 8/9: 25-054, 25-115, 25-195 25-175, 25-052
+  - 8/16: 5-003, 5-131, 5-125, 5-075, 5-010, 5-015
+  - All sample used for 5-003, 5-131, 5-133
+  - 25-195: Tough to pipet homogenize after adding Trizol
+  - 5-015: Dropped sample on the counter after blotting!
+  - Added 1000 µl of Trizol after smushing sample instead of 2 rounds of 500 µL
+- Labelled a new box for samples I've already processed
+
+#### Results
+
+**Table 2**. RNA concentrations (µg/mL). S1 = 331.47, S2 = 7993.72
+
+| **Sample** | **µg/µL** |
+|:----------:|:---------:|
+|   15-154   |   0.0944  |
+|   25-109   |   0.133   |
+|   25-180   |   0.0963  |
+|   25-048   |   0.0556  |
+|   25-169   |   0.104   |
+|    5-014   |   0.109   |
+|    5-066   |   0.104   |
+|    5-127   |   0.0901  |
+|    5-181   |   0.0868  |
+|   15-033   |   0.0750  |
+|   25-046   |   0.0612  |
+|   25-050   |   0.0635  |
+|     EB     |  TOO LOW  |
+
+Still got a decent yield out of the sample I didn't blot! So that's good to know.
+
+### 2025-04-24
+
+#### Notes
+
+- Finished RNA extractions for 25-051, 5-133, 15-161, 25-055, 25-054, 25-115, 25-195 25-175, 25-052, 5-003, 5-131, 5-125, 5-075, 5-010, 5-015
+- Started RNA extractions for 20 samples and 1 blank
+
+#### Results
+
+**Table 3**. RNA concentrations (µg/mL). S1 = , S2 =
+
 
 ### Going forward
 
