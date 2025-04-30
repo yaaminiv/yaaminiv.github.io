@@ -163,20 +163,86 @@ Still got a decent yield out of the sample I didn't blot! So that's good to know
 #### Notes
 
 - Finished RNA extractions for 25-051, 5-133, 15-161, 25-055, 25-054, 25-115, 25-195 25-175, 25-052, 5-003, 5-131, 5-125, 5-075, 5-010, 5-015
+  - Qubit: S1 = 323.52, S2 = 8471.75
 - Started RNA extractions for 20 samples and 1 blank
+  - 6/28: 15-092, 5-009, 5-122, 25-0202
+  - 6/29: 5-004, 5-121, 5-069
+  - 7/24: 25-112, 25-171, 25-177, 25-114, 5-012, 5-130, 5-123, 5-002
+  - 8/9: 25-170, 25-116, 5-008
+  - 8/16: 5-005, 5-061
+  - 25-177: Dropped sample on the counter
+  - 5-012: All sample used
+  - 3 samples didn't have a clear phase separation, so I re-spun the samples for 15 more minutes after shaking them up: 25-114, 25-116, 5-008
 
 #### Results
 
-**Table 3**. RNA concentrations (µg/mL). S1 = , S2 =
+I'm tired so from now onwards results can be found in [this spreadsheet](https://docs.google.com/spreadsheets/d/1B1tyeCI7F_T-l41144m6k_MEVhhU-XCHAEkr6PHoTpw/edit?gid=1215190646#gid=1215190646).
 
+Yields were low for 5-125 (0.0206) and 5-075 (0.0364). I think these tissues were the smallest. If needed, I can re-extract based on the prepared libraries.
+
+### 2025-04-25
+
+#### Notes
+
+- Finished RNA extractions for 15-092, 5-009, 5-122, 25-0202, 5-004, 5-121, 5-069, 25-112, 25-171, 25-177, 25-114, 5-012, 5-130, 5-123, 5-002, 25-170, 25-116, 5-008, 5-005, 5-061
+  - There was a small black hair sample 25-202 with the precipitate
+  - Qubit: 24 µL dye, 4776 µL buffer
+    - S1: 318.85, S2: 8122.68
+- Started RNA extractions for 14 samples and 1 blank
+  - 6/28: 25-168, 25-110, 25-119, 5-189, 5-182
+  - 6/29: 5-063, 5-007
+  - 7/24: 5-064, 5-071
+  - 8/9: 25-174, 25-060, 25-179
+  - 8/16: 5-073, 5-126
+  - I forgot to pre-cool the centrifuge, so samples were incubated for 10-15 additional minutes with BCP while I waited for the centrifuge to cool
+  - We are out of Trizol!
+
+#### Results
+
+Concentrations are in [this spreadsheet](https://docs.google.com/spreadsheets/d/1B1tyeCI7F_T-l41144m6k_MEVhhU-XCHAEkr6PHoTpw/edit?gid=1215190646#gid=1215190646)! The samples that I ended up re-spinning had higher concentrations than some of the ones that had weak phase separation that I didn't re-spinning. I'll keep this in mind for future extractions.
+
+There are a few samples that had < 0.05 µg/µL so I'll see how the library preparation goes for those samples.
+
+### 2025-04-29
+
+#### Notes
+
+- Finished RNA extractions for 25-168, 25-110, 25-119, 5-189, 5-182, 5-063, 5-007, 5-064, 5-071, 25-174, 25-060, 25-179, 5-073, 5-126
+  - Qubit: 18 µL dye, 3582 µL buffer
+    - S1: 337.20, S2: 7977.68
+- Started RNA extractions for 14 samples and 1 blank
+  - 6/28: 25-053
+  - 6/29: 5-197
+  - 7/5: 25-048
+  - 7/24: 25-059
+  - 8/9: 25-113, 25-186, 25-185, 25-172, 5-067, 5-128, 5-188, 5-001
+  - 8/16: 5-135, 5-006
+  - Needed to use Ann's Trizol for all samples since we were out!
+  - Placed the aqueous layer of 25-113 in a tube with 25-048's layer, so I redid these two samples with an extra blank. I now have 16 tubes (14 samples + 2 blanks) total
+  - 25-048 all used up
+
+#### Results
+
+Again, yields are looking good! I used slightly less tissue this time which is why my yields are not as high as they have been for the past few rounds.
+
+### 2025-04-30
+
+#### Notes
+
+- Finished RNA extractions for 25-168, 25-110, 25-119, 5-189, 5-182, 5-063, 5-007, 5-064, 5-071, 25-174, 25-060, 25-179, 5-073, 5-126, and 2 blanks
+  - Qubit:  µL dye,  µL buffer
+    - S1: 365.95 , S2: 8148.72
+
+#### Results
+
+Today I had the lowest yields across all samples! I think this is because when I was pulling tissue, I noticed I was taking less than usual with the intention of having enough tissue left for most samples in case I needed to re-extract them.
+
+BUT AT LEAST I AM DONE.
 
 ### Going forward
 
-1. Extract RNA
-2. Find all metabolomics samples
+1. Find all metabolomics samples
 2. Send samples for metabolomics
-3. Try NEB UltraExpress Kit
-4. Order library preparation materials
 4. Examine HOBO data from 2023 experiment
 5. Demographic data analysis for 2023 paper
 6. Start methods and results of 2023 paper
