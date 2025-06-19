@@ -52,14 +52,28 @@ Today I am only going to do part of the protocol so I have some time to ICB revi
 
 - Samples: 25-056, 25-194, 25-049, 25-203, 15-152, 25-167, 25-120, 15-091
 - Tagging primers: i7-2, i5-1 through i5-8
+- Lost some of samples 6-8 while adding tagging primers. My glove got stuck in one of the tube caps when I closed it so I accidentally flung the strip tubes on the counter.
+- Accidentally disturbed beans when trying to remove the TE and Reconstitution Buffer
+- Dried beads for 3 minutes
+- Qubit: S1 = 59.23, S2 = 26608.07
 
 ### Results
 
+Yields this time were better! They were similar to my [first library prep run](https://yaaminiv.github.io/Green-Crab-Experiment-2023-Part63/). Sample 5 did have a much higher yield though, which was awesome. I sent my yields to Sara to see if I should increase the PCR cycles, or if I should just use the second repeat PCR protocol on these samples.
+
+## 2025-06-22
+
+Prepping another set of samples!
+
+### Notes
+
+### Results
 
 ### Going forward
 
 1. Prep all RNA libraries
 2. Re-prep specific libraries if needed
+3. Increase yields on specific libraries
 3. Send RNA for sequencing!
 4. Examine HOBO data from 2023 experiment
 5. Demographic data analysis for 2023 paper
