@@ -61,14 +61,6 @@ Today I am only going to do part of the protocol so I have some time to ICB revi
 
 Yields this time were better! They were similar to my [first library prep run](https://yaaminiv.github.io/Green-Crab-Experiment-2023-Part63/). Sample 5 did have a much higher yield though, which was awesome. I sent my yields to Sara to see if I should increase the PCR cycles, or if I should just use the second repeat PCR protocol on these samples.
 
-## 2025-06-22
-
-Prepping another set of samples!
-
-### Notes
-
-### Results
-
 ### Going forward
 
 1. Prep all RNA libraries
