@@ -40,6 +40,7 @@ I am working through yet another set of samples, but I've bumped the PCR to 15 c
 ### Notes
 
 - Samples: 5-074, 25-055, 5-133, 5-125, 5-075, 25-195, 5-010, 5-015
+- Tagging primers: i7-4, i5-1 through i5-8
 - Spilled the Tris buffer when I was making a strip tube aliquot! I have 6-8 mL left, which should be enough for 120 samples. I think we'll be good?
 - For the first bead clean, I ran out of SPRI beads (even though I MEASURED 1000 µL of BEADS WHICH SHOULD HAVE BEEN MORE THAN ENOUGH). I had to use the Omega dupes of the Ampure beads for sample 8, but they unfortunately were not brought to room temperature for at least 30 minutes before using. Hopefully that won't completely destroy my yields.
 - When getting 20 µL of fragmented RNA, I used a 1000 µL multichannel pipet with 20 µL tips. Solution was clear after 3.5 minutes
@@ -71,15 +72,49 @@ When I was working with Sara during the first bead clean today, she said she was
 
 ### Notes
 
-- Samples: 
-- Qubit S1 = , S2 =
+- Samples: 25-175, 25-052, 15-161, 15-092, 5-009, 5-122, 25-202, 5-004
+- Tagging primers: i7-5, i5-1 through i5-8
+- Tubes popped out of the ice when it was cooling after fragmentation, but I stuffed it back inside
+- Added slightly more than 5 µL of eluted fragmented mRNA due to an issue with the 10 µL multichannel pipetter
+- During end preparation, I went to add the reaction buffer and enzyme mix. I added 2.5 µl of the reaction buffer, then decided to put that tube on the left side of the buffer and then grab the enzyme mix. When I got the enzyme mix, I looked down and realized I had the buffer instead! I wasn't sure if I added 2.5 µL of buffer or 2.5 µL of enzyme mix. So, I added my 1.5 µL of enzyme mix, and then added another 1.5 µL of buffer just in case. The proportions were off until the bead clean.
+- When adding the ligation master mix, I used 300 µL pipet tips with a 100 µL pipetter, instead of 20 µL pipet tips with a 100 µL pipetter
+- I ejected some of the ethanol on the sides of the tube after the first ethanol wash. I pulled it back up and cleaned the tubes and stands.
+- Added 20 µL of TE with the 100 µL pipetter, but then I realized I needed 3 more µL of TE! I added that in with the 10 µL multichannel
+- I got some beads in the Qubit sample, so I removed it from the tube and added another 1.3 µL of sample
+- Went to incubate Qubit samples but then realized I forgot to vortex! So samples were sitting for ~1 min before vortexing and then ~2 min afterwards.
+- Qubit S1 = 63.65, S2 = 25136.67
 
 ### Results
 
+Well, they're not as great as yesterday, but they are still serviceable. When talking to Sara, it seems like my buffer-enzyme ratio in end preparation were the likely culprit. The kit is really sensitive to the correct ratios of reagents! I'll avoid mixing things up tomorrow oops.
+
+## 2025-07-03
+
+### Notes
+
+- Samples: 25-175, 25-052, 15-161, 15-092, 5-009, 5-122, 25-202, 5-004
+- Tagging primers: i7-6, i5-1 through i5-8
+- When getting the 5 µL fragmented mRNA, I had issues with the 10 µL multichannel not pulling up liquid. I had to go in multiple times to get all of the liquid, so I may have had more than 5 µL of mRNA when starting cDNA synthesis.
+- Opened new tube of NEBNext UltraExpress Second Strand Master Mix
+- Created an aliquot of Omega beads in a 1.5 µL eppendorf tube so I don't have to deal with sticking a pipetter into a large bottle
+- Again, issues with the 200 µL multichannel pipet. Sample 5's liquid just wouldn't eject, so I lost some of the beads when mixing them in
+- Forgot to spin samples after adding 72 µL of beads, and only realized this after the 2 minute magnetic rack incubation. So, I spun them down and reincubated on the magnetic rack for 2 minutes
+- First bead dry: samples 6-8 2 minutes, rest of the samples 3 minutes. Samples 1-4 had a lot of EtOH at the bottom even though I tried pulling it out with a 10 µL multichannel
+- More multichannel issues with the 100 µL pipet. I transferred 20 µL of the cDNA into new tubes, but had to manually go back in for samples 1, 4, 5, and 7 to top up the volume.
+- Sample 6 was frozen after adding the End Prep Reaction Buffer and Enzyme Mix, so I thawed in my hand and mixed 6 additional times
+- After adding the Bead Reconstitution Buffer to sample 4, I was unable to get some of it out after mixing.
+- I have more than enough Bead Reconstitution Buffer left to finish the protocol (would need 360 µL for 90 samples, and they gave me over 3 mL)
+- Second bead dry was 2 minutes, but I closed samples 6-8 a bit before that
+- Qubit S1 = 53.33, S2 = 26483.58
+
+### Results
+
+Once again I had good yields! It was clearly the enzyme mix and buffer issue last time that messed with my output.
+
 ### Going forward
 
-1. Prep all RNA libraries
-2. Re-prep specific libraries if needed
+1. Prep all RNA libraries: i7-7, i7-8, i7-9, i7-10, i7-11
+2. Re-prep specific libraries: i7-1
 3. Increase yields on specific libraries
 3. Send RNA for sequencing!
 4. Examine HOBO data from 2023 experiment
