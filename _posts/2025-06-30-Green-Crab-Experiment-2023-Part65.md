@@ -92,7 +92,7 @@ Well, they're not as great as yesterday, but they are still serviceable. When ta
 
 ### Notes
 
-- Samples: 25-175, 25-052, 15-161, 15-092, 5-009, 5-122, 25-202, 5-004
+- Samples: 5-121, 5-069, 25-112, 25-171, 25-177, 25-114, 5-012, 5-130
 - Tagging primers: i7-6, i5-1 through i5-8
 - When getting the 5 µL fragmented mRNA, I had issues with the 10 µL multichannel not pulling up liquid. I had to go in multiple times to get all of the liquid, so I may have had more than 5 µL of mRNA when starting cDNA synthesis.
 - Opened new tube of NEBNext UltraExpress Second Strand Master Mix
