@@ -6,7 +6,7 @@ permalink: /about/
 
 ## The Lab Notebook of Dr. Yaamini R. Venkataraman, Assistant Professor of Biology at Santa Clara University.
 
-This website is purely my lab notebook! For more information about me and my lab, please visit [The Marine Molecular Ecophysiology Lab (MMEP) at Santa Clara University](mmeplab.github.io).
+This website is purely my lab notebook! For more information about me and my lab, please visit [The Marine Molecular Ecophysiology Lab (MMEP) at Santa Clara University](yaaminiv.github.io/mmep-lab).
 
 ## Contact Me!
 
