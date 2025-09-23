@@ -120,9 +120,70 @@ I did all the same things for the lipidomics data:
 
 **Figures 4-6**. Correlations between lipidomics modules and physiology only, physiology and temperature from today, and physiology appended onto previous temperature correlations.
 
+### Intepret output
 
+To aid in interpretation, I did a few things:
 
+1. Redo my correlations! I realized I did the original correlations with slope instead of negative slope. Using slope meant that a more negative number was increased oxygen consumption, and this is annoying to interpret. I redid the correlations with negative slope (which just changed the sign of my correlations, not the significance) so that a larger oxygen consumption number meant increased consumption.
+2. Plug metabolites from significant physiology modules into MetaboAnalyst to get pathway information
+3. Plug lipid from signifficant lipidomics modules into LION/web to get pathway information
 
+Then came the annoying (metabolomics) and extremely annoying (lipidomics) parts. For each module, I wanted to combine information for temperature-specific VIP, a-priori pathways or classifications, enrichment information for temperature, and enrichment information for physiology modules. Of course, this simple task took eons (multiple days for lipidomics because of more difficult formatting puzzles). Here are some things that proved helpful for the lipidomics formatting:
+
+- [Removing whitespace with `str_trim`](https://www.gastonsanchez.com/r4strings/stringr-basics.html#trimming-with-str_trim)
+- [Removing rownames with `remove_rownames`](https://tibble.tidyverse.org/reference/rownames.html)
+- [`summarise(across)` to collapse rows with the same ID columns but with data across multiple rows](https://stackoverflow.com/questions/72853248/r-combine-rows-with-same-id)
+- [`rename_with(across)` to add a prefix or suffix to several columns](https://stackoverflow.com/questions/71303026/adding-a-suffix-to-a-selection-of-column-names-in-tidyverse)
+
+In particular, the hardest part for the lipidomics was assigning LION terms to lipids within a module. Here's how I finally cracked it:
+
+```
+module15Lipid_enrichment <- read.csv("WCNA/lipidomics/LION-enrichment-report-module15phys/LION-enrichment-results.csv") %>%
+  filter(., FDR.q.value < 0.05)
+module15Lipid_enrichment #5 enriched terms in module
+```
+
+```
+LIONtoTermmodule15 <- read.csv("WCNA/lipidomics/LION-enrichment-report-module15phys/LION-term-associations.csv") %>%
+  dplyr::select(LION.term, LION.name) %>%
+  slice(-1) %>%
+  filter(LION.term %in% module15Lipid_enrichment$Term.ID) %>% 
+  mutate(LION.term = gsub(x = LION.term, pattern = ":", replacement = "."))
+#Import dataframe with lion terms and term names. Retain only significantly enriched terms
+head(LIONtoTermmodule15) #Confirm formatting
+```
+
+```
+module15Lipids_enrichedPhys <- read.csv("WCNA/lipidomics/LION-enrichment-report-module15phys/LION-lipid-associations.csv", strip.white = TRUE) %>%
+  slice(-1) %>%
+  mutate(LION.term = substr(x = LION.term, start = 9, stop = 1000000L)) %>%
+  rename(lipid = LION.term) %>%
+  mutate(lipid = str_trim(lipid, side = "both")) %>%
+  filter(., lipid %in% (module15_lipids$lipid %>%
+                          str_trim(side = "both"))) %>%
+  unique(.) %>%
+  remove_rownames() %>%
+  column_to_rownames(., var = "lipid") %>%
+  dplyr::select_if(colnames(.) %in% LIONtoTermmodule15$LION.term) %>%
+  rename_with(~ paste0(.x, ".PhysModule15")) %>%
+  rownames_to_column(., var = "lipid")
+#Import table with lion terms as columns and lipids as rows. Remove first row, which has lion term names. Remove leading characters from lipids, rename column, and remove white space on both sides of the string. Filter for lipids in module, modified to remove white space. Remove repetitive rows and remove rownames. Assign new rownames using unique lipid names. Select columns if they match with lion terms in LIONtoTerm13v30. Convert rownames back to a column. Add suffix to all columns to delineate these are enriched phys pathways, not associated with temperature VIP.
+module15Lipids_enrichedPhys #Confirm dataframe creation
+```
+
+I ended up dataframes for metabolomics and lipidomics data that highlighted enrichment for significant physiology modules, as well as overlaps between physiology and temperature information. Many of my physiology modules were also correlated with temperature, so it's good to have all of this information in one place! The goal is to look at one of these spreadsheets to guide any Google Scholar searches and discussion writing.
+
+- [module 0 metabolomics output](https://github.com/yaaminiv/green-crab-metabolomics/blob/main/output/07-integration-analysis/WCNA/metabolomics/module0_annotations.csv)
+- [module 5 metabolomics output](https://github.com/yaaminiv/green-crab-metabolomics/blob/main/output/07-integration-analysis/WCNA/metabolomics/module5_annotations.csv)
+- [lipid output](https://github.com/yaaminiv/green-crab-metabolomics/blob/main/output/07-integration-analysis/WCNA/lipidomics/all-phys-module-lipid-annotations.csv)
+
+### Some interesting trends
+
+For the metabolomics, I noticed that valine biosynthesis, valine metabolism, phenylalanine biosynthesis, and phenylalanine metabolism were all important for oxygen consumption! This is interesting because valine biosynthesis and phenylalanine metabolism were also important for distinguishing the 30ºC from either ther 13º or 5ºC treatments. I'll have to dig into how these pathways are related to oxygen consumption a bit further to clarify what's going on within the animal.
+
+The lipidomics information, as expected, seemed primarily related to glycerophospholipids and bilayer thickness. There was also some interesting stuff with ceramindes that I'll need to learn more about.
+
+In any case, it's nice to see this information coming together at a whole-animal system level!
 
 ### Going forward
 
