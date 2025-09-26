@@ -83,6 +83,8 @@ write_delim(module_alldfs[[i+1]], paste0("combined-WCNA/module", i, "_compounds.
 
 All lists can be found in [this folder](https://github.com/yaaminiv/green-crab-metabolomics/tree/main/output/07-integration-analysis/combined-WCNA), and the counts of metabolites and lipids in each module can be found [here](https://github.com/yaaminiv/green-crab-metabolomics/blob/main/output/07-integration-analysis/combined-WCNA/module-information.csv).
 
+Side note: R Studio on my laptop has a weird font issue. [This Github issue](https://github.com/rstudio/rstudio/issues/16237) helps.
+
 ### Going forward
 
 1. Intepret combinede WCNA
