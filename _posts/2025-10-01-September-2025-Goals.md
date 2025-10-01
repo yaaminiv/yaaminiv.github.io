@@ -75,6 +75,11 @@ I'm incorporating all of my lab set up tasks into planning Biol 195, because I n
 - Take RNA-Seq data through HiSat2
 - Take metabolomics data through WCNA
 
+**Other**:
+
+- IRB training modules for RIE2
+- Continue through Generative AI course (complete ~3 more modules)
+
 ### Back Burner
 
 I haven't worked on these projects in a while, but they are next on my to-do list. I don't think they need to be in the deep freeze so I guess I gotta turn the back burner on!
