@@ -7,23 +7,16 @@ tags: green-crab-wc TTR mixed-effects-models
 
 ## Adding demographic information to respirometry analysis
 
-I got my metabolomics and RNA-Seq data back a few months ago! Very exciting stuff, which means I need to make some progress on data analysis for a SICB presentation in January. To re-acquaint myself with the data, I'm going to start by applying the TTR and respirometry data analysis framework from my 2024 experiment paper to this dataset. All my analysis was done in [this script](https://github.com/yaaminiv/wc-green-crab/blob/main/code/03-TTR-analysis.Rmd):
+Just popping in here to say I updated my respirometry analysis to properly account for the impact of various demographic variables! Modifications done in [this script](https://github.com/yaaminiv/wc-green-crab/blob/main/code/04-respirometry-analysis.Rmd).
 
-1. Mixed effects model with all demographic variables
-2. Mixed effects model with significant demographic variables, temperature, day, and their interaction
-3. Mixed effects models with significant demographic variables, significant treatment variables, and genotype information
+Notes:
 
-The methods aren't new to me, so nothing noteworthy there. A few notes:
+- Statistical output found [here](https://github.com/yaaminiv/wc-green-crab/blob/main/output/04-respirometry-analysis/model-comparison-stat-output.csv)
+- No demographic variables were significant
+- I......forgot to do a multiple test correction when I was originally looking at the impact of experimental variables on oxygen consumption. Turns out when you do the necessary corrections, only temperature is a significant predictor of oxygen consumption! Not day, and not the interaction between temperature and day. This is different than the 2022 experiment where temperature and day were both significant. I think the main difference here is that the 25ºC condition wasn't eliciting as stressful of a response as the 30ºC condition did. There's a slight increase in oxygen consumption between days 7 and 14, and a slight difference in variation in consumption at day 14, but other than that things are pretty consistent.
+- No impact of genotype variables on oxygen consumption. This makes me sad because you'd think with HIF-1a mutations we'd see something going on! But perhaps there's more to be studied at the molecular level.
 
-- Integument color was significant after multiple comparison correction when just looking at the demographic variables so I included it in the model with treatment variables
-- Integument color was not significant in the model with treatment variables
-- I ran an AIC comparison between the model with and without integument color, and AIC was slightly lower when integument color was not included
-- Temperature, day, and their interaction were significant predictors of average TTR, but no other variables were
-- This whole process sparked a question about whether or not I should use backwards deletion instead of this stepwise addition method. I spoke to Katie about this and then proceeded to look at Stack Overflow (links below). Turns out the general consensus is to *not* use stepwise addition or deletion approaches with mixed effects models since the p-value selection is not rigorous nor applicable to these kinds of models. I'll continue adding variables in batches and using LRT and AIC comparisons to determine which variables should be included in the model
-  - https://stats.stackexchange.com/questions/58874/stepwise-introduction-of-predictors-to-mixed-effects-models
-  - https://stats.stackexchange.com/questions/131123/mixed-models-and-backward-elimination
-  
-When I was [sorting through samples for metabolomics and RNA-Seq](https://yaaminiv.github.io/Green-Crab-Experiment-2023-Part59/), I was able to solve issues about some samples not having genotypes assigned to them in the script! Since I had the full genotype, I also was able to revise some figures and increase my sample size for TTR difference and Q10 analyses. Again, no noteworthy changes to report. At least now my methods are statistically sound!
+Guess it's time to open up the new molecular datasets!
 
 ### Going forward
 
