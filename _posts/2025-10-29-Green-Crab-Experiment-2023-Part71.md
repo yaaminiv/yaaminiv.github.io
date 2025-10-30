@@ -7,7 +7,12 @@ tags: green-crab-wc TTR RNA-Seq fastqc
 
 ## QC for RNA-Seq data
 
-I'm starting in on the 2023 data analysis! First step is to check quality and trim all my files. I'm running the code on the WHOI Poseidon HPC since my data is stored in the Tepolt Lab folder there (and I don't have the capacity to figure out the SCU cluster just yet).
+I'm starting in on the 2023 data analysis! First step is to check quality and trim all my files. I'm running the code on the WHOI Poseidon HPC since my data is stored in the Tepolt Lab folder there (and I don't have the capacity to figure out the SCU cluster just yet). A recap on the data:
+
+- NEBNext UltraExpress RNA kit with Poly A mRNA isolation
+- Sequenced on Illumina NovaSeq X Plus
+- Included 1% PhiX spike-in
+- Got demulitplexed raw data delivered
 
 ### FastQC
 
@@ -53,11 +58,11 @@ It seems like the issue is that I'm loading the `python` module, but I also have
 |           multiqc | Data        : multiqc_data
 |           multiqc | MultiQC complete
 |           multiqc | 8 flat-image plots used in the report due to large sample numbers
-|           multiqc | To force interactive plots, use the '--interactive' flag. 
+|           multiqc | To force interactive plots, use the '--interactive' flag.
 See the documentation.
 cp: cannot stat ‘/vortexfs1/home/yaamini.venkataraman/.multiqc_config.yaml’: No such file or directory
 
-Looks like I need to update `miniconda3` on Poseidon. That will be a later task. But my script works! I made sure to update it to reflect the troubleshooting. I then transferred the files from the `scratch` directory to my `home` directory on Poseidon, which allowed me to transfer the files to my Github repository by locally mounting `vortex`. I opened up the MultiQC report to check the overall raw sequence quality. Overall quality looks pretty okay considering that the adapter sequences are still there. High per sequence GC content for the majority of samples, and only ~20% unique reads for all samples? I'd be interested to see how these all change once I trim. 
+Looks like I need to update `miniconda3` on Poseidon. That will be a later task. But my script works! I made sure to update it to reflect the troubleshooting. I then transferred the files from the `scratch` directory to my `home` directory on Poseidon, which allowed me to transfer the files to my Github repository by locally mounting `vortex`. I opened up the [MultiQC report](https://github.com/yaaminiv/wc-green-crab/blob/main/output/06a-fastqc/multiqc_report.html) to check the overall raw sequence quality. Overall quality looks pretty okay considering that the adapter sequences are still there. High per sequence GC content for the majority of samples, and only ~20% unique reads for all samples? I'd be interested to see how these all change once I trim.
 
 ### TrimGalore!
 
@@ -71,7 +76,14 @@ Based on this, it seems like my trimming protocol is as follows:
 2. Trim low quality reads (Phred ≥ 20)
 3. Retain reads ≥ 20 bp long
 
-- find all adapter sequences to trim reads
+NEBNext UltraExpress RNA kit sequenced on NovaSeq X Plus 25B lane.
+Included 1% PhiX spike-in
+Got demulitplexed raw data delivered
+Do I need to remove the polyA tails?
+
+find adaptor sequence from FAQ
+
+https://www.neb.com/en-us/faqs/2021/01/15/what-sequences-need-to-be-trimmed-for-nebnext-libraries-that-are-sequenced-on-an-illumina-instrument?srsltid=AfmBOoqGuWAevn1loT1LjEgaLQSx7xG-7ONZ2ZjSmipUJjW9fuiGpUhh
 
 ### My side quest
 
@@ -81,7 +93,7 @@ When I first saw the `python` error from MultiQC, I figured oh, let me just run 
 - Update my love, `homebrew`, on my local machine
 - Installed `homebrew` on my work computer
 
-Since getting my laptop up to snuff was going to take a while, I also tried to figure out the `python` issue on Poseidon. 
+Since getting my laptop up to snuff was going to take a while, I also tried to figure out the `python` issue on Poseidon.
 
 ### Going forward
 
