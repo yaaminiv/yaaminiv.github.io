@@ -64,7 +64,7 @@ cp: cannot stat ‘/vortexfs1/home/yaamini.venkataraman/.multiqc_config.yaml’:
 
 Looks like I need to update `miniconda3` on Poseidon. That will be a later task. But my script works! I made sure to update it to reflect the troubleshooting. I then transferred the files from the `scratch` directory to my `home` directory on Poseidon, which allowed me to transfer the files to my Github repository by locally mounting `vortex`. I opened up the [MultiQC report](https://github.com/yaaminiv/wc-green-crab/blob/main/output/06a-fastqc/multiqc_report.html) to check the overall raw sequence quality. Overall quality looks pretty okay considering that the adapter sequences are still there. High per sequence GC content for the majority of samples, and only ~20% unique reads for all samples? I'd be interested to see how these all change once I trim.
 
-### TrimGalore!
+### Adapter trimming
 
 It's time to trim! I decided to follow the methods from Zach's paper (Tobias et al. (2021)) since he also had stranded data and had to do de novo transcriptome assembly. Looking through his methods, he states that all of the quality control was done in a previous study, Tepolt et al. (2020). When I looked in the methods of that paper, I didn't see any specific information on trimming. I did, however, find this information in the supplement:
 
@@ -72,18 +72,111 @@ It's time to trim! I decided to follow the methods from Zach's paper (Tobias et 
 
 Based on this, it seems like my trimming protocol is as follows:
 
-1. Trim adapter sequences
-2. Trim low quality reads (Phred ≥ 20)
+1. Trim low quality reads (Phred ≥ 20)
+2. Trim adapter sequences
 3. Retain reads ≥ 20 bp long
 
-NEBNext UltraExpress RNA kit sequenced on NovaSeq X Plus 25B lane.
-Included 1% PhiX spike-in
-Got demulitplexed raw data delivered
-Do I need to remove the polyA tails?
+I first needed to find the adapter sequences! I found [this link](https://www.neb.com/en-us/faqs/2021/01/15/what-sequences-need-to-be-trimmed-for-nebnext-libraries-that-are-sequenced-on-an-illumina-instrument?srsltid=AfmBOoqGuWAevn1loT1LjEgaLQSx7xG-7ONZ2ZjSmipUJjW9fuiGpUhh) and sent an email to NEB Technical Support to confirm these are infact the sequences. I found the same sequences in the manual for the kit as well. Since these are universal Illumina adapters, I could technically use the `--illumina` argument to remove the adapters:
 
-find adaptor sequence from FAQ
+> For adapter trimming, Trim Galore! uses the first 13 bp of Illumina standard adapters ('AGATCGGAAGAGC') by default (suitable for both ends of paired-end libraries), but accepts other adapter sequence, too
 
-https://www.neb.com/en-us/faqs/2021/01/15/what-sequences-need-to-be-trimmed-for-nebnext-libraries-that-are-sequenced-on-an-illumina-instrument?srsltid=AfmBOoqGuWAevn1loT1LjEgaLQSx7xG-7ONZ2ZjSmipUJjW9fuiGpUhh
+Since the [`trimgalore` user guide](https://github.com/FelixKrueger/TrimGalore/blob/master/Docs/Trim_Galore_User_Guide.md#step-2-adapter-trimming) only talks about the first 13 bp, I got paranoid and decicded I should specify the full sequences for trimming, as opposed to having it auto-detect the Illumina adapters. I proceeded to construct my trimming code in [this script](https://github.com/yaaminiv/wc-green-crab/blob/main/code/06b-trimgalore.sh). At first, I had it structured as a multi-step trimming process. When I tried running the script, I realized that `trimgalore` was autodetecting my adapter sequences and proceeding with all steps at once! So, I modified the script to remove the multiple layers. I also found a [script from Sam Bogan](https://github.com/snbogan/CP_RNAseq/blob/main/Scripts/CP_cutadapt.txt) that looped through all file pairs in a directory while running `cutadapt` instead of listing the bajilions of files. I modified his code for my needs and got the following error message:
+
+> Start TrimGalore
+Trim 1: Remove low-quality reads
+Option p is ambiguous (paired_end, path_to_cutadapt, phred33, phred64, polya)
+Please respecify command line options
+
+I then modified the script to reflect arguments used with `trimgalore`, and this was the result:
+
+```
+#Loop through input files in the directory
+for input_file in ${DATA_DIR}/*_R1_001.fastq.gz; do
+ # Extract the base filename
+  filename=$(basename "$input_file")
+ # Construct the corresponding R2 filename
+  input_r2="${input_file/_R1/_R2}"
+  # Run TrimGalore to trim adapters, remove low-quality sequences, and retain sequences of a specific length
+    ${TRIMGALORE} \
+    --output_dir ${OUTPUT_DIR} \
+    --paired \
+    -a "AGATCGGAAGAGCACACGTCTGAACTCCAGTCA" \
+    -A "AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT" \
+    --quality 20 \
+    --length 20 \
+    --fastqc_args \
+    "--outdir ${OUTPUT_DIR} \
+    --threads 28" \
+    --path_to_cutadapt ${CUTADAPT} \
+    $input_file \
+    $input_r2
+  # Print completion message
+  echo "Trimming complete for $filename"
+done
+```
+
+I checked on the error log after an hour to confirm that the script was indeed trimming multiple files! My wall time was 24 hours, so I was a little unsure if all the files would finish in the designated window. Alas, only 63 of the 174 files finished in 24 hours. I considered asking for a wall time extension, but then realized my trimming was running on a single core!! I added `--cores 8`` to the code to run multiplex the process. That gave me this warning message (which I am choosing to believe is fine because I didn't exceed eight cores):
+
+> Trim 1: Remove low-quality reads
+Using an excessive number of cores has a diminishing return! It is recommended not to exceed 8 cores per trimming process (you asked for 8 cores). Please consider re-specifying
+
+The files finished trimming in ~19 hours when run on 8 cores.
+
+I then started looking at the trimmed files. Several files had tons of overrepresented sequences that appeared to be TruSeq index adapters. I wonder if this happened because I manually specified adapters instead of using `--illumina`. In any case, I definitely needed to trim again. I decided to modify my trimming code to include `--stranded_illumina`. When I tried using `--stranded_illumina` I got an error message stating I couldn't use it since it wasn't a valid option? 
+
+> Unknown option: stranded_illumina
+Please respecify command line options
+
+So I changed it back to `--illumina`. I figured this should be okay since I've used that option in the past with paired-end WGBS data. I can then compare this output with the previous trimming output to see which code performed better:
+
+echo "Trim by auto-detecting illumina adapters"
+
+```
+#Loop through input files in the directory
+for input_file in ${DATA_DIR}/*_R1_001.fastq.gz; do
+ # Extract the base filename
+  filename=$(basename "$input_file")
+ # Construct the corresponding R2 filename
+  input_r2="${input_file/_R1/_R2}"
+  # Run TrimGalore to trim adapters, remove low-quality sequences, and retain sequences of a specific length
+    ${TRIMGALORE} \
+    --cores 8 \
+    --output_dir ${OUTPUT_DIR} \
+    --paired \
+    --illumina \
+    --quality 20 \
+    --length 20 \
+    --fastqc_args \
+    "--outdir ${OUTPUT_DIR} \
+    --threads 28" \
+    --path_to_cutadapt ${CUTADAPT} \
+    $input_file \
+    $input_r2
+  # Print completion message
+  echo "Trimming complete for $filename"
+done
+
+#Move trimmed files to a new directory
+mkdir ${OUTPUT_DIR}/trim-illumina-polyA
+mv ${OUTPUT_DIR}/*trimmed.fq.gz ${OUTPUT_DIR}/trim-illumina-polyA/.
+mv ${OUTPUT_DIR}/*trimmed_fastqc* ${OUTPUT_DIR}/trim-illumina-polyA/.
+mv ${OUTPUT_DIR}/*fastq.gz_trimming_report.txt ${OUTPUT_DIR}/trim-illumina-polyA/.
+
+echo "Perform MutiQC"
+
+#MultiQC. Move completed MultiQC output to the correct trimming directory
+${MULTIQC} \
+${OUTPUT_DIR}/trim-illumina-polyA/*
+
+mv ${OUTPUT_DIR}/multiqc_data ${OUTPUT_DIR}/trim-illumina-polyA/.
+
+echo "Triming complete. Check MultiQC output before proceeding."
+```
+
+### Poly A tails
+
+It  appears that I can [add `--poly-a` to remove poly-A tails from paired sequences when using `cutadapt`](https://cutadapt.readthedocs.io/en/stable/recipes.html). [However, `trimgalore` does not have this functionality automatically](https://github.com/FelixKrueger/TrimGalore/issues/180), but perhaps there is an [argument that could be used](https://github.com/FelixKrueger/TrimGalore/issues/97). With `cutadapt`, poly A trimming will be done after adapter trimming. With `trimgalore`, the user will need to manually complete a round of adapter and quality trimming prior to removing poly A tails.
+
 
 ### My side quest
 
