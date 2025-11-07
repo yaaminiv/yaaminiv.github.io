@@ -173,10 +173,102 @@ mv ${OUTPUT_DIR}/multiqc_data ${OUTPUT_DIR}/trim-illumina-polyA/.
 echo "Triming complete. Check MultiQC output before proceeding."
 ```
 
+Ended up with some errors with `multiqc` after trimming:
+
+> mv: cannot stat ‘/vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06b-trimgalore/*trimmed.fq.gz’: No such file or directory
+
+Turns out my output files are named differently!
+
+> >>>>> Now validing the length of the 2 paired-end infiles: 15-033_R1_001_trimmed.fq.gz and 15-033_R2_001_trimmed.fq.gz <<<<<
+Writing validated paired-end Read 1 reads to 15-033_R1_001_val_1.fq.gz
+Writing validated paired-end Read 2 reads to 15-033_R2_001_val_2.fq.gz
+
+Looking at the [MultiQC report](https://github.com/yaaminiv/wc-green-crab/blob/main/output/06b-trimgalore/trim-illumina/multiqc_report.html), auto-detecting Illumina adapters did MUCH better!! There are no adapter sequences found in any of the trimmed files. I did, however, see a few overrepresented sequences in files. When I looked through the overrepresented sequences, `trimgalore` wasn't able to identify any hits. I decided to move forward with poly A tail trimming.
+
 ### Poly A tails
 
 It  appears that I can [add `--poly-a` to remove poly-A tails from paired sequences when using `cutadapt`](https://cutadapt.readthedocs.io/en/stable/recipes.html). [However, `trimgalore` does not have this functionality automatically](https://github.com/FelixKrueger/TrimGalore/issues/180), but perhaps there is an [argument that could be used](https://github.com/FelixKrueger/TrimGalore/issues/97). With `cutadapt`, poly A trimming will be done after adapter trimming. With `trimgalore`, the user will need to manually complete a round of adapter and quality trimming prior to removing poly A tails.
 
+Since I already completed a round of adapter and quality trimming with `trimgalore`, I decided to try the `trimgalore` poly A trimming argument. The `--polyA` argument was experimental in 2020 and supposed to be used with a specific ThermoFisher kit. The code stopped running due to an error, so I parsed through the error report:
+
+> AUTO-DETECTING POLY-A TYPE
+===========================
+Attempting to auto-detect PolyA type from the first 1 million sequences of the first file (>> /vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06b-trimgalore/trim-illumina/15-033_R1_001_val_
+1.fq.gz <<)
+Found perfect matches for the following mono-polymer sequences:
+Poly-nucleotide type    Count   Sequence        Sequences analysed      Percentage
+PolyT   6114    TTTTTTTTTT      1000000 0.61
+PolyA   4549    AAAAAAAAAA      1000000 0.45
+Using PolyT Polymer for trimming (count: 6114). Second best hit was PolyA (count: 4549)
+Writing report to '/scratch/yaamini.venkataraman/wc-green-crab/output/06b-trimgalore/15-033_R1_001_val_1.fq.gz_trimming_report.txt'
+
+Uh...........it seems like it's auto-detecting polyA and polyT tails in the first read file, and then choosing to go with polyT trimming? I need to do poly A trimming on the first reads and poly T trimming on the second reads, so this is definitely not going to fly. I'll need to specify "AAAAAAAAAA" as the adapter for the first read and "TTTTTTTTTT" as the adapter for the second read for these paired files. There was also an error when it came to finding the files:
+
+> POLY-A TRIMMING MODE; EXPERIMENTAL!!
+
+  >>> Now performing Poly-A trimming for the adapter sequence: 'TTTTTTTTTTTTTTTTTTTT' from file /vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06b-trimgalore/trim-illumina/15-033_R1_001_val_1.fq.gz <<< 
+gzip: /scratch/yaamini.venkataraman/wc-green-crab/output/06b-trimgalore//vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06b-trimgalore/trim-illumina/15-033_R1_001_val_1.fq.gz: No such file or directory
+
+It was able to find the file to auto-detect the poly A type, but then when it came to trimming it was unable to find the file because of some weird replication in the file name. To troubleshoot this, I started by checking the `filename` commands:
+
+```
+#Loop through input files in the directory
+for input_file in /vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06b-trimgalore/trim-illumina/*_val_1.fq.gz; do
+ # Extract the base filename
+  filename=$(basename "$input_file")
+ # Construct the corresponding R2 filename
+  input_r2="${input_file/_val_1/_va1_2}"
+  echo "$filename" "$input_file" "$input_r2"
+done
+```
+  
+> 5-197_R1_001_val_1.fq.gz 
+/vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06b-trimgalore/trim-illumina/5-197_R1_001_val_1.fq.gz 
+/vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06b-trimgalore/trim-illumina/5-197_R1_001_va1_2.fq.gz
+
+Alright, it seems like the first issue is that my second read should end in `R2_001_val_2.fq.gz` not `_R1_001_va1_2.fq.gz`.
+
+```
+for input_file in ${OUTPUT_DIR}/trim-illumina/*_R1_001_val_1.fq.gz; do
+ # Extract the base filename
+  filename=$(basename "$input_file")
+ # Construct the corresponding R2 filename
+  input_r2="${input_file/_R1_001_val_1/_R2_001_val_2}"
+  echo "$filename" "$input_file" "$input_r2"
+done
+```
+
+> 5-197_R1_001_val_1.fq.gz 
+/vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06b-trimgalore/trim-illumina/5-197_R1_001_val_1.fq.gz /vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06b-trimgalore/trim-illumina/5-197_R2_001_val_2.fq.gz
+
+That error is now fixed, but it wasn't the issue with the my code to begin with. I wondered if the issue was specific to the experimental poly A trimming argument, so I decided to run this chunk:
+
+```
+#Loop through input files in the directory
+for input_file in ${OUTPUT_DIR}/trim-illumina/*_R1_001_val_1.fq.gz; do
+ # Extract the base filename
+  filename=$(basename "$input_file")
+ # Construct the corresponding R2 filename
+  input_r2="${input_file/_R1_001_val_1/_R2_001_val_2}"
+  # Run TrimGalore to trim adapters, remove low-quality sequences, and retain sequences of a specific length
+    ${TRIMGALORE} \
+    --cores 8 \
+    --output_dir ${OUTPUT_DIR} \
+    --paired \
+    -a "AAAAAAAAAA" \
+    -a2 "TTTTTTTTTT" \
+    --fastqc_args \
+    "--outdir ${OUTPUT_DIR} \
+    --threads 28" \
+    --path_to_cutadapt ${CUTADAPT} \
+    $input_file \
+    $input_r2
+  # Print completion message
+  echo "Trimming complete for $filename"
+done
+```
+
+Looks like the issue was specific to the poly A trimming argument! Looking back at the issue where I found the poly A argument, I think had I read that issue a little more closely I would have come to that conclusion sooner (but I guess I also got to fix a different naming issue, so all's well that ends well). I checked on the script to ensure that the poly T tail was trimmed for the paired file. Trimming the poly A tails improved some per base sequence content scores, but it didn’t make a huge dent into the overrepresented sequences. I think this is good enough for the first pass analysis I need to complete, so I’m going to move on!
 
 ### My side quest
 
