@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: West Coast Green Crab Experiment Part 71
-tags: green-crab-wc TTR RNA-Seq fastqc
+tags: green-crab-wc RNA-Seq fastqc
 ---
 
 ## QC for RNA-Seq data
