@@ -61,26 +61,66 @@ The following packages will be UPDATED:
 
 Using `bioconda` installed `trinity`, as well as dependencies `jellyfish` and `samtools`. All of these programs were now in my `miniconda3` directory: `/vortexfs1/home/yaamini.venkataraman/miniconda3/bin`
 
-
-I'd just need to install `salmon` separately.
-
-- install trinity
-- install BOWTIE2
-- install salmon
-- install jellyfish
+I installed `salmon` and `bowtie2` using `conda` as well. I can't believe I forgot that `conda` existed but so glad it does.
 
 ### Draft code
 
-While the terminal was doing its thing I figured I would read the `trinity` manual to determine what parameters to use. Ideally, I was looking for a way to run `trinity` on a subset of my data to determine the optimum parameters, or figure out if `trinity` produced multiple potential transcriptomes that I could evaluate later. I also noticed that `trinity` [could be run in chunks to compensate for run time restrictions](https://github.com/trinityrnaseq/trinityrnaseq/wiki/Running-Trinity#running-trinity-in-multiple-sequential-stages).
+While the terminal was doing its thing I figured I would read the `trinity` manual to determine what parameters to use. Ideally, I was looking for a way to run `trinity` on a subset of my data to determine the optimum parameters, or figure out if `trinity` produced multiple potential transcriptomes that I could evaluate later. I also noticed that `trinity` [could be run in chunks to compensate for run time restrictions](https://github.com/trinityrnaseq/trinityrnaseq/wiki/Running-Trinity#running-trinity-in-multiple-sequential-stages). Another thing that jumped out to me is that I could provide a file list to `trinity`, instead of pasting file names separated by commas. I created [this file]() to do just that. I messed around with the idea of making this in `bash`, but Excel was just quicker. I also need to [specify what each file in a pair is (forward and reverse)](https://www.cureffi.org/2012/12/19/forward-and-reverse-reads-in-paired-end-sequencing/). Cool, but I didn't see anything about running the program on a subset of data or trying multiple parameters.
 
-The first thing that jumped out to me is that I could provide a file list to `trinity`, instead of pasting file names separated by commas. I also need to specify what each file in a pair is (forward and reverse). Cool, but I didn't see anything about running the program on a subset of data or trying multiple parameters.
+I found [this video](https://www.broadinstitute.org/videos/trinity-how-it-works) to be helpful when trying to figure out what all the commands meant. The wiki has the all of the options, but I wouldn't say they do a good job listing what they actually mean or how changing them can influence the output. When I dug a bit more into the `trinity` Google Group and Github posts, I saw that the recommendation was to just use defaults, and then iterate based on the default output. Zac's transcriptome ExN50 ended up being the best when just using `trinity` defaults anyways.
 
+The last discrepancy I wanted to hash out was using `salmon` to index the transcriptome vs. not. I will end up using `salmon` as a pseudoaligner since that is a best practice. I noticed that Zac used `salmon` to index his transcriptome and get the count matrix. Indexing through `salmon` allowed him to get ExN50 statistics. Grace's script uses `samtools` to generate a index. I needed to actually read some manuals to figure this out, but just getting the `trinity` code running was a bit more important than figuring out the best indexing and assembly statistics steps. I'll probably end up going the `salmon` indexing route since I'll be using `salmon` for the pseudoalignment anyways.
+
+### Running `trinity` assembly
+
+I decided to run the steps to assemble the transcriptome, get baseline assembly statistics, and get a gene map file on the cluster first before figuring out the next step:
+
+```
+#Exit script if any command fails
+set -e
+
+#Program paths
+TRINITY=/vortexfs1/home/yaamini.venkataraman/miniconda3/bin/Trinity
+CUTADAPT=/vortexfs1/home/yaamini.venkataraman/miniconda3/bin/cutadapt
+FASTQC=/vortexfs1/home/yaamini.venkataraman/miniconda3/bin/fastqc
+python=/vortexfs1/home/yaamini.venkataraman/miniconda3/bin/python
+JELLYFISH=/vortexfs1/home/yaamini.venkataraman/miniconda3/bin/jellyfish
+SALMON=/vortexfs1/home/yaamini.venkataraman/miniconda3/bin/salmon
+SAMTOOLS=/vortexfs1/home/yaamini.venkataraman/miniconda3/bin/samtools
+
+#Directory and file paths
+DATA_DIR=/vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06b-trimgalore/trim-illumina-polyA
+OUTPUT_DIR=/vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trimgalore
+assembly_stats=assembly_stats.txt
+trinity_file_list=/vortexfs1/home/yaamini.venkataraman/trinity-samples.txt
+
+# Run Trinity to assemble de novo transcriptome. Using primarily default parameters.
+${TRINITY}/Trinity \
+--seqType fq \
+--max_memory 100G \
+--samples_file ${trinity_file_list} \
+--SS_lib_type FR \
+--min_contig_length 200 \
+--full_cleanup \
+--CPU 28
+
+# Assembly stats
+${TRINITY}/util/TrinityStats.pl \
+${OUTPUT_DIR}/trinity_out_dir/Trinity.fasta \
+> ${assembly_stats}
+
+# Create gene map files
+${TRINITY}/util/support_scripts/get_Trinity_gene_to_trans_map.pl \
+${OUTPUT_DIR}/trinity_out_dir/Trinity.fasta \
+> ${OUTPUT_DIR}/trinity_out_dir/Trinity.fasta.gene_trans_map
+```
+
+I gave it the set time limit of 24 hours. I figured I'd see just how far trinity got in 24 hours (assuming my code worked), and based on that I can split it into the different `inchworm`, `chrysallis`, and `butterfly` sections to checkpoint my analysis.
 
 ### Going forward
 
-1. Transcriptome assembly with `trinity`
+1. Index, get advanced transcriptome statistics, and pseudoalign with `salmon`
 4. Clean transcriptome with `EnTap` and `blastn`
-5. Quantify transcript counts with `salmon`
 4. Identify differentially expressed genes
 5. Additional strand-specific analysis in the supergene region
 2. Examine HOBO data from 2023 experiment
