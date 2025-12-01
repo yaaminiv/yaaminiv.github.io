@@ -159,7 +159,17 @@ Back to our regularly scheduled programming of trying to run `trinity` instead o
 salmon: error while loading shared libraries: libboost_iostreams.so.1.60.0: cannot open shared object file: No such file or directory`
   - Based on this, I first tried to install the newest version of `salmon`: `conda install salmon=1.10.2`
   - Connection got lost in the middle of this.....and then `conda` just straight up stopped working. Started a whole side quest of having to re-install `conda` and any packages and fix a bunch of conflicts. Used Gemini to figure out how to do this since it was something I'd never encountered before. The eventual solution was to load the `mambaforge` module from Poseidon, create a new `conda` environment for transcriptome assembly, then install the latest versions of `trinity`, `salmon`, and any other dependencies. This way, I'd sidestep any dependency compatibility issues from `miniconda`.
-- Updated my code to include specific instructions to load the `mambaforge` module and my specific `conda` environment.
+
+I put a pin on the troubleshooting by updating my code to include specific instructions to load the `mambaforge` module, initialize the shell hook, and my specific `conda` environment:
+
+```
+#Load module, activate the shell hook, and load environment
+module load mambaforge
+eval "$(conda shell.bash hook)"
+conda activate trinity_env
+```
+
+Trinity is finally running so let's see what happens!
 
 ### Going forward
 
