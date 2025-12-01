@@ -71,7 +71,7 @@ I found [this video](https://www.broadinstitute.org/videos/trinity-how-it-works)
 
 The last discrepancy I wanted to hash out was using `salmon` to index the transcriptome vs. not. I will end up using `salmon` as a pseudoaligner since that is a best practice. I noticed that Zac used `salmon` to index his transcriptome and get the count matrix. Indexing through `salmon` allowed him to get ExN50 statistics. Grace's script uses `samtools` to generate a index. I needed to actually read some manuals to figure this out, but just getting the `trinity` code running was a bit more important than figuring out the best indexing and assembly statistics steps. I'll probably end up going the `salmon` indexing route since I'll be using `salmon` for the pseudoalignment anyways.
 
-### Running `trinity` assembly
+### Running `trinity` assembly (or at least trying to)
 
 I decided to run the steps to assemble the transcriptome, get baseline assembly statistics, and get a gene map file on the cluster first before figuring out the next step:
 
@@ -116,6 +116,50 @@ ${OUTPUT_DIR}/trinity_out_dir/Trinity.fasta \
 ```
 
 I gave it the set time limit of 24 hours. I figured I'd see just how far trinity got in 24 hours (assuming my code worked), and based on that I can split it into the different `inchworm`, `chrysallis`, and `butterfly` sections to checkpoint my analysis.
+
+Immediately, I got an error (duh):
+
+>ERROR, don't recognize parameter: --samples_file
+Please review usage info for accepted parameters.
+
+This was weird to me, because the `trinity` manual had this parameter! I suspected it was a version issue:
+
+> (base) [yaamini.venkataraman@poseidon-l1 ~]$ /vortexfs1/home/yaamini.venkataraman/miniconda3/bin/Trinity --version
+Trinity version: v2.1.1
+** NOTE: Latest version of Trinity is Trinity-v2.15.2, and can be obtained at:
+	https://github.com/trinityrnaseq/trinityrnaseq/releases
+
+Alright, time to do some updates. I first started by trying to update `trinity`:
+
+```
+conda update trinity
+```
+
+This, alas, did not work. But I also saw this message during the attempted update:
+
+>==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 25.9.1
+Please update conda by running
+    $ conda update -n base -c conda-forge conda
+Or to minimize the number of packages updated during conda update use
+     conda install conda=25.9.1
+
+I tried running `conda update -n base -c conda-forge conda` but that didn't work! So then I tried the other option, `conda install conda=25.9.1`. THAT WORKED! I applied the same logic to updating `trinity`: `conda install trinity=2.15.2`. That also worked! I checked the version to triple check:
+
+> (base) [yaamini.venkataraman@poseidon-l2 ~]$ miniconda3/bin/Trinity --version
+Trinity version: Trinity-v2.15.2
+-currently using the latest production release of Trinity.
+
+Back to our regularly scheduled programming of trying to run `trinity` instead of just trying to install `trinity`:
+
+- Once I had the latest version of `trinity` installed, I was able to use the `--samples_file` argument! Almost immediately, the run errored out because I used a wildcard in the path. Changed to absolute paths and I was good!
+- `Error, cannot determine salmon version installed from (salmon: error while loading shared libraries: libboost_iostreams.so.1.60.0: cannot open shared object file: No such file or directory) at /vortexfs1/home/yaamini.venkataraman/miniconda3/bin/Trinity line 4111.`
+  - `(base) [yaamini.venkataraman@poseidon-l1 ~]$ salmon -help
+salmon: error while loading shared libraries: libboost_iostreams.so.1.60.0: cannot open shared object file: No such file or directory`
+  - Based on this, I first tried to install the newest version of `salmon`: `conda install salmon=1.10.2`
+  - Connection got lost in the middle of this.....and then `conda` just straight up stopped working. Started a whole side quest of having to re-install `conda` and any packages and fix a bunch of conflicts. Used Gemini to figure out how to do this since it was something I'd never encountered before. The eventual solution was to load the `mambaforge` module from Poseidon, create a new `conda` environment for transcriptome assembly, then install the latest versions of `trinity`, `salmon`, and any other dependencies. This way, I'd sidestep any dependency compatibility issues from `miniconda`.
+- Updated my code to include specific instructions to load the `mambaforge` module and my specific `conda` environment.
 
 ### Going forward
 
