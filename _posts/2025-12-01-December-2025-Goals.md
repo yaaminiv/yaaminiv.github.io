@@ -50,6 +50,7 @@ Week 10 of the quarter! Two more weeks of academic instruction before free-for-a
 - Update Camino site
 - Create rubrics for assignments
 - Sign up for Camino accesbility course
+- Course material for weeks 1-3
 
 **Other**:
 
