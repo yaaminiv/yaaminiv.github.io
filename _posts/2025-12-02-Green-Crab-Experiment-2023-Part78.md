@@ -30,6 +30,7 @@ PC 1 shows metabolites with higher abundance at 25ºC, but that decrease over ti
 ### Going forward
 
 1. VIP analysis for major trends
+1. Metaboanalyst for VIP and ASCA compounds
 3. Index, get advanced transcriptome statistics, and pseudoalign with `salmon`
 4. Clean transcriptome with `EnTap` and `blastn`
 4. Identify differentially expressed genes
