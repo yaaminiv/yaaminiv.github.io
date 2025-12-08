@@ -41,6 +41,30 @@ I upped the memory request to 180 GB in the SLURM header:
 
 Based on the memory request, my job is pending until Dec. 6 So I guess I'll check in then.
 
+### 2025-12-08
+
+Job ran for 24 hours but was killed due to time restrictions! I'm not sure why this happened when I had an "unlimited" time restriction information in my SLURM header.
+
+```
+(base) [yaamini.venkataraman@poseidon-l1 ~]$ tail /vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/yrv_trinity1792444.log
+CMD: touch left.fa.K25.stats.sort.ok
+CMD finished (0 seconds)
+CMD: touch right.fa.K25.stats.sort.ok
+CMD finished (0 seconds)
+-defining normalized reads
+CMD: /vortexfs1/home/yaamini.venkataraman/.conda/envs/trinity_env/bin/util/..//util/support_scripts//nbkc_merge_left_right_stats.pl --left left.fa.K25.stats.sort --right right.fa.K25.stats.sort --sorted > pairs.K25.stats
+-opening left.fa.K25.stats.sort
+-opening right.fa.K25.stats.sort
+-done opening files.
+slurmstepd: error: *** JOB 1792444 ON pn076 CANCELLED AT 2025-12-06T15:33:00 DUE TO TIME LIMIT ***
+```
+
+The response from WHOI IT:
+
+> I just edited your submit script - there were several hidden characters throughout that may have been getting in the way of Slurm parsing the header. Sometimes when scripts are copied/pasted to/from Windows hidden characters come over... you can clean these up using vi and the :set list command. Please try to resubmit when you can, and we can keep an eye on how it progresses.
+
+I resumbmitted the script and let's see what happens.
+
 ### Going forward
 
 1. Index, get advanced transcriptome statistics, and pseudoalign with `salmon`
