@@ -65,6 +65,50 @@ The response from WHOI IT:
 
 I resumbmitted the script and let's see what happens.
 
+### 2025-12-09
+
+Realized there was a follow-up message from WHOI IT!
+
+> Hi Yaamini, looking over your submit script again, I realized you do not have a time statement - so even though you are using the unlim QOS, the default time limit of 24 hours is going to be applied. If you add the line to your slurm header like so it should be able to exceed 24hours: #SBATCH --time=2-24:25:00
+The time format is d-hh:mm:ss
+Apologies that I didn't notice this earlier!
+
+I first checked the log to see the progress out of curiosity (script had been running for 23 hours):
+
+```
+(base) [yaamini.venkataraman@poseidon-l1 ~]$ tail /vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/yrv_trinity1795649.log
+-capturing normalized reads from: /vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06b-trimgalore/trim-illumina-polyA/25-055_R2_001_val_2_val_2.fq.gz
+-capturing normalized reads from: /vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06b-trimgalore/trim-illumina-polyA/25-055_R1_001_val_1_val_1.fq.gz
+-capturing normalized reads from: /vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06b-trimgalore/trim-illumina-polyA/25-056_R2_001_val_2_val_2.fq.gz
+-capturing normalized reads from: /vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06b-trimgalore/trim-illumina-polyA/25-056_R1_001_val_1_val_1.fq.gz
+-capturing normalized reads from: /vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06b-trimgalore/trim-illumina-polyA/25-058_R2_001_val_2_val_2.fq.gz
+-capturing normalized reads from: /vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06b-trimgalore/trim-illumina-polyA/25-058_R1_001_val_1_val_1.fq.gz
+-capturing normalized reads from: /vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06b-trimgalore/trim-illumina-polyA/25-059_R2_001_val_2_val_2.fq.gz
+-capturing normalized reads from: /vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06b-trimgalore/trim-illumina-polyA/25-059_R1_001_val_1_val_1.fq.gz
+-capturing normalized reads from: /vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06b-trimgalore/trim-illumina-polyA/25-060_R2_001_val_2_val_2.fq.gz
+-capturing normalized reads from: /vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06b-trimgalore/trim-illumina-polyA/25-060_R1_001_val_1_val_1.fq.gz
+```
+
+I then killed the script and modified the SLURM header:
+
+```
+#!/bin/bash
+
+#SBATCH --partition=compute          								 				  								  	     		  # Queue selection
+#SBATCH --job-name=yrv_trinity        							 															          # Job name
+#SBATCH --mail-type=ALL              							   				     									     		  # Mail events (BEGIN, END, FAIL, ALL)
+#SBATCH --mail-user=yaamini.venkataraman@whoi.edu    				    									    		  # Where to send mail
+#SBATCH --nodes=1                                                									          # One node
+#SBATCH --exclusive                                                 								        # All 36 procs on the one node
+#SBATCH --mem=180gb                                                 								        # Job memory request
+#SBATCH --qos=unlim            								   															     	       	# Unlimited time allowed
+#SBATCH --time=10-00:00:00           								   															     	  # Time limit (d-hh:mm:ss)
+#SBATCH --output=yrv_trinity%j.log  								   															     		# Standard output/error
+#SBATCH --chdir=/vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity	  # Working directory for this script
+```
+
+The revised script is now running! I'm going to keep an eye on it to ensure that it actually continues running the way it should.
+
 ### Going forward
 
 1. Index, get advanced transcriptome statistics, and pseudoalign with `salmon`
