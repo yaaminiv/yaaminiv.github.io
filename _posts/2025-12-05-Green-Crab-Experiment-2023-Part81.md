@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: West Coast Green Crab Experiment Part 80
+title: West Coast Green Crab Experiment Part 81
 tags: green-crab-wc RNA-Seq trinity
 ---
 
