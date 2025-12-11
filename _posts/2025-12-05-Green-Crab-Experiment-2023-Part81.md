@@ -109,6 +109,73 @@ I then killed the script and modified the SLURM header:
 
 The revised script is now running! I'm going to keep an eye on it to ensure that it actually continues running the way it should.
 
+### 2025-12-10
+
+The script died after ~15 hours *lolsob*. Looks like `inchworm` was starting when the error occured:
+
+```
+--------------- Inchworm (K=25, asm) ---------------------
+-- (Linear contig construction from k-mers) --
+----------------------------------------------
+
+* [Wed Dec 10 01:12:30 2025] Running CMD: /vortexfs1/home/yaamini.venkataraman/.conda/envs/trinity_env/bin/Inchworm/bin//inchworm --kmers jellyfish.kmers.25.asm.fa --run_inchworm -K 25 --monitor 1   --num_threads 6  --PARALLEL_IWORM   --min_any_entropy 1.0   -L 25  --no_prune_error_kmers  > /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/inchworm.fa.tmp
+Kmer length set to: 25
+Min assembly length set to: 25
+Monitor turned on, set to: 1
+min entropy set to: 1
+setting number of threads to: 6
+-setting parallel iworm mode.
+-reading Kmer occurrences...
+ [2710M] Kmers parsed.     
+ done parsing 2710642398 Kmers, 2710642398 added, taking 8912 seconds.
+
+TIMING KMER_DB_BUILDING 8912 s.
+Pruning kmers (min_kmer_count=1 min_any_entropy=1 min_ratio_non_error=0.005)
+Pruned 15962305 kmers from catalog.
+	Pruning time: 1573 seconds = 26.2167 minutes.
+
+TIMING PRUNING 1573 s.
+-populating the kmer seed candidate list.
+Kcounter hash size: 2710642398
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+sh: line 1: 185644 Aborted                 /vortexfs1/home/yaamini.venkataraman/.conda/envs/trinity_env/bin/Inchworm/bin//inchworm --kmers jellyfish.kmers.25.asm.fa --run_inchworm -K 25 --monitor 1 --num_threads 6 --PARALLEL_IWORM --min_any_entropy 1.0 -L 25 --no_prune_error_kmers > /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/inchworm.fa.tmp
+Error, cmd: /vortexfs1/home/yaamini.venkataraman/.conda/envs/trinity_env/bin/Inchworm/bin//inchworm --kmers jellyfish.kmers.25.asm.fa --run_inchworm -K 25 --monitor 1   --num_threads 6  --PARALLEL_IWORM   --min_any_entropy 1.0   -L 25  --no_prune_error_kmers  > /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/inchworm.fa.tmp died with ret 34304 No such file or directory at /vortexfs1/home/yaamini.venkataraman/.conda/envs/trinity_env/bin/PerlLib/Pipeliner.pm line 187.
+	Pipeliner::run(Pipeliner=HASH(0x55555558a8d8)) called at /vortexfs1/home/yaamini.venkataraman/.conda/envs/trinity_env/bin//Trinity line 2729
+	eval {...} called at /vortexfs1/home/yaamini.venkataraman/.conda/envs/trinity_env/bin//Trinity line 2719
+	main::run_inchworm("/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinit"..., "/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinit"..., "RF", "", 25, 0) called at /vortexfs1/home/yaamini.venkataraman/.conda/envs/trinity_env/bin//Trinity line 1836
+	main::run_Trinity() called at /vortexfs1/home/yaamini.venkataraman/.conda/envs/trinity_env/bin//Trinity line 1500
+	eval {...} called at /vortexfs1/home/yaamini.venkataraman/.conda/envs/trinity_env/bin//Trinity line 1499
+
+
+
+If it indicates bad_alloc(), then Inchworm ran out of memory.  You'll need to either reduce the size of your data set or run Trinity on a server with more memory available.
+```
+
+I need more memory! I will follow advice from Rich of WHOI IT to use a node with a higher memory allocation:
+
+> If you still are running out of memory at 180GB, there is a medium memory partition with nodes that have 512GB - if you need to use those, the partition name is medmem - simply replace compute with medmem in the --partition= statement...
+
+I modified my SLURM header as follows:
+
+```
+#!/bin/bash
+
+#SBATCH --partition=medmem          								 				  								  	     		    # Queue selection
+#SBATCH --job-name=yrv_trinity        							 															        # Job name
+#SBATCH --mail-type=ALL              							   				     									     		    # Mail events (BEGIN, END, FAIL, ALL)
+#SBATCH --mail-user=yaamini.venkataraman@whoi.edu    				    									    		    # Where to send mail
+#SBATCH --nodes=1                                                									            # One node
+#SBATCH --exclusive                                                 								          # All 36 procs on the one node
+#SBATCH --mem=500gb                                                 								          # Job memory request
+#SBATCH --qos=unlim            								   															     	    	# Unlimited time allowed
+#SBATCH --time=10-00:00:00           								   															     	    	# Time limit (d-hh:mm:ss)
+#SBATCH --output=yrv_trinity%j.log  								   															     		# Standard output/error
+#SBATCH --chdir=/vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity	  # Working directory for this script
+```
+
+The job is now in the queue. Given how much memory is needed for the run, I am not sure when it will start so I'll need to keep my eye on my email.
+
 ### Going forward
 
 1. Index, get advanced transcriptome statistics, and pseudoalign with `salmon`
