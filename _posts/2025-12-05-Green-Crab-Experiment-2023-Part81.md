@@ -176,6 +176,40 @@ I modified my SLURM header as follows:
 
 The job is now in the queue. Given how much memory is needed for the run, I am not sure when it will start so I'll need to keep my eye on my email.
 
+### 2025-12-31
+
+Alright, so my job stopped running on Dec. 12 after starting (maybe finishing?) `chrysallis`. I tried restarting the job on Dec. 24, but instead of picking up where the previous run left off, it started from the beginning! I quit that job and now I am revisiting.
+
+Based on [this part of the `trinity` manual](https://github.com/trinityrnaseq/trinityrnaseq/wiki/Running-Trinity#running-trinity-in-multiple-sequential-stages), it seemed like I could get `trinity` to run `chrysallis` only, then finish out the job. I could then run `trinity` again to finish up the job:
+
+```
+# Run Trinity to assemble de novo transcriptome. Using primarily default parameters.
+${TRINITY}/Trinity \
+--seqType fq \
+--max_memory 100G \
+--samples_file ${trinity_file_list} \
+--SS_lib_type RF \
+--min_contig_length 200 \
+--full_cleanup \
+--no_distributed_trinity_exec \
+--CPU 28
+```
+
+>(base) [yaamini.venkataraman@poseidon-l1 ~]$ less /vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/yrv_trinity1816186.log
+nity_out_dir/chrysalis/iworm_cluster_welds_graph.txt.sorted > /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/chrysalis/iworm_cluster_welds_graph.txt.sorted.wIwormNames, checkpoint [/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/chrysalis/iworm_cluster_welds_graph.txt.sorted.wIwormNames.ok] exists.
+-- Skipping CMD: /vortexfs1/home/yaamini.venkataraman/.conda/envs/trinity_env/bin/Chrysalis/bin/BubbleUpClustering -i /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/chrysalis/inchworm.fa.min100  -weld_graph /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/chrysalis/iworm_cluster_welds_graph.txt.sorted -min_contig_length 200 -max_cluster_size 25  > /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/chrysalis/GraphFromIwormFasta.out, checkpoint [/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/chrysalis/GraphFromIwormFasta.out.ok] exists.
+-- Skipping CMD: /vortexfs1/home/yaamini.venkataraman/.conda/envs/trinity_env/bin/Chrysalis/bin/CreateIwormFastaBundle -i /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/chrysalis/GraphFromIwormFasta.out -o /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/chrysalis/bundled_iworm_contigs.fasta -min 200, checkpoint [/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/chrysalis/bundled_iworm_contigs.fasta.ok] exists.
+-- Skipping CMD: /vortexfs1/home/yaamini.venkataraman/.conda/envs/trinity_env/bin/Chrysalis/bin/ReadsToTranscripts -i /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/both.fa -f /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/chrysalis/bundled_iworm_contigs.fasta -o /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/chrysalis/readsToComponents.out -t 28 -max_mem_reads 50000000  -strand  -p 10 , checkpoint [/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/chrysalis/readsToComponents.out.ok] exists.
+-- Skipping CMD: /vortexfs1/home/yaamini.venkataraman/.conda/envs/trinity_env/bin/sort --parallel=28 -T . -S 100G -k 1,1n -k3,3nr -k2,2 /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/chrysalis/readsToComponents.out > /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/chrysalis/readsToComponents.out.sort, checkpoint [/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/chrysalis/readsToComponents.out.sort.ok] exists.
+###################################################################
+##  Stopping here due to --no_distributed_trinity_exec in effect ##
+###################################################################
+Error: Couldn't open /vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trimgalore/trinity_out_dir/Trinity.fasta
+
+Huh, it couldn't open the FASTA file! I decided to go find this fasta file myself. I navigated to `/vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir` and could not find `Trinity.fasta`. I also realized that above, it was looking for a compiled transcriptome in an folder that doesn't exist (`06c-trimgalore`).......that in itself is very odd. Then I realized that my script listed the following path for my output directory: `OUTPUT_DIR=/vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trimgalore`
+
+OF COURSE it's looking for a transcriptome in that odd folder — that's where I said it would be! I changed the output directory to `/vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity` and then reran the script. Obviously, I still got the same error because the file does not exist. Because of this, I decided to restart the `trinity` process from the beginning, but increased my wall time to 25 days. The script is running, so we'll see what happens next.
+
 ### Going forward
 
 1. Index, get advanced transcriptome statistics, and pseudoalign with `salmon`
