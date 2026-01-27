@@ -240,6 +240,82 @@ The `bowtie2` part was done based on the `trinity` manual, while I added some ar
 
 I have `bowtie2` installed in my conda environment, so I went ahead and added that to my path list. I then started the script.
 
+### 2026-01-26
+
+My script stopped 3 minutes after I started it =________= I went into the error log to try and figure out what happened.
+
+The first stage was to build an index with `salmon`:
+
+>[2026-01-21 15:53:48.900] [jLog] [info] building index
+out : /vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/Trinity.fasta.salmon.idx
+
+
+`salmon` then started running `fixFasta` to produce an output file: ```/vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/Trinity.fasta.salmon.idx/ref_k31_fixed.fa``` After that, it started building another index with `Pufferfish` (?) and I saw a lot of `Building BooPHF` log comments. I then got some confirmation that the denser index was completed:
+
+> [2026-01-21 15:57:01.926] [puff::index::jointLog] [info] mphf size = 158.513 MB
+[2026-01-21 15:57:02.154] [puff::index::jointLog] [info] chunk size = 93,110,908
+[2026-01-21 15:57:02.154] [puff::index::jointLog] [info] chunk 0 = [0, 93,110,908)
+[2026-01-21 15:57:02.154] [puff::index::jointLog] [info] chunk 1 = [93,110,908, 186,221,816)
+[2026-01-21 15:57:02.154] [puff::index::jointLog] [info] chunk 2 = [186,221,816, 279,332,724)
+[2026-01-21 15:57:02.154] [puff::index::jointLog] [info] chunk 3 = [279,332,724, 372,443,600)
+[2026-01-21 15:57:21.031] [puff::index::jointLog] [info] finished populating pos vector
+[2026-01-21 15:57:21.034] [puff::index::jointLog] [info] writing index components
+[2026-01-21 15:57:24.222] [puff::index::jointLog] [info] finished writing dense pufferfish index
+[2026-01-21 15:57:24.392] [jLog] [info] done building index
+for info, total work write each  : 2.331    total work inram from level 3 : 4.322  total work raw : 25.000
+Bitarray      1329704000  bits (100.00 %)   (array + ranks )
+final hash             0  bits (0.00 %) (nb in final hash 0)
+
+Alright, so that fist indexing step must have finished! According to my code, there should be a BAM file output:
+
+> (base) [yaamini.venkataraman@poseidon-l2 Trinity.fasta.salmon.idx]$ ls -la
+total 1519483
+drwxrwxr-x 2 yaamini.venkataraman domain users      4096 Jan 21 15:57 .
+drwxrwxr-x 2 yaamini.venkataraman domain users      4096 Jan 21 15:53 ..
+-rw-rw-r-- 1 yaamini.venkataraman domain users   3654728 Jan 21 15:54 complete_ref_lens.bin
+-rw-rw-r-- 1 yaamini.venkataraman domain users 176373690 Jan 21 15:56 ctable.bin
+-rw-rw-r-- 1 yaamini.venkataraman domain users  12361376 Jan 21 15:56 ctg_offsets.bin
+-rw-rw-r-- 1 yaamini.venkataraman domain users        25 Jan 21 15:54 duplicate_clusters.tsv
+-rw-rw-r-- 1 yaamini.venkataraman domain users      1104 Jan 21 15:57 info.json
+-rw-rw-r-- 1 yaamini.venkataraman domain users 166213436 Jan 21 15:57 mphf.bin
+-rw-rw-r-- 1 yaamini.venkataraman domain users 919933544 Jan 21 15:57 pos.bin
+-rw-rw-r-- 1 yaamini.venkataraman domain users       496 Jan 21 15:57 pre_indexing.log
+-rw-rw-r-- 1 yaamini.venkataraman domain users  46555488 Jan 21 15:56 rank.bin
+-rw-rw-r-- 1 yaamini.venkataraman domain users   7309448 Jan 21 15:56 refAccumLengths.bin
+-rw-rw-r-- 1 yaamini.venkataraman domain users      2971 Jan 21 15:57 ref_indexing.log
+-rw-rw-r-- 1 yaamini.venkataraman domain users   3654728 Jan 21 15:56 reflengths.bin
+-rw-rw-r-- 1 yaamini.venkataraman domain users 126774056 Jan 21 15:56 refseq.bin
+-rw-rw-r-- 1 yaamini.venkataraman domain users  93110944 Jan 21 15:56 seq.bin
+-rw-rw-r-- 1 yaamini.venkataraman domain users       127 Jan 21 15:57 versionInfo.json
+
+Since the indexing finished, perhaps it's just a different filetype than I expected. The script proceeded and I got a bunch of the same error, repeated for each file:
+
+> CMD: salmon quant -i /vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/Trinity.fasta.salmon.idx -l ISR -1 /vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06b-trimgalore/trim-illumina-polyA/15-033_R1_001_val_1_val_1.fq.gz -2 /vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06b-trimgalore/trim-illumina-polyA/15-033_R2_001_val_2_val_2.fq.gz -o 15-033 --validateMappings  -p 16 --validateMappings
+Version Server Response: Not Found
+(mapping-based mode) Exception : [option '--validateMappings' cannot be specified more than once].
+Please be sure you are passing correct options, and that you are running in the intended mode.
+alignment-based mode is detected and enabled via the '-a' flag. Exiting.
+Error detected: Error, cmd: salmon quant -i /vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/Trinity.fasta.salmon.idx -l ISR -1 /vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06b-trimgalore/trim-illumina-polyA/15-033_R1_001_val_1_val_1.fq.gz -2 /vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06b-trimgalore/trim-illumina-polyA/15-033_R2_001_val_2_val_2.fq.gz -o 15-033 --validateMappings  -p 16 --validateMappings  died with ret: 256 at /vortexfs1/home/yaamini.venkataraman/.conda/envs/trinity_env/bin//util/align_and_estimate_abundance.pl line 729.
+
+It seems like `validateMappings` was specified twice in the command. When I look at my code, I did specify `validateMappings`:
+
+```
+# Perform transcript abundance estimation with salmon
+${TRINITY}/util/align_and_estimate_abundance.pl \
+--transcripts ${OUTPUT_DIR}/trinity_out_dir/Trinity.fasta \
+--seqType fq \
+--samples_file ${trinity_file_list} \
+--SS_lib_type RF \
+--est_method salmon \
+--aln_method bowtie2 \
+--gene_trans_map ${OUTPUT_DIR}/trinity_out_dir/Trinity.fasta.gene_trans_map \
+--output_dir ${OUTPUT_DIR} \
+--salmon_add_opts "--validateMappings " \
+--thread_count 16
+```
+
+I removed the `salmon_add_opts` argument and reran the script. I checked on it a few minutes after it started running, and it's at least progressed past where I last got the error message!
+
 ### Going forward
 
 1. Index, get advanced transcriptome statistics, and pseudoalign with `salmon`
