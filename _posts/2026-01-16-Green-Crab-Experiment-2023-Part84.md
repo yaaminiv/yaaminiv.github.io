@@ -316,10 +316,68 @@ ${TRINITY}/util/align_and_estimate_abundance.pl \
 
 I removed the `salmon_add_opts` argument and reran the script. I checked on it a few minutes after it started running, and it's at least progressed past where I last got the error message!
 
+### 2026-01-27
+
+The script completed! The `salmon` output consists of separate quantification matrices for each sample. There is a transcript-level abundance estimate file (`quant.sf`) and a gene-level abundance estimate file (`quant.sf.genes`):
+
+> (base) [yaamini.venkataraman@poseidon-l2 15-033]$ head quant.sf
+Name	Length	EffectiveLength	TPM	NumReads
+TRINITY_DN0_c0_g1_i11	236	64.198	0.765732	2.207
+TRINITY_DN0_c0_g1_i12	274	88.733	4.922931	19.611
+TRINITY_DN0_c0_g1_i13	221	55.186	0.743936	1.843
+TRINITY_DN0_c0_g1_i2	274	88.733	2.695400	10.738
+TRINITY_DN0_c0_g1_i4	243	68.488	75.481102	232.085
+TRINITY_DN0_c0_g1_i5	227	58.786	0.000000	0.000
+TRINITY_DN0_c0_g1_i6	294	102.724	0.386408	1.782
+TRINITY_DN0_c0_g1_i7	252	74.062	0.000000	0.000
+TRINITY_DN0_c0_g1_i8	380	170.289	0.490259	3.748
+
+> (base) [yaamini.venkataraman@poseidon-l2 15-033]$ head quant.sf.genes
+Name	Length	EffectiveLength	TPM	NumReads
+TRINITY_DN44545_c0_g1	247.00	70.94	0.00	0.00
+TRINITY_DN77129_c3_g1	334.00	133.05	0.17	1.00
+TRINITY_DN251898_c0_g1	208.00	47.91	0.00	0.00
+TRINITY_DN4052_c0_g1	450.24	209.95	8.99	84.70
+TRINITY_DN541168_c0_g1	264.00	82.05	0.00	0.00
+TRINITY_DN322591_c0_g1	287.00	97.64	0.00	0.00
+TRINITY_DN71650_c0_g1	2549.00	2321.84	0.00	0.00
+TRINITY_DN2047_c12_g4	212.00	50.01	0.00	0.00
+TRINITY_DN6870_c2_g1	1461.00	1233.84	4.99	276.59
+
+I confirmed that these outputs looked equivalent to what I would expect based on the [`trinity` manual](https://github.com/trinityrnaseq/trinityrnaseq/wiki/Trinity-Transcript-Quantification#salmon-output). Now that I have this information, I need to build a matrix with all sample information and calculate ExN50 statistics. Looking at [Zac's code](https://github.com/tepoltlab/RhithroLoxo_DE/blob/master/Snakefile#L275), it seems like he did all of this in two steps, just like the `trinity` manual suggests. I also dug into the `trinity` manual and wrote the followign code to get a matrix with all sample information:
+
+```
+# Get a list of the salmon quant.sf files so we don't have to list them individually
+find ${OUTPUT_DIR}/ -maxdepth 2 -name "quant.sf" | tee ${OUTPUT_DIR}/salmon.quant_files.txt
+
+# Generate a matrix with all abundance estimates
+$TRINITY_HOME/util/abundance_estimates_to_matrix.pl \
+--est_method salmon \
+--gene_trans_map none \
+--quant_files ${OUTPUT_DIR}/salmon.quant_files.txt \
+--name_sample_by_basedir
+```
+
+This produced several output matrices, some normalized and some not normalized. For downstream `DESeq2` applications, I need the raw counts. I checked Zac's script and saw that he used the matrix without cross-normalized counts for Ex50 statistics. I did the same:
+
+```
+# Calculate Ex50 statistics
+contig_ExN50_statistic.pl ${OUTPUT_DIR}/salmon.isoform.TPM.not_cross_norm \
+${OUTPUT_DIR}/trinity_out_dir/Trinity.fasta \
+| tee ${OUTPUT_DIR}/ExN50.stats
+
+# Calculate N50 statistics
+TrinityStats.pl ${OUTPUT_DIR}/trinity_out_dir/Trinity.fasta \
+> ${OUTPUT_DIR}/N50.txt
+```
+
+That finished running pretty quickly and I got my Ex50 statistics! The E90N50 value is 1880, or ~1.9 kb. There are 30,741 genes that were used to contribute this value. This is much better than the N50 statistics.
+
+Now that I have this value, I can move onto cleaning the transcriptome!
+
 ### Going forward
 
-1. Index, get advanced transcriptome statistics, and pseudoalign with `salmon`
-4. Clean transcriptome with `EnTap` and `blastn`
+1. Clean transcriptome with `EnTap` and `blastn`
 3. Quantify transcripts with `salmon`
 4. Identify differentially expressed genes
 5. Additional strand-specific analysis in the supergene region
