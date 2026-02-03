@@ -37,7 +37,7 @@ The script was pending after submission so I decided to look at the next steps o
 
 ```
 rule id_contam:
-    input: 
+    input:
         BLAST_CONTAM_MERGED,
         'scripts/map_contam_ids.py'
     output:
@@ -68,6 +68,25 @@ rule remove_blast_contam:
 Alright, I'd need my transcriptome, a list of contaminant information, and a script to subset the FASTA into a clean transcriptome. I found the python script in [Zac's Github repository](https://github.com/tepoltlab/RhithroLoxo_DE/blob/master/scripts/fasta_subsetter.py). To create the list of contaminant information, I'd need [this python script](https://github.com/tepoltlab/RhithroLoxo_DE/blob/master/scripts/map_contam_ids.py). The contaminant IDs appear to be manually curated, so that will take some time to poke through the `blastn` results and verify the IDs.
 
 It's also probably worth creating a new script and subdirectory (`06d-blast`) for this step to avoid having the world's longest script. So, I did that! The new script can be found [here](https://github.com/yaaminiv/wc-green-crab/blob/main/code/06d-blast.sh).
+
+### 2026-02-03
+
+...and my code errored out almost immediately because I didn't give SLURM a path to a working directory that existed. I fixed that and confirmed `blastn` is running:
+
+> (base) [yaamini.venkataraman@poseidon-l1 ~]$ head /vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06d-blast/blast-results/transcriptome-contam.tab
+TRINITY_DN11_c0_g1_i15	gi|1379041273|gb|CP028800.1|	95.569	1354	54	6	1	1352	2593208	2591859	0.0	2163	Acinetobacter junii strain WCHAJ59 chromosome, complete genome	40215
+TRINITY_DN11_c0_g1_i2	gi|359551946|gb|JN869067.1|	93.827	891	47	8	243	1129	1	887	0.0	1334	Uncultured bacterium clone AN62 16S ribosomal RNA gene, partial sequence	77133
+TRINITY_DN11_c0_g1_i21	gi|1445136029|ref|NR_158069.1|	92.111	1369	92	14	297	1659	1	1359	0.0	1916	Nocardioides agrisoli strain djl-8 16S ribosomal RNA, partial sequence	1882242
+TRINITY_DN11_c0_g1_i24	gi|404428310|gb|JQ516465.1|	94.310	580	33	0	2	581	465	1044	0.0	889	Uncultured Rhizobiales bacterium clone 0907_Mf_HT2_B11 16S ribosomal RNA gene, partial sequence	208549
+TRINITY_DN11_c0_g1_i25	gi|684780902|gb|KJ995964.1|	88.112	1388	151	14	297	1677	3	1383	0.0	1637	Uncultured bacterium clone C-147 16S ribosomal RNA gene, partial sequence	77133
+TRINITY_DN11_c0_g1_i26	gi|1233268392|gb|KX771411.1|	99.163	239	2	0	1	239	903	1141	5.39e-117	431	Uncultured bacterium clone 01G_N5Kili 16S ribosomal RNA gene, partial sequence	77133
+TRINITY_DN11_c0_g1_i28	gi|1379041273|gb|CP028800.1|	90.559	2288	174	23	533	2787	2594137	2591859	0.0	2990	Acinetobacter junii strain WCHAJ59 chromosome, complete genome	40215
+TRINITY_DN11_c0_g1_i3	gi|359551675|gb|JN868796.1|	87.857	1367	125	23	297	1659	1	1330	0.0	1567	Uncultured bacterium clone MW25 16S ribosomal RNA gene, partial sequence	77133
+TRINITY_DN11_c0_g1_i31	gi|459218310|gb|KC442851.1|	88.408	1087	86	20	297	1378	1	1052	0.0	1273	Uncultured bacterium clone A40 16S ribosomal RNA gene, partial sequence	77133
+TRINITY_DN11_c0_g1_i35	gi|643391102|gb|KF070860.1|	88.406	1242	111	28	317	1543	1	1224	0.0	1465	Uncultured bacterium clone ncd135b03c1 16S ribosomal RNA gene, partial sequence	77133
+
+> (base) [yaamini.venkataraman@poseidon-l1 ~]$ wc -l /vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06d-blast/blast-results/transcriptome-contam.tab
+7834 /vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06d-blast/blast-results/transcriptome-contam.tab
 
 ### Going forward
 
