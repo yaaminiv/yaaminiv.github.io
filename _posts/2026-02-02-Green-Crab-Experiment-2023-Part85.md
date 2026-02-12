@@ -88,6 +88,118 @@ TRINITY_DN11_c0_g1_i35	gi|643391102|gb|KF070860.1|	88.406	1242	111	28	317	1543	1
 > (base) [yaamini.venkataraman@poseidon-l1 ~]$ wc -l /vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06d-blast/blast-results/transcriptome-contam.tab
 7834 /vortexfs1/scratch/yaamini.venkataraman/wc-green-crab/output/06d-blast/blast-results/transcriptome-contam.tab
 
+### 2026-02-06
+
+My `blastn` job finished! There are 115,204 results. The next step is to use the python scripts to clean the transcriptome. I decided to just...run the scripts as is this first time around to see what would happen. I made copies of both `python` scripts. When I was looking at [Zac's Snakefile](https://github.com/tepoltlab/RhithroLoxo_DE/blob/master/Snakefile), I noticed that there was a [specific `conda` environment](https://github.com/tepoltlab/RhithroLoxo_DE/blob/master/envs/ete3.yaml) he used to run the first python script. I needed to figure out how to replicate that `conda` environment before I could run the script.
+
+A quick search provided this [Stack Overflow](https://stackoverflow.com/questions/44742138/how-to-create-a-conda-environment-based-on-a-yaml-file) link with the following solution:
+
+`conda env create --file=myfile.yaml`
+
+### 2026-02-11
+
+Picking pu where I left off last week!
+
+I used `wget` to download the YAML file onto poseidon, then ran `conda env create --file=ete3.yaml`.
+
+I got this error as it was solving the environment:
+
+> (base) [yaamini.venkataraman@poseidon-l1 ~]$ conda env create -f ete3.yaml
+Collecting package metadata (repodata.json): done
+Solving environment: failed
+ResolvePackageNotFound:
+  - openssl==1.1.1=h7b6447c_0
+
+I modified the YAML file to remove "=h7b6447c_0" from the version strings, since that may be specific to the Poseidon system when Zac built the file (according to Gemini). Just removing the version strings for that one package worked! I then started running the first `python` script.
+
+> Uploading to /vortexfs1/home/yaamini.venkataraman/.etetoolkit/taxa.sqlite
+Traceback (most recent call last):
+  File "/vortexfs1/home/yaamini.venkataraman/06d-map_contam_ids.py", line 4, in <module>
+    ncbi = NCBITaxa()
+  File "/vortexfs1/home/yaamini.venkataraman/.conda/envs/ete3/lib/python3.7/site-packages/ete3/ncbi_taxonomy/ncbiquery.py", line 110, in __init__
+    self.update_taxonomy_database(taxdump_file)
+  File "/vortexfs1/home/yaamini.venkataraman/.conda/envs/ete3/lib/python3.7/site-packages/ete3/ncbi_taxonomy/ncbiquery.py", line 129, in update_taxonomy_database
+    update_db(self.dbfile)
+  File "/vortexfs1/home/yaamini.venkataraman/.conda/envs/ete3/lib/python3.7/site-packages/ete3/ncbi_taxonomy/ncbiquery.py", line 760, in update_db
+    upload_data(dbfile)
+  File "/vortexfs1/home/yaamini.venkataraman/.conda/envs/ete3/lib/python3.7/site-packages/ete3/ncbi_taxonomy/ncbiquery.py", line 802, in upload_data
+    db.execute("INSERT INTO synonym (taxid, spname) VALUES (?, ?);", (taxid, spname))
+sqlite3.IntegrityError: UNIQUE constraint failed: synonym.spname, synonym.taxid
+
+I used Gemini to help me troubleshoot what to do. It seems like the code is erroring out when it tries and updates the `blast` database. Gemini suggested doing a manual update of the database prior to running the script to avoid any timeout issues on the cluster:
+
+```
+python -c "from ete3 import NCBITaxa; ncbi = NCBITaxa(); ncbi.update_taxonomy_database()"
+```
+
+When I ran this code, I still got the error! It seems like the `ete3` version I'm using cannot handle the current format of the NCBI taxonomy database without triggering a "Duplicate Entry" error. I need to first fix that issue:
+
+```
+sed -i 's/INSERT INTO synonym (taxid, spname) VALUES (?, ?);/INSERT OR IGNORE INTO synonym (taxid, spname) VALUES (?, ?);/' /vortexfs1/home/yaamini.venkataraman/.conda/envs/ete3/lib/python3.7/site-packages/ete3/ncbi_taxonomy/ncbiquery.py
+```
+
+Once I ran the `sed` command, I reran the manual python script update. It finished without error:
+
+> (ete3) [yaamini.venkataraman@poseidon-l1 ~]$ python -c "from ete3 import NCBITaxa; ncbi = NCBITaxa(); ncbi.update_taxonomy_database()"
+NCBI database not present yet (first time used?)
+Downloading taxdump.tar.gz from NCBI FTP site (via HTTP)...
+Done. Parsing...
+Loading node names...
+2723150 names loaded.
+428355 synonyms loaded.
+Loading nodes...
+2723150 nodes loaded.
+Linking nodes...
+Tree is loaded.
+Updating database: /vortexfs1/home/yaamini.venkataraman/.etetoolkit/taxa.sqlite ...
+ 2723000 generating entries...
+Uploading to /vortexfs1/home/yaamini.venkataraman/.etetoolkit/taxa.sqlite
+Inserting synonyms:      425000
+Inserting taxid merges:  95000
+Inserting taxids:       2720000
+Downloading taxdump.tar.gz from NCBI FTP site (via HTTP)...
+Done. Parsing...
+Loading node names...
+2723150 names loaded.
+428355 synonyms loaded.
+Loading nodes...
+2723150 nodes loaded.
+Linking nodes...
+Tree is loaded.
+Updating database: /vortexfs1/home/yaamini.venkataraman/.etetoolkit/taxa.sqlite ...
+ 2723000 generating entries...
+Uploading to /vortexfs1/home/yaamini.venkataraman/.etetoolkit/taxa.sqlite
+Inserting synonyms:      425000
+Inserting taxid merges:  95000
+Inserting taxids:       2720000
+
+I then reran the the `bash` script that runs the `python` script! I now got a new error:
+
+> Traceback (most recent call last):
+  File "/vortexfs1/home/yaamini.venkataraman/06d-map_contam_ids.py", line 17, in <module>
+    lineage = ncbi.get_lineage(taxid)
+  File "/vortexfs1/home/yaamini.venkataraman/.conda/envs/ete3/lib/python3.7/site-packages/ete3/ncbi_taxonomy/ncbiquery.py", line 238, in get_lineage
+    raise ValueError("%s taxid not found" %taxid)
+ValueError: 1859514 taxid not found
+
+Gemini suggested adding this to the `python` script:
+
+```
+contam = []
+for i in hits.index:
+    contig = hits.loc[i,0]
+    taxid = hits.loc[i,13]
+    try:
+        lineage = ncbi.get_lineage(taxid)
+    except ValueError:
+        print(f"Warning: TaxID {taxid} not found in local database. Skipping.")
+        lineage = [] # Or handle as "Unknown"
+    if bool(set(lineage) & set(candidate_contam)):
+        contam.append(contig)
+```
+
+Once again, I revised my script and now it's running.
+
 ### Going forward
 
 1. Clean transcriptome with `blastn`
