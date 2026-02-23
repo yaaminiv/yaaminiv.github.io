@@ -200,6 +200,125 @@ for i in hits.index:
 
 Once again, I revised my script and now it's running.
 
+### 2026-02-23
+
+I got another error and my script failed, but I didn't have time until today to actually debug! Here's the error:
+
+> Warning: TaxID 1859514 not found in local database. Skipping.
+Warning: TaxID 6811 not found in local database. Skipping.
+Warning: TaxID 288656 not found in local database. Skipping.
+Traceback (most recent call last):
+  File "/vortexfs1/home/yaamini.venkataraman/06d-map_contam_ids.py", line 18, in <module>
+    lineage = ncbi.get_lineage(taxid)
+  File "/vortexfs1/home/yaamini.venkataraman/.conda/envs/ete3/lib/python3.7/site-packages/ete3/ncbi_taxonomy/ncbiquery.py", line 227, in get_lineage
+    result = self.db.execute('SELECT track FROM species WHERE taxid=%s' %taxid)
+sqlite3.Warning: You can only execute one statement at a time.
+
+My understanding of `python` is so limited that I had to use Gemini to troubleshoot. The debugged code it suggested:
+
+```
+contam = []
+for i in hits.index:
+    contig = hits.loc[i, 0]
+    taxid_raw = hits.loc[i, 13]
+
+    try:
+        # 1. Ensure taxid is a clean integer (removes decimals/whitespace)
+        taxid = int(float(taxid_raw))
+
+        # 2. Attempt to get lineage
+        lineage = ncbi.get_lineage(taxid)
+
+    except (ValueError, KeyError, TypeError):
+        # This handles the "taxid not found" or bad data types
+        print(f"Warning: TaxID {taxid_raw} not found in local database. Skipping.")
+        continue  # <--- This stops the current loop iteration and moves to the next row
+
+    # 3. Intersection check (only runs if lineage was successfully retrieved)
+    if set(lineage).intersection(candidate_contam):
+        contam.append(contig)
+```
+
+The reasoning behind it:
+
+> Key Changes Made:
+Added continue: Instead of setting lineage = [] and letting the script keep running, continue tells Python to abandon that specific contig immediately and start the next one. This prevents subsequent logic from tripping over empty variables.
+
+> int(float(taxid_raw)): Pandas often reads numbers as floats (e.g., 1859514.0). Passing a float into the ETE3 SQL query is likely what triggered the "one statement at a time" warning. Converting to a float first and then an integer ensures it's a clean number.
+
+> set().intersection(): While bool(set() & set()) works, intersection() is slightly more readable for this context.
+
+> Why this stops the SQLite error:
+The sqlite3.Warning occurs when a database cursor is left in an "unclean" state. By using continue, we ensure that if a database call fails, we don't try to perform any further logic on that specific result and move straight to the next "clean" database request.
+
+My script finished running! There are three output files:
+
+>(base) [yaamini.venkataraman@poseidon-l2 06d-blast]$ head merged.tab
+12	74109
+30	29
+36	184914
+37	42
+46	39
+57	3409587
+67	32033
+76	155892
+77	74311
+79	74313
+
+>(base) [yaamini.venkataraman@poseidon-l2 06d-blast]$ head taxa.tab
+1		root		no rank	1
+10239	1	Viruses		acellular root	10239,1
+131567	1	cellular organisms		cellular root	131567,1
+2787823	1	unclassified entries		no rank	2787823,1
+2787854	1	other entries		no rank	2787854,1
+12333	10239	unclassified bacterial viruses		no rank	12333,10239,1
+12429	10239	unclassified viruses		no rank	12429,10239,1
+186616	10239	environmental samples		no rank	186616,10239,1
+2559587	10239	Riboviria	RNA viruses and retroviruses	realm	2559587,10239,1
+2731341	10239	Duplodnaviria	double-stranded DNA viruses	realm	2731341,10239,1
+
+>(base) [yaamini.venkataraman@poseidon-l2 06d-blast]$ head contam_list.txt
+>TRINITY_DN11_c0_g1_i15
+>TRINITY_DN11_c0_g1_i2
+>TRINITY_DN11_c0_g1_i21
+>TRINITY_DN11_c0_g1_i24
+>TRINITY_DN11_c0_g1_i25
+>TRINITY_DN11_c0_g1_i26
+>TRINITY_DN11_c0_g1_i28
+>TRINITY_DN11_c0_g1_i3
+>TRINITY_DN11_c0_g1_i31
+>TRINITY_DN11_c0_g1_i35
+
+The most important one is `contam_list.txt`, which is a list of contaminated sequences. There are ~55,000 contaminated sequences, which are pretty small potatoes compared to the 900k transcripts that I have. Now that I identified contaminated sequences, I can use the [the subsetting script](https://github.com/yaaminiv/wc-green-crab/blob/main/code/06d-fasta_subsetter.py) to remove them. Zac's code looks like this:
+
+```
+#remove contam contigs
+
+rule remove_blast_contam:
+    input:
+        txm = TXM_LONG,
+        contam_list = BLAST_CONTAM_LIST,
+        script = {'scripts/fasta_subsetter.py'}
+    output:
+        txm_long = TXM_LONG_CLEAN
+    shell:
+        """
+        python {input.script} {input.txm} {input.contam_list} REMOVE
+        mv outputs/blast/contam_lis_REMOVE.fasta {output.txm_long} #'contam_lis' instead of 'contam_list' because .strip() bug in fasta_subsetter. ignore for now, fix later
+        """
+```
+
+My input is the `contam_list.txt` file, and the `txm` file is the transcriptome. I added the following to my `blast` script:
+
+```
+# Remove contaminated sequences from the transcriptome
+
+python ${HOME_DIR}/06d-fata_subsetter.py ${TRINITY_DIR}/trinity_out_dir/Trinity.fasta ${OUTPUT_DIR}/contam_list.txt REMOVE
+```
+
+I saved the script and started a new job.
+
+
 ### Going forward
 
 1. Clean transcriptome with `blastn`
