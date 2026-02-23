@@ -314,15 +314,14 @@ My input is the `contam_list.txt` file, and the `txm` file is the transcriptome.
 # Remove contaminated sequences from the transcriptome
 
 python ${HOME_DIR}/06d-fata_subsetter.py ${TRINITY_DIR}/trinity_out_dir/Trinity.fasta ${OUTPUT_DIR}/contam_list.txt REMOVE
+mv ${OUTPUT_DIR}/contam_lis_REMOVE.fasta ${OUTPUT_DIR}/transcriptome_contamRemoved.fasta
 ```
 
-I saved the script and started a new job.
-
+I saved the script and started a new job. Thankfully, this one didn't require any troubleshooting! My first round of cleaning is officially complete, and my resultant file is `transcriptome_contamRemoved.fasta`. My next step is to annotate the transcriptome with `EnTap`, which will end with an additional round of transcriptome cleaning.
 
 ### Going forward
 
-1. Clean transcriptome with `blastn`
-2. Annotate transcriptome with `EnTap`
+1. Annotate transcriptome with `EnTap`
 3. Quantify transcripts with `salmon`
 4. Identify differentially expressed genes
 5. Additional strand-specific analysis in the supergene region
