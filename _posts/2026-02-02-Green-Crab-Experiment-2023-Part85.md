@@ -1,11 +1,11 @@
 ---
 layout: post
 comments: true
-title: West Coast Green Crab Experiment Part 84
-tags: green-crab-wc RNA-Seq EnTap blastn
+title: West Coast Green Crab Experiment Part 85
+tags: green-crab-wc RNA-Seq blastn
 ---
 
-## Transcriptome cleaning and annotation
+## Transcriptome cleaning
 
 Now that I have my transcriptome assembled and [have assembly statistics](https://yaaminiv.github.io/Green-Crab-Experiment-2023-Part84/), my next step in this workflow is to clean and annotate the transcriptome.
 
