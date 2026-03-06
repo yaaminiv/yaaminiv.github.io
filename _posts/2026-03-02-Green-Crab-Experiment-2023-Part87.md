@@ -262,8 +262,95 @@ TransDecoder Error: Error, don't understand options: -O /scratch/yaamini.venkata
 
 Alright, seems like it's looking for my transcriptome in the `EnTAP` folder, but the transcriptome is in the `blast` folder. Perhaps I need to modify that in the input parameters after all.
 
+## 2026-03-05
 
+I modified the input parameter and changed the command:
 
+```
+#Path to the input transcriptome file
+#type:string
+input=/scratch/yaamini.venkataraman/wc-green-crab/output/06d-blast/transcriptome_contamRemoved.fasta
+```
+
+```
+${ENTAP}/EnTAP --run \
+--run-ini ${OUTPUT_DIR}/entap_run.params \
+--entap-ini ${OUTPUT_DIR}/entap_config.ini \
+-d entap_outfiles/bin/nr.dmnd \
+-d entap_outfiles/bin/refseq_complete.dmnd \
+-d entap_outfiles/bin/uniprot_sprot.dmnd \
+-d entap_outfiles/bin/uniprot_trembl.dmnd \
+-d entap_outfiles/bin/uniref90_rf.dmnd \
+-t 35 \
+-c bacteria \
+-c archaea \
+-c viruses \
+-c platyhelminthes \
+-c nematoda \
+-c fungi \
+-c alveolata \
+-c viridiplantae \
+-c rhodophyta \
+-c amoebozoa \
+-c rhizaria \
+-c stramenopiles \
+-c rhizocephala \
+-c entoniscidae \
+--taxon brachyura
+```
+
+I still got the same error!
+
+> Error in running TransDecoder.LongOrfs
+TransDecoder Error: Error, don't understand options: -O /scratch/yaamini.venkataraman/wc-green-crab/output/06e-entap/entap_outfiles/frame_selection/TransDecoder -t /scratch/yaamini.venkataraman/wc-green-crab/output/06e-entap/entap_outfiles/transcriptomes/transcriptome_contamRemoved.fasta at /vortexfs1/apps/bio/transdecoder-5.3.0/TransDecoder.LongOrfs line 117.
+
+I looked into whether each of these files actually existed at the indicated path. Yes! They were all found there. So it seems like at some point during the run, my transcriptome file got moved to the output file directory for `EnTAP` runs. I decided to dig into the "don't understand options" `transdecoder` error more. The first thing I wondered was if it was a `transdecoder` version issue. I am using version 5.3.0 from Poseidon, which is the minimum allowable version for `EnTAP`. However, version 5.7.1 was packaged with `EnTAP` and I did not install that dependency manually. When I looked into the latest version of `transdecoder`, I saw that [the `-O` flag was only introduced with  version 5.7.1](https://github.com/TransDecoder/TransDecoder/releases)!! So it really is a version issue.
+
+I needed to figure out how to install `transdecoder`, since the [`EnTAP` dependency page](https://entap.readthedocs.io/en/latest/Getting_Started/Installation/Installation_From_Source_Code/installation_from_source_code.html#installing-pipeline-software) doesn't have installation instructions. Based on the [`transdecoder` documentation](https://github.com/TransDecoder/TransDecoder/wiki), there's nothing to compile. I confirmed this by unzipping the directory (`tar -xvzf`) and looking at the `Makefile`:
+
+> (base) [yaamini.venkataraman@poseidon-l2 TransDecoder-TransDecoder-v5.7.1]$ cat Makefile
+SHELL := /bin/bash
+all:
+	@echo Nothing to build.  Run \'make test\' to run example executions on each of the sample data sets provided.
+clean:
+	cd ./sample_data && make clean
+test:
+	cd ./sample_data/ && make test
+(base) [yaamini.venkataraman@poseidon-l2 TransDecoder-TransDecoder-v5.7.1]$ make
+Nothing to build. Run 'make test' to run example executions on each of the sample data sets provided.
+
+My next steps were as follows:
+
+- Comment out the line loading the `transdecoder` module
+- Make sure the `transdecoder` path is correct in the config and run parameter files
+
+In the `config` file, I found the following chunk:
+
+```
+#Method to execute TransDecoder.LongOrfs. This may be the path to the executable or simply TransDecoder.LongOrfs
+#type:string
+transdecoder-long-exe=TransDecoder.LongOrfs
+#Method to execute TransDecoder.Predict. This may be the path to the executable or simply TransDecoder.Predict
+#type:string
+transdecoder-predict-exe=TransDecoder.Predict
+```
+
+I changed it to this:
+
+```
+#Method to execute TransDecoder.LongOrfs. This may be the path to the executable or simply TransDecoder.LongOrfs
+#type:string
+transdecoder-long-exe=/vortexfs1/home/yaamini.venkataraman/EnTAP-v2.3.0/libs/TransDecoder-TransDecoder-v5.7.1/TransDecoder.LongOrfs
+#Method to execute TransDecoder.Predict. This may be the path to the executable or simply TransDecoder.Predict
+#type:string
+transdecoder-predict-exe=/vortexfs1/home/yaamini.venkataraman/EnTAP-v2.3.0/libs/TransDecoder-TransDecoder-v5.7.1/TransDecoder.Predict
+```
+
+There were no flags to modify in the run parameter file, but again, it seems like all the options I'm providing for taxonomy and contaminants can also be indicated in the run parameter file. I started the revised script.
+
+### 2026-03-06
+
+When I checked on my script today it was still running! It finished frame selection with `transdecoder` and moved onto similarity search with `diamond`. The job is ID 1876450.
 
 ### Going forward
 
