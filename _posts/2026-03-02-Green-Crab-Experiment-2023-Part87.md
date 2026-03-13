@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: West Coast Green Crab Experiment Part 87
-tags: green-crab-wc RNA-Seq EnTAP
+tags: green-crab-wc RNA-Seq EnTAP trinity salmon
 ---
 
 ## Transcriptome annotation, continued
@@ -351,6 +351,188 @@ There were no flags to modify in the run parameter file, but again, it seems lik
 ### 2026-03-06
 
 When I checked on my script today it was still running! It finished frame selection with `transdecoder` and moved onto similarity search with `diamond`. The job is ID 1876450.
+
+### 2026-03-10
+
+#### Gene-level count matrix
+
+Ashray is starting the preliminary `DESeq2` analysis. One issue he is running into is that `DESeq2` is performing the analysis on all of the transcripts and isoforms, but for this analysis working with gene-level data would be more appropriate. There is an R package called [`tximport`](https://bioconductor.org/packages/release/bioc/vignettes/tximport/inst/doc/tximport.html#Import_transcript-level_estimates) that is built for transcript-level count matrix data, but a brief read of the manual was pretty confusing! I decided to go back to the `salmon` script and modify it to generate a gene-level count matrix:
+
+```
+#Gene-level estimates
+## Get a list of the salmon quant.sf files so we don't have to list them individually
+find ${OUTPUT_DIR}/. -maxdepth 2 -name "quant.sf.genes" | tee ${OUTPUT_DIR}/salmon.quant_genes_files.txt
+
+## Generate a matrix with all abundance estimates
+$TRINITY_HOME/util/abundance_estimates_to_matrix.pl \
+--est_method salmon \
+--gene_trans_map none \
+--quant_files ${OUTPUT_DIR}/salmon.quant_genes_files.txt \
+--name_sample_by_basedir
+
+## Calculate Ex50 statistics
+contig_ExN50_statistic.pl ${OUTPUT_DIR}/salmon.isoform.TPM.not_cross_norm \
+${OUTPUT_DIR}/trinity_out_dir/Trinity.fasta \
+| tee ${OUTPUT_DIR}/ExN50.stats.genes
+
+## Calculate N50 statistics
+TrinityStats.pl ${OUTPUT_DIR}/trinity_out_dir/Trinity.fasta \
+> ${OUTPUT_DIR}/N50.txt.genes
+```
+
+I can run this in addition to the transcript-level estimates so I have both pieces of information prior to working with `DESeq2`. The job is pending.
+
+#### Adding large files to OSF
+
+Another issue I ran into when Ashray was doing the data analysis is file sharing! The `salmon` output is too large to host on Github, and I completely forgot about OSF...until now. I created [this OSF repository](https://osf.io/ea8mq/overview) to host the large files. I also added the link to the OSF repo to [the Github repository](https://github.com/yaaminiv/wc-green-crab/tree/main).
+
+#### `EnTAP` progress
+
+My `EnTAP` run didn't finish in the 5 day window! Looks like the `diamond` database search takes a really long time. I now needed to do two things:
+
+1. Figure out to resume an `EnTAP` run from where it left off
+2. Change the run time of the `EnTAP` script
+
+The second one was easy enough to do. I modified the following in the run parameter file:
+
+```
+#Select this option if you would like EnTAP to continue execution if existing files are found from a previous run. If false$
+#type:boolean (true/false)
+resume=true
+```
+
+I restarted my run! Surprisingly it started running immediately. I realized I was using the compute note for this but not the `trinity` script. When I switched that to the compute node, it didn't start running immediately! No clue what's going on here.
+
+I did confirm that my script started the `diamond` similarity search instead of re-running `transdecoder`:
+
+```
+Tue Mar 10 17:27:13 2026 -- Running EnTAP Execution...
+Tue Mar 10 17:28:06 2026 -- Beginning Frame Selection...
+        Parsing TransDecoder Frame Selection Results...
+        Complete [0 min]
+        Results written to: /scratch/yaamini.venkataraman/wc-green-crab/output/06e-entap/entap_outfiles/frame_selection/TransDecoder
+Tue Mar 10 17:28:12 2026 -- Frame Selection Complete [0 min]
+Tue Mar 10 17:28:13 2026 -- Beginning Similarity Search...
+        Running DIAMOND Similarity Search...
+                Running DIAMOND Similarity Search against database at entap_outfiles/bin/nr.dmnd...
+```
+
+### 2026-03-12
+
+#### Gene-level count matrix
+
+I have a gene-level count matrix! Unfortunately, it overwrote all the files that were transcript-level and previously created from `trinity`. Not an issue since I have those files saved on my computer and OSF, but annoying if I wanted to work from the scratch directory. This should be a bit more straightforward to work with, but I still have 648,341 genes in the file. When I checked the isoform count matrix, I had 913681 entries. This could just be the result of having to create a de novo transcriptome. I may need to mess around with `tximport` after all just to see if there's any other redundancy built in. Either way, I renamed the count matrix and moved it to my home directory, Github repository, and OSF repository.
+
+#### `EnTAP` progress
+
+Still running! Job ID is 1880693.
+
+### 2026-03-13
+
+#### Gene-level count matrix
+
+I had an epiphany. I probably have a lot of contamination sequences since I've been generating information for the uncleaned transcriptome! While `EnTAP` is running (and will likely identify more contamination), I can at least work with the transcriptome that was [cleaned after my `blastn` run](https://yaaminiv.github.io/Green-Crab-Experiment-2023-Part85/). I had a couple of tasks for today:
+
+1. Find the annotated transcriptome generated from `blastn`
+
+I navigated to the `blastn` output directory to look at the files that were created. I have a file called `blast-results/transcriptome-contam.tab` with 115,204 entries:
+
+> (base) [yaamini.venkataraman@poseidon-l1 blast-results]$ head transcriptome-contam.tab
+TRINITY_DN11_c0_g1_i15	gi|1379041273|gb|CP028800.1|	95.569	1354	54	6	1	1352	2593208	2591859	0.0	2163	Acinetobacter junii strain WCHAJ59 chromosome, complete genome	40215
+TRINITY_DN11_c0_g1_i2	gi|359551946|gb|JN869067.1|	93.827	891	47	8	243	1129	1	887	0.0	1334	Uncultured bacterium clone AN62 16S ribosomal RNA gene, partial sequence	77133
+TRINITY_DN11_c0_g1_i21	gi|1445136029|ref|NR_158069.1|	92.111	1369	92	14	297	1659	1	1359	0.0	1916	Nocardioides agrisoli strain djl-8 16S ribosomal RNA, partial sequence	1882242
+TRINITY_DN11_c0_g1_i24	gi|404428310|gb|JQ516465.1|	94.310	580	33	0	2	581	465	1044	0.0	889	Uncultured Rhizobiales bacterium clone 0907_Mf_HT2_B11 16S ribosomal RNA gene, partial sequence	208549
+TRINITY_DN11_c0_g1_i25	gi|684780902|gb|KJ995964.1|	88.112	1388	151	14	297	1677	3	1383	0.0	1637	Uncultured bacterium clone C-147 16S ribosomal RNA gene, partial sequence	77133
+TRINITY_DN11_c0_g1_i26	gi|1233268392|gb|KX771411.1|	99.163	239	2	0	1	239	903	1141	5.39e-117	431	Uncultured bacterium clone 01G_N5Kili 16S ribosomal RNA gene, partial sequence	77133
+TRINITY_DN11_c0_g1_i28	gi|1379041273|gb|CP028800.1|	90.559	2288	174	23	533	2787	2594137	2591859	0.0	2990	Acinetobacter junii strain WCHAJ59 chromosome, complete genome	40215
+TRINITY_DN11_c0_g1_i3	gi|359551675|gb|JN868796.1|	87.857	1367	125	23	297	1659	1	1330	0.0	1567	Uncultured bacterium clone MW25 16S ribosomal RNA gene, partial sequence	77133
+TRINITY_DN11_c0_g1_i31	gi|459218310|gb|KC442851.1|	88.408	1087	86	20	297	1378	1	1052	0.0	1273	Uncultured bacterium clone A40 16S ribosomal RNA gene, partial sequence	77133
+TRINITY_DN11_c0_g1_i35	gi|643391102|gb|KF070860.1|	88.406	1242	111	28	317	1543	1	1224	0.0	1465	Uncultured bacterium clone ncd135b03c1 16S ribosomal RNA gene, partial sequence	77133
+
+I also have a list of 55,624 contaminated sequences to remove:
+
+> (base) [yaamini.venkataraman@poseidon-l1 blast-results]$ head ../contam_list.txt
+>TRINITY_DN11_c0_g1_i15
+>TRINITY_DN11_c0_g1_i2
+>TRINITY_DN11_c0_g1_i21
+>TRINITY_DN11_c0_g1_i24
+>TRINITY_DN11_c0_g1_i25
+>TRINITY_DN11_c0_g1_i26
+>TRINITY_DN11_c0_g1_i28
+>TRINITY_DN11_c0_g1_i3
+>TRINITY_DN11_c0_g1_i31
+>TRINITY_DN11_c0_g1_i35
+
+In theory, there are annotations present in `transcriptome-contam.tab` for clean sequences found in `transcriptome_contamRemoved.fasta`. To test this, I decided to use `grep` to look at HSPs:
+
+> (base) [yaamini.venkataraman@poseidon-l1 06d-blast]$ grep "HSP" blast-results/transcriptome-contam.tab
+TRINITY_DN197_c1_g2_i10	gi|558549575|gb|KC493625.1|	83.781	2084	322	10	103	2178	179	2254	0.0	1962	Eriocheir sinensis heat shock protein 70 (HSP70) mRNA, complete cds	95602
+TRINITY_DN1236_c17_g1_i1	gi|982224718|ref|XM_005595941.2|	88.889	99	8	3	21	116	596	694	6.73e-23	119	PREDICTED: Macaca fascicularis heat shock protein family A (Hsp70) member 6 (HSPA6), mRNA	9541
+TRINITY_DN12542_c0_g1_i1	gi|723587483|gb|KM277361.1|	95.349	86	4	0	334	419	103	188	2.46e-28	137	Charybdis japonica heat shock protein 70 (HSP70) mRNA, complete cds	80839
+TRINITY_DN12542_c0_g1_i6	gi|723587483|gb|KM277361.1|	95.349	86	4	0	339	424	103	188	2.49e-28	137	Charybdis japonica heat shock protein 70 (HSP70) mRNA, complete cds	80839
+
+Many of those entries above and the others I looked through have annotations in crustacean and/or marine invertebrate species, so they would not have been removed during the cleaning step! So I definitely have a bare-bones annotation file to work with. The cleaned transcriptome from `blast` has 9,355,650, so I am missing a lot of annotations. I think that's fine for now, considering that this is a preliminary analysis.
+
+2. Get gene-level count matrix information for the transcriptome cleaned after running `blastn`
+
+Alright, now that I know I have annotations to work with and I have a cleaner (but not cleanest!) transcriptome, it's time to get gene-level count matrix information for that cleaner transcriptome. I figured a good place to start would be to remove the contamination sequences in `contam_list.txt` from the gene-level count matrix I had. I transferred the files to my home directory and wanted to transfer them to my laptop, but for some reason I couldn't log into `vast`?! I've ran into this problem before, and I don't know why sometimes I can log in to the server and sometimes I cannot. Unclear what's happening but I just used `cat` to get the file information and created [`contam-list.txt`](https://github.com/yaaminiv/wc-green-crab/blob/main/output/06d-blast/contam-list.txt) and [`transcriptome-contam.tab`](https://github.com/yaaminiv/wc-green-crab/blob/main/output/06d-blast/blast-results/transcriptome-contam.tab).
+
+I figured the sequence removal step should be straightforward to do in R. I opened the [R Markdown file Ashray created to start the preliminary analysis](https://github.com/yaaminiv/wc-green-crab/blob/main/code/06f-gene-expression.Rmd) and imported the gene-level count matrix information and metadata. I then imported the list of contaminated sequences, removing the ">" prefix and isoform indications at the end to match the syntax in the gene-level count matrix. I successfully figured out the `regex` syntax thanks to the help of [this website](https://regexr.com):
+
+```
+contamSeqBlast <- read.delim("../output/06d-blast/contam-list.txt", header = FALSE, check.names = FALSE, col.names = "ID") %>%
+  mutate(ID = gsub(pattern = ">", replacement = "", x = ID)) %>%
+  mutate(ID = gsub(pattern = "_i.", replacement = "", x = ID)) %>%
+  arrange(ID) %>%
+  distinct(.)
+  #Import list of contaminated sequences. Use gsub to get rid of ">". Use gsub to also get rid of isoform designation (_i = start of isoform, . = any character except new line) so entries can be mapped to gene-level count matrix. Arrange alphanumerically and retain distinct rows.
+head(contamSeqBlast) #Confirm changes
+nrow(contamSeqBlast) #51785 contaminated genes
+```
+
+I then used `anti_join` to remove contamination sequences:
+
+```
+# making new data subset for end of exp THIS IS WHERE ROW NAMES GETS ADDED(?)
+End.data <- salmon.data %>%
+  select(ID, any_of(sequencing.picks.8.9.23$crab.ID)) %>%
+  mutate(across(where(is.numeric), round, 0)) %>%
+  anti_join(., y = contamSeqBlast, by = "ID") %>% #Use anti-join to return all rows from salmon.data that do not match list of contamination sequences
+  arrange(ID)
+head(End.data)
+nrow(End.data) #597263 genes without contamination
+```
+
+Now that I had this figured out, I created [this Github issue](https://github.com/yaaminiv/wc-green-crab/issues/5) with the code so Ashray could do the same.
+
+3. Annotate cleaner gene-level count matrix
+
+The last task I had was annotating the gene-level count matrix. I imported and modified the annotations in R:
+
+```
+blastAnnotations <- read.delim("../output/06d-blast/blast-results/transcriptome-contam.tab", header = FALSE, check.names = FALSE, ) %>%
+  select(1, 13) #Import annotations from blast. Keep only columns 1 and 13
+colnames(blastAnnotations) <- c("ID", "annotation") #Rename columns
+```
+```{r}
+blastAnnotationsGenes <- blastAnnotations %>%
+    mutate(ID = gsub(pattern = "_i.", replacement = "", x = ID)) %>%
+  distinct(.) #Remove isoform indication from annotations to match gene-level count matrix and keep only distinct rows.
+head(blastAnnotationsGenes)
+nrow(blastAnnotationsGenes)
+```
+
+I then used `left_join` to match the annotations with the differentially expressed transcripts:
+
+```
+lfc2.results.annot <- left_join(lfc2.results, blastAnnotationsGenes, by = "ID") %>%
+  distinct(.)
+lfc2.results.annot %>%
+  filter(is.na(annotation) == FALSE) %>%
+  nrow(.) #897 transcripts with annotations
+```
+
+Only 897 differentially expressed transcripts were annotated. I suspect that I will have more annotations once `EnTAP` finishes. I posted [this Github issue](https://github.com/yaaminiv/wc-green-crab/issues/6) for Ashray to annotate the DET list himself.
 
 ### Going forward
 
