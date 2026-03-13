@@ -5,7 +5,7 @@ title: February 2026 Goals
 tags: goals
 ---
 
-### [January Goals Recap](https://yaaminiv.github.io/January-2026-Goals/)
+## [January Goals Recap](https://yaaminiv.github.io/January-2026-Goals/)
 
 **Pilot Green Crab Experiment**:
 
@@ -31,7 +31,7 @@ tags: goals
 - Got Oceans course material from Dawn
 - Started assembling a team for the summer!
 
-### February Goals
+## February Goals
 
 **Pilot Green Crab Experiment**:
 
