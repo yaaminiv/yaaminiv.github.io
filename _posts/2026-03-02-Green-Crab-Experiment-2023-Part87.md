@@ -534,6 +534,28 @@ lfc2.results.annot %>%
 
 Only 897 differentially expressed transcripts were annotated. I suspect that I will have more annotations once `EnTAP` finishes. I posted [this Github issue](https://github.com/yaaminiv/wc-green-crab/issues/6) for Ashray to annotate the DET list himself.
 
+### 2026-03-25
+
+My `EnTAP` job ended again! I went through the run paramters file and modified the thread count (in case the `threads` argument in the run code wasn't working):
+
+```
+# Old version
+
+#Specify the number of threads that will be used throughout EnTAP execution
+#type:integer
+threads=1
+```
+
+```
+# New version
+
+#Specify the number of threads that will be used throughout EnTAP execution
+#type:integer
+threads=35
+```
+
+Maybe this will speed up the process and finally finish the annotation. I kept the 10 day run time to see what would happen.
+
 ### Going forward
 
 1. Annotate transcriptome with `EnTAP`
