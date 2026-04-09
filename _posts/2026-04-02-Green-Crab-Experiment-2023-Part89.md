@@ -81,6 +81,66 @@ Thu Apr  2 14:32:25 2026: NO, nucleotide data, with no frame selection specified
 
 Similarity search is now running on the first `diamond` database. Let's see how long this takes!
 
+### 2026-04-09
+
+I talked to Zac more and he suggested retaining the longest isoform of each gene prior to the `EnTAP` annotation. By paring down the number of transcripts that need to be annotated, my job would likely take less time. Zac did something similar in [his script](https://github.com/tepoltlab/RhithroLoxo_DE/blob/master/Snakefile#L300), so I revisited it.
+
+```
+#retain only longest isoform per 'gene'
+
+rule txm_long:
+    input:
+        txm = 'txms/rhithro/trinity_kmer25cov1.Trinity.fasta',
+        script1 = {'scripts/list-trinity-dups-to-remove.py'},
+        script2 = {'scripts/fasta_subsetter.py'}
+    output:
+        txm_long = TXM_LONG
+    shell:
+        """
+        python {input.script1} {input.txm}
+        python {input.script2} {input.txm} txms/rhithro/trinity_kmer25cov1.Trinity.fasta_dups.txt REMOVE
+        mv txms/rhithro/trinity_kmer25cov1.Trinity.fasta_dups_REMOVE.fasta {output.txm_long}
+        """
+```
+
+Looks like he used [this `python` script](https://github.com/tepoltlab/RhithroLoxo_DE/blob/master/scripts/list-trinity-dups-to-remove.py) Carolyn wrote to retain only the longest isoform. I created a version of it and saved it [here](https://github.com/yaaminiv/wc-green-crab/blob/main/code/06e-list-trinity-dups-to-remove.py). I then added this code to my `EnTAP` script:
+
+```
+# Retain only the longest isoform for annotation - significantly speeds up annotation process
+python ${HOME_DIR}/06e-list-trinity-dups-to-remove.py ${BLAST_DIR}/transcriptome_contamRemoved.fasta
+python ${HOME_DIR}/06d-fasta_subsetter.py ${BLAST_DIR}/transcriptome_contamRemoved.fasta ${BLAST_DIR}/transcriptome_contamRemoved.fasta_dups.txt REMOVE
+mv ${BLAST_DIR}/transcriptome_contamRemoved.fasta ${BLAST_DIR}/transcriptome_contamRemoved_dupRemoved.fasta
+```
+
+After it ran, I confirmed that the list of duplicated sequences made sense:
+
+> (base) [yaamini.venkataraman@poseidon-l2 06d-blast]$ head transcriptome_contamRemoved.fasta_dups.txt
+>TRINITY_DN0_c0_g1_i11
+>TRINITY_DN0_c0_g1_i13
+>TRINITY_DN0_c0_g1_i12
+>TRINITY_DN0_c0_g1_i4
+>TRINITY_DN0_c0_g1_i5
+>TRINITY_DN0_c0_g1_i2
+>TRINITY_DN0_c0_g1_i7
+>TRINITY_DN0_c0_g1_i6
+>TRINITY_DN0_c0_g1_i9
+>TRINITY_DN0_c0_g2_i2
+
+> (base) [yaamini.venkataraman@poseidon-l2 06d-blast]$ grep ">" transcriptome_contamRemoved_dupRemoved.fasta | wc -l
+597666
+(base) [yaamini.venkataraman@poseidon-l2 06d-blast]$ grep ">" transcriptome_contamRemoved.fasta | wc -l
+858056
+
+It seems ~250000 sequences were removed. I then made the following modifications under `general` in the `EnTAP` run parameter file:
+
+```
+input=/scratch/yaamini.venkataraman/wc-green-crab/output/06d-blast/transcriptome_contamRemoved_dupRemoved.fasta
+```
+
+I ran the script, bumping the time up to 14 days. Since I already changed settings earlier to not resume previous runs and overwrite files, I should be good to go. Here's hoping I actually make it through annotation...
+
+- check to see if the nonredundant protein sequences are really waht I think they are? maybe there are too many of them?
+
 ### Going forward
 
 1. Annotate transcriptome with `EnTAP`
