@@ -139,7 +139,19 @@ input=/scratch/yaamini.venkataraman/wc-green-crab/output/06d-blast/transcriptome
 
 I ran the script, bumping the time up to 14 days. Since I already changed settings earlier to not resume previous runs and overwrite files, I should be good to go. Here's hoping I actually make it through annotation...
 
-- check to see if the nonredundant protein sequences are really waht I think they are? maybe there are too many of them?
+### 2026-04-13
+
+Alright, we're still on the first database! My new theory is that maybe the non-redundant protein sequences aren't what I think they are. [When I downloaded the sequences](https://yaaminiv.github.io/Green-Crab-Experiment-2023-Part86/), I noticed that the `complete.nonredundant_protein` files no longer exist and just downloaded the protein reference that I could. Looking at [Rayna's config file](https://github.com/tepoltlab/Hemigrapsus_transcriptome_pipeline/blob/main/3_filter_transcriptome/config.yaml), it seems like there may already be `diamond` databases present in the Tepolt lab folder. A good first step would be for me to see if there is a discrepancy in number of entries between the `diamond` database that I'm using and the one in the Tepolt Lab folder. The database in the Tepolt lab folder has a size of 378,461,519,025, while the one I'm using has a size of 371,476,293,189.
+
+Okay, so the file size is not drastically different...there goes that theory. I'll check with Rayna to see if there are other things I should try.
+
+### 2026-04-17
+
+Rayna did some independent testing of my files. She initially thought that `diamond` exited because the temporary files that get updated throughout the run stopped updating on April 9. After testing the files some more, she determined that the `EnTAP` run was completing with smaller databases, but not the very large non-redundant protein database. She suggested I change to the `bigmem` partition with 1000G of memory to run the script. I cancelled my existing job, made the change to the SLURM header, and added the job to the queue.
+
+### 2026-04-23
+
+After being stuck in the queue for several days, `EnTAP` is running! I'm going to let it run through today and if the files don't seem like they're updating any more, I'll reach out to Rayna about splitting the transcriptome into different chunks.
 
 ### Going forward
 
