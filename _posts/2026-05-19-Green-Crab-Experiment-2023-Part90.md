@@ -184,25 +184,112 @@ I then added a chunk of code using a built-in `trinity` script to remove low-abu
 
 ```
 ${TRINITY}/util/filter_low_expr_transcripts.pl \
-  --matrix ${OUTPUT_DIR}/salmon_matrix.TPM.not_cross_norm \
-  --transcripts ${OUTPUT_DIR}/supertranscript_output/trinity_genes.fasta \
-  --min_expr_any 0.5 \
-  --trinity_mode
+--matrix ${OUTPUT_DIR}/supertranscript_output/salmon.isoform.TPM.not_cross_norm \
+--transcripts ${OUTPUT_DIR}/supertranscript_output/trinity_genes.fasta \
+--min_expr_any 0.5 \
+--trinity_mode
 ```
 
+The individual files have been created!
 
-NEXT STEPS:
-- look at individual sample DATA
-- confirm file paths are correct
-- perform filtering for TPM < 0.5
-- calculate ExN50 and N50 statistics
+> (base) [yaamini.venkataraman@poseidon-l1 15-033]$ head quant.sf
+Name	Length	EffectiveLength	TPM	NumReads
+TRINITY_DN0_c0_g1	607	385.368	13.009802	240.234
+TRINITY_DN0_c0_g2	405	195.349	18.979226	177.655
+TRINITY_DN0_c0_g4	313	119.104	0.000000	0.000
+TRINITY_DN0_c1_g1	689	466.177	7.742741	172.955
+TRINITY_DN1_c0_g1	6161	5931.690	1.809426	514.289
+TRINITY_DN1_c1_g1	4670	4440.690	3.638114	774.132
+TRINITY_DN1_c1_g2	413	202.416	1.020890	9.902
+TRINITY_DN1_c2_g1	1446	1216.690	0.308770	18.001
+TRINITY_DN1_c3_g1	287	99.306	0.000000	0.000
 
+Now that I have the individual files, I ran the following to piece them together into one count matrix:
+
+```
+#Transcript-level estimates
+## Get a list of the salmon quant.sf files so we don't have to list them individually
+find ${OUTPUT_DIR}/. -maxdepth 2 -name "quant.sf" | tee ${OUTPUT_DIR}/supertranscript_output/salmon.quant_files.txt
+
+## Generate a matrix with abundance estimates across all samples
+$TRINITY_HOME/util/abundance_estimates_to_matrix.pl \
+--est_method salmon \
+--quant_files ${OUTPUT_DIR}/supertranscript_output/salmon.quant_files.txt \
+--name_sample_by_basedir \
+--gene_trans_map none
+```
+Once I got my count matrix, I filtered it:
+
+```
+${TRINITY}/util/filter_low_expr_transcripts.pl \
+--matrix ${OUTPUT_DIR}/supertranscript_output/salmon.isoform.TPM.not_cross_norm \
+--transcripts ${OUTPUT_DIR}/supertranscript_output/trinity_genes.fasta \
+--min_expr_any 0.5 \
+--trinity_mode
+```
+
+The filtering ran, but I have no idea where the output file is, or if it simply re-wrote the files I had made previously. Since I never specified an output file, I seems like the filtered transcripts were directed to the standard error file. Rookie mistake (aka what I get for trusting Gemini code without checking it! I forgot the Golden Rule of Bioinformatics)! I reviewed the script requirements [in the `trinity` wiki](https://github.com/trinityrnaseq/trinityrnaseq/wiki/Trinity-Transcript-Quantification#filtering-transcripts) and found [this protocol document](https://www.protocols.io/view/transcriptome-assembly-dfib3kan.pdf) that outlined the necessary modifications. I then reran a modified chunk of code to perform filtering AND create a new output file:
+
+```
+${TRINITY}/util/filter_low_expr_transcripts.pl \
+--matrix ${OUTPUT_DIR}/supertranscript_output/salmon.isoform.TPM.not_cross_norm \
+--transcripts ${OUTPUT_DIR}/supertranscript_output/trinity_genes.fasta \
+--min_expr_any 0.5 \
+--trinity_mode \
+> ${OUTPUT_DIR}/supertranscript_output/filtered_transcripts_min_exp_0.5.fasta
+```
+
+The new file was created, and the standard error shows all the transcripts that were removed due to low expression, and the total percent of transcripts retained:
+
+> -excluding TRINITY_DN698243_c0_g1, max_expr: 0.275037 < 0.5
+-excluding TRINITY_DN698249_c0_g1, max_expr: 0.490458 < 0.5
+-excluding TRINITY_DN698262_c0_g1, max_expr: 0.336862 < 0.5
+-excluding TRINITY_DN698267_c0_g1, max_expr: 0.352543 < 0.5
+-excluding TRINITY_DN698281_c0_g1, max_expr: 0.357754 < 0.5
+Retained 408651 / 648340 = 63.03% of total transcripts.
+
+This seemed like important information, so I made a copy of the log file and saved it as `transcripts_removed_min_exp_0.5.txt`.
+
+Now that I had the filtered transcriptome, my final step was to calculate Ex50 and N50 statistics. I decided to first calculate these statistics for the unfiltered transcriptome, so I had an idea of the assembly quality for raw transcriptome straight from `trinity`. I can calculate the assembly statistics for the final transcriptome after TPM filtering and contaminant removal later!
+
+```
+# TRANSCRIPTOME ASSEMBLY STATISTICS
+
+# Calculate Ex50 statistics
+contig_ExN50_statistic.pl ${OUTPUT_DIR}/supertranscript_output/salmon.isoform.TPM.not_cross_norm \
+${OUTPUT_DIR}/supertranscript_output/trinity_genes.fasta \
+| tee ${OUTPUT_DIR}/supertranscript_output/ExN50.stats
+
+# Calculate N50 statistics
+TrinityStats.pl ${OUTPUT_DIR}/supertranscript_output/trinity_genes.fasta \
+> ${OUTPUT_DIR}/supertranscript_output/N50.txt
+```
+
+The E90N50 value is 2584, or ~2.6 kb. There are 12,398 supertranscripts that were used to contribute this value. This is much better than the N50 statistics.
+
+At this point, I realized that my script needed some guideposting. I reorganized so the filtering would occur at the very end of the script, after assembly statistic calculation for the raw transcriptome. I also moved the output from filtering to a different folder to keep everything organized.
+
+Reviewing Carolyn's suggestions, she expected 50,000-70,000 contigs after expression filtering. I have a whole order of magnitude more after filtering! I don't want to do too much filtering at this stage and lose some lowly-expressed unique transcripts that may be important for understanding crab responses to thermal exposure. I decided to repeat with a TPM < 1 filter to see if that would make a significant difference.
+
+> (base) [yaamini.venkataraman@poseidon-l1 filtered_supertranscript_output]$ tail transcripts_removed_min_exp_1.txt
+-excluding TRINITY_DN698267_c0_g1, max_expr: 0.352543 < 1
+-excluding TRINITY_DN698269_c0_g1, max_expr: 0.618227 < 1
+-excluding TRINITY_DN698271_c0_g1, max_expr: 0.537815 < 1
+-excluding TRINITY_DN698276_c0_g1, max_expr: 0.518825 < 1
+-excluding TRINITY_DN698281_c0_g1, max_expr: 0.357754 < 1
+Retained 201238 / 648340 = 31.04% of total transcripts.
+
+Repeating the analysis with a TPM < 1 filter only retained 201,238 transcripts! I think this is way too harsh of a filter, as it only keeps ~30% of the original transcriptome and could be removing lowly-expressed transcripts or transcripts uniquely expressed in a certain condition. I pinged Carolyn to get her thoughts on this. She suggested I actually go back to the transcriptome assembly step, since 600k supertranscripts is way too high, and perhaps there has been a change in the `trinity` algorithm that now leads to more, small transcripts being produced. The goal is to get more in the realm of the 50,000-70,000 supertranscripts she mentioned earlier, as this is less likely to spread my reads across assembly artifacts.
+
+Back to the drawing board I guess!
 
 ### Going forward
 
-1. Remove contigs with very low TPM with `salmon`
+1. Tweak transcriptome assembly parameters to reduce the number of assembly artifacts and total supertranscripts
 2. Annotate transcriptome with `EnTAP`
-3. Quantify transcripts with `salmon`
+2. Remove contaminant sequences identified by `EnTAP`
+3. Create count matrix for clean transcriptome
+2. Calculate Ex50 and N50 statistics for clean transcriptome
 4. Repeat analysis with clean transcriptome and fuller annotations in `edgeR`
 5. Identify temperature- and genotype-specific differentially expressed genes at the end of the experiment
 6. Identify genes influenced by both temperature and time
