@@ -1,8 +1,8 @@
 ---
 layout: post
 comments: true
-title: West Coast Green Crab Experiment Part 91
-tags: green-crab-wc RNA-Seq
+title: West Coast Green Crab Experiment Part 92
+tags: green-crab-wc RNA-Seq trinity
 ---
 
 ## Modifying the transcriptome assembly
