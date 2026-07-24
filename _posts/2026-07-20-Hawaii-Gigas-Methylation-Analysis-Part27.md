@@ -182,6 +182,28 @@ ggsave("figures/CpG-feature-overlaps.pdf", width = 11, height = 8.5)
 
 One important modification to the stacked barplot is that I revised the color scheme to use grayscale instead of...purplescale? In any case, color didn't make sense for the previous iteration. I think using color only for the DML plots or any other plots that need treatment information coded in will make more sense.
 
+### Diploid vs. triploid methylation
+
+While updating the methods and results, I realized that I didn't quantify the number of loci with higher methylation in diploids or triploids! I went back to the Jupyter notebook and removed the SNPs from the union bedgraph:
+
+```
+# Remove C->T SNPs
+!/opt/homebrew/bin/subtractBed \
+-a /Volumes/web/spartina/project-oyster-oa/Haws/methylation-landscape/union_5x.bedgraph \
+-b /Volumes/web/spartina/project-oyster-oa/Haws/BS-Snper/unique-CT-SNPs.bed \
+> /Volumes/web/spartina/project-oyster-oa/Haws/methylation-landscape/union_5x.bedgraph.NO-SNPs
+```
+
+I then manipulated the dataframe with `pandas` and continued with my old code that averaged the methylation levels in diploids and triploids. I imported the output file into R and used some logical statements to quantify the number of loci in various categories:
+
+```
+sum(diploidTriploidAverages$diploidMeth > diploidTriploidAverages$triploidMeth) #3321186 loci with higher methylation in diploids than triploids
+sum(diploidTriploidAverages$diploidMeth == diploidTriploidAverages$triploidMeth) #3597325 loci with equal methylation in diploids and triploids
+sum(diploidTriploidAverages$diploidMeth < diploidTriploidAverages$triploidMeth) #3295477 loci with lower methylation in diploids than triploids
+```
+
+Alright! Now juset to figure out what to do with the DML...
+
 ### Going forward
 
 1. Continue parameter testing for DML identification
