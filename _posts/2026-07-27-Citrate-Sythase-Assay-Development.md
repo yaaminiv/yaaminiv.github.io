@@ -41,6 +41,17 @@ When grabbing the reagents from the fridge, I noticed a discrepancy in our proto
 
 We didn't get to the Bradford Assay today, but we will do it with Pascale tomorrow.
 
+### 2026-07-28
+
+Today we did the Bradford Assay with Pascale. Jasmine made our existing protocol based of a tutorial with Pascale earlier this summer, but based on today's tutorial they are modifying the protocol to improve clarity and reproducibility. Here are a couple of things we learned:
+
+- The Bradford Assay reagent is very sensitive to temperature! Yesterday Pascale took the reagent out for us since it needs to be brought to room temperature prior to doing the assay. Since we didn't end up using it, I put it back in the fridge and took it out today before we ran the assay. Our protocol said it needed to come to temperature for 20 minutes prior to using it, but we learned that we don't want to take it out until we're actually loading the plate. Otherwise, it'll "go bad," which is indicated by it no longer being a brown/swamp monster color.
+- If we add the assay reagent to the wells with the standards and we don't see a nice temperature gradient across the samples, then something is wrong with either the assay reagent or our standards and they need to be redone. If our standards don't look good, then we don't add the reagent to our samples!
+- We quantified protein based on an undiluted sample and a 1:2 (lysate:total volume) dilution.
+- We used the Extraction Buffer as our assay blank. Seems like there's something in the Extraction Buffer that is being quantified.
+
+Based on the quantification, we got 0.4-0.9 mg/mL. I think we can improve our concentrations by 1) using 175 µL of Extraction Buffer instead of 350 µL and 2) having a more solid lysate production procedure! Mikaela and Clara are going to repeat the Bradford Assay with four new samples: two from the 16 ppt treatment, and two from the 5 ppt treatment. This way, we can finalize our lysate and quantification protocol and they can proceed to quantify the rest of the samples.
+
 ### Going forward
 
 1. Quantify protein content with Bradford assay
