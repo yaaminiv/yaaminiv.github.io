@@ -7,6 +7,8 @@ tags: green-crab-wc RNA-Seq trinity
 
 ## Troubleshooting transcriptome assembly
 
+### 2026-07-24
+
 My transcriptome assembly finished running! It was a suspiciously fast run, so I went through the log file to see what happened:
 
 ```
@@ -39,6 +41,45 @@ Skipping Inchworm Step, Using Previous Inchworm Assembly
 ```
 
 NO TRINITY I NEEDED A NEW ASSEMBLY BASED ON MY REVISED ASSEMBLY PARAMETERS! Since `trinity` already found an `inchworm` file it didn't make a new assembly. Do I need to delete all previous assembly information? Probably. I cleared the `trinity_out_dir` folder to ensure that a brand new transcriptome assembly would be created. I then queued my job (job ID 2141130) and hoped a real transcriptome would be created this time. I am so ready to be done with this.
+
+### 2026-07-30
+
+I ended up with a new error today...joy:
+
+```
+----------------------------------------------
+
+--------------- Inchworm (K=25, asm) ---------------------
+
+-- (Linear contig construction from k-mers) --
+
+----------------------------------------------
+
+-- Skipping CMD: /vortexfs1/home/yaamini.venkataraman/.conda/envs/trinity_env/bin/Inchworm/bin//inchworm --kmers jellyfish.kmers.25.asm.fa --run_inchworm -K 25 --monitor 1   --num_threads 6  --PARALLEL_IWORM   --min_any_entropy 1.0   -L 25  --no_prune_error_kmers  > /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/inchworm.fa.tmp, checkpoint [.iworm.25.asm.ok] exists.
+
+-- Skipping CMD: mv /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/inchworm.fa.tmp /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/inchworm.fa, checkpoint [.iworm_renamed.25.asm.ok] exists.
+
+Thursday, July 30, 2026: 11:12:49 CMD: touch /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/inchworm.fa.finished
+
+NON_FATAL_EXCEPTION: WARNING, no Inchworm output is detected at: /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/inchworm.fa at /vortexfs1/home/yaamini.venkataraman/.conda/envs/trinity_env/bin/Trinity line 1843.
+
+Thursday, July 30, 2026: 11:12:49 CMD: /vortexfs1/home/yaamini.venkataraman/.conda/envs/trinity_env/bin/util/support_scripts/get_Trinity_gene_to_trans_map.pl /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir.Trinity.fasta > /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir.Trinity.fasta.gene_trans_map
+
+# No butterfly assemblies to report.
+
+Can't open /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir.Trinity.fasta: No such file or directory at /vortexfs1/home/yaamini.venkataraman/.conda/envs/trinity_env/bin/util/support_scripts/get_Trinity_gene_to_trans_map.pl line 7.
+
+mv: cannot stat 'trinity_out_dir.Trinity.fasta': No such file or directory
+```
+
+So `inchworm` didn't run and the transcriptome wasn't actually created. Turns out when I cleared `trinity_out_dir`, I didn't do a good enough job. There were still some `inchworm` checkpoint files from 2025 in the folder that needed to be removed! I straight-up removed the folder and requeued the script. I also added a line to the top of the script removing any output from previous runs:
+
+```
+# Clean up any residual/stale run directories from previous attempts
+rm -rf ${OUTPUT_DIR}/trinity_out_dir ${OUTPUT_DIR}/trinity_out_dir.Trinity.fasta
+```
+
+Now to wait and see.
 
 ### Going forward
 
