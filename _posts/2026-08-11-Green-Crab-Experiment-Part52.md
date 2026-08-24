@@ -3,8 +3,8 @@ layout: post
 comments: true
 title: Green Crab Experiment Part 52
 tags: green-crab glmm
-editor_options: 
-  markdown: 
+editor_options:
+  markdown:
     wrap: 72
 ---
 
@@ -18,7 +18,7 @@ So time to figure out if 1) the way I analyzed the data is the most appropriate 
 
 ### Reformatting data
 
-- separate out num legs and num swimmers
+One of the reviewers was concerned about the fact that some crabs were missing legs (including swimmers!) since dropping legs is a sign of extreme stress. A lot of the crabs in this experiment were missing legs when we got them because they were kept in a rough state. But to ensure that I could statistically test the impact that missing legs had on the data, I did a quick [reformat in the data](https://github.com/yaaminiv/green-crab-metabolomics/blob/main/data/time-to-right.csv) itself to actually count the number of legs and number of swimmers for each crab. Dealing with it this way was a lot easier than with R, since I had to go through notes to do so.
 
 ### Using a different model
 
@@ -34,7 +34,7 @@ TTRmodelGamma <- glmer( #Generalized linear mixed effect model
 )
 ```
 
-Immediately, I ran into a gradient warning indicating convergence issues! 
+Immediately, I ran into a gradient warning indicating convergence issues!
 
 > Warning in checkConv(attr(opt, "derivs"), opt$par, ctrl = control$checkConv, :
 Model failed to converge with max|grad| = 0.0153676 (tol = 0.002, component 1)
