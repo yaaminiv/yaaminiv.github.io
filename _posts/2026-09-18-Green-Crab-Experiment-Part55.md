@@ -64,6 +64,46 @@ I did the following within the text of the manuscript:
 
 ### Lipidomics figures
 
+Obviously the lipidomics dataset is tougher to work with than the metabolomics dataset. I started by modifying the multipanel figure to remove the enrichment data in [my R Markdown script](https://github.com/yaaminiv/green-crab-metabolomics/blob/main/code/06-lipidomics-analysis.Rmd):
+
+<img width="1410" height="630" alt="Image" src="https://github.com/user-attachments/assets/473ef44a-3422-415a-8055-ea900eaded03" />
+
+**Figure 3**. Simplified PLS-DA and ASCA figure
+
+- Did some creative R wrangling to get enriched terms associated with lipids, then got abundance data for those lipids
+- My initial thought was to average lipid data within a LION term and plot, but…no. Each lipids had different baseline abundances, so I couldn't compare lipids with orders of magnitude differences in abundance!
+  - Chhaya suggested I calculate percent differences for each individual lipid to be able to plot them on the same scale. This worked really well!
+    - For the 13 v 30 comparison, there were lots of lipids with very high abundance in 30
+    - For the 13 v 5 comparison, there were some VIP lipids with high abundance, but mainly low abundance at 5ºC. Decent amount of overlap with 13 v 30 VIP too
+  - I then went to make a similar plot for the enriched lipids of ASCA P2...BUT THEN REALIZED I HAED TO REDO THE ENRICHMENT USING 50% CUMULATIVE PERCENT DIFFERNCE CUT-OFF FML
+      - When I redid the enrichment with the 50% cumulative difference cutoff, there were no more significantly enriched pathways! So I guess that solved itself? The revised output can be found [here](https://github.com/yaaminiv/green-crab-metabolomics/tree/main/output/06-lipidomics-analysis/ASCA/LION-enrichment-report-PC2).
+  - I made a multi panel figure for percent difference. When I showed it to Ariana, she suggested that I add text to each panel that quantifies the number of lipids with higher abundance at 30ºC, lower abundance at 13ºC, etc.
+    - Thankfully for me, I just removed similar lines of code from my [demographic data analysis](https://github.com/yaaminiv/green-crab-metabolomics/commit/77e2e45d5a1582447088308a15f9a0e369a2f909)! I needed to create a vector with the label information (label, x position, y position) and then use `geom_text` to add the information to each facet. It worked splendidly
+
+<img width="651" height="840" alt="Image" src="https://github.com/user-attachments/assets/7082415c-e01a-4843-b42e-9a70f7c23ba2" />
+
+**Figure 4**. Difference in lipid abundance by enriched LION term
+
+- The last thing I needed to do was visualize differences in lipid saturation state. I had previous figures that examined this, so I just needed to modify existing code
+  - Before I did that...I wanted to confirm which lipids ended up in the cell membrane! Those are the ones I wanted to visualize to relate to homeoviscous adaptation
+  - I found [this very helpful review](https://pmc.ncbi.nlm.nih.gov/articles/PMC2642958/) that had the information I need. Some important notes/snippets (note that the snippets are directly copied from the text!)
+    - Glycerophospholipids: phosphatidylcholine (PtdCho), phosphatidylethanolamine (PtdEtn), phosphatidylserine (PtdSer), phosphatidylinositol (PtdIns) and phosphatidic acid (PA)
+    - Breakdown products of membrane lipids serve as lipid second messengers. The glycerolipid-derived signalling molecules include lysoPtdCho (LPC), lysoPA (LPA), PA and DAG.
+    - The sphingolipids constitute another class of structural lipids. he major sphingolipids in mammalian cells are sphingomyelin (SM) and the glycosphingolipids (GSLs). Sphingolipids have saturated (or trans-unsaturated) tails so are able to form taller and narrower cylinders than PtdCho lipids of the same chain length and pack more tightly, adopting the solid ‘gel’ or so phase
+    - The adopted phase depends on lipid structure: long, saturated hydrocarbon chains are found in sphingomyelin (SM), so SM-rich mixtures tend to adopt solid-like phases; unsaturated hydrocarbon chains are found in most biomembrane glycerophospholipids, so these tend to be enriched in liquid phases. Sterols by themselves do not form bilayer phases, but together with a bilayer-forming lipid, the liquid-ordered phase can form. This remarkable phase has the high order of a solid but the high translational mobility of a liquid.
+    - ER: main site of lipid synthesis
+      - The major glycerophospholipids assembled in the endoplasmic reticulum (ER) are phosphatidylcholine (PtdCho; PC), phosphatidylethanolamine (PtdEtn; PE), phosphatidylinositol (PtdIns; PI), phosphatidylserine (PtdSer; PS) and phosphatidic acid (PA). In addition, the ER synthesizes Cer, galactosylceramide (GalCer), cholesterol and ergosterol. Both the ER and lipid droplets participate in steryl ester and triacylglycerol (TG) synthesis.
+    - mitochondrion: synthesizes some lipids
+      - Approximately 45% of the phospholipid in mitochondria (mostly PtdEtn, PA and cardiolipin (CL)) is autonomously synthesized by the organelle
+  - I decided to include glycerophospholipids and sphingomyelin in my figure based on the information in the paper
+  - I modified the figure to facet by saturation stage so I could more easily see which saturation stages had the most changes. I then used color to indicate lipid classes
+  - Similar to the other figure, I added text to indicate how many lipids were more or less abundant by saturation stage
+  - I smashed these panels with my lipid enrichment panels into one figure to rule them all.
+
+<img width="1645" height="1317" alt="Image" src="https://github.com/user-attachments/assets/4dc5fa1a-450f-4306-af5b-00093d0a4c0d" />
+
+**Figure 5**. Multipanel figure with lipid abundance by saturation state and enriched LION term
+
 ### Integration analysis
 
 ### Demographic analysis
