@@ -51,6 +51,14 @@ ${TRINITY}/Trinity \
 
 I restarted the job! Hopefully it starts (and finishes) soon so I can evaluate the assembly and move onto annotation.
 
+### 2026-09-28
+
+My job started after ~5 days and then immediately crapped out! I found this in the error log:
+
+> /var/spool/slurmd/job233328/slurm_script: line 51: Automatically: command not found
+
+MY DUMB ASS FORGOT TO ADD A "#" BEFORE THE COMMENT ABOUT CLEANING UP CORRUPTED PARTITIONS FML. I added the "#" and reviewed the rest of the script to ensure there wasn't anything glaringly obvious I needed to fix. I didn't see anything, so I submitted the job again.
+
 ### Going forward
 
 1. Tweak transcriptome assembly parameters to reduce the number of assembly artifacts and total supertranscripts
