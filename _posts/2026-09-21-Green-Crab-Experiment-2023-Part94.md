@@ -59,6 +59,39 @@ My job started after ~5 days and then immediately crapped out! I found this in t
 
 MY DUMB ASS FORGOT TO ADD A "#" BEFORE THE COMMENT ABOUT CLEANING UP CORRUPTED PARTITIONS FML. I added the "#" and reviewed the rest of the script to ensure there wasn't anything glaringly obvious I needed to fix. I didn't see anything, so I submitted the job again.
 
+### 2026-09-30
+
+It failed again! This time it wasn't because I did something silly in my script. I got the following error:
+
+> warning, cmd: /user/yaamini.venkataraman/.conda/envs/trinity_env/bin/util/support_scripts/../../Trinity --single "/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/read_partitions/Fb_2/CBin_2499/c250132.trinity.reads.fa" --output "/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/read_partitions/Fb_2/CBin_2499/c250132.trinity.reads.fa.out" --CPU 1 --max_memory 1G --run_as_paired --SS_lib_type F --seqType fa --trinity_complete --full_cleanup --min_contig_length 200 --no_salmon   failed with ret: 6400, going to retry.
+cat: /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/read_partitions/Fb_2/CBin_2499/c250132.trinity.reads.fa.out/inchworm.fa.SR.18: No such file or directory
+cat: /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/read_partitions/Fb_2/CBin_2499/c250132.trinity.reads.fa.out/inchworm.fa.SR.20: No such file or directory
+cat: /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/read_partitions/Fb_2/CBin_2499/c250132.trinity.reads.fa.out/inchworm.fa.SR.22: No such file or directory
+cat: /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/read_partitions/Fb_2/CBin_2499/c250132.trinity.reads.fa.out/inchworm.fa.SR.24: No such file or directory
+Trinity run failed. Must investigate error above.
+warning, cmd: /user/yaamini.venkataraman/.conda/envs/trinity_env/bin/util/support_scripts/../../Trinity --single "/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/read_partitions/Fb_2/CBin_2499/c250132.trinity.reads.fa" --output "/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/trinity_out_dir/read_partitions/Fb_2/CBin_2499/c250132.trinity.reads.fa.out" --CPU 1 --max_memory 1G --run_as_paired --SS_lib_type F --seqType fa --trinity_complete --full_cleanup --min_contig_length 200 --no_salmon   failed with ret: 6400, going to retry.
+^Msucceeded(0), failed(1)   100% completed.    
+We are sorry, commands in file: [FailedCommands] failed.  :-( 
+Error, cmd: /user/yaamini.venkataraman/.conda/envs/trinity_env/bin/trinity-plugins/BIN/ParaFly -c recursive_trinity.cmds -CPU 28 -v -shuffle  died with ret 256 at /user/yaamini.venkataraman/.conda/envs/trinity_env/bin/Trinity line 2919.
+        main::process_cmd("/user/yaamini.venkataraman/.conda/envs/trinity_env/bin/trinit"...) called at /user/yaamini.venkataraman/.conda/envs/trinity_env/bin/Trinity line 3653
+        main::run_partitioned_cmds("recursive_trinity.cmds") called at /user/yaamini.venkataraman/.conda/envs/trinity_env/bin/Trinity line 2528
+        main::run_recursive_trinity("/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinit"...) called at /user/yaamini.venkataraman/.conda/envs/trinity_env/bin/Trinity line 2271
+        main::run_chrysalis("/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinit"..., "/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinit"..., 200, 500, "FR", "/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinit"..., "/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinit"...) called at /user/yaamini.venkataraman/.conda/envs/trinity_env/bin/Trinity line 1895
+        main::run_Trinity() called at /user/yaamini.venkataraman/.conda/envs/trinity_env/bin/Trinity line 1500
+        eval {...} called at /user/yaamini.venkataraman/.conda/envs/trinity_env/bin/Trinity line 1499
+Trinity run failed. Must investigate error above.
+
+It seemed like there was still an issue with incomplete partitions, but I thought that my previous code addition would have cleaned up anything incomplete. I returned to Gemini where it suggested a really convoluted solution for dealing with empty and incomplete partitions. After some back-and-forth, I got a chunk of code that is a native `trinity` bypass for failed partitions:
+
+```
+# Native Trinity bypass for failed edge-case partitions from previous runs
+if [ -f "${OUTPUT_DIR}/trinity_out_dir/FailedCommands" ]; then
+    cat ${OUTPUT_DIR}/trinity_out_dir/FailedCommands >> ${OUTPUT_DIR}/trinity_out_dir/recursive_trinity.cmds.completed
+fi
+```
+
+I added this code right to my script before the `trinity` command and restarted my job. The job started running immediately, and I checked that it finished phase 2 of `trinity` without error! Let's see what happens next.
+
 ### Going forward
 
 1. Tweak transcriptome assembly parameters to reduce the number of assembly artifacts and total supertranscripts
