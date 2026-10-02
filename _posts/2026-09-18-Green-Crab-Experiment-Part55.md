@@ -106,6 +106,65 @@ Obviously the lipidomics dataset is tougher to work with than the metabolomics d
 
 ### Integration analysis
 
+I wanted to find a way to present the module eigengene expression alongside average TTR or oxygen consumption. I decided to make dot plots similar to [those I made for TTR and OC](https://yaaminiv.github.io/Green-Crab-Experiment-Part53/).
+
+- First, I fixed an installation issue I was having with WGCNA. I couldn't load the package because I was missing `preprocessCore`. I installed it: BiocManager::install(“preprocessCore”) -> finally was able to install WGCNA again
+- In [this script](https://github.com/yaaminiv/green-crab-metabolomics/blob/main/code/07-integration-analysis.Rmd) I made dot plots, using `geom_pointrange` to add vertical standard error and `geom_linerange` to add horizontal error. Using `geom_errorbar` and `geom_errorbarh` led to an extremely ugly error bar on my plot that were all different widths. It was gross.
+
+```
+mME_all %>% #Take module eigengene information
+  filter(., Module == "3" | Module == "6" | Module == "13") %>% #Filter significant modules
+  mutate(order = case_when(Module == "3" ~ "1",
+                           Module == "6" ~ "2",
+                           Module == "13" ~ "4")) %>% #Mutate modules in order
+  left_join(x = .,
+            y = datTraitsPhysOnly %>%
+              rownames_to_column(var = "crab.ID") %>%
+              dplyr::select(-`Oxygen Consumption`) %>%
+              dplyr::rename(avgTTR = `Average TTR`),
+            by = "crab.ID") %>% #Jon with physiology data. Modify physiology data to include a crab.ID column and rename columns
+  group_by(treatment, order) %>% #Group by treatment and module
+  summarize(moduleAvgValue = mean(value), #Average module eigengene expression
+            moduleSEValue = std.error(value), #SE for module eigengene expression
+            moduleAvgTTR = mean(avgTTR, na.rm = TRUE), #Avg TTR
+            moduleSETTR = std.error(avgTTR, na.rm = TRUE) #TTR SE
+  ) %>%
+  ggplot(aes(x = moduleAvgTTR, y = moduleAvgValue, colour = treatment, fill = treatment)) + #Create a new plot with TTR on the x and ME values on the y. Color and fill by treatment
+  geom_pointrange(aes(ymin = moduleAvgValue - moduleSEValue,
+                      ymax = moduleAvgValue + moduleSEValue), #Add ME value limits
+                  size = 2,
+                  width = 0.2,
+                  linewidth = 0.8,
+  ) + #Add standard errors to the plot
+  geom_linerange(aes(xmin = moduleAvgTTR - moduleSETTR,
+                     xmax = moduleAvgTTR + moduleSETTR), #Add TTR value limits
+                 size = 2,
+                 width = 0.2,
+                 linewidth = 0.8,
+  ) + #Add means and standard errors to the plot
+  geom_hline(yintercept = 0, linetype = "dashed", color = "grey")+ #Add zero line
+  facet_wrap(~ order, labeller = labeller(order = module_facets)) + #Facet by module and add facet labels
+  scale_x_continuous(name = "Average TTR (s)",
+                     breaks = seq(0, 8, by = 1)) + #Modify x-axis
+  ylab("Module Expression") + #y axis label
+  scale_fill_manual(name = "Temperature (ºC)",
+                    values = c(plotColors[3], plotColors[2], plotColors[1]),
+                    labels = c("5", "13", "30")) + #Modify scale
+  scale_colour_manual(name = "Temperature (ºC)",
+                      values = c(plotColors[3], plotColors[2], plotColors[1]),
+                      labels = c("5", "13", "30")) + #Modify scale
+  theme_classic(base_size = 15) + theme(legend.position = "bottom", #Legend on the bottom
+                                        legend.text = element_text(color = "black", size = 12), #Modify legend text size
+                                        strip.text.x = element_text(size = 15, color = "black", face="bold"),
+                                        strip.background = element_rect(color = "white")) #Modify facet labels
+```
+
+- Once I had my individual TTR and OC figures, I modified the multipanel figure on InDesign
+
+<img width="1021" height="877" alt="Image" src="https://github.com/user-attachments/assets/b7330242-7b8a-4a58-91c2-21c79712a748" />
+
+**Figure 6**. Revised integration multipanel figure
+
 ### Demographic analysis
 
 I was also asked to list and check assumptions for the demographic analysis. Very fair. I thought this would be a quick fix, but it was not! Here's what I did:
@@ -134,6 +193,8 @@ All my assumptions were met! Yay! I also modified the figure to remove any stati
 
 **Figure**. Demographic data without statistical information.
 
+Those are all of the methods and results comments! Looks like it's time to dig into the interpretation and supplementary material.
+
 ### Going forward
 
 1. Address remaining methods comments
@@ -146,10 +207,7 @@ All my assumptions were met! Yay! I also modified the figure to remove any stati
 
 {% if page.comments %}
 
-::: {#disqus_thread}
-:::
-
-```{=html}
+<div id="disqus_thread"></div>
 <script>
 
 /**
@@ -168,14 +226,8 @@ s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
 })();
 </script>
-```
-
-<noscript>Please enable JavaScript to view the
-<a href="https://disqus.com/?ref_noscript">comments powered by
-Disqus.</a></noscript>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 {% endif %}
 
-```{=html}
 <script id="dsq-count-scr" src="//the-responsible-grad-student.disqus.com/count.js" async></script>
-```
