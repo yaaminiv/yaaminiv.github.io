@@ -519,10 +519,7 @@ I think the plot with EMM looks good! It is also interesting to see how the EMM 
 
 {% if page.comments %}
 
-::: {#disqus_thread}
-:::
-
-```{=html}
+<div id="disqus_thread"></div>
 <script>
 
 /**
@@ -541,14 +538,8 @@ s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
 })();
 </script>
-```
-
-<noscript>Please enable JavaScript to view the
-<a href="https://disqus.com/?ref_noscript">comments powered by
-Disqus.</a></noscript>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 {% endif %}
 
-```{=html}
 <script id="dsq-count-scr" src="//the-responsible-grad-student.disqus.com/count.js" async></script>
-```
