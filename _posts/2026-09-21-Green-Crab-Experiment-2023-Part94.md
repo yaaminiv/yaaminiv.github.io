@@ -92,6 +92,36 @@ fi
 
 I added this code right to my script before the `trinity` command and restarted my job. The job started running immediately, and I checked that it finished phase 2 of `trinity` without error! Let's see what happens next.
 
+### 2026-10-05
+
+I got another error! My error log had the following on it:
+
+> (base) [yaamini.venkataraman@hydra-l1 ~]$ tail /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/yrv_trinity240697.log
+INFO:__main__:# Processing Gene: TRINITY_DN697283_c0_g1 having 1 isoforms
+INFO:__main__:Splice graph refinement underway
+INFO:__main__:# Processing Gene: TRINITY_DN697290_c0_g1 having 1 isoforms
+INFO:__main__:Splice graph refinement underway
+INFO:__main__:# Processing Gene: TRINITY_DN697299_c0_g1 having 1 isoforms
+INFO:__main__:Splice graph refinement underway
+INFO:__main__:Done.  Total runtime: 4.3 min
+mkdir: cannot create directory ‘supertranscript_output’: File exists
+
+Looks like the supertranscriptome output was created, but it was not moved to the correct folder since the folder already existed:
+
+```
+# Collapse isoforms into supertranscripts.
+# Output files are trinity_genes.fasta (supertranscripts in fasta format), trinity_genes.gtf (transcript structure annotation in gtf format), and trinity_genes.malign (multiple alignment view that contrasts the different candidate splicing isoforms)
+${TRINITY}/Analysis/SuperTranscripts/Trinity_gene_splice_modeler.py \
+--trinity_fasta ${OUTPUT_DIR}/trinity_out_dir/Trinity.fasta \
+--incl_malign
+
+# Move output files to a new folder
+mkdir supertranscript_output
+rsync --archive --progress --verbose trinity_genes.* supertranscript_output/.
+```
+
+I restarted the script from the `rsync` chunk. The next step should be moving the supertranscriptome files, creating supplemental files, doing the abundance estimation, and filtering the transcriptome!
+
 ### Going forward
 
 1. Tweak transcriptome assembly parameters to reduce the number of assembly artifacts and total supertranscripts
