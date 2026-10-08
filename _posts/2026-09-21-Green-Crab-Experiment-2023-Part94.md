@@ -122,10 +122,194 @@ rsync --archive --progress --verbose trinity_genes.* supertranscript_output/.
 
 I restarted the script from the `rsync` chunk. The next step should be moving the supertranscriptome files, creating supplemental files, doing the abundance estimation, and filtering the transcriptome!
 
+### 2026-10-06
+
+Another error! Looks like there was a script failure during the transcript abundance estimation, since I could find the "Start transcript abundance estimation" memo but not the "Copmleted transcript abundance estimation" one (side note: so glad past me put these little memos in).
+
+Going through the error log, I saw these lines:
+
+> -output already exists: 15-033/quant.sf, skipping.
+-output already exists: 15-091/quant.sf, skipping.
+-output already exists: 15-092/quant.sf, skipping.
+-output already exists: 15-152/quant.sf, skipping.
+-output already exists: 15-154/quant.sf, skipping.
+-output already exists: 15-161/quant.sf, skipping.
+-output already exists: 25-051/quant.sf, skipping.
+-output already exists: 25-053/quant.sf, skipping.
+
+There are already abundance estimation output files for individual samples. These are likely from previous runs, so I removed them using `rm */quant.sf`.
+
+The end of the error log looked like this:
+
+> -reading file: /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/./5-187/quant.sf
+-reading file: /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/./5-188/quant.sf
+-reading file: /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/./5-189/quant.sf
+-reading file: /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/./5-197/quant.sf
+* Outputting combined matrix.
+/user/yaamini.venkataraman/.conda/envs/trinity_env/bin/util/support_scripts/run_TMM_scale_matrix.pl --matrix salmon.isoform.TPM.not_cross_norm > salmon.isoform.TMM.EXPR.matrixCMD: R --no-save --no-restore --no-site-file --no-init-file -q < salmon.isoform.TPM.not_cross_norm.runTMM.R 1>&2
+/user/yaamini.venkataraman/.conda/envs/trinity_env/bin/R: line 250: /vortexfs1/home/yaamini.venkataraman/.conda/envs/trinity_env/lib/R/etc/ldpaths: No such file or directory
+Error, cmd: R --no-save --no-restore --no-site-file --no-init-file -q < salmon.isoform.TPM.not_cross_norm.runTMM.R 1>&2  died with ret (256)  at /user/yaamini.venkataraman/.conda/envs/trinity_env/bin/util/support_scripts/run_TMM_scale_matrix.pl line 105.
+Error, CMD: /user/yaamini.venkataraman/.conda/envs/trinity_env/bin/util/support_scripts/run_TMM_scale_matrix.pl --matrix salmon.isoform.TPM.not_cross_norm > salmon.isoform.TMM.EXPR.matrix died with ret 6400 at /user/yaamini.venkataraman/.conda/envs/trinity_env/bin/util/abundance_estimates_to_matrix.pl line 386.
+(END)
+
+The run failed in the process of combining the matrices, likely due a dependency issue. The run is calling for libraries that exist on `vortex`, but I now work on `hydra`~ I used the following code to replace `/vortexfs1/home` with `/user`:
+
+```
+conda activate trinity_env
+
+#Replace vortex locations with locations on hydra for R + wrappers
+sed -i 's|/vortexfs1/home/|/user/|g' ${CONDA_PREFIX}/bin/R
+sed -i 's|/vortexfs1/home/|/user/|g' ${CONDA_PREFIX}/lib/R/etc/ldpaths
+sed -i 's|/vortexfs1/home/|/user/|g' ${CONDA_PREFIX}/lib/R/etc/Makeconf
+
+#Fix any remaining binaries/scripts in the environment referencing the old path
+grep -rl "/vortexfs1/home" ${CONDA_PREFIX}/bin/ ${CONDA_PREFIX}/lib/R/etc/ 2>/dev/null | xargs -r sed -i 's|/vortexfs1/home/|/user/|g'
+
+R --version #Confirm that R loads without errors now that paths are fixed
+```
+
+I started the transcript abundance estimation again. Let's see what happens?
+
+### 2026-10-07
+
+New day, new error (this is what happens when I only get 30 min a day to check on this script).
+
+> (base) [yaamini.venkataraman@hydra-l2 ~]$ tail /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/yrv_trinity251883.log
+[2026-10-06 17:59:25.061] [jointLog] [info] finished quantifyLibrary()
+[2026-10-06 17:59:25.066] [jointLog] [info] Starting optimizer
+[2026-10-06 17:59:25.195] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2026-10-06 17:59:25.210] [jointLog] [info] iteration = 0 | max rel diff. = 1454.29
+[2026-10-06 17:59:26.309] [jointLog] [info] iteration = 100 | max rel diff. = 0.000108295
+[2026-10-06 17:59:26.327] [jointLog] [info] Finished optimizer
+[2026-10-06 17:59:26.327] [jointLog] [info] writing output
+/var/spool/slurmd/job251883/slurm_script: line 68: 1403010 Broken pipe             find ${OUTPUT_DIR}/. -maxdepth 2 -name "quant.sf"
+     1403011 Segmentation fault      (core dumped) | tee ${OUTPUT_DIR}/supertranscript_output/salmon.quant_files.txt
+
+So it looks like `trinity` can't find the `quant.sf` files? I confirmed that the files were actually created and present by looking through the error log (files created!) and checking the directories:
+
+> (base) [yaamini.venkataraman@hydra-l2 06c-trinity]$ cd 25-055
+(base) [yaamini.venkataraman@hydra-l2 25-055]$ ls -la
+total 31301
+drwxrwxr-x 2 yaamini.venkataraman domain_users     4096 Oct  6 14:55 .
+drwxrwxr-x 2 yaamini.venkataraman domain_users     4096 Oct  6 13:40 ..
+drwxrwxr-x 2 yaamini.venkataraman domain_users     4096 Jan 26  2026 aux_info
+-rw-rw-r-- 1 yaamini.venkataraman domain_users      558 Oct  6 14:55 cmd_info.json
+drwxrwxr-x 2 yaamini.venkataraman domain_users     4096 Jan 26  2026 libParams
+-rw-rw-r-- 1 yaamini.venkataraman domain_users      744 Oct  6 14:55 lib_format_counts.json
+drwxrwxr-x 2 yaamini.venkataraman domain_users     4096 Jan 26  2026 logs
+-rw-r--r-- 1 yaamini.venkataraman domain_users 32049202 Oct  6 14:55 quant.sf
+
+Looking at the error message again, I think there's an issue with the code pointing `trinity` to the files:
+
+> /var/spool/slurmd/job251883/slurm_script: line 68: 1403010 Broken pipe             find ${OUTPUT_DIR}/. -maxdepth 2 -name "quant.sf"
+1403011 Segmentation fault      (core dumped) | tee ${OUTPUT_DIR}/supertranscript_output/salmon.quant_files.txt
+
+I decided to run this piece of code interactively to see if I could reproduce the error:
+
+> (base) [yaamini.venkataraman@hydra-l2 ~]$ find ${OUTPUT_DIR}/. -maxdepth 2 -name "quant.sf"
+/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/./15-033/quant.sf
+
+Ah, this is where that extra "." is being thrown in! I decided to fix that and recheck:
+
+> find ${OUTPUT_DIR}/ -maxdepth 2 -name "quant.sf"
+/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/15-033/quant.sf
+
+I saw that there was already a `salmon.quant_files.txt` file, so I removed it. I then ran the potential problem line of code interactively:
+
+> (base) [yaamini.venkataraman@hydra-l2 ~]$ find ${OUTPUT_DIR}/ -maxdepth 2 -name "quant.sf" | tee ${OUTPUT_DIR}/supertranscript_output/salmon.quant_files.txt
+/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/15-033/quant.sf
+/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/15-091/quant.sf
+
+> (base) [yaamini.venkataraman@hydra-l2 ~]$ ls ${OUTPUT_DIR}/supertranscript_output -la
+total 1453960
+drwxrwxr-x 2 yaamini.venkataraman domain_users      4096 Oct  7 11:24 .
+drwxrwxr-x 2 yaamini.venkataraman domain_users      4096 Oct  6 13:40 ..
+-rw-r--r-- 1 yaamini.venkataraman domain_users  17283639 Oct  5 18:43 Trinity.fasta.seq_lens
+-rw-r--r-- 1 yaamini.venkataraman domain_users       817 Oct  5 18:43 assembly_stats.txt
+-rw-r--r-- 1 yaamini.venkataraman domain_users      6834 Oct  7 11:24 salmon.quant_files.txt
+-rw-r--r-- 1 yaamini.venkataraman domain_users 335275660 Oct  1 17:00 trinity_genes.fasta
+-rw-r--r-- 1 yaamini.venkataraman domain_users  28970836 Oct  5 18:43 trinity_genes.fasta.fai
+drwxr-xr-x 2 yaamini.venkataraman domain_users      4096 Oct  5 18:45 trinity_genes.fasta.salmon.idx
+-rw-r--r-- 1 yaamini.venkataraman domain_users 368059479 Oct  1 17:00 trinity_genes.gtf
+-rw-r--r-- 1 yaamini.venkataraman domain_users 739255680 Oct  1 17:00 trinity_genes.malign
+
+> (base) [yaamini.venkataraman@hydra-l2 ~]$ head ${OUTPUT_DIR}/supertranscript_output/salmon.quant_files.txt
+/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/15-033/quant.sf
+/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/15-091/quant.sf
+/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/15-092/quant.sf
+/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/15-152/quant.sf
+/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/15-154/quant.sf
+/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/15-161/quant.sf
+/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/25-046/quant.sf
+/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/25-047/quant.sf
+/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/25-048/quant.sf
+/scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/25-049/quant.sf
+
+Well...seems like it works now? I restarted the SLURM script from the creation of a matrix with count information for all samples. I then got a brand new error:
+
+> * Outputting combined matrix.
+Error, no target samples. Shouldn't get here. at /user/yaamini.venkataraman/.conda/envs/trinity_env/bin/util/abundance_estimates_to_matrix.pl line 351.
+
+This is weird! I confirmed that the `salmon.quant_files.txt` file was created, but `trinity` does not have any target samples. I did a sanity check by making sure the path actually worked:
+
+> (base) [yaamini.venkataraman@hydra-l1 ~]$ head /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/25-049/quant.sf
+Name	Length	EffectiveLength	TPM	NumReads
+TRINITY_DN0_c0_g1	3655	3467.928	7.093967	656.727
+TRINITY_DN0_c0_g2	2122	1934.928	87.114698	4499.683
+TRINITY_DN0_c1_g1	1820	1632.928	0.000000	0.000
+TRINITY_DN0_c1_g2	214	57.377	0.000000	0.000
+TRINITY_DN0_c1_g3	245	79.846	0.000000	0.000
+TRINITY_DN0_c2_g1	1012	824.928	0.000000	0.000
+TRINITY_DN0_c3_g1	1036	848.928	1.897458	43.000
+TRINITY_DN0_c3_g2	1322	1134.928	0.066014	2.000
+TRINITY_DN0_c4_g1	3018	2830.928	0.052930	4.000
+
+Huh, I am so stumped. I tried rerunning the script starting with the line of code that creates `salmon.quant_files.txt` (aka what I know works). I returned to the same error as before!
+
+> /var/spool/slurmd/job252632/slurm_script: line 47: 1286027 Broken pipe             find ${OUTPUT_DIR}/ -maxdepth 2 -name "quant.sf"
+     1286028 Segmentation fault      (core dumped) | tee ${OUTPUT_DIR}/supertranscript_output/salmon.quant_files.txt
+
+Turns out there is a segmentation error stemming from a package incompatibility between `hydra` and my `trinity_env` `conda` environment. I used Gemini to figure out how to reinstall packages to allow me to use pipes since that would be important later on:
+
+```
+conda activate trinity_env
+
+# Reinstall glibc/GCC compatibility libraries
+conda install -c conda-forge libgcc-ng libstdcxx-ng coreutils --force-reinstall -y
+
+# Test if piping works now without error
+echo "test" | sort | tee /tmp/test_pipe.txt
+```
+
+After activating `trinity_env` and trying to install the libraries, I ran into an error where I had to accept the terms of service for some `conda` channels. The error message provided me the code to do so:
+
+```
+conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/main
+conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r
+```
+
+Once I accepted the TOS, I reran the `conda install` step. The `echo` command worked! Once the pipe capabilities were restored, I reran the script from the creation of the `salmon.quant_files.txt` file through to the end of the script:
+
+> (trinity_env) [yaamini.venkataraman@hydra-l1 ~]$ tail /scratch/yaamini.venkataraman/wc-green-crab/output/06c-trinity/yrv_trinity252677.log
+-excluding TRINITY_DN697283_c0_g1, max_expr: 0.695445 < 1
+-excluding TRINITY_DN697290_c0_g1, max_expr: 0 < 1
+-excluding TRINITY_DN697299_c0_g1, max_expr: 0 < 1
+	Retained 79814 / 651948 = 12.24% of total transcripts.
+Completed transcript filtering: TPM < 1
+Ready to proceed to the next analytical step
+
+Alright, now that I had my revised transcriptome, I wanted to look through the ExN50 statistics and number of total transcripts:
+
+- There were a total of 651,948 supertranscripts
+- ExN50 of 1880 for the transcripts that constituted 90% of the total expression
+- TPM < 0.5 filtering: 132,720 total supertranscripts
+- TPM < 1 filtering: 79,814 total supertranscripts
+
+This already looks like an order of magnitude better than [the previous assembly(https://yaaminiv.github.io/Green-Crab-Experiment-2023-Part90/), and more in-line with Carolyn's expectations! I sent the highlights over to Carolyn, but I think I'm good to proceed to the next step!
+
 ### Going forward
 
-1. Tweak transcriptome assembly parameters to reduce the number of assembly artifacts and total supertranscripts
-2. Annotate transcriptome with `EnTAP`
+1. Annotate transcriptome with `EnTAP`
 2. Remove contaminant sequences identified by `EnTAP`
 3. Create count matrix for clean transcriptome
 2. Calculate Ex50 and N50 statistics for clean transcriptome
